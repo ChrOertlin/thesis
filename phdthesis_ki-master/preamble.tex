@@ -1,0 +1,28 @@
+\usepackage[none]{hyphenat}
+\usepackage[cmyk]{xcolor} % Recommended by US-AB
+\usepackage{lmodern} % Recommended by US-AB
+\usepackage{fancyhdr}
+\usepackage{etoolbox}
+\patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{fancy}}{}{} % Removes plain pagestyle from chapter headings (otherwise, page numbers are centered)
+\AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}} 
+\pagestyle{empty} % This makes ToC without header/footer
+\usepackage[skip=15pt]{caption} % This should increase space below captions (not tested)
+\raggedbottom
+\usepackage[noindentafter]{titlesec}
+\usepackage{titlesec}
+\titleformat{\chapter}{\normalfont\bfseries}{\thechapter.}{15pt}{}\titlespacing*{\chapter}{0pt}{-50pt}{0pt}
+\titleformat{\section}{\normalfont\bfseries}{\thesection.}{1em}{}\titlespacing*{\section}{0pt}{0pt}{0pt}
+\titleformat{\subsection}[runin]{\normalfont\bfseries}{\thesubsection.}{1em}{}
+
+\usepackage{CJKutf8} % For Mandarin in Acknowledgments
+
+% For guiding quote in beginning of intro:
+\makeatletter
+% \renewcommand{\@chapapp}{}% Not necessary...
+\newenvironment{chapquote}[2][2em]
+  {\setlength{\@tempdima}{#1}%
+   \def\chapquote@author{#2}%
+   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+   \itshape}
+  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+\makeatother
