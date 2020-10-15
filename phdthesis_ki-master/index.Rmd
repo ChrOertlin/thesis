@@ -40,8 +40,8 @@ library(tidyverse)
 library(knitr)
 
 tibble(
-  Abbreviation = c("RPF"),
-  Term = c("Ribosome Protected Fragment")) %>%
+  Abbreviation = c("RPF","TE","UTR","TOP","uORF"),
+  Term = c("Ribosome Protected Fragment","Translation Efficiency","Untranslated region","Terminal oligopyrimidine","upstream open reading frame")) %>%
   arrange(Term) %>% # i.e. alphabetical order by Term
   kable(booktab = T, linesep = c("")) # linesep command suppresses the standard 5 row chunking
 ```
