@@ -20,6 +20,7 @@ geometry: "left=4cm, right=3cm, top=3cm, bottom=3cm"
 header-includes:
 - \usepackage{placeins}
 - \usepackage{titlesec}
+- \usepackage{amsmath}
 subparagraph: yes
 bibliography: library/thesis.bib
 
