@@ -4,9 +4,10 @@ output: pdf_document
 
 \chapter{Aims of this thesis}
 
-The aims of this thesis are to explore the regulation of gene expression in cancer, more specifically we investigate perturbations of gene expression in different cancer models as a response to drug treatment.
 
-In **Study I** we adapted an algorithm for ANalysis Of Translation Activity data (anota) so that it could be applied to next generation sequencing data. The resulting algorithm was named anota2seq.
+The aims of this thesis are to expand current methodologies for analysis of translation efficiency data and explore the regulation of gene expression in cancer.
+
+In **Study I** we adapted an algorithm for ANalysis Of Translation Activity data (anota) so that it could be applied to next generation sequencing data. Furthermore, we implemented the analysis of translational buffering a recently described regulatory mode of gene expression. The resulting algorithm was named anota2seq.
 
 We then applied the anota2seq algortihm to invesitigate changes in translation efficiencies in two cancer models:
 
