@@ -21,6 +21,10 @@ header-includes:
 - \usepackage{placeins}
 - \usepackage{titlesec}
 - \usepackage{amsmath}
+- \usepackage{wrapfig}
+- \usepackage{caption}
+- \captionsetup[figure]{font=scriptsize}
+- \usepackage{float}
 subparagraph: yes
 bibliography: library/thesis.bib
 
