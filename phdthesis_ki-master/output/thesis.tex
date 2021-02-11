@@ -79,6 +79,7 @@
 \makeatother
 \usepackage{placeins}
 \usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
 \usepackage{amsmath}
 \usepackage{wrapfig}
 \usepackage{caption}
@@ -124,7 +125,14 @@ For the vast majority of protein coding mRNAs,eukaryotic mRNA
 translation occurs in the cytoplasm, however a small subset of mRNAs is
 translated in the mitochondria. mRNA translation is a process that
 includes initiation, elongation, termination and ribosome recycling and
-is an essential process.
+is an essential process.\textbf{Figure \ref{fig:doodlemRNASteps}} gives
+a simple overview of these steps in succession. The next sections in
+these thesis will describe these processes in detail.
+
+\begin{wrapfigure}{o}{1\textwidth}
+  \includegraphics{./figures/doodleTranslation.pdf}
+  \caption{Schematic overview of the mRNA translation initiation, elongation, termination and ribosome recycling steps. The ribosome binds to the mRNA and initiates scanning for a start codon. The elongation phase incorporates amino acids into a polypeptide chain (i.e. the protein product). Once the end of the coding sequence is detected the ribosome terminates translation and releases the polypeptide chain. The ribosome can then be recycled to participate in the translation of another mRNA or reinitiate. \label{fig:doodlemRNASteps}}
+\end{wrapfigure}
 
 \subsection{mRNA translation initiation}
 
@@ -150,18 +158,18 @@ The 80S ribosome contains three sites; the acceptor (A), peptidyl (P)
 and Exit (E) sites. After initiation, the 80S ribosome is positioned
 with the met-tRNAi in the P site at the AUG codon with the following
 codon of the transcript in the A site awaiting its cognate tRNA. The
-tRNA arrives in a TC together with eukaryotic elongation factor
-1A(eEF1A)at the A-site of the ribosome. After arrival in the A-site,the
+tRNA arrives in a TC together with eukaryotic elongation factor 1A
+(eEF1A) at the A-site of the ribosome. After arrival in the A-site, the
 codon is then recognized. The binding of eEF1A is GTP dependent,
 recognition of the cognate codon by the tRNA triggers hydrolysis whereby
-eEF1A releases from the tRNA thatis then recycled by eEF1B.Peptide bonds
-are then formed accompanied by a tRNA hybrid state whereby acceptor
-sites of tRNAs in the A-and P-site now move to the P-and E-site. Binding
-of eEF2-GTP then promotes translocation of the tRNAs into the P-and
-E-sites after which eEF2B-GDP releases. After release of the deacylated
-tRNA from the E-site the ribosome is ready for the next cycle. This
-process is repeated until a stop codon (UAA,UGA or UAG) is detected by
-the ribosome(Dever \& Green, 2012).
+eEF1A releases from the tRNA which is then recycled by eEF1B. Peptide
+bonds are then formed accompanied by a tRNA hybrid state whereby
+acceptor sites of tRNAs in the A-and P-site now move to the P-and
+E-site. Binding of eEF2-GTP then promotes translocation of the tRNAs
+into the P-and E-sites after which eEF2B-GDP releases. After release of
+the deacylated tRNA from the E-site the ribosome is ready for the next
+cycle. This process is repeated until a stop codon (UAA,UGA or UAG) is
+detected by the ribosome(Dever \& Green, 2012).
 
 \subsection{mRNA translation termination}
 
@@ -178,19 +186,19 @@ translational machinery can be recycled(Dever \& Green, 2012).
 
 Of the heretofore presented steps of mRNA translation the initiation is
 the most regulated step. From the perspective that mRNA translation
-contributes most to the cellular energy consumption and initiation
-requires ATP this process ought to be strictly regulated (Buttgereit \&
-Brand, 1995,Jackson (1991),Sonenberg \& Hinnebusch (2009)).
-Nevertheless, translation can also be regulated at the elongation (J. D.
-Richter \& Coller, 2015) and termination(Dever \& Green, 2012) phases
-albeit to a lesser extent. Dynamic modulation of mRNA translation can be
-achieved through signalling pathways as well as several distinct cis and
-trans elements in both untranslated regions (UTRs) of an mRNA. mRNA
-translation can be regulated at a global level i.e.~reduction of protein
-synthesis for a large portion of the transcriptome. Furthermore, a more
-selective regulation of mRNA translation can be achieved through various
-mechanisms, which increases the complexity of the regulation of mRNA
-translation greatly.
+contributes most to the cellular energy consumption, of which the
+initiation requires ATP, this process ought to be strictly regulated
+(Buttgereit \& Brand, 1995,Jackson (1991),Sonenberg \& Hinnebusch
+(2009)). Nevertheless, translation can also be regulated at the
+elongation (J. D. Richter \& Coller, 2015) and termination(Dever \&
+Green, 2012) phases albeit to a lesser extent. Dynamic modulation of
+mRNA translation can be achieved through signalling pathways as well as
+several distinct cis and trans elements in both untranslated regions
+(UTRs) of an mRNA. mRNA translation can be regulated at a global level
+i.e.~reduction of protein synthesis for a large portion of the
+transcriptome. Furthermore, a more selective regulation of mRNA
+translation can be achieved through various mechanisms, which increases
+the complexity of the regulation of mRNA translation greatly.
 
 \subsection{mTOR singalling pathway}
 
@@ -260,10 +268,6 @@ mRNA translation initiation. mTORC1 physically interacts and
 phosphorylates LARP1. When phophorylation occurs close to the DM15
 domain of LARP1 the inhibitory effect on mRNA translation of TOP mRNAs
 is abolished. (Jia et al., 2021)
-
-Moreover, mTORC1 mediates selective mRNA translation, i.e.~terminal
-oligopyrimidine (TOP) mRNA translation (see section xx)(Gandin et al.,
-2016b).
 
 \subsection{The integrated stress response}
 
@@ -423,34 +427,36 @@ observed for mRNAs whose polysome-association is altered whereas their
 total mRNA does not change to a similar magnitude as the
 polysome-association (I.e. change in translation). An example thereof is
 TOP mRNA translation under conditions where mTOR is stimulated
-(Masvidal, Hulea, Furic, Topisirovic, \& Larsson, 2017). In recent
-years, evidence emerged where translation efficiencies of mRNAs can be
-altered to compensate for changes in total mRNA levels. Within this
-newly identified mode of regulation of mRNA translation ``translational
-buffering'', mRNA translation is altered such that changes in total mRNA
-levels do not influence their corresponding protein levels (Oertlin et
-al., 2019,McManus, May, Spealman, \& Shteyman (2014),Lorent et al.
-(2019)). Translational buffering is observed to compensate for
-inter-tissue, inter-species and inter-individual difference (Artieri \&
-Fraser, 2014,C. Cenik et al. (2015),Perl et al. (2017)). Furthermore, in
-bacteria translational buffering maintains protein complex stoichiometry
-as well as protein levels for conserved pathway across species (G.-W.
-Li, Burkhardt, Gross, \& Weissman, 2014,Lalanne et al. (2018)). Recently
-translational buffering has been observed under conditions where
-estrogen receptor alpha (ERalpha) is depleted. ERalpha modulates
-activity of specific tRNA modification enzymes. These enzymes are needed
-for the U34 tRNA modification. Loss of ERalpha led to reduced U34 tRNA
-modification thereby hindering translation of mRNAs requiring such
-modified tRNAs. For these mRNAs, even though their total mRNA levels
-were induced across conditions, their protein levels remained constant
-(Lorent et al., 2019). Given these multiple roles of mRNA translation to
-regulate the proteome it is critical to distinguish them as their
-underlying mechanisms can have different biological implications.
+(Masvidal, Hulea, Furic, Topisirovic, \& Larsson, 2017).
 
-\begin{figure}[H]
+\begin{wrapfigure}{l}{0.6\textwidth}
   \includegraphics{./figures/geneModes_MRNA.pdf}
-  \caption{Regulatory modes of gene expression - A) Simplified overview of the regulatory modes of gene expression in terms of ribosome associated and total mRNA levels. B) Schematic representation of regulatory modes of translation efficiency in a fold-change scatter plot. Indicated in red are changes in translation efficiency altering protein levels, in green changes in mRNA abundance and in blue changes in translation efficiency leading to translational buffering/offsetting. The shifts for the translation efficiency (TE) score are indicated. C) Schematic representation of gene models analyzed in anota2seq. \label{fig:mRNA}}
-\end{figure}
+  \caption{Regulatory modes of gene expression - Schematic representation of regulatory modes of translation efficiency in a fold-change scatter plot. Indicated in red are changes in translation (i.e. changes in translated mRNA but not total mRNA), in green changes in mRNA abundance (i.e. congruent changes between total mRNA and translated mRNA) and in blue translational buffering (i.e. changes in total mRNA levels but not translated mRNA levels). TE changes as the TE-score would estimate them are indicated.\label{fig:mRNA}}
+\end{wrapfigure}
+
+In recent years, evidence emerged where translation efficiencies of
+mRNAs can be altered to compensate for changes in total mRNA levels.
+Within this newly identified mode of regulation of mRNA translation
+``translational buffering'', mRNA translation is altered such that
+changes in total mRNA levels do not influence their corresponding
+protein levels (Oertlin et al., 2019,McManus, May, Spealman, \& Shteyman
+(2014),Lorent et al. (2019)). Translational buffering is observed to
+compensate for inter-tissue, inter-species and inter-individual
+difference (Artieri \& Fraser, 2014,C. Cenik et al. (2015),Perl et al.
+(2017)). Furthermore, in bacteria translational buffering maintains
+protein complex stoichiometry as well as protein levels for conserved
+pathway across species (G.-W. Li, Burkhardt, Gross, \& Weissman,
+2014,Lalanne et al. (2018)). Recently translational buffering has been
+observed under conditions where estrogen receptor alpha (ERalpha) is
+depleted. ERalpha modulates activity of specific tRNA modification
+enzymes. These enzymes are needed for the U34 tRNA modification. Loss of
+ERalpha led to reduced U34 tRNA modification thereby hindering
+translation of mRNAs requiring such modified tRNAs. For these mRNAs,
+even though their total mRNA levels were induced across conditions,
+their protein levels remained constant (Lorent et al., 2019). Given
+these multiple roles of mRNA translation to regulate the proteome it is
+critical to distinguish them as their underlying mechanisms can have
+different biological implications.
 
 \section{Expertimental methods to measure mRNA translation}
 
@@ -464,57 +470,55 @@ immobilized on the mRNAs using translation elongation inhibitors
 (e.g.~cycloheximide). Cytoplasmic RNA extracts are then sedimented on a
 linear sucrose gradient (5-50\%) using ultra centrifugation.
 
-The resulting gradient is fractionated and mRNAs with different number
-of bound ribosomes can be extracted and analyzed for changes in
-translational efficiency (Gandin et al., 2014). An illustration of a
-polysome profile with peaks for the 40S, 60S subunits and 80S ribosome
-can be seen in (\textbf{Fig \ref{fig:polysome} top left}).
-
 \begin{wrapfigure}{r}{0.6\textwidth}
     \includegraphics[width=0.9\linewidth]{./figures/polysome_shifts.pdf}
   \caption{Polysome profliles -  (top left) Schematic representation of a polysome profile using linear sucrose gradient fractionation. Indicated in the polysome profiles are the 40S, 60S ribosomal subunits as well as the 80S monosome. H.P. indicates heavy polysome fractions.Between conditions distribution changes for mRNA abundance (top right), translation (bottom left) and translation within high polysome fractions (bottom right) are illustrated. \label{fig:polysome}}
 \end{wrapfigure}
 
-Subsequent peaks along the frations indicate the mRNAs with 1 or more
-bound ribosome. mRNAs are typically normally distributed along the
-fractions, i.e.~a pool of the same mRNA will be associated with 1- n
-number of ribosomes. Changes in mRNA abundance will lead to an overall
-increase in the amount of isolated polysome-associated mRNA without a
-shift of the distribution along the fractions (\textbf{Fig
-\ref{fig:polysome} top right}). This means that the translation
-efficiency per mRNA remains unchanged. Changes in translational
-efficiency can be observed by shifts of polysome association for mRNAs
-from the light (inefficiently translated) towards the heavy (efficiently
-translated) polysome fractions or vice versa (\textbf{Fig
-\ref{fig:polysome} bottom left}). Shift within the heavy polysome
-fractions (i.e.~3 bound ribosome to 7 bound ribosome) can also occur
-(\textbf{Fig \ref{fig:polysome} bottom left}). These shift remain
-undetected in cases where the distribtion of polysome-associated mRNAs
-does not sufficiently shift across the fractions and is a limitation of
-polysome profiling. Quantification of mRNA levels within each fraction
-can be assessed using Northern blotting or reverse transcription
-quantitative polymerase chain reaction (RT-qPCR). For transcriptome wide
-studies, pooling of efficiently translated mRNAs (mRNAs with
-\textgreater{}3 bound ribosomes) followed by quantification using either
-DNA-microarrays or RNA sequencing is common. Pooling of mRNAs as well as
-collection of multiple fractions makes polysome profiling inconvenient
-when dealing with large samples sizes or experiments with low amounts of
-input RNA. Therefore, an optimized sucrose gradient was developed where
-most efficiently translated mRNAs are collected on a sucrose cushion and
-thereby can be isolated from one single fraction (Liang et al., 2018).
-This optimized gradient allows for application of polysome profiling in
-small tissue samples where RNA quantity is limiting and reduces labor
-intensity of the assay.
-
-Polysome-associated mRNA levels are subject to changes in translation
-efficiency as well as factors contributing to cytosolic mRNA levels.
-Mechanisms such as transcription (i.e.~in the case of mRNA abundance) or
-mRNA stability can affect cytosolic mRNA levels which impacts the pool
-of mRNAs that can be associated to polysomes. Therefore, to identify
-bona fide changes in translation efficiency it is important to collect
-cytoplasmic mRNA levels in parallel to polysome-associated mRNA to
-correct for such mechanisms (e.g.~transcription or mRNA stability)
-during downstream analysis (Gandin et al., 2014,Oertlin et al. (2019)).
+The resulting gradient is fractionated and mRNAs with different number
+of bound ribosomes can be extracted and analyzed for changes in
+translational efficiency (Gandin et al., 2014). An illustration of a
+polysome profile with peaks for the 40S, 60S subunits and 80S ribosome
+can be seen in (\textbf{Fig \ref{fig:polysome} top left}). Subsequent
+peaks along the frations indicate the mRNAs with 1 or more bound
+ribosome. mRNAs are typically normally distributed along the fractions,
+i.e.~a pool of the same mRNA will be associated with 1- n number of
+ribosomes. Changes in mRNA abundance will lead to an overall increase in
+the amount of isolated polysome-associated mRNA without a shift of the
+distribution along the fractions (\textbf{Fig \ref{fig:polysome} top
+right}). This means that the translation efficiency per mRNA remains
+unchanged. Changes in translational efficiency can be observed by shifts
+of polysome association for mRNAs from the light (inefficiently
+translated) towards the heavy (efficiently translated) polysome
+fractions or vice versa (\textbf{Fig \ref{fig:polysome} bottom left}).
+Shift within the heavy polysome fractions (i.e.~3 bound ribosome to 7
+bound ribosome) can also occur (\textbf{Fig \ref{fig:polysome} bottom
+right}). These shift remain undetected in cases where the distribtion of
+polysome-associated mRNAs does not sufficiently shift across the
+fractions and is a limitation of polysome profiling. Quantification of
+mRNA levels within each fraction can be assessed using Northern blotting
+or reverse transcription quantitative polymerase chain reaction
+(RT-qPCR). For transcriptome wide studies, pooling of efficiently
+translated mRNAs (mRNAs with \textgreater{}3 bound ribosomes) followed
+by quantification using either DNA-microarrays or RNA sequencing is
+common. Pooling of mRNAs as well as collection of multiple fractions
+makes polysome profiling inconvenient when dealing with large samples
+sizes or experiments with low amounts of input RNA. Therefore, an
+optimized sucrose gradient was developed where most efficiently
+translated mRNAs are collected on a sucrose cushion and thereby can be
+isolated from one single fraction (Liang et al., 2018). This optimized
+gradient allows for application of polysome profiling in small tissue
+samples where RNA quantity is limiting and reduces labor intensity of
+the assay. Polysome-associated mRNA levels are subject to changes in
+translation efficiency as well as factors contributing to cytosolic mRNA
+levels. Mechanisms such as transcription (i.e.~in the case of mRNA
+abundance) or mRNA stability can affect cytosolic mRNA levels which
+impacts the pool of mRNAs that can be associated to polysomes.
+Therefore, to identify bona fide changes in translation efficiency it is
+important to collect cytoplasmic mRNA levels in parallel to
+polysome-associated mRNA to correct for such mechanisms
+(e.g.~transcription or mRNA stability) during downstream analysis
+(Gandin et al., 2014,Oertlin et al. (2019)).
 
 \subsection{Ribosome profiling}
 
@@ -554,38 +558,37 @@ alkaline fragmentation buffer (Ingolia, 2010,Brar \& Weissman (2015)).
 
 \subsection{Comparing ribosome and polysome profiling}
 
-to measure changes in mRNA translation. Albeit both methods generate
-count data after quantification with RNAsequencing, there are some key
-aspects that differ between the techniques. Polysome profiling separates
-efficiently translated mRNAs from non- efficiently translated mRNAs
-along a sucrose thereby creating an mRNA based perspective for analyzing
-changes in translational efficiencies. In contrast, ribosome profiling
-determines translational efficiencies by counting the number of RPFs of
-both efficiently and non-efficiently translated mRNAs. Changes in
-translational efficiencies, e.g.~shifts between the polysomal fractions,
-can be dramatic (I.e. near complete dissociation of ribosomes from an
-mRNA) or subtle (shifts from 2 to 4 ribosomes) (Livingstone et al.,
-2015). Ribosome profiling has been shown to be biased towards
-identification of dramatic shifts of associated ribosomes to mRNAs,
-whereas subtle shifts are masked which can lead to false biological
-conclusions. Polysome profiling is affected by this to a much lesser
-extent, thereby more robust in identifying such changes (Masvidal et
-al., 2017). RPFs in ribosome profiling provide exact nucleotide
-positions occupied by ribosomes thereby offering single nucleotide
-resolution. Polysome profiling cannot reveal ribosome locations along
-the mRNA. However, polysome profiling allows access to full-length mRNAs
-that includes the UTRs. The single nucleotide resolution of ribosome
-profiling is necessary in contexts studying local translation events
-such as ribosomal frame shifts (Rato, Amirova, Bates, Stansfield, \&
-Wallace, 2011) or uORF translation (Andreev et al., 2015). Higher
-sensitivity in detecting changes in translational efficiencies on a
-global scale makes polysome profiling more suitable for
-transcriptome-wide studies (Gandin et al., 2016a). Both methods have
+Albeit both methods generate count data after quantification with
+RNAsequencing, there are some key aspects that differ between the
+techniques. Polysome profiling separates efficiently translated mRNAs
+from non- efficiently translated mRNAs along a sucrose thereby creating
+an mRNA based perspective for analyzing changes in translational
+efficiencies. In contrast, ribosome profiling determines translational
+efficiencies by counting the number of RPFs of both efficiently and
+non-efficiently translated mRNAs. Changes in translational efficiencies,
+e.g.~shifts between the polysomal fractions, can be dramatic (I.e. near
+complete dissociation of ribosomes from an mRNA) or subtle (shifts from
+2 to 4 ribosomes) (Livingstone et al., 2015). Ribosome profiling has
+been shown to be biased towards identification of dramatic shifts of
+associated ribosomes to mRNAs, whereas subtle shifts are masked which
+can lead to false biological conclusions. Polysome profiling is affected
+by this to a much lesser extent, thereby more robust in identifying such
+changes (Masvidal et al., 2017). RPFs in ribosome profiling provide
+exact nucleotide positions occupied by ribosomes thereby offering single
+nucleotide resolution. Polysome profiling cannot reveal ribosome
+locations along the mRNA. However, polysome profiling allows access to
+full-length mRNAs that includes the UTRs. The single nucleotide
+resolution of ribosome profiling is necessary in contexts studying local
+translation events such as ribosomal frame shifts (Rato, Amirova, Bates,
+Stansfield, \& Wallace, 2011) or uORF translation (Andreev et al.,
+2015). Higher sensitivity in detecting changes in translational
+efficiencies on a global scale makes polysome profiling more suitable
+for transcriptome-wide studies (Gandin et al., 2016). Both methods have
 their strengths and weaknesses and therefore each method should be
 considered depending on the underlying biological question of each
 experiment.
 
-\section{Algorithms for analysis of changes in Translational Efficiencies}
+\section{Algorithms for analysis of changes in translation efficiencies}
 
 In polysome-profiling and ribosome profiling translated mRNAs
 (i.e.~polysome-associated mRNAs and RPFs) are separated in parallel from
@@ -598,11 +601,10 @@ analyse polysome-profiling and ribosome profiling data to estimate
 changes in translation efficiencies across 2 or more conditions and how
 these methods identify different regulatory modes of gene expression.
 
-Initial approaches for analysis of transcriptome-wide translation
-studies used an approach called the translation efficiency (TE-score)
-that uses the following equation:
-
-\[\varDelta TE = \frac{\frac{P_c2}{T_c2}} {\frac{P_c1}{T_c1}}\\\]
+Initially analysis of transcriptome-wide translation studies used an
+approach called the translation efficiency (TE-score) that uses the
+following equation:
+\[\varDelta TE = \frac{\frac{P_{c2}}{T_{c2}}} {\frac{P_{c1}}{T_{c1}}}\\\]
 
 This score calculates the ratio of the ratios between
 polysome-associated mRNA levels (P) divided by total mRNA levels (T)
@@ -611,47 +613,50 @@ shown to be prone to spurious correlations (Larsson, Sonenberg, \&
 Nadon, 2010). Spurious correlations arise due to that the ratio of
 polysome-associated mRNA and total mRNA can systematically correlate
 with total mRNA levels which is not corrected for in this equation and
-leads to an elevated type-1 error.
+leads to an elevated type-1 error. \clearpage
 
 \begin{wrapfigure}{o}{0.5\textwidth}
   \includegraphics{./figures/geneModes_TE.pdf}
-  \caption{Regulatory modes of gene expression - A) Simplified overview of the regulatory modes of gene expression in terms of ribosome associated and total mRNA levels. B) Schematic representation of regulatory modes of translation efficiency in a fold-change scatter plot. Indicated in red are changes in translation efficiency altering protein levels, in green changes in mRNA abundance and in blue changes in translation efficiency leading to translational buffering/offsetting. The shifts for the translation efficiency (TE) score are indicated. C) Schematic representation of gene models analyzed in anota2seq. \label{fig:TE}}
+  \caption{TE scores for regulatory modes of gene expression -  Schematic representation of regulatory modes of translation efficiency in a fold-change scatter plot. Indicated in red are changes in translation efficiency altering protein levels, in green changes in mRNA abundance and in blue changes in translation efficiency leading to translational buffering/offsetting. The shifts for the translation efficiency (TE) score are indicated. \label{fig:TE}}
 \end{wrapfigure}
 
 \textbf{Figure \ref{fig:TE}} gives an overview of the relationship
 between a change in TE) and each regulatory mode of gene expression.
-Changes in mRNA abundance will lead to a ratio close to 1 (i.e.~no
-change) as total mRNA and translated mRNA change with a similar
-magnitude. However, in the case of both translation and translational
-buffering, terms in the TE-score equation change leading to a
-\(\varDelta\) TE and identification of both changes in translation and
-translational buffering simultaneously. Therefore, the TE-score method
-fails to differentiate between changes in translation and translational
-buffering which can have drastic consequences for the biological
-interpretation of the results (Oertlin et al., 2019).
+Changes in mRNA abundance will lead to a \(\varDelta\)TE close to 0 in
+log space (i.e.~no change) as total mRNA and translated mRNA change with
+a similar magnitude. However, in the case of both translation and
+translational buffering, terms in the TE-score equation change leading
+to a \(\varDelta\)TE (TE \textless{} 0 or TE \textgreater{} 0) and
+thereby identification of both changes in translation and translational
+buffering simultaneously. Therefore, the TE-score method fails to
+differentiate between changes in translation and translational buffering
+which can have drastic consequences for the biological interpretation of
+the results (Oertlin et al., 2019).
 
-The TE-score approach was challenged by the Analysis for Translation
+The TE-score approach was challenged by the Analysis of Translation
 Activity (anota) algorithm which was developed for DNA-microarray data
-(Larsson, Sonenberg, \& Nadon, 2011). anota uses an analysis of partial
-variance (APV)(Schleifer, Eckholdt, Cohen, \& Keller, 1993) approach
-combined with a random variance model (RVM)(Wright \& Simon, 2003).
-anota uses a two-step process that firstly assesses the model
-assumptions for (i) absence of highly influential data points, (ii)
-common slopes of sample classes, (iii) homoscedasticity of residuals and
-(iv) normal distribution of per gene residuals. The second step then
-performs analysis of changes in translational activity using the
-following model:
+(Larsson, Sonenberg, \& Nadon, 2011). anota combines analysis of partial
+variance (APV)(Schleifer, Eckholdt, Cohen, \& Keller, 1993) with a
+random variance model (RVM)(Wright \& Simon, 2003). RVM estimates gene
+variance using shared informatio across all genes to increase power for
+detection of differential expression(Wright \& Simon, 2003). anota uses
+a two-step process that firstly assesses the model assumptions for (i)
+absence of highly influential data points, (ii) common slopes of sample
+classes, (iii) homoscedasticity of residuals and (iv) normal
+distribution of per gene residuals. In the second step then performs
+analysis of changes in translational activity using the following model:
 
 \[log(y_{gi}) = \beta_g^{RNA}\ X_i^{RNA}+ \beta_g^{cond}\ X_i^{cond} + \varepsilon_{gi}\]
 
 here \(\beta_g^{RNA}\) is the log2 fold change for total mRNA \(gth\)
-gene \(ith\) sample of model matrix X; \(\beta_g^{cond}\) represent the
-log2 fold change for treatment classes and \(\varepsilon_{gi}\) denotes
-the residual error.
+gene \(ith\) sample of model matrix \(X\); \(\beta_g^{cond}\) represent
+the log2 fold change for treatment classes and \(\varepsilon_{gi}\)
+denotes the residual error.
 
 \begin{wrapfigure}{o}{0.5\textwidth}
   \includegraphics{./figures/geneModes_anota_Larsson.pdf}
-  \caption{Regulatory modes of gene expression - A) Simplified overview of the regulatory modes of gene expression in terms of ribosome associated and total mRNA levels. B) Schematic representation of regulatory modes of translation efficiency in a fold-change scatter plot. Indicated in red are changes in translation efficiency altering protein levels, in green changes in mRNA abundance and in blue changes in translation efficiency leading to translational buffering/offsetting. The shifts for the translation efficiency (TE) score are indicated. C) Schematic representation of gene models analyzed in anota2seq. \label{fig:anota}}
+  \caption{anota gene models - Schematic representation of the anota analysis models. Translation mRNA expression is set out against total mRNA expression for each biological replicate and treatment condition. Top left shows the model of a gene that is differentially translated (i.e. change in translated but not total mRNA). The difference in the slope intercepts are used to estimate changes in translation efficiencies between conditions i.e. dTE. Other gene models are shown; change in translation efficiency with varying total mRNA levels (top right); change in mRNA abundance (bottom left) and translational buffering (bottom right).
+  \label{fig:anota}}
 \end{wrapfigure}
 
 Within anota a common slope for the treatment classes that describes the
@@ -660,43 +665,49 @@ between the slope intercepts is then interpreted as the \(\varDelta\)
 TE. A simplified view of this model can be seen in (\textbf{Figure
 \ref{fig:anota} top left}). Here expression for translated mRNA and
 total mRNA are modeled over two sample classes with each 4 replicates.
-Using this approach anota accurately corrects changes in translated mRNA
-as can be seen in (\textbf{Figure \ref{fig:anota} bottom right}) where a
-gene only changes in total mRNA levels but keeps translatd mRNA levels
-constant. For this gene the difference in slope intercepts is small and
-will not be identified as difference in translation as would be the case
-in the TE-score approach. anota was developed at a time where
-translational buffering was yet to be observed in data sets. Naturally,
-the methods lacks a setting to analyse translational buffering. This was
-addressed in anota's successor, anota2seq, and will be discussed further
-below.
+Furthermore, changes in translation efficiencies can also be observed
+when translated mRNAs shift to a larger extent than the total mRNA
+levels (\textbf{Figure \ref{fig:anota} top right}). Identification of
+genes in this categorie can be a challenge, especially in highyl
+variable data set, as they resemble mRNA abundance genes (\textbf{Figure
+\ref{fig:anota} bottom left}). Nevertheless, Using the linear regression
+analysis anota accurately corrects changes in translated mRNA as can be
+seen in (\textbf{Figure \ref{fig:anota} bottom right}) where a change in
+total mRNA but not translated mRNA levels is observed. For this gene the
+difference in slope intercepts is small and will not be identified as
+difference in translation as would be the case in the TE-score approach.
+anota was developed at a time where translational buffering was
+uncommonly seen in data sets. Naturally, the methods lacks a setting to
+analyse translational buffering. This was addressed in anota's
+successor, anota2seq, and will be discussed in \textbf{Study 1}.
 
 Advances in experimental methods warrant for appropriate statistical
-methods to analyse data resulting from them. DNA- microarray where the
+methods to analyse data resulting from them. DNA- microarray was the
 dominant platform to assess genome-wide changes before the advent of RNA
 sequencing. In DNA- microarray RNA hybridizes probes on a chip and
 generate a signal of which the measured intensity is an indicator of
 expression, whereas in RNA sequencing reads from RNAs are counted.
-Intensity data from DNA microarray can be easily normalised and
-transformed (i.e.~log transformation) to fulfill the requirements for
-application of linear models, whereas RNA sequencing count data cannot.
-Therefore, algorithms developed for analysis of DNA- microarray are not
-directly applicable to RNA sequencing data as is the case for the anota
-algorithm. Count data from RNA sequencing have been initially approached
-using Poisson distributions which assumes that the variance is equal to
-the mean(Lu, Tomfohr, \& Kepler, 2005). In reality RNA sequencing data
-shows variance that is greater than the mean which is commonly referred
-to as overdispersion.
+Intensity data from DNA microarray can be normalised and transformed
+(i.e.~log transformation) to fulfill the requirements for application of
+linear models, whereas RNA sequencing harbours additional
+characteristics that need to be accounted for. Therefore, algorithms
+developed for analysis of DNA- microarray are not directly applicable to
+RNA sequencing data as is the case for the anota algorithm.
 
-Established RNA sequencing analysis frameworks such as edgeR and DESeq2
-that use negative binomial distributions in combination with generalized
-linear models (GLMs) (Robinson, McCarthy, \& Smyth, 2010, Love, Huber,
-\& Anders (2014)). The negative binomial distribution uses a dispersion
-parameter to that accounts for overdispersion (McCarthy, Chen, \& Smyth,
-2012). While analysis principle of DESeq2 and edgeR is similar they
-differ in their normalisation method, dispersion estimation and
-information sharing across genes. In a simple differential expression
-analysis the GLM model would be as in the following equation:
+RNA sequencing data shows variance that is greater than the mean which
+is commonly referred to as overdispersion. Count data from RNA
+sequencing have been initially approached using Poisson distributions
+which assumes that the variance is equal to the mean(Lu, Tomfohr, \&
+Kepler, 2005). Now established RNA sequencing analysis frameworks such
+as edgeR and DESeq2 use negative binomial distributions in combination
+with generalized linear models (GLMs) (Robinson, McCarthy, \& Smyth,
+2010, Love, Huber, \& Anders (2014)). The negative binomial distribution
+uses a dispersion parameter to account for overdispersion (McCarthy,
+Chen, \& Smyth, 2012). While analysis principles of DESeq2 and edgeR are
+similar they differ in their normalisation method, dispersion estimation
+and information sharing across genes. In a simple differential
+expression analysis between two conditions with one RNA type the GLM
+model would be as in the following equation:
 
 \[log(y_{gi}) = \beta_g^{cond}\ X_i^{cond} + \varepsilon_{gi}\]
 
@@ -710,31 +721,34 @@ that:
 
 \[log(y_{gi}) = \beta_g^{RNA}\ X_i^{RNA}+ \beta_g^{cond}\ X_i^{cond} + \beta_g^{RNA:cond}\ X_i^{interaction} + \varepsilon_gi\]
 
-In this model the interaction term; total mRNA : treatment can be
-interpreted as the change in translation effiencies (Chothani et al.,
-2019). Other methods (i.e.~Ribodiff(Zhong et al., 2017), Riborex(W. Li,
-Wang, Uren, Penalva, \& Smith, 2017) and deltaTE (Chothani et al.,
-2019)) borrow this analysis principle of an GLM with an interaction
-term. A noteable difference is that Ribodiff allows dispersion
-estimation for translated mRNA and total mRNA separetly as variance
-differences between the RNA types can be expected due to varying
-experimental protocols (Liang et al., 2018). While the flexibility of
-GLMs allows for complex study designs involving 2 or more treatment
-conditions, Riborex and Ribodiff limit the study design to only two
-conditions. Whereas deltaTE gives their uses full flexibility of the
-DESeq2 GLM model. Xtail is a method developed for ribosome profiling
-that makes use of DESeq2 for RNAseq count normalisation (Xiao, Zou, Liu,
-\& Yang, 2016). Their assessment of differences in translation
-efficiencies relies on probability matrices for the ratio of translated
-mRNA over total mRNA within condition and a between condition ratio of
-these ratios. Babel was the first algorithm designed solely for analysis
-of differential translation and uses an error-in-varaibles regression
-analysis (A. B. Olshen et al., 2013). The error-in- variables regression
-allows accounting for variable total mRNA levels when assessing changes
-in translation. Although these methods have their distinct approach to
-identify changes in translation efficiencies, their principle of
-analysis is similar to comparing a ratio of ratios. Therefore these
-methods suffer from similar issues as the TE-score.
+In this model the interaction term is interpreted as the change in
+translation effiencies (Chothani et al., 2019). Other methods
+(i.e.~Ribodiff(Zhong et al., 2017), Riborex(W. Li, Wang, Uren, Penalva,
+\& Smith, 2017) and deltaTE (Chothani et al., 2019)) borrow this
+analysis principle of an GLM with an interaction term by often applying
+this exact model. A noteable difference is that Ribodiff allows
+dispersion estimation for translated mRNA and total mRNA separetly as
+variance differences between the RNA types can be expected due to
+varying experimental protocols (Zhong et al., 2017, Liang et al.
+(2018)). While the flexibility of GLMs allows for complex study designs
+involving 2 or more treatment conditions, Riborex and Ribodiff limit the
+study design to only two conditions. DeltaTE gives their users full
+flexibility of the DESeq2 GLM model. Xtail is a method developed for
+ribosome profiling that makes use of DESeq2 for RNAseq count
+normalisation (Xiao, Zou, Liu, \& Yang, 2016). Their assessment of
+differences in translation efficiencies relies on probability matrices
+for the ratio of translated mRNA over total mRNA within condition and a
+between condition ratio of these ratios. Babel was the first algorithm
+designed solely for analysis of differential translation and uses an
+error-in-varaibles regression analysis (A. B. Olshen et al., 2013). The
+error-in- variables regression allows accounting for variable total mRNA
+levels when assessing changes in translation. Although these methods
+have distinct approaches to identify changes in translation
+efficiencies, their principle of analysis is similar to comparing a
+ratio of ratios. Therefore these methods suffer from similar issues as
+the TE-score which will be discussed in \textbf{Study 1}.
+
+\section{mRNA translation in cancer}
 
 \chapter{Aims of this thesis}
 
@@ -873,16 +887,9 @@ Chemistry}, \emph{290}(26), 15996--6020.
 
 \hypertarget{ref-Gandin2016}{}
 Gandin, V., Masvidal, L., Cargnello, M., Gyenis, L., McLaughlan, S.,
-Cai, Y., \ldots{} Topisirovic, I. (2016a). mTORC1 and CK2 coordinate
+Cai, Y., \ldots{} Topisirovic, I. (2016). mTORC1 and CK2 coordinate
 ternary and eIF4F complex assembly. \emph{Nature Communications},
 \emph{7}(1), 11127. \url{https://doi.org/10.1038/ncomms11127}
-
-\hypertarget{ref-Gandin2016a}{}
-Gandin, V., Masvidal, L., Hulea, L., Gravel, S.-P., Cargnello, M.,
-McLaughlan, S., \ldots{} Topisirovic, I. (2016b). nanoCAGE reveals 5'
-UTR features that define specific modes of translation of functionally
-related MTOR-sensitive mRNAs. \emph{Genome Research}, \emph{26}(5),
-636--648. \url{https://doi.org/10.1101/gr.197566.115}
 
 \hypertarget{ref-Gandin2014}{}
 Gandin, V., Sikström, K., Alain, T., Morita, M., McLaughlan, S.,
