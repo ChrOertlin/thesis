@@ -5,7 +5,7 @@ output:
       in_header: preamble.tex
     keep_tex: yes
     pandoc_args: [ "--csl", "_apa.csl" ] # apa citation style
-  latex_engine: xelatex
+  latex_engine: pdflatex
   pdf_document:
     fig_caption: yes
     number_sections: yes
@@ -26,6 +26,7 @@ header-includes:
 - \usepackage{caption}
 - \captionsetup[figure]{font=scriptsize}
 - \usepackage{float}
+
 subparagraph: yes
 bibliography: library/thesis.bib
 
@@ -41,7 +42,7 @@ bibliography: library/thesis.bib
 
 # Abbreviations {-}
 
-```{r, echo=FALSE, warning=FALSE}
+```{r, echo=FALSE, warning=FALSE,message=F,prompt=F}
 library(tidyverse)
 library(knitr)
 

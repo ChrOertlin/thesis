@@ -1,4 +1,65 @@
 ---
+output:
+  bookdown::pdf_book:
+    includes:
+      in_header: preamble.tex
+    keep_tex: yes
+    pandoc_args: [ "--csl", "_apa.csl" ] # apa citation style
+  latex_engine: pdflatex
+  pdf_document:
+    fig_caption: yes
+    number_sections: yes
+fontsize: 12pt
+linestretch: 1.5
+toc-depth: 3
+secnumdepth: 5
+site: "bookdown::bookdown_site"
+documentclass: book
+classoption: openany # This removes the blank page after ToC
+geometry: "left=4cm, right=3cm, top=3cm, bottom=3cm"
+header-includes:
+- \usepackage{dvipsnames,svgnames,x11names}
+- \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+- \usepackage{placeins}
+- \usepackage{titlesec}
+- \newcommand{\sectionbreak}{\clearpage}
+- \usepackage{amsmath}
+- \usepackage{wrapfig}
+- \usepackage{caption}
+- \captionsetup[figure]{font=scriptsize}
+- \usepackage{float}
+
+subparagraph: yes
+bibliography: library/thesis.bib
+
+---
+
+\cleardoublepage
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[LE,RO]{\thepage}
+\renewcommand{\floatpagefraction}{.9} <!-- This specifies that only pages with more than 90% of floats will become a figure only page -->
+\setcounter{page}{9} 
+
+# Abbreviations {-}
+
+```{r, echo=FALSE, warning=FALSE,message=F,prompt=F}
+library(tidyverse)
+library(knitr)
+
+tibble(
+  Abbreviation = c("RPF","TE","UTR","TOP","uORF"),
+  Term = c("Ribosome Protected Fragment","Translation Efficiency","Untranslated region","Terminal oligopyrimidine","upstream open reading frame")) %>%
+  arrange(Term) %>% # i.e. alphabetical order by Term
+  kable(booktab = T, linesep = c("")) # linesep command suppresses the standard 5 row chunking
+```
+
+<!-- using inkscape filename.svg --without-gui --export-pdf=filename.pdf to export from Inkscape svg files to pdf -->
+
+<!--chapter:end:index.Rmd-->
+
+---
 output: pdf_document
 ---
 
@@ -152,3 +213,63 @@ here \(\beta_g^{cond}\ X_i^{cond}\) represent the condition (i.e. control and tr
 In this model the interaction term is interpreted as the change in translation effiencies [@Chothani2019]. Other methods (i.e. Ribodiff[@Zhong2017], Riborex[@Li2017] and deltaTE [@Chothani2019]) borrow this analysis principle of an GLM with an interaction term by often applying this exact model. A noteable difference is that Ribodiff allows dispersion estimation for translated mRNA and total mRNA separetly as variance differences between the RNA types can be expected due to varying experimental protocols [@Zhong2017, @Liang2018]. While the flexibility of GLMs allows for complex study designs involving 2 or more treatment conditions, Riborex and Ribodiff limit the study design to only two conditions. DeltaTE gives their users full flexibility of the DESeq2 GLM model. Xtail is a method developed for ribosome profiling that makes use of DESeq2 for RNAseq count normalisation [@Xiao2016]. Their assessment of differences in translation efficiencies relies on probability matrices for the ratio of translated mRNA over total mRNA within condition and a between condition ratio of these ratios. Babel was the first algorithm designed solely for analysis of differential translation and uses an error-in-varaibles regression analysis [@Olshen2013]. The error-in- variables regression allows accounting for variable total mRNA levels when assessing changes in translation.  Although these methods have distinct approaches to identify changes in translation efficiencies, their principle of analysis is similar to comparing a ratio of ratios. Therefore these methods suffer from similar issues as the TE-score which will be discussed in **Study 1**.
 
 \section{mRNA translation in cancer}
+
+<!--chapter:end:01-intro.Rmd-->
+
+---
+output: pdf_document
+---
+
+\chapter{Aims of this thesis}
+
+
+The aims of this thesis are to expand current methodologies for analysis of translation efficiency data and explore the regulation of gene expression in cancer.
+
+In **Study I** we adapted an algorithm for ANalysis Of Translation Activity data (anota) so that it could be applied to next generation sequencing data. Furthermore, we implemented the analysis of translational buffering a recently described regulatory mode of gene expression. The resulting algorithm was named anota2seq.
+
+We then applied the anota2seq algorithm to investigate changes in translation efficiencies in two cancer models:
+
+In **Study II** we unravelled the effects of eIF4A, an RNA helicase, inhibition using a synthetic rocaglate CR-1-31-B (CR-31) in pancreatic ductal adenocarcinoma.
+
+In **Study III** we explored the effects of insulin on gene expression in multiple cell lines.
+
+<!--chapter:end:02-aims.Rmd-->
+
+---
+output: pdf_document
+---
+
+
+\chapter{Results and discussion}
+
+<!--chapter:end:03-results_and_discussion.Rmd-->
+
+---
+output: pdf_document
+---
+
+
+\chapter{Conclusions}
+
+<!--chapter:end:04-conclusion.Rmd-->
+
+---
+output: pdf_document
+---
+
+# Acknowledgments {-}
+
+Christina is awesome.
+
+I am sorry for all the other people of this page but no one else helped me more than my 8 paws of awesomeness Felix and Dexter. These little litter shitters have been an extreme joy to be around and kept me sane during the insanity that is writing a thesis. **Meow**
+
+<!--chapter:end:05-acknowledgments.Rmd-->
+
+---
+output: pdf_document
+---
+
+# References {-}
+
+<!--chapter:end:06-references.Rmd-->
+
