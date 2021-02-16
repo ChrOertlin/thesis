@@ -3,7 +3,3 @@ output: pdf_document
 ---
 
 # Acknowledgments {-}
-
-Christina is awesome.
-
-I am sorry for all the other people of this page but no one else helped me more than my 8 paws of awesomeness Felix and Dexter. These little litter shitters have been an extreme joy to be around and kept me sane during the insanity that is writing a thesis. **Meow**
