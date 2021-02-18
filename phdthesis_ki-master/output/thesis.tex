@@ -85,6 +85,7 @@
 \usepackage{caption}
 \captionsetup[figure]{font=scriptsize}
 \usepackage{float}
+\usepackage{amssymb}
 
 \author{}
 \date{\vspace{-2.5em}}
@@ -176,7 +177,7 @@ of cancer. \clearpage
   \caption{The gene expression pathway - DNA is transcribed in pre-mRNA containing a 5' cap (black oval) introns (teal boxes),exons (purple boxes) and a poly(A) tail. Via RNA-splicing different mRNA isoforms can be formed by splicing variations of intron / exon combination. The mature mRNA, consisting out ouf a 5' cap,exons and a poly(A) tail is then transported out of the cellular nucleus into the cytoplasm. Within the cytosplasm mRNAs can follow multiple paths such as storage, degradation or transaltion depending on cellular demands. mRNAs are translated into proteins (i.e. protein synthesis). Synthesised proteins can be degraded by proteosomes. \label{fig:geneExprPath}}
 \end{wrapfigure}
 
-\section{mRNA translation}
+\section{mRNA translation}\paragraph{overview of an mRNA}
 
 After transcription primary RNA transcripts are processed into mRNAs
 which is the products that will be translation. The coding region of an
@@ -184,13 +185,20 @@ mRNA is flanked by untranslated region that exert translational control
 over the mRNA (see \ref{UTR}). The 5' has a cap that is important for
 mRNA translation initiation(Grifo, Tahara, Morgan, Shatkin, \& Merrick,
 1983), while the 3' end has a poly-A tail protecting the mRNA against
-degradation ({\textbf{???}}). Multiple different mRNAs (isoforms or
-transcript variants) from the same genomic region exist. These variants
-arise due to a process called alternative splicing which alters the exon
-composition (i.e.~coding region) of an mRNA with distinct functions
-({\textbf{???}}).
+degradation (Wilusz, Wormington, \& Peltz, 2001). Multiple different
+mRNAs (isoforms or transcript variants) from the same genomic region
+exist. These variants arise due to a process called alternative splicing
+which alters the exon composition (i.e.~coding region) of an mRNA with
+distinct functions or properties (Joly Anne-Laure et al., 2018).
 
-For the vast majority of protein coding mRNAs, eukaryotic mRNA
+\begin{wrapfigure}{o}{1\textwidth}
+  \includegraphics{./figures/UTRFeatures.pdf}
+  \caption{ An mRNA consists of a coding sequence (green), 5' (light orange) and 3' (purple) untranslated regions flanking the coding sequence, a 5' cap and a poly-A tail. Located within the 5' and 3' untranslated region are cis elements (light red boxes) that can exert translational control by interfering with ribosomal movement along the mRNA or interact with trans factors (blue and red) or recruit the 43s ribsome (dark green) to the mRNA (see section \ref{UTR}). The codon composition of the coding sequence also influences translation (see section \ref{tRNA}).   
+ \label{fig:UTRFeat}}
+\end{wrapfigure}
+
+\clearpage
+ For the vast majority of protein coding mRNAs, eukaryotic mRNA
 translation occurs in the cytoplasm, however a small subset of mRNAs is
 translated in the mitochondria. mRNA translation is a process that
 includes initiation, elongation, termination and ribosome recycling and
@@ -199,17 +207,17 @@ During the initiation phase a ribome will associate with the mRNA and
 starts scanning along the mRNA for a start codon to begin synhtesis of
 the polypeptide chain by incorporating amino acids. The order by which
 amino acids are incorporated are dictated by subsequent codons of the
-open reading frame (ORF) in the coding region of the mRNA. Redudancy in
-the codon availability allows that amino acids have multiple assigned
-codons, for example lysine is encoded by AAA and AAG. Amino acids are
-transferred to the ribosome by specialised RNAs called transfer RNAs
-(tRNA) that can recognise the genetic code in the mRNA. The availability
-of tRNAs as well as their modification can influence the rate of
-elongation (see \ref{tRNA}) Once the ribosome encounters a stop codon
-translation will terminate and the polypeptide chain will be released.
-The ribosome then disassociates from the mRNA and the ribosome can be
-recycled to engage translation of the same or another mRNA. The
-following setions describe these processes in more detail.
+open reading frame (ORF). Redudancy in the codon availability allows
+that amino acids have multiple assigned codons, for example lysine is
+encoded by AAA and AAG. Amino acids are transferred to the ribosome by
+specialised RNAs called transfer RNAs (tRNA) that can recognise the
+genetic code in the mRNA. The availability of tRNAs as well as their
+modification can influence the rate of elongation (see \ref{tRNA}) Once
+the ribosome encounters a stop codon translation will terminate and the
+polypeptide chain will be released. The ribosome then disassociates from
+the mRNA and the ribosome can be recycled to engage translation of the
+same or another mRNA. The following setions describe these processes in
+more detail.
 
 \begin{wrapfigure}{o}{1\textwidth}
   \includegraphics{./figures/doodleTranslation.pdf}
@@ -218,31 +226,29 @@ following setions describe these processes in more detail.
 
 \clearpage
 
-\subsection{initiation}
+\subsection{initiation} \label{initiation}
 
-Of the three steps in mRNA translation the initiation steps is commonly
-regarded as the rate limiting step of translation(Asano, Kinzy, Merrick,
-\& Hershey, 1997). While initiation requires many small sequential
-modifications outlined in figure \textbf{REFFIG} there are broader
-important key aspects. For the initiation to commence, in eukaryotes,
-two complexes are required; the pre-initiation complex (PIC) and the
-eukaryotic initiation factor 4F (eIF4F) complex. Both these complexes
-are governed by signalling pathways that regulate their availability
-dependent on cellular cues (see \ref{mTOR} and \ref{ISR}). The PIC
-consists of the methionyl-initiatior transfer RNA (met-tRNAi) in a
-ternary complex (TC) with guanosine triphosphate (GTP) bound eIF2
-(Asano, Clayton, Shalev, \& Hinnebusch, 2000). eIF4F is the translation
-initation complex containing three EIFs; eIF4E, the 5' cap binding
-protein, eIF4G a scaffold protein and eIF4A and RNA helicase (Grifo et
-al., 1983,({\textbf{???}})). eIF4F recruites the PIC to the 5' cap of
-the mRNA after which scanning for a start codon (AUG) occurs. After AUG
-recognition eIF2-GTP is hydrolyzed forming a stable 48S PIC.
-Afterrelease of eIF2-GTP the 60S ribosomal subunit joins to form the 80S
-ribosome and protein synthesis can commence. Next to this scanning
-mechanism, mRNA translation can also be initiated via alternative cap
-independent mechanisms(Wurth \& Gebauer, 2015) (see also \ref{UTR}).
+For the initiation to commence, in eukaryotes, two complexes are
+required; the pre-initiation complex (PIC) and the eukaryotic initiation
+factor 4F (eIF4F) complex. Both these complexes are governed by
+signalling pathways that regulate their availability dependent on
+cellular cues (see \ref{signalling}). The PIC consists of the
+methionyl-initiatior transfer RNA (met-tRNAi) in a ternary complex (TC)
+with guanosine triphosphate (GTP) bound eIF2 (Asano, Clayton, Shalev, \&
+Hinnebusch, 2000). eIF4F is the translation initation complex containing
+three EIFs; eIF4E, the 5' cap binding protein, eIF4G a scaffold protein
+and eIF4A and RNA helicase (Grifo et al., 1983,({\textbf{???}})). eIF4F
+recruites the PIC to the 5' cap of the mRNA after which scanning for a
+start codon (AUG) occurs. After AUG recognition eIF2-GTP is hydrolyzed
+forming a stable 48S PIC. Afterrelease of eIF2-GTP the 60S ribosomal
+subunit joins to form the 80S ribosome and protein synthesis can
+commence (\textbf{Figure \ref{initiation}}).
 
-INSTERT FIGURE WITH PERMISSION
+\begin{wrapfigure}{o}{1\textwidth}
+  \includegraphics{./figures/initiation.jpg}
+  \caption{Pathway of eukaryotic translation initiation via ribosomal scanning.
+ \label{fig:initiation}}
+\end{wrapfigure}
 
 \subsection{elongation}
 
@@ -256,11 +262,12 @@ causes the ribosomal units to rotate in relation to each other (Munro,
 Altman, O'Connor, \& Blanchard, 2007,Moazed \& Noller (1989)). The
 rotation causes a shift of the tRNA acceptor ends from the A and P to
 the P and E sites, wheras the codon end remains in the A and P site.
-This is the ``hyrbid'' state of the tRNAs in the ribosome. eEF2 then
-promotes the translocation by which the codon ends of the tRNA follow
-into the P and E sites. The deacytelated tRNA is then released from the
-ribosome. This process is repeated until a stop codon (UAA, UGA or UAG)
-is detected by the ribosome by which translated is terminated.
+This is the ``hyrbid'' state of the tRNAs in the ribosome(Dorner,
+Brunelle, Sharma, \& Green, 2006). eEF2 then promotes the translocation
+by which the codon ends of the tRNA follow into the P and E sites. The
+deacytelated tRNA is then released from the ribosome. This process is
+repeated until a stop codon (UAA, UGA or UAG) is detected by the
+ribosome which terminates translation.
 
 \begin{wrapfigure}{o}{1\textwidth}
   \includegraphics{./figures/elongation.jpg}
@@ -268,19 +275,18 @@ is detected by the ribosome by which translated is terminated.
  \label{fig:elongation}}
 \end{wrapfigure}
 
-\subsection{termination}
+\clearpage
 
-mRNa translation termination is facilitated by two release factors, eRF2
-and eRF3-GTP. The TC with eRF2 and eRF3-GTP binds to the A-site of the
-ribosome. Recognition of the stop codon by the ribosome then causes
-hydrolysis resulting in a conformational change and release of the
-polypeptide. eRF1 and the ATP binding cassette protein (ABCE1) together
-promote the splitting of the 60S and 40S subunits, of which the 40S
-subunits has still bound tRNA. After release of the tRNA from the 40S
-subunits the parts of the translational machinery can be recycled(Dever
-\& Green, 2012).
+\subsection{termination and recycling}
 
-\subsection{recycling}
+mRNa translation termination is facilitated by two release factors
+(eRF), eRF2 and eRF3-GTP({\textbf{???}}). A TC containing eRF2 and
+eRF3-GTP binds to the A-site of the ribosome upon recognition of a stop
+codon. This causes an ATP hydrolysis event resulting in a conformational
+change and release of the polypeptide chain. eRF1 and the ATP binding
+cassette protein (ABCE1) together promote the splitting of the 60S and
+40S subunits after which they can be recycled(Pisarev et al., 2010,Dever
+\& Green (2012),Hellen (2018)).
 
 \section{Regulation of mRNA translation}
 
@@ -294,176 +300,58 @@ elongation (J. D. Richter \& Coller, 2015) and termination(Dever \&
 Green, 2012) phases albeit to a lesser extent. Dynamic modulation of
 mRNA translation can be achieved through signalling pathways as well as
 several distinct cis and trans elements in both untranslated regions
-(UTRs) of an mRNA. Regulation of mRNA translation can be exerted at a
-global level i.e.~reduction of protein synthesis for a large portion of
-the transcriptome. Furthermore, a more selective regulation of mRNA
-translation can be achieved through various mechanisms, which increases
-the complexity of the regulation of mRNA translation greatly.
-
-\subsection{mTOR singalling pathway} \label{mTOR}
-
-mTOR is a conserved Ser/Thr kinase and is found in two structurally and
-functionally distinct complexes, mTORC1 and mTORC2. mTORC1 contains
-mTOR, regulatory associated protein of TOR (raptor), the GTPase
-beta-subunit like protein (GbetaL) and disheveled, EGL-10, pleckstrin
-{[}DEP{]} domain containing mTOR-interacting protein (deptor). mLST8 and
-deptor are found in both mTORC1 and mTORC2.However,
-rapamycin-insensitive companion of TOR (rictor), mammalian
-stress-activated protein kinase {[}SAPK{]}-interacting protein (mSIN1),
-and proline-rich protein 5 (protor) are specific to mTORC2(Saxton \&
-Sabatini, 2017,Pearce et al. (2007)). In regards to regulation of mRNA
-translation, mTORC1 is a key player in regulation of translation
-initiation through facilitating the release of eIF4E from 4E-BPsvia
-phosphorylation of 4E-BPs by mTOR (Hsieh et al., 2010). Furthermore,
-substrates of mTORC1 include ribosomal S6 kinases (S6Ks) 1 and
-2(Schepetilnikov et al., 2013), and La ribonucleoprotein domain family
-member 1 (LARP1)(Tcherkezian et al., 2014). mTORC2 is found to associate
-with ribosomes to promote co-translational phosphorylation and
-foldingofnascent Akt polypeptide(Oh et al., 2010). As mentioned mTORC1
-is activated via growth hormones including insulin and insulin like
-growth factor (IGF). Upon binding of insulin to the insulin receptor,
-tyrosine kinases (RTKs) and phosphoinositide 3-kinase (PI3K) are
-activated. Phosphatidylinositol 3,4,5-triphosphate (PIP3) is then
-generated by PI3K from Phosphatidylinositol 4,5-biphoasphate (PIP2).
-This step is reversed by PTEN which hydrolyzes PIP3 to PIP2, thereby
-working antagonistically to PI3K. PIP3 recruits AKT and
-phosphoinositide-dependent kinase1 (PDK1) towards the plasma membrane
-where AKT is phosphorylated by PDK1. Ras homologue enriched in brain
-(Rheb) is a GTPase that stimulates mTOR in its GTP bound form. The
-tuberous sclerosis complex (TSC) consists of TSC1 (scaffold protein) and
-TSC2 is a GTPase-activating protein (GAP) which inhibits Rheb through
-hydrolysis of Rheb-GTP to Rheb-GDP, thereby inhibiting mTOR activity.
-AKT mediates phosphorylation of TSC2, leading to a decreased GAP
-activity and reduced mTOR inhibition. Signaling through the Ras GTPase
-by growth factors may also activate mTORC1 through the RAF/MEK/ERK axis
-whereby extracellular signal-regulated kinase (ERK) leads to direct
-phosphorylation of TSC2 and raptor or via the RSKs(Roux \& Topisirovic,
-2018,Roux \& Topisirovic (2012),Laplante \& Sabatini (2012)).
-\subsection{mTOR and metabolism} Protein synthesis is the most energy
-expensive process within cells(Buttgereit \& Brand,
-1995).Therefore,regulation of mRNA translation is tied to cellular
-energy levels. AMP-activated protein kinase (AMPK) is a kinase activated
-by increased AMP/ATPratioas well as ADP/ATP ratios. AMPK inhibits
-protein synthesis by activation of TSC2, thereby reducing mTOR activity.
-Furthermore, cellular oxygen levels are linked to ATP production, where
-low oxygen levels reduce ATP production leading to AMPK
-activation(Leibovitch \& Topisirovic, 2018). mTOR modulates global mRNA
-translation mainly through modulation of 4E-BPs and S6Ks(Bruno D.
-Fonseca et al., 2014,Hay \& Sonenberg (2004)). S6Ks (S6K1 and S6K2)
-phosphorylates multiple component of the translational machinery such as
-RPS6, which is implicated in ribosome biogenesis(B. Magnuson, Ekim, \&
-Fingar, 2012). Furthermore, S6Ks also phosphorylates eEF2 kinase which
-is a negative regulator of protein synthesis(X. Wang et al.,
-2001).Lastly, S6Ks phosphorylate programmed cell death 4
-(PDCD4)triggering its SCFbetaTrCP-dependent degradation (Carayol et al.,
-2008).PDCD4 is a factor blocking the eIF4A-eIF4G interaction by binding
-to eIF4A. Binding of PDCD4 to eIF4A leads to inhibition of eIF4A
-activity and thus translation of mRNAs that require RNA helicase
-activity(H.-S. Yang et al., 2003). More recent work has shown the
-interaction of mTORC1 with LA motif (LAM)-containing factor family
-La-related protein 1 (LARP1). LARP1 is thought to bind to the 5' mRNA
-cap of mRNAs with a terminal oloigopyrimidine motif (TOP) via its DM15
-domain and represses translation thereof. Binding of LARP1 close the the
-5' CAP of TOP mRNAs hinders binding of the EIF4F complex and therefore
-mRNA translation initiation. mTORC1 physically interacts and
-phosphorylates LARP1. When phophorylation occurs close to the DM15
-domain of LARP1 the inhibitory effect on mRNA translation of TOP mRNAs
-is abolished. (Jia et al., 2021)
-
-\subsection{The integrated stress response} \label {ISR}
-
-eIF2 delivers Met-tRNAi to the 40s ribosomal subunit (N. Sonenberg \&
-Hinnebusch, 2009). During the integrated stress response (ISR) the alpha
-subunit of eIF2 is phosphorylated on Ser51 which leads to a global
-suppression of 5' cap dependent mRNA translation. Upon eIF2alpha
-phosphorylation, eIF2alpha directly engages the guanine nucleotide
-exchange factor eIF2beta. eIF2beta converts the inactive eIF2-GDP to
-eIF2-GTP, therefore eIF2alpha phosphorylation limits eIF2 recycling of
-Met-tRNAi to the ribosome (N. Sonenberg \& Hinnebusch, 2009).
-Simultaneously, eIF2alpha phosphorylation stimulates selective
-translation of mRNAs with upstream open reading frames (uORFs) such as
-ATF4 which is a transcription factor that plays a crucial role in the
-adaptation to stress (Pakos-Zebrucka et al., 2016). There are multiple
-kinases, activated depending on the cellular stress, which phosphorylate
-eIF2alpha. These kinases include Protein kinase R-like endoplasmic
-reticulum kinase (PERK) which is activated by misfolded peptides in the
-endoplasmatic reticulum (ER), Heme regulated eIF2alpha kinase (HRI)
-which is activated during oxidative stress, protein kinase R (PKR) which
-is activated in response to certain viral infections and GCN2 which is
-activated when cells are deprived of amino acids(Kapur, Monaghan, \&
-Ackerman, 2017,Guan et al. (2017),Taniuchi, Miyake, Tsugawa, Oyadomari,
-\& Oyadomari (2016),Andreev et al. (2015)). Therefore, several distinct
-stress origins converge on the same pathway regulating mRNA translation.
+(UTRs) of an mRNA (\textbf{Figure \ref{fig:UTRFeat}}).
 
 \subsection{Regulation of translation through 5’ and 3’ UTRs} \label{UTR}
 
-\subsection{5' UTR}
+\paragraph{eIF4A sensitive mRNAs}
 
-Recruitment of the PIC to the 5' UTR is followed by scanning until
-recognition of a start codon. During scanning a process called leaky
-scanning can occur where the first encountered AUG is not recognized due
-to sub-optimal sequences flanking the start codon. Leaky scanning is
-influenced by eukaryotic elongation factors (eEF) 1 and eEF5 where high
-levels of eEF1 promote leaky scanning and blocking of non-cognate
-initiation whereas eEF5 works antagonistically to eEF1. Nonetheless,
-translation is most favorably initiated when an AUG is encountered with
-the ``Kozak'' context. Near cognate triplets e.g.~NUG can also initiate
-translation at a much lower frequency as compared to cognate triplets
-(A. G. Hinnebusch, 2014). Structures in the 5' UTRs can influence
-translation initiation e.g.~stem loops (SL) like the iron responsive
-element (IRE), which regulates translation of mRNAs involved in iron
+can be divided into elements acting on cap dependent and cap-indendent
+mRNA translation. Progression of the ribosome is dependent of on eIF4A,
+the RNA helicase in the eIF4F complex, that unwinds structural elements
+the ribsome encounters(Wolfe et al., 2014,({\textbf{???}})). The
+importance of eIF4A's unwinding capacity was identified by treatment of
+KOPT-K1 cells, a lymphoma cell line, MDA-MB-231 ,a breast cancer cell
+line, with silvesterol of which translational control was evaluated
+using ribosome prolfing (\textbf{see section
+\ref{riboseq}})({\textbf{???}},({\textbf{???}})). These studies
+identified silvesterol sensitive mRNAs that are characterised by long
+and structured 5' UTRs. In addition eIF4A dependent mRNAs were enriched
+for having multiple 5' UTR variants, while independet mRNAs were not
+({\textbf{???}}). Among eIF4A dependent mRNAs were oncogenes and
+transcription factors which makes it attractive for therapy in cancer.
+In a different context of eIF4A inhibition using rocaglates polypurine
+sequences in the 5' UTR were of importance. Here, rocaglates would clamp
+eIF4A to the mRNA causing a road block for ribosome scanning and
+premature translation initiation (Iwasaki, Floor, \& Ingolia, 2016).
+These mechanisms by which eIF4A inhibition can reduce translation of
+mRNAs important in cancer is subject of \textbf{Study 3}, where we apply
+CR-1-31-B, a rocaglate, in a pancreatic cancer context.
+
+Other forms of cap dependent mRNA translation initiation occur when
+structures pose as binding sites for trans acting factors. The iron
+response element (IRE) regulates translation of mRNAs involved in iron
 homeostasis depending on iron availability (Paraskeva, Gray, Schläger,
-Wehr, \& Hentze, 1999) and RNA G-quadruplexes which block scanning
-(Wolfe et al., 2014). Therefore, the degree of structure of a 5' UTR can
-be an indicator whether an mRNA's translation efficiency is regulated or
-not. In eukaryotes the vast majority of mRNAs have 5' UTRs with a median
-length ranging from 53 to 218 nucleotides, where humans have 5' UTRs
-with the longest median length. Furthermore, mRNAs with long and
-structured 5' UTRs often encode for proteins related to proliferation,
-survival, and metastasis (Wolfe et al., 2014,Rubio2014).
-
-Next to 5' UTR structures affecting cap dependent mRNA translation there
-are also cap independent regulators of mRNA translation such as the
-viral or cellular internal ribosome entry sites (IRES). The scope of the
-cellular IRES is still controversial, however cellular IRES are thought
-recruit the 43s ribosomal subunit towards the 5' UTR (Komar \&
-Hatzoglou, 2005). Additionally, eIF3 was suggested to directly bind to
-stem loop structures of a subset of mRNAs and repress or activate their
+Wehr, \& Hentze, 1999). Cap independent regulation of mRNA translation
+independent regulators of mRNA translation such as the viral or cellular
+internal ribosome entry sites (IRES). The scope of the cellular IRES is
+still controversial, however cellular IRES are thought recruit the 43s
+ribosomal subunit towards the 5' UTR (Komar \& Hatzoglou, 2005).
+Additionally, eIF3 was suggested to directly bind to stem loop
+structures of a subset of mRNAs and repress or activate their
 translation (Hinnebusch, 2006,A. S. Y. Lee, Kranzusch, \& Cate (2015)).
 RNA modifications in the 5' UTR could also potentially regulate mRNA
 translation such as the m6A modification, which can serve as an
 alternative cap and binds eIF3 to initiate translation or to assist
 ribosome scanning (Meyer et al., 2015,Zhou2015,de la Parra et al.
-(2018)).
+(2018)). Furthermore, mRNAs with an extremely short (\textasciitilde{}12
+nucleotides) 5' UTR which harbors the translation initiator of short 5'
+UTR (TISU element). These mRNAs undergo scanning free translation
+initiation (Haimov, Sinvani, \& Dikstein, 2015). Other notable examples
+of regulation of transaltion via 5' UTR features will be discussed in
+their relevant context (**see section \ref{signalling}).
 
-Cis elements within the 5' UTR are also a found to regulate mRNA
-translation e.g.~mRNAs encoding for mitochondrial proteins with an
-extremely short (\textasciitilde{}12 nucleotides) 5' UTR which harbors
-the translation initiator of short 5' UTR (TISU element). These mRNAs
-undergo scanning free translation initiation (Haimov, Sinvani, \&
-Dikstein, 2015). Another well-studied 5' UTR element is the 5' terminal
-oligo pyrimidine (TOP) element, which consists of a C at the 5' terminus
-followed by a stretch of 4-15 pyrimidines (Yamashita et al., 2008).
-These TOP mRNAs are fully dependent on the C at the 5' cap. Translation
-of TOP mRNAs is tightly linked to mTOR activity and is often considered
-as mTOR dependent translation, where mTOR almost fully controls their
-translation activity (Hamilton, Stoneley, Spriggs, \& Bushell, 2006).
-
-More recent work indicates an effect of mTORC1 on LA motif
-(LAM)-containing factor family La-related protein 1 (LARP1). In that
-study the conserved RNA-binding protein of LARP1 interacts with raptor
-and is phosphorylated by mTORC1. However, the scope of LARP1 mediated
-effects remain controversial. It has been suggested LARP1 stabilizes or
-regulates translation of mRNAs with the terminal oligo pyrimidine (TOP)
-motif in a context dependent manner{[}Tcherkezian et al. (2014),Bruno D
-Fonseca et al. (2015),Deragon \& Bousquet-Antonelli (2015)).
-
-Nevertheless, TOP mRNAs can contain other regulatory elements in their
-5' UTR alongside the TOP motif, which can override the TOP element
-translational control in a context dependent manner (Avni, Biberman, \&
-Meyuhas, 1997).
-
-\subsection{3' UTR}
+\paragraph{Cis element in the 3' UTR}
 
 The importance of the poly-A tail has been observed in several studies
 where the poly-A tail promotes efficient translation. mRNAs with short
@@ -472,7 +360,7 @@ loss of a poly-A tail does not lead to complete inhibition of protein
 synthesis (Munroe \& Jacobson, 1990). Furthermore, there are many RNA-
 binding proteins binding to RNA elements in the 3' UTR such as PABP,
 CEBP and LARP1 which confer translational control (Tcherkezian et al.,
-2014,Bruno D Fonseca et al. (2015),Matoulkova, Michalova, Vojtesek, \&
+2014,B. D. Fonseca et al. (2015),Matoulkova, Michalova, Vojtesek, \&
 Hrstka (2012),Mendez \& Richter (2001)). Cytoplasmic polyadenylation
 elements (CPEs) are U-rich sites in the 3' UTR (UUUUUAU) on which RNA
 binding proteins can bind (Mendez \& Richter, 2001). Cytoplasmic
@@ -501,18 +389,118 @@ function, and eIF4G , eukaryotic Release factor 3 (eRF3) which supports
 a role of PABP in ribosome recycling, and eIF3 (Thakor et al.,
 2017,Cheng \& Gallie (2013),Ivanov et al. (2016)). Lastly, the
 PABP-eIF4G interaction forms the closed loop complex that connects the
-ends of the mRNA. \subsection{RNA binding proteins}
+ends of the mRNA.
+
+\subsection{Signalling pathways impinging on mRNA translation} \label{signalling}
+
+\paragraph{mTOR} \label{mTOR}
+
+is a conserved Ser/Thr kinase and is found in two structurally and
+functionally distinct complexes, mTORC1 and mTORC2. (Saxton \& Sabatini,
+2017,Pearce et al. (2007)). mTOR activity is modulated via growth factor
+signalling (i.e.~insulin and insulin-like growth factor; IGF1) as well
+as cellular metabolism. While mTORC1 down stream signalling impinges on
+differention and growth, via phosphorylation of 4E-BPs and S6k). mTORC1
+promotes survival via signalling through protein kinase A (AKT).
+
+\begin{wrapfigure}{l}{6\textwidth}
+  \includegraphics{./figures/mTORsignal.jpg}
+  \caption{Schematic representation of mTOR signaling to the translational machinery. Growth factors stimulate mTORC1 signaling by activating receptor tyrosine kinases (RTKs) located at the plasma membrane. Various adaptor proteins convert these extracellular signals by stimulating the PI3K/AKT and Ras/ERK pathways. Many additional cues promote mTORC1 activation, including glucose and amino acids via small Rag GTPases, which help translocate mTORC1 to the surface of lysosomes. In turn, insufficient energy resources (energy stress) and hypoxia inactivate mTORC1 via the LKB1/AMPK pathway and REDD1, respectively. mTORC2 also responds to agonists that stimulate the production of phosphatidylinositol-3,4,5-triphosphate (PIP3) and promotes the activity of AGC kinase family members (PKC, AKT, and SGK) by phosphorylating residues located in their hydrophobic motifs. mTORC1 modulates mRNA translation by promoting the phosphorylation of downstream substrates, including the 4E-BPs and S6Ks, the latter having phosphorylation substrates of their own (e.g. eIF4B, rpS6, PDCD4, and SKAR). Red T-bars represent inhibitory signals, whereas black arrows indicate stimulatory signals. P denotes phosphorylation. Abbreviations and detailed explanations about this signaling network are provided in the text. Philippe P. Roux, and Ivan Topisirovic Mol. Cell. Biol. 2018; doi:10.1128/MCB.00070-18. Reprinted with permission. Copyright © 2018, American Society for Microbiology
+ \label{fig:mtorsignal}}
+\end{wrapfigure}\paragraph{The relationship between mTOR and metabolsim}
+
+is centered around the energy status of the cell sensed through the
+ratio of adenosine-mono-phosphate (AMP) to adenosine-tri-phosphate (ATP)
+that actives the AMP-kinase (AMPK) (Sanders, Grondin, Hegarty, Snowden,
+\& Carling, 2007,Kimball (2006)). Increase in AMPK activity leads to an
+inhibition of mTOR and therefore down regulation of mRNA translation
+initiation(Inoki, Zhu, \& Guan, 2003). Nutrient availability
+(i.e.~glucose and amino acids), oxygen levels are interwoven with
+cellular energy production by affecting the AMP/ATP ratios in the cell
+(Heerlein, Schulze, Hotz, Bärtsch, \& Mairbäurl, 2005). Interestingly,
+mTORC1 is also found to regulatute translation of mRNAs related to
+mitochondrial function (\textbf{see section \ref{regmtor})(Larsson et
+al., 2012,Gandin et al. (2016b)). The role of cellular metabolism, of
+which its deregulation is considered a hallmark of cancer, on mTOR
+activity suggests that mRNA translation plays an important role in this
+disease (see \ref{translationInCancer}.
+\paragraph{Regulation of translation via mTOR} \label{regmtor} can act
+on a global level by phosphorylation of 4E-BP1 which facilitates
+formation of the eIF4F mRNA translation complex by regulating eIF4E
+availability (}see section \ref{initiation}). Selective modulation of
+mRNA translation is dependent of 5' UTR characterstics of individual
+mRNAs. Transcripts with a terminal oligo pyrimidine (TOP) motif
+consisting of a C followed by a stretch of 4-15 pyrimidines directly
+after the 5' cap show near complete dissiciation from ribosomes under
+conditions when mTOR is inhibited(Yamashita et al., 2008). TOP mRNA are
+enriched for genes encoding for parts of the translation machinery
+(Thoreen et al., 2012). Recent work indicates the importance of La
+ribonucleoprotein domain family member 1 (LARP1) herein. LARP1 is
+thought to bind to the 5' mRNA cap of TOP mRNAs via its DM15 domain and
+represses translation thereof by obstructing eIF4E binding. mTORC1
+physically interacts and phosphorylates LARP1. When phophorylation
+occurs close to the DM15 domain of LARP1 the inhibitory effect on mRNA
+translation of TOP mRNAs is abolished (Jia et al., 2021). Other
+instances of selective translation are for mRNAs that lack the TOP
+motif, but show sensitivity to mTOR activity. These mRNAs are, in
+addition to mTOR, dependent on either eIF4E or eIF4A. mTOR-eIF4E
+sensitive mRNAs show extremely short 5' UTRs and encode for metabolic
+functions, whereas mTOR-eIF4A sensitive mRNAs depict long 5' UTRs and
+are involved in proliferation and survival (Gandin et al., 2016b).
+Therefore, regulation of translation by mTOR can drastically alter gene
+expression for various subset of mRNAs involved in different cellular
+processes (Hsieh et al., 2012,Larsson et al. (2012),Gandin et al.
+(2016b),Thoreen et al. (2012)). \clearpage
+
+\subsection{Cellular stress} \label {ISR}\paragraph{The integrated stress response}
+
+is a signalling pathway which can be activated through kinase signalling
+orginating from various stress signals. These kinases include Protein
+kinase R-like endoplasmic reticulum kinase (PERK) which is activated by
+misfolded peptides in the endoplasmatic reticulum (ER), Heme regulated
+eIF2alpha kinase (HRI) which is activated during oxidative stress,
+protein kinase R (PKR) which is activated in response to certain viral
+infections and GCN2 which is activated when cells are deprived of amino
+acids(Kapur, Monaghan, \& Ackerman, 2017,B.-J. Guan et al.
+(2017),Taniuchi, Miyake, Tsugawa, Oyadomari, \& Oyadomari (2016),Andreev
+et al. (2015)). During the integrated stress response the alpha subunit
+of eIF2 is phosphorylated. Upon eIF2alpha phosphorylation, eIF2 alpha
+directly engages the guanine nucleotide exchange factor eIF2beta and
+precents conversion of inactive eIF2-GDP to active eIF2-GTP needed for
+met-tRNAi incorpration in the TC (N. Sonenberg \& Hinnebusch, 2009).
+\paragraph{Regulation of translation via the ISR} is, similar to mTOR
+signalling, achieved at a global and selective mRNA level. Since the
+phosphorylation of eIF2 alpha limits ternary complex availability
+ribsome recruitment to the 5' cap is limited. While global translation
+is reduced upon ISR, translation of a selective subset of mRNA with
+upstream open reading frames (uORFs) is increased. A uORF is a reading
+frame that originates in the 5' UTR of an mRNA upstream of which the AUG
+precedes that of the coding sequence. uORFs are out of frame with the
+main ORF and when translated lower the expression of the mORF(Kozak,
+1984). Ribosome profiling studies indicate that 50\% of mammalian mRNAs
+harbour uORFs including oncogenes and transcripts important in
+differentiation and cell cycle (Calvo, Pagliarini, \& Mootha,
+2009,Ingolia, Lareau, \& Weissman (2011),D. R. Morris (1995)). The
+surrounding context of the uORF is important for its inhibitory through
+more efficient initiation, where the classical Kozak context is most
+efficient(Kozak, 1986,Calvo et al. (2009)). ATF4, a transcription factor
+for stress response genes, contains two uORFs of which one partially
+overlaps with the mORF. Under normal conditions mRNA translation is
+initiated at uORF1 and reinitiation at uORF2 occurs. The close proximity
+of uORF2 to the mORF causes ribosomes scan past the mORF start thereby
+inhibiting the translation of the coding sequence. Limitiation of TC
+availability during ISR causes longer ribosome scanning times (see
+section \ref{ISR}. This leads to that ribosomes scan past uORF2 and
+initiate at the mORF(Pakos-Zebrucka et al., 2016).
 
 \subsection{Regulation of mRNA translation by tRNAs} \label{tRNA}
 
 is a balance between supply and demand of charged tRNAs of actively
 translated codons. This concept is also referred to as codon optimality.
 
-\subsection{Upstream open reading frames}
-
 \section{mRNA translation in cancer} \label{translationInCancer}
 
-\section{Translation efficiency}
+\subsection{Translation efficiency}
 
 Each ribosome synthesises a single protein during translation of an mRNA
 from start to end. Typically an mRNA is loaded with multiple ribosomes
@@ -625,7 +613,7 @@ polysome-associated mRNA to correct for such mechanisms
 (e.g.~transcription or mRNA stability) during downstream analysis
 (Gandin et al., 2014,Oertlin et al. (2019)).
 
-\subsection{Ribosome profiling}
+\subsection{Ribosome profiling} \label{riboseq}
 
 is a technique that enables sequencing of ribosome protected mRNA
 fragments (RPFs). In the assay ribosomes are immobilized on the mRNAs
@@ -688,7 +676,7 @@ translation events such as ribosomal frame shifts (Rato, Amirova, Bates,
 Stansfield, \& Wallace, 2011) or uORF translation (Andreev et al.,
 2015). Higher sensitivity in detecting changes in translational
 efficiencies on a global scale makes polysome profiling more suitable
-for transcriptome-wide studies (Gandin et al., 2016). Both methods have
+for transcriptome-wide studies (Gandin et al., 2016a). Both methods have
 their strengths and weaknesses and therefore each method should be
 considered depending on the underlying biological question of each
 experiment.
@@ -886,6 +874,13 @@ expression in multiple cell lines.
 \addcontentsline{toc}{chapter}{References}
 
 \hypertarget{refs}{}
+\hypertarget{ref-Alkalaeva2006}{}
+Alkalaeva, E. Z., Pisarev, A. V., Frolova, L. Y., Kisselev, L. L., \&
+Pestova, T. V. (2006). In Vitro Reconstitution of Eukaryotic Translation
+Reveals Cooperativity between Release Factors eRF1 and eRF3.
+\emph{Cell}, \emph{125}(6), 1125--1136.
+\url{https://doi.org/10.1016/j.cell.2006.04.035}
+
 \hypertarget{ref-Andreev2015}{}
 Andreev, D. E., O'Connor, P. B., Fahey, C., Kenny, E. M., Terenin, I.
 M., Dmitriev, S. E., \ldots{} Baranov, P. V. (2015). Translation of
@@ -905,19 +900,6 @@ eIF5, and initiator tRNAMet is an important translation initiation
 intermediate in vivo. \emph{Genes \& Development}, \emph{14}(19),
 2534--2546. \url{https://doi.org/10.1101/gad.831800}
 
-\hypertarget{ref-Asano1997}{}
-Asano, K., Kinzy, T. G., Merrick, W. C., \& Hershey, J. W. B. (1997).
-Conservation and Diversity of Eukaryotic Translation Initiation Factor
-eIF3*. \emph{Journal of Biological Chemistry}, \emph{272}(2),
-1101--1109. \url{https://doi.org/10.1074/jbc.272.2.1101}
-
-\hypertarget{ref-Avni1997}{}
-Avni, D., Biberman, Y., \& Meyuhas, O. (1997). The 5\({'}\) Terminal
-Oligopyrimidine Tract Confers Translational Control on Top Mrnas in a
-Cell Type-and Sequence Context-Dependent Manner. \emph{Nucleic Acids
-Research}, \emph{25}(5), 995--1001.
-\url{https://doi.org/10.1093/nar/25.5.995}
-
 \hypertarget{ref-Brar2015}{}
 Brar, G. A., \& Weissman, J. S. (2015). Ribosome profiling reveals the
 what, when, where and how of protein synthesis. \emph{Nature Reviews.
@@ -929,12 +911,12 @@ Buttgereit, F., \& Brand, M. D. (1995). A hierarchy of ATP-consuming
 processes in mammalian cells. \emph{The Biochemical Journal}, \emph{312
 ( Pt 1)}(Pt 1), 163--7. \url{https://doi.org/10.1042/bj3120163}
 
-\hypertarget{ref-Carayol2008}{}
-Carayol, N., Katsoulidis, E., Sassano, A., Altman, J. K., Druker, B. J.,
-\& Platanias, L. C. (2008). Suppression of programmed cell death 4
-(PDCD4) protein expression by BCR-ABL-regulated engagement of the
-mTOR/p70 S6 kinase pathway. \emph{The Journal of Biological Chemistry},
-\emph{283}(13), 8601--10. \url{https://doi.org/10.1074/jbc.M707934200}
+\hypertarget{ref-Calvo2009}{}
+Calvo, S. E., Pagliarini, D. J., \& Mootha, V. K. (2009). Upstream open
+reading frames cause widespread reduction of protein expression and are
+polymorphic among humans. \emph{Proceedings of the National Academy of
+Sciences}, \emph{106}(18), 7507--7512.
+\url{https://doi.org/10.1073/pnas.0810916106}
 
 \hypertarget{ref-Cenik2015}{}
 Cenik, C., Cenik, E. S., Byeon, G. W., Grubert, F., Candille, S. I.,
@@ -969,16 +951,17 @@ Schneider, R. J. (2018). A widespread alternate form of cap-dependent
 mRNA translation initiation. \emph{Nature Communications}, \emph{9}(1),
 3068. \url{https://doi.org/10.1038/s41467-018-05539-0}
 
-\hypertarget{ref-Deragon2015}{}
-Deragon, J.-M., \& Bousquet-Antonelli, C. (2015). The role of LARP1 in
-translation and beyond. \emph{Wiley Interdisciplinary Reviews. RNA},
-\emph{6}(4), 399--417. \url{https://doi.org/10.1002/wrna.1282}
-
 \hypertarget{ref-Dever2012}{}
 Dever, T. E., \& Green, R. (2012). The elongation, termination, and
 recycling phases of translation in eukaryotes. \emph{Cold Spring Harbor
 Perspectives in Biology}, \emph{4}(7), 1--16.
 \url{https://doi.org/10.1101/cshperspect.a013706}
+
+\hypertarget{ref-Dorner2006}{}
+Dorner, S., Brunelle, J. L., Sharma, D., \& Green, R. (2006). The hybrid
+state of tRNA binding is an authentic translation elongation
+intermediate. \emph{Nature Structural \& Molecular Biology},
+\emph{13}(3), 234--241. \url{https://doi.org/10.1038/nsmb1060}
 
 \hypertarget{ref-Eraslan2019}{}
 Eraslan, B., Wang, D., Gusic, M., Prokisch, H., Hallström, B. M., Uhlén,
@@ -986,12 +969,6 @@ M., \ldots{} Gagneur, J. (2019). Quantification and discovery of
 sequence determinants of protein-per-mRNA amount in~29~human tissues.
 \emph{Molecular Systems Biology}, \emph{15}(2), e8513.
 \url{https://doi.org/10.15252/msb.20188513}
-
-\hypertarget{ref-Fonseca2014}{}
-Fonseca, B. D., Smith, E. M., Yelle, N., Alain, T., Bushell, M., \&
-Pause, A. (2014). The ever-evolving role of mTOR in translation.
-\emph{Seminars in Cell \& Developmental Biology}, \emph{36}, 102--112.
-\url{https://doi.org/10.1016/j.semcdb.2014.09.014}
 
 \hypertarget{ref-Fonseca2015}{}
 Fonseca, B. D., Zakaria, C., Jia, J.-J., Graber, T. E., Svitkin, Y.,
@@ -1003,9 +980,16 @@ Chemistry}, \emph{290}(26), 15996--6020.
 
 \hypertarget{ref-Gandin2016}{}
 Gandin, V., Masvidal, L., Cargnello, M., Gyenis, L., McLaughlan, S.,
-Cai, Y., \ldots{} Topisirovic, I. (2016). mTORC1 and CK2 coordinate
+Cai, Y., \ldots{} Topisirovic, I. (2016a). mTORC1 and CK2 coordinate
 ternary and eIF4F complex assembly. \emph{Nature Communications},
 \emph{7}(1), 11127. \url{https://doi.org/10.1038/ncomms11127}
+
+\hypertarget{ref-Gandin2016a}{}
+Gandin, V., Masvidal, L., Hulea, L., Gravel, S.-P., Cargnello, M.,
+McLaughlan, S., \ldots{} Topisirovic, I. (2016b). nanoCAGE reveals 5'
+UTR features that define specific modes of translation of functionally
+related MTOR-sensitive mRNAs. \emph{Genome Research}, \emph{26}(5),
+636--648. \url{https://doi.org/10.1101/gr.197566.115}
 
 \hypertarget{ref-Gandin2014}{}
 Gandin, V., Sikström, K., Alain, T., Morita, M., McLaughlan, S.,
@@ -1048,15 +1032,18 @@ scanning-free translation initiation mechanisms. \emph{Biochimica Et
 Biophysica Acta}, \emph{1849}(11), 1313--1318.
 \url{https://doi.org/10.1016/j.bbagrm.2015.09.006}
 
-\hypertarget{ref-Hamilton2006}{}
-Hamilton, T., Stoneley, M., Spriggs, K., \& Bushell, M. (2006). TOPs and
-their regulation. \emph{Biochemical Society Transactions}, \emph{34}(1),
-12--16. \url{https://doi.org/10.1042/BST0340012}
+\hypertarget{ref-Heerlein2005}{}
+Heerlein, K., Schulze, A., Hotz, L., Bärtsch, P., \& Mairbäurl, H.
+(2005). Hypoxia decreases cellular ATP demand and inhibits mitochondrial
+respiration of a549 cells. \emph{American Journal of Respiratory Cell
+and Molecular Biology}, \emph{32}(1), 44--51.
+\url{https://doi.org/10.1165/rcmb.2004-0202OC}
 
-\hypertarget{ref-Hay2004}{}
-Hay, N., \& Sonenberg, N. (2004). Upstream and downstream of mTOR.
-\emph{Genes \& Development}, \emph{18}(16), 1926--1945.
-\url{https://doi.org/10.1101/gad.1212704}
+\hypertarget{ref-Hellen2018}{}
+Hellen, C. U. T. (2018). Translation Termination and Ribosome Recycling
+in Eukaryotes. \emph{Cold Spring Harbor Perspectives in Biology},
+\emph{10}(10), a032656.
+\url{https://doi.org/10.1101/cshperspect.a032656}
 
 \hypertarget{ref-Hinnebusch2006}{}
 Hinnebusch, A. G. (2006). eIF3: A versatile scaffold for translation
@@ -1064,17 +1051,11 @@ initiation complexes. \emph{Trends in Biochemical Sciences},
 \emph{31}(10), 553--562.
 \url{https://doi.org/10.1016/j.tibs.2006.08.005}
 
-\hypertarget{ref-Hinnebusch2014}{}
-Hinnebusch, A. G. (2014). The scanning mechanism of eukaryotic
-translation initiation. \emph{Annual Review of Biochemistry}, \emph{83},
-779--812. \url{https://doi.org/10.1146/annurev-biochem-060713-035802}
-
-\hypertarget{ref-Hsieh2010}{}
-Hsieh, A. C., Costa, M., Zollo, O., Davis, C., Feldman, M. E., Testa, J.
-R., \ldots{} Ruggero, D. (2010). Genetic Dissection of the Oncogenic
-mTOR Pathway Reveals Druggable Addiction to Translational Control via
-4EBP-eIF4E. \emph{Cancer Cell}, \emph{17}(3), 249--261.
-\url{https://doi.org/10.1016/j.ccr.2010.01.021}
+\hypertarget{ref-Hsieh2012}{}
+Hsieh, A. C., Liu, Y., Edlind, M. P., Ingolia, N. T., Janes, M. R.,
+Sher, A., \ldots{} Ruggero, D. (2012). The translational landscape of
+mTOR signalling steers cancer initiation and metastasis. \emph{Nature},
+\emph{485}(7396), 55--61. \url{https://doi.org/10.1038/nature10912}
 
 \hypertarget{ref-Hu2014}{}
 Hu, W., Yuan, B., \& Lodish, H. F. (2014). Cpeb4-mediated translational
@@ -1092,12 +1073,30 @@ Ingolia, N. T. (2016). Ribosome Footprint Profiling of Translation
 throughout the Genome. \emph{Cell}, \emph{165}(1), 22--33.
 \url{https://doi.org/10.1016/j.cell.2016.02.066}
 
+\hypertarget{ref-Ingolia2011}{}
+Ingolia, N. T., Lareau, L. F., \& Weissman, J. S. (2011). Ribosome
+Profiling of Mouse Embryonic Stem Cells Reveals the Complexity and
+Dynamics of Mammalian Proteomes. \emph{Cell}, \emph{147}(4), 789--802.
+\url{https://doi.org/10.1016/j.cell.2011.10.002}
+
+\hypertarget{ref-Inoki2003}{}
+Inoki, K., Zhu, T., \& Guan, K.-L. (2003). TSC2 mediates cellular energy
+response to control cell growth and survival. \emph{Cell},
+\emph{115}(5), 577--590.
+\url{https://doi.org/10.1016/s0092-8674(03)00929-2}
+
 \hypertarget{ref-Ivanov2016}{}
 Ivanov, A., Mikhailova, T., Eliseev, B., Yeramala, L., Sokolova, E.,
 Susorov, D., \ldots{} Alkalaeva, E. (2016). PABP enhances release factor
 recruitment and stop codon recognition during translation termination.
 \emph{Nucleic Acids Research}, \emph{44}(16), 7766--7776.
 \url{https://doi.org/10.1093/nar/gkw635}
+
+\hypertarget{ref-Iwasaki2016}{}
+Iwasaki, S., Floor, S. N., \& Ingolia, N. T. (2016). Rocaglates convert
+DEAD-box protein eIF4A into a sequence-selective translational
+repressor. \emph{Nature}, \emph{534}(7608), 558--561.
+\url{https://doi.org/10.1038/nature17978}
 
 \hypertarget{ref-Jackson1991}{}
 Jackson, R. J. (1991). The ATP requirement for initiation of eukaryotic
@@ -1112,6 +1111,14 @@ translation through site-specific phosphorylation of LARP1.
 \emph{Nucleic Acids Research}.
 \url{https://doi.org/10.1093/nar/gkaa1239}
 
+\hypertarget{ref-JolyAnne-Laure2018}{}
+Joly Anne-Laure, Seitz Christina, Liu Sang, Kuznetsov Nikolai V., Gertow
+Karl, Westerberg Lisa S., \ldots{} Andersson John. (2018). Alternative
+Splicing of FOXP3 Controls Regulatory T Cell Effector Functions and Is
+Associated With Human Atherosclerotic Plaque Stability.
+\emph{Circulation Research}, \emph{122}(10), 1385--1394.
+\url{https://doi.org/10.1161/CIRCRESAHA.117.312340}
+
 \hypertarget{ref-Kapur2017}{}
 Kapur, M., Monaghan, C. E., \& Ackerman, S. L. (2017). Regulation of
 mRNA Translation in Neurons-A Matter of Life and Death. \emph{Neuron},
@@ -1124,6 +1131,12 @@ Wucher, V., \ldots{} Lappalainen, T. (2020). Cell typeSpecific genetic
 regulation of gene expression across human tissues. \emph{Science},
 \emph{369}(6509). \url{https://doi.org/10.1126/science.aaz8528}
 
+\hypertarget{ref-Kimball2006}{}
+Kimball, S. R. (2006). Interaction between the AMP-Activated Protein
+Kinase and mTOR Signaling Pathways. \emph{Medicine \& Science in Sports
+\& Exercise}, \emph{38}(11), 1958--1964.
+\url{https://doi.org/10.1249/01.mss.0000233796.16411.13}
+
 \hypertarget{ref-Komar2005}{}
 Komar, A. A., \& Hatzoglou, M. (2005). Internal ribosome entry sites in
 cellular mRNAs: Mystery of their existence. \emph{The Journal of
@@ -1135,16 +1148,31 @@ Komili, S., \& Silver, P. A. (2008). Coupling and coordination in gene
 expression processes: A systems biology view. \emph{Nature Reviews
 Genetics}, \emph{9}(1), 38--48. \url{https://doi.org/10.1038/nrg2223}
 
+\hypertarget{ref-Kozak1984}{}
+Kozak, M. (1984). Compilation and analysis of sequences upstream from
+the translational start site in eukaryotic mRNAs. \emph{Nucleic Acids
+Research}, \emph{12}(2), 857--872.
+\url{https://doi.org/10.1093/nar/12.2.857}
+
+\hypertarget{ref-Kozak1986}{}
+Kozak, M. (1986). Point mutations define a sequence flanking the AUG
+initiator codon that modulates translation by eukaryotic ribosomes.
+\emph{Cell}, \emph{44}(2), 283--292.
+\url{https://doi.org/10.1016/0092-8674(86)90762-2}
+
 \hypertarget{ref-Lalanne2018}{}
 Lalanne, J.-B., Taggart, J. C., Guo, M. S., Herzel, L., Schieler, A., \&
 Li, G.-W. (2018). Evolutionary Convergence of Pathway-Specific Enzyme
 Expression Stoichiometry. \emph{Cell}, \emph{173}(3), 749--761.e38.
 \url{https://doi.org/10.1016/j.cell.2018.03.007}
 
-\hypertarget{ref-Laplante2012}{}
-Laplante, M., \& Sabatini, D. M. (2012). mTOR Signaling. \emph{Cold
-Spring Harbor Perspectives in Biology}, \emph{4}(2), a011593.
-\url{https://doi.org/10.1101/cshperspect.a011593}
+\hypertarget{ref-Larsson2012}{}
+Larsson, O., Morita, M., Topisirovic, I., Alain, T., Blouin, M.-J.,
+Pollak, M., \& Sonenberg, N. (2012). Distinct perturbation of the
+translatome by the antidiabetic drug metformin. \emph{Proceedings of the
+National Academy of Sciences of the United States of America},
+\emph{109}(23), 8977--8982.
+\url{https://doi.org/10.1073/pnas.1201689109}
 
 \hypertarget{ref-Larsson2010}{}
 Larsson, O., Sonenberg, N., \& Nadon, R. (2010). Identification of
@@ -1169,12 +1197,6 @@ Lee, L. J., Papadopoli, D., Jewer, M., Rincon, S. del, Topisirovic, I.,
 Lawrence, M. G., \& Postovit, L.-M. (2021). Cancer Plasticity: The Role
 of mRNA Translation. \emph{Trends in Cancer}, \emph{7}(2), 134--145.
 \url{https://doi.org/10.1016/j.trecan.2020.09.005}
-
-\hypertarget{ref-Leibovitch2018}{}
-Leibovitch, M., \& Topisirovic, I. (2018). Dysregulation of mRNA
-translation and energy metabolism in cancer. \emph{Advances in
-Biological Regulation}, \emph{67}, 30--39.
-\url{https://doi.org/10.1016/j.jbior.2017.11.001}
 
 \hypertarget{ref-Li2014}{}
 Li, G.-W., Burkhardt, D., Gross, C., \& Weissman, J. S. (2014).
@@ -1220,12 +1242,6 @@ Lu, J., Tomfohr, J. K., \& Kepler, T. B. (2005). Identifying
 differential expression in multiple SAGE libraries: An overdispersed
 log-linear model approach. \emph{BMC Bioinformatics}, \emph{6}(1), 165.
 \url{https://doi.org/10.1186/1471-2105-6-165}
-
-\hypertarget{ref-Magnuson2012}{}
-Magnuson, B., Ekim, B., \& Fingar, D. C. (2012). Regulation and function
-of ribosomal protein S6 kinase (S6K) within mTOR signalling networks.
-\emph{Biochemical Journal}, \emph{441}(1), 1--21.
-\url{https://doi.org/10.1042/BJ20110892}
 
 \hypertarget{ref-Masvidal2017}{}
 Masvidal, L., Hulea, L., Furic, L., Topisirovic, I., \& Larsson, O.
@@ -1273,6 +1289,11 @@ Regulation of mRNA Translation in Erythropoiesis. \emph{Frontiers in
 Physiology}, \emph{9}, 910.
 \url{https://doi.org/10.3389/fphys.2018.00910}
 
+\hypertarget{ref-Morris1995}{}
+Morris, D. R. (1995). Growth control of translation in mammalian cells.
+\emph{Progress in Nucleic Acid Research and Molecular Biology},
+\emph{51}, 339--363. \url{https://doi.org/10.1016/s0079-6603(08)60883-1}
+
 \hypertarget{ref-Munro2007}{}
 Munro, J. B., Altman, R. B., O'Connor, N., \& Blanchard, S. C. (2007).
 Identification of Two Distinct Hybrid State Intermediates on the
@@ -1289,13 +1310,6 @@ Oertlin, C., Lorent, J., Murie, C., Furic, L., Topisirovic, I., \&
 Larsson, O. (2019). Generally applicable transcriptome-wide analysis of
 translation using anota2seq. \emph{Nucleic Acids Research},
 \emph{47}(12), e70--e70. \url{https://doi.org/10.1093/nar/gkz223}
-
-\hypertarget{ref-Oh2010}{}
-Oh, W. J., Wu, C. -chih, Kim, S. J., Facchinetti, V., Julien, L. A.,
-Finlan, M., \ldots{} Jacinto, E. (2010). mTORC2 can associate with
-ribosomes to promote cotranslational phosphorylation and stability of
-nascent Akt polypeptide. \emph{The EMBO Journal}, \emph{29}(23),
-3939--3951. \url{https://doi.org/10.1038/emboj.2010.271}
 
 \hypertarget{ref-Olshen2013}{}
 Olshen, A. B., Hsieh, A. C., Stumpf, C. R., Olshen, R. A., Ruggero, D.,
@@ -1330,6 +1344,13 @@ compared to mRNA levels across non-proliferating tissues. \emph{BMC
 Genomics}, \emph{18}(1), 305.
 \url{https://doi.org/10.1186/s12864-017-3683-9}
 
+\hypertarget{ref-Pisarev2010}{}
+Pisarev, A. V., Skabkin, M. A., Pisareva, V. P., Skabkina, O. V.,
+Rakotondrafara, A. M., Hentze, M. W., \ldots{} Pestova, T. V. (2010).
+The Role of ABCE1 in Eukaryotic Posttermination Ribosomal Recycling.
+\emph{Molecular Cell}, \emph{37}(2), 196--210.
+\url{https://doi.org/10.1016/j.molcel.2009.12.034}
+
 \hypertarget{ref-Pleiss2007}{}
 Pleiss, J. A., Whitworth, G. B., Bergkessel, M., \& Guthrie, C. (2007).
 Rapid, Transcript-Specific Changes in Splicing in Response to
@@ -1354,28 +1375,17 @@ Bioconductor package for differential expression analysis of digital
 gene expression data. \emph{Bioinformatics}, \emph{26}(1), 139.
 \url{https://doi.org/10.1093/bioinformatics/btp616}
 
-\hypertarget{ref-Roux2012}{}
-Roux, P. P., \& Topisirovic, I. (2012). Regulation of mRNA translation
-by signaling pathways. \emph{Cold Spring Harbor Perspectives in
-Biology}, \emph{4}(11), a012252.
-\url{https://doi.org/10.1101/cshperspect.a012252}
-
-\hypertarget{ref-Roux2018}{}
-Roux, P. P., \& Topisirovic, I. (2018). Signaling Pathways Involved in
-the Regulation of mRNA Translation. \emph{Molecular and Cellular
-Biology}, \emph{38}(12). \url{https://doi.org/10.1128/MCB.00070-18}
+\hypertarget{ref-Sanders2007}{}
+Sanders, M. J., Grondin, P. O., Hegarty, B. D., Snowden, M. A., \&
+Carling, D. (2007). Investigating the mechanism for AMP activation of
+the AMP-activated protein kinase cascade. \emph{The Biochemical
+Journal}, \emph{403}(1), 139--148.
+\url{https://doi.org/10.1042/BJ20061520}
 
 \hypertarget{ref-Saxton2017}{}
 Saxton, R. A., \& Sabatini, D. M. (2017). mTOR Signaling in Growth,
 Metabolism, and Disease. \emph{Cell}, \emph{168}(6), 960--976.
 \url{https://doi.org/10.1016/j.cell.2017.02.004}
-
-\hypertarget{ref-Schepetilnikov2013}{}
-Schepetilnikov, M., Dimitrova, M., Mancera-Martínez, E., Geldreich, A.,
-Keller, M., \& Ryabova, L. A. (2013). TOR and S6K1 promote translation
-reinitiation of uORF-containing mRNAs via phosphorylation of eIF3h.
-\emph{The EMBO Journal}, \emph{32}(8), 1087--1102.
-\url{https://doi.org/10.1038/emboj.2013.61}
 
 \hypertarget{ref-Schleifer1993}{}
 Schleifer, S. J., Eckholdt, H. M., Cohen, J., \& Keller, S. E. (1993).
@@ -1423,6 +1433,12 @@ via eIF3-PABP bridge to initiate internal translation. \emph{RNA
 Biology}, \emph{14}(5), 553--567.
 \url{https://doi.org/10.1080/15476286.2015.1137419}
 
+\hypertarget{ref-Thoreen2012}{}
+Thoreen, C. C., Chantranupong, L., Keys, H. R., Wang, T., Gray, N. S.,
+\& Sabatini, D. M. (2012). A unifying model for mTORC1-mediated
+regulation of mRNA translation. \emph{Nature}, \emph{485}(7396),
+109--113. \url{https://doi.org/10.1038/nature11083}
+
 \hypertarget{ref-Topisirovic2011}{}
 Topisirovic, I., \& Sonenberg, N. (2011). mRNA Translation and Energy
 Metabolism in Cancer: The Role of the MAPK and mTORC1 Pathways.
@@ -1435,11 +1451,10 @@ Anilkumar, S., \ldots{} Richter, J. D. (2013). Genetic and acute CPEB1
 depletion ameliorate fragile X pathophysiology. \emph{Nature Medicine},
 \emph{19}(11), 1473--1477. \url{https://doi.org/10.1038/nm.3353}
 
-\hypertarget{ref-Wang2001}{}
-Wang, X., Li, W., Williams, M., Terada, N., Alessi, D. R., \& Proud, C.
-G. (2001). Regulation of elongation factor 2 kinase by p90(RSK1) and p70
-S6 kinase. \emph{The EMBO Journal}, \emph{20}(16), 4370--9.
-\url{https://doi.org/10.1093/emboj/20.16.4370}
+\hypertarget{ref-Wilusz2001}{}
+Wilusz, C. J., Wormington, M., \& Peltz, S. W. (2001). The cap-to-tail
+guide to mRNA turnover. \emph{Nature Reviews Molecular Cell Biology},
+\emph{2}(4), 237--246. \url{https://doi.org/10.1038/35067025}
 
 \hypertarget{ref-Wolfe2014}{}
 Wolfe, A. L., Singh, K., Zhong, Y., Drewe, P., Rajasekhar, V. K.,
@@ -1453,12 +1468,6 @@ detection of differential gene expression in small microarray
 experiments. \emph{Bioinformatics (Oxford, England)}, \emph{19}(18),
 2448--2455. \url{https://doi.org/10.1093/bioinformatics/btg345}
 
-\hypertarget{ref-Wurth2015}{}
-Wurth, L., \& Gebauer, F. (2015). RNA-binding proteins, multifaceted
-translational regulators in cancer. \emph{Biochimica et Biophysica
-Acta}, \emph{1849}(7), 881--6.
-\url{https://doi.org/10.1016/j.bbagrm.2014.10.001}
-
 \hypertarget{ref-Xiao2016}{}
 Xiao, Z., Zou, Q., Liu, Y., \& Yang, X. (2016). Genome-wide assessment
 of differential translations with ribosome profiling data. \emph{Nature
@@ -1471,14 +1480,6 @@ S., \& Nakai, K. (2008). Comprehensive detection of human terminal
 oligo-pyrimidine (TOP) genes and analysis of their characteristics.
 \emph{Nucleic Acids Research}, \emph{36}(11), 3707--3715.
 \url{https://doi.org/10.1093/nar/gkn248}
-
-\hypertarget{ref-Yang2003}{}
-Yang, H.-S., Jansen, A. P., Komar, A. A., Zheng, X., Merrick, W. C.,
-Costes, S., \ldots{} Colburn, N. H. (2003). The transformation
-suppressor Pdcd4 is a novel eukaryotic translation initiation factor 4A
-binding protein that inhibits translation. \emph{Molecular and Cellular
-Biology}, \emph{23}(1), 26--37.
-\url{https://doi.org/10.1128/mcb.23.1.26-37.2003}
 
 \hypertarget{ref-Zhong2017}{}
 Zhong, Y., Karaletsos, T., Drewe, P., Sreedharan, V. T., Kuo, D., Singh,
