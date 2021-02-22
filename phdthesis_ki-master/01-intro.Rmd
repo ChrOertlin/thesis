@@ -7,32 +7,20 @@ output: pdf_document
 \section{Gene expression}
 \subsection{The central dogma of gene expression}
   The whole genetic code of an organisms i stored as deoxyribonucleic acid (DNA) molecules in a double stranded formation as chromosomes. Chromosomes hold the DNA in a condensed state using chromatin, a complex of DNA and proteins, structures. For transcription of DNA to occur chromatin is remodeled to expose promotor regions in the DNA to which fators assisting in transcription bind. One of these factors is DNA polymerase that unravels the double-stranded DNA and creates a single-stranded copy called ribonucleic acid (RNA) transcripts. This copy is less stable due to its single strandedness and therefore only temporary.  The RNA transcripts undergo processing by which multiple different transcript varaints coming from the same genomic region can be produced. The protein coding portion of these transcripts are called mRNAs. Once formed mRNAs are transported into the cytoplasm where they are either degraded or associate with ribosomes. These ribosomes translate the mRNAs into proteins by which the genetic information then is expressed. Synthesised proteins, if no longer needed in the cell, can be degraded by proteosomes (**see figure \ref{fig:geneExprPath}**). This flow of genetic information into expressed proteins is commonly referred to as the central dogma in molecular biology [@Crick1970].
-  \begin{wrapfigure}{o}{1\textwidth}
+  \clearpage
+  \begin{figure}
   \includegraphics{./figures/geneExprPath_2.pdf}
   \caption{The gene expression pathway - DNA is transcribed in pre-mRNA containing a 5' cap (black oval) introns (teal boxes),exons (purple boxes) and a poly(A) tail. RNAs are processed into mRNAs consisting out ouf a 5' cap,exons and a poly(A) tail is then transported out of the cellular nucleus into the cytoplasm. Within the cytosplasm mRNAs can be degradated or translated  into proteins depending on cellular demands. Synthesised proteins can be degraded by proteosomes. \label{fig:geneExprPath}}
-\end{wrapfigure}
+\end{figure}
+\clearpage
+\subsection{Contribution to gene expression}
+  Proteins are the last product of the gene expression pathway and carry out the vast majority of all cellular functions. While it is apparent that modulation of protein levels will offer information on the changes in gene expression, it cannot completely answer the question as to why the levels change. In a disease context, protein levels alone might offer sufficient insight to explain phenotypic differences. However, how these differences arise machanistically, which often poses as target for therapeutic strategies in cancer, is obscured.
   
-\subsection{Interrogating gene expression}
+  Experimental methods to measure gene expression at different steps are often to referred as "omics" (i.e. proteomics for protein expression, transcriptomics for mRNA expression). These methods provide snapshots of the step under scrutiny in a specific context (steady state or perturbation) for a large portion of genes or proteins. Transcriptomics studies approach gene expression with the assumption that mRNA expression results in protein expression changes and can therefore be used as a proxy for them. However, this view got challanged by landmark studies that observed a poor mRNA to protein correlation and indicated a larger role of post transcriptional regulation in gene expression that previously assumed [@Lu2005,@Vogel2012,@deSousaAbreu2009,@Schwanhausser2011,@Silva2016].
   
-  Protein are the last product of the gene expression pathway and carry out the vast majority of all cellular functions. While it is apparent that modulation of protein levels will offer information on the changes in gene expression, it cannot completely answer the question as to why the levels change. In a disease context, protein levels alone might offer sufficient insight to explain phenotypic differences. However, how these differences arise machanistically, which often poses as target for therapeutic strategies in cancer, is obscured.
-  Initial studies approached gene expression from an mRNA perspective as the experimental 
+  The debate on which step of the gene expression pathway contributes most is ongoing, nevertheless an understanding has been reached that the cellular context at is a major determinant. At steady state mRNA levels seem to explain protein abundance best, however in perturbed systems the contribution of transcript abundance is shifted away to other steps [@Liu2016].  For example in a study that challanged immune cells, protein levels were dependent on cellular transcript levels [@Jovanovic2015]. In contrast a study investigating cells under stress observed extensive modulation at the protein levels, whereas mRNA transcript abundance was only mildly affected [@Cheng2016].
   
-  Experimental methods to measure gene expression at different layers are often to referred as "omics" (i.e. proteomics, transcriptomics). These methods provide snapshots of the layer under scrutiny in a specific context for a large portion of genes or proteins. These studies have lead to the of >68 000 protein variants encoded by ~21 000 genes [@UniProtConsortium2015,]. 
-  
-\subsection{Advances in understanding gene expression} 
-  
-  Initial approaches to quantify gene expression  focused on singular levels of the gene expression pathway, which lead to strong debates as to which step contributes most to gene expression [@Schwanhausser2011,@Vogel2012,@Silva2016,@Liu2016].
-
-While the central dogma, as explained above, pictures a simple straight forward process. In reality every single step across the gene expression pathway can be regulated. This regulation 
-
-
- At steady state comparisons of genome-wide studies across tissues or cell types revealed that the genome and transcriptome determine differences between them, this is to an extent linked to differences in tissue function that requires specific gene set [@Kim-Hellmuth2020]. Whereas within cell type differences mRNA translation seems to be the major determinant [@Schwanhausser2011, @Eraslan2019]. 
-  Additional complexity in the regulation of gene expression arises when considering perturbed systems, that is when cells or tissue respond to environmental or intra-cellular stimuli. These can stimuli can shift the dependence of regulation of gene expression across multiple layers. For example in a study that challanged immune cells protein levels were dependent on cellular transcript levels [@Jovanovic20159. In contrast under cellular stress there is extensive remodulation at both [@Cheng2016]. Therefore, when studying gene expression the context is an important factor to consider.
-  
-  This thesis focuses on understanding the role of mRNA translation in gene expression, specifacally in the context of cancer.
-  
-  
-  
+  While the contribution of different steps of the gene expression is dependent on many different factors, e.g. cellular state, treatments, mRNA translation (synthesis of proteins) is an essential process of this pathway. Furthermore, dysregulation of mRNA translation has been observed in a plethora of diseases, ranging from neurological disorders to cancer[@Kapur2018,@Ruggero2013]. This thesis will focus on the role of mRNA translation in the context of cancer.
 \clearpage
 
 \section{mRNA translation}
@@ -118,7 +106,7 @@ is centered around the energy status of the cell sensed through the ratio of ade
 
 \subsection{RNA binding proteins and trans-acting factors}
 
-The UTRs of an mRNA contain sequence elements to which RNA and RNA binding proteins (RBPs) bind and exert translational regulation. For instance, MicroRNAs, a small class of non coding RNA, can directly bind to other RNAs and silence them accomplished through translational repression or, more often, destabilisation [Jonas2015]. RBPs are a class of proteins involved in many regulatory steps of gene expression and account for 7.5% of the protein coding genes. Poly-A-binding-protein (PABP) is thought to form a closed loop complex of the 3' end to the 5' by interacting with eIF4G. This closed loop should promote translation and prevent mRNA decay [@Afonina2014,@Amrani2008]. An RBP of particular interest in **study 3** is Human antigen R (HuR). HuR preferentially binds to AU-rich sequences in the 3' UTR and acts as a stabilizing agent and is involved in RNA-processing [@Levine1993,@Baou2011,@Fan1998,@Peng1998]. Studies in breast, colon and lung cancer observed correlation between HuR and malignancy. Among HuR targets are HIF-1, VEGF (important for angiogenesis) and the oncogene Myc [@Denkert2004,@LopezDeSilanes2003,@LopezDeSilanes2005].
+The UTRs of an mRNA contain sequence elements to which RNA and RNA binding proteins (RBPs) bind and exert translational regulation. For instance, MicroRNAs, a small class of non coding RNA, can directly bind to other RNAs and silence them accomplished through translational repression or, more often, destabilisation [Jonas2015]. RBPs are a class of proteins involved in many regulatory steps of gene expression and account for 7.5% of the protein coding genes. Poly-A-binding-protein (PABP) is thought to form a closed loop complex of the 3' end to the 5' by interacting with eIF4G. This closed loop should promote translation and prevent mRNA decay [@Afonina2014,@Amrani2008]. An RBP of particular interest in **study 3** is Human antigen R (HuR). HuR preferentially binds to AU-rich sequences in the 3' UTR and acts as a stabilizing agent and is involved in RNA-processing [@Levine1993,@Baou2011,@Fan1998,@Peng1998]. Studies in breast, colon and lung cancer observed correlation between HuR and malignancy. Among HuR targets are HIF-1, VEGF (important for angiogenesis) and the oncogene Myc [@Denkert2004,@LopezdeSilanes2003,@LopezdeSilanes2005].
   
   
 \subsection{Regulation of mRNA translation by tRNAs} \label{tRNA}
