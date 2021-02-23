@@ -10,7 +10,7 @@ output:
     fig_caption: yes
     number_sections: yes
 fontsize: 12pt
-linestretch: 1.5
+linestretch: 1.25
 toc-depth: 3
 secnumdepth: 5
 site: "bookdown::bookdown_site"
@@ -27,6 +27,7 @@ header-includes:
 - \captionsetup[figure]{font=scriptsize}
 - \usepackage{float}
 - \usepackage{amssymb}
+- \usepackage{subcaption}
 
 subparagraph: yes
 bibliography: library/thesis.bib

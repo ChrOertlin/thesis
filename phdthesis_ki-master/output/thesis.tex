@@ -86,6 +86,7 @@
 \captionsetup[figure]{font=scriptsize}
 \usepackage{float}
 \usepackage{amssymb}
+\usepackage{subcaption}
 
 \author{}
 \date{\vspace{-2.5em}}
@@ -209,16 +210,18 @@ interrogate two prominent players of gene expression at once.
 \subsection{overview of an mRNA}
 
 After transcription primary RNA transcripts are processed into mRNAs
-which is the products that will be translation. The coding region of an
-mRNA is flanked by untranslated region that exert translational control
-over the mRNA (see \ref{UTR}). The 5' has a cap that is important for
-mRNA translation initiation(Grifo, Tahara, Morgan, Shatkin, \& Merrick,
-1983), while the 3' end has a poly-A tail protecting the mRNA against
-degradation (Wilusz, Wormington, \& Peltz, 2001). Multiple different
-mRNAs (isoforms or transcript variants) from the same genomic region
-exist. These variants arise due to a process called alternative splicing
-which alters the exon composition (i.e.~coding region) of an mRNA with
-distinct functions or properties (Joly Anne-Laure et al., 2018).
+which is the product that will be translated into proteins. The coding
+region of an mRNA is flanked by untranslated regions (5' and 3' UTRs)
+that exert translational control over the mRNA (see \ref{UTR}). The 5'
+has a cap that is important for mRNA translation initiation(Grifo,
+Tahara, Morgan, Shatkin, \& Merrick, 1983), while the 3' end has a
+poly-A tail protecting the mRNA against degradation (Wilusz, Wormington,
+\& Peltz, 2001). Multiple different mRNAs (isoforms or transcript
+variants) from the same genomic region exist. These variants can arise
+due to a process called alternative splicing which alters the exon
+composition (i.e.~coding region) of an mRNA. These variants can co exist
+and have distinct properties and can perform distinct functions (Joly
+Anne-Laure et al., 2018).
 
 \begin{wrapfigure}{o}{1\textwidth}
   \includegraphics{./figures/UTRFeatures.pdf}
@@ -227,26 +230,26 @@ distinct functions or properties (Joly Anne-Laure et al., 2018).
 \end{wrapfigure}
 
 \clearpage
- For the vast majority of protein coding mRNAs, eukaryotic mRNA
-translation occurs in the cytoplasm, however a small subset of mRNAs is
-translated in the mitochondria. mRNA translation is a process that
-includes initiation, elongation, termination and ribosome recycling and
-is an essential process \textbf{see Figure \ref{fig:doodlemRNASteps}}.
-During the initiation phase a ribome will associate with the mRNA and
-starts scanning along the mRNA for a start codon to begin synthesis of
-the polypeptide chain by incorporating amino acids. The order by which
-amino acids are incorporated are dictated by subsequent codons of the
-open reading frame (ORF). Redundancy in the codon availability allows
-that amino acids have multiple assigned codons, for example lysine is
-encoded by AAA and AAG. Amino acids are transferred to the ribosome by
-specialised RNAs called transfer RNAs (tRNA) that can recognise the
-genetic code in the mRNA. The availability of tRNAs as well as their
-modification can influence the rate of elongation (see \ref{tRNA}) Once
-the ribosome encounters a stop codon translation will terminate and the
-polypeptide chain will be released. The ribosome then disassociates from
-the mRNA and the ribosome can be recycled to engage translation of the
-same or another mRNA. The following setions describe these processes in
-more detail.
+\subsection{Translation of an mRNA} For the vast majority of protein
+coding mRNAs, eukaryotic mRNA translation occurs in the cytoplasm,
+however a small subset of mRNAs is translated in the mitochondria. mRNA
+translation is a process that includes initiation, elongation,
+termination and ribosome recycling and is an essential process
+\textbf{see Figure \ref{fig:doodlemRNASteps}}. During the initiation
+phase a ribome will associate with the mRNA and starts scanning along
+the mRNA for a start codon to begin synthesis of the polypeptide chain
+by incorporating amino acids. The order by which amino acids are
+incorporated are dictated by subsequent codons of the open reading frame
+(ORF). Redundancy in the codon availability allows that amino acids have
+multiple assigned codons, for example lysine is encoded by AAA and AAG.
+Amino acids are transferred to the ribosome by specialised RNAs called
+transfer RNAs (tRNA) that can recognise the genetic code in the mRNA.
+The availability of tRNAs as well as their modification can influence
+the rate of elongation (see \ref{tRNA}) Once the ribosome encounters a
+stop codon translation will terminate and the polypeptide chain will be
+released. The ribosome then disassociates from the mRNA and the ribosome
+can be recycled to engage translation of the same or another mRNA. The
+following setions describe these processes in more detail.
 
 \begin{wrapfigure}{o}{1\textwidth}
   \includegraphics{./figures/doodleTranslation.pdf}
@@ -273,12 +276,6 @@ Afterrelease of eIF2-GTP the 60S ribosomal subunit joins to form the 80S
 ribosome and protein synthesis can commence (\textbf{Figure
 \ref{initiation}}).
 
-\begin{wrapfigure}{o}{.6\textwidth}
-  \includegraphics{./figures/initiation.jpg}
-  \caption{Pathway of eukaryotic translation initiation via ribosomal scanning.
- \label{fig:initiation}}
-\end{wrapfigure}
-
 \subsection{elongation}
 
 The 80S ribosome contains three sites important for decoding an mRNA;
@@ -298,11 +295,11 @@ deacytelated tRNA is then released from the ribosome. This process is
 repeated until a stop codon (UAA, UGA or UAG) is detected by the
 ribosome which terminates translation.
 
-\begin{wrapfigure}{o}{.6\textwidth}
-  \includegraphics{./figures/elongation.jpg}
-  \caption{Model of the eukaryotic translation elongation pathway.Thomas E. Dever, and Rachel Green Cold Spring Harb Perspect Biol 2012;4:a013706. Reprinted with permission. ©2012 by Cold Spring Harbor Laboratory Press
- \label{fig:elongation}}
-\end{wrapfigure}
+\begin{figure}[ht]
+\includegraphics{./figures/initiation.jpg} 
+  \caption{Pathway of eukaryotic translation initiation via ribosomal scanning.
+  \label{fig:initiation}}
+\end{figure}
 
 \clearpage
 
@@ -318,30 +315,30 @@ protein (ABCE1) together promote the splitting of the 60S and 40S
 subunits after which they can be recycled(Pisarev et al., 2010,Dever \&
 Green (2012),Hellen (2018)).
 
+\begin{wrapfigure}{r}{.4\textwidth}
+  \includegraphics{./figures/polysome.pdf}
+  \caption{Electromicrongraph of ribosomes extracted from different positions along a sucrose gradient used for polysome fractionation (A-C). For details on polysome fractionation see section \ref{exptMethod}. Reprinted with permission. DR. T. STAEHELIN et. al. Nature.1963 Aug 31;199:865-70.doi: 10.1038/199865a0. Copyright © 1963, Nature Publishing Group.
+  Schematic of the TAPES method - A ribosome (A) can initiate with rate \(\alpha\) on an mRNA with a coding sequence with codons i= 1 ... L. The elongation rate at a specific codon is defined by \(\omega_i\) and \(\beta\) determines the termination rate once a stop codon is encountered. TASEP has been constantly modified, e.g. to allow for correction of initiation or elongation when the following codon is already occupied. Reprinted with permission. Juraj Szavits-Nossan and Martin R. Evans. 10.1103/PhysRevE.101.062404. ©2020 American Physical Society. 
+ \label{fig:polysomes}}
+\end{wrapfigure}
+
 \subsection{Translation efficiency}
 
 Each ribosome synthesises a single protein during translation of an mRNA
-from start to end. It has been known since the '60s that translation of
-an mRNA occurs via multiple bound ribosomes (polysomes) simultaneaously
-(\textbf{see figure \ref{fig:polysomes}})(Warner, Rich, \& Hall,
-1962,Staehelin, Brinton, Wettstein, \& Noll (1963)). The translation
-efficiency of an mRNA depends on the number of ribosomes it is
-associated with synthesising proteins and is frequently approached using
-the totally asymmetric simple exlcusion process (TASEP) (MacDonald,
-Gibbs, \& Pipkin, 1968,Maniloff (1969)) (\textbf{See figure
-\ref{fig:polysomes}}). mRNA translation accounts for roughly 20\% of the
-cellular energy expenditure (Buttgereit \& Brand, 1995). While all steps
-of mRNA can affect the translation efficiency of an mRNA, it is most
-commonly regulated at the initiation step. Such regulation can be
-exerted for many transcripts at once (i.e.~globally) or for mRNAs that
-share certain characteristics (selective) (\textbf{see \ref{regmRNA}}).
-
-\begin{wrapfigure}{l}{.6\textwidth}
-  \includegraphics{./figures/polysome.pdf}
-  \caption{Electromicrongraph of ribosomes extracted from different positions along a sucrose gradient used for polysome fractionation (A-C). Reprinted with permission. DR. T. STAEHELIN et. al. Nature.1963 Aug 31;199:865-70.doi: 10.1038/199865a0. Copyright © 1963, Nature Publishing Group.
-  Schematic of the TAPES method - A ribosome (A) can initiate with rate \(\alpha\) on an mRNA with a coding sequence with codons i= 1 ... L. The elongation rate at a specific codon is defined by \(\omega_i\) and \(\beta\) determines the termination rate once a stop codon is encountered. TASEP has been constantly modified to allows for correction of stalling ribosomes, i.e. a ribosome cannot initiate or elongate when the target codon is already occupied. Reprinted with permission. Juraj Szavits-Nossan and Martin R. Evans. 10.1103/PhysRevE.101.062404. ©2020 American Physical Society. 
- \label{fig:polysomes}}
-\end{wrapfigure}
+assuming it is not prematurely terminated. It has been known since the
+'60s that translation of an mRNA occurs via multiple bound ribosomes
+(polysomes) simultaneaously (\textbf{see figure
+\ref{fig:polysomes}})(Warner, Rich, \& Hall, 1962,Staehelin, Brinton,
+Wettstein, \& Noll (1963)). The translation efficiency of an mRNA
+depends on the number of ribosomes it is associated with synthesising
+proteins. There are efforts to model traanslation such as totally
+asymmetric simple exlcusion process (TASEP) (MacDonald, Gibbs, \&
+Pipkin, 1968,Maniloff (1969)) (\textbf{See figure \ref{fig:polysomes}}).
+While all steps of mRNA can affect the translation efficiency of an
+mRNA, it is most commonly regulated at the initiation step. Such
+regulation can be exerted for many transcripts at once (i.e.~globally)
+or for mRNAs that share certain characteristics (selective) (\textbf{see
+section \ref{regmRNA}}).
 
 \section{Regulation of mRNA translation} \label{regmRNA}
 
@@ -472,12 +469,12 @@ et al. (2014)). These studies identified silvesterol sensitive mRNAs
 that are characterised by long and structured 5' UTRs. In addition eIF4A
 dependent mRNAs were enriched for having multiple 5' UTR variants, while
 independet mRNAs were not (Rubio et al., 2014). Among eIF4A dependent
-mRNAs are genes important for proliferation and survival(Wolfe et al.,
-2014,Gandin et al. (2016b)). In a different context of eIF4A inhibition
-using rocaglates polypurine sequences in the 5' UTR were of importance.
-Here, rocaglates would clamp eIF4A to the mRNA causing a road block for
-ribosome scanning and premature translation initiation (Iwasaki, Floor,
-\& Ingolia, 2016).
+mRNAs are genes important for proliferation and survival which is
+implications for oncogenic signaling(Wolfe et al., 2014,Gandin et al.
+(2016b)). In a different context of eIF4A inhibition using rocaglates
+polypurine sequences in the 5' UTR were of importance. Here, rocaglates
+would clamp eIF4A to the mRNA causing a road block for ribosome scanning
+and premature translation initiation (Iwasaki, Floor, \& Ingolia, 2016).
 
 \subsection{RNA binding proteins and trans-acting factors}
 
@@ -551,7 +548,7 @@ these multiple roles of mRNA translation to regulate the proteome it is
 critical to distinguish them as their underlying mechanisms can have
 different biological implications.
 
-\section{Expertimental methods to measure mRNA translation}
+\section{Expertimental methods to measure mRNA translation} \label{exptMethod}
 
 \subsection{Polysome profiling}
 
