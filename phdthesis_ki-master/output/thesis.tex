@@ -189,25 +189,11 @@ dependent on many different factors, e.g.~cellular state, treatments,
 mRNA translation (synthesis of proteins) is an essential process of this
 pathway. Furthermore, dysregulation of mRNA translation has been
 observed in a plethora of diseases, ranging from neurological disorders
-to cancer(Kapur \& Ackerman, 2018,Ruggero (2013)). This thesis will
-focus on the role of mRNA translation in the context of cancer.
-\clearpage
+to cancer(Kapur \& Ackerman, 2018,Ruggero (2013),Lee et al. (2021),Graff
+et al. (2009)). This thesis will focus on the role of mRNA translation
+in the context of cancer. \clearpage
 
-\section{mRNA translation}
-
-mRNA translation is the most energy demanding process in the cell and is
-therefore tightly linked to the energy metabolism (Buttgereit \& Brand,
-1995). Translation plays major roles in cellular functions such as
-prolifertion (increase cell count) and growth (expand cell size) and
-deregulation thereof is often found in cancer (\textbf{see section
-\ref{translationInCancer}}) but also associated with other diseases
-(Graff et al., 2009,I. Topisirovic \& Sonenberg (2011),Lee et al.
-(2021)). To make inferences on differences in mRNA translation we
-capture the transcriptome available in the cytoplasm as well as the
-portion of mRNAs that is actively translated. This enables us to
-interrogate two prominent players of gene expression at once.
-
-\subsection{overview of an mRNA}
+\section{mRNA translation}\subsection{overview of an mRNA}
 
 After transcription primary RNA transcripts are processed into mRNAs
 which is the product that will be translated into proteins. The coding
@@ -293,7 +279,7 @@ Brunelle, Sharma, \& Green, 2006). eEF2 then promotes the translocation
 by which the codon ends of the tRNA follow into the P and E sites. The
 deacytelated tRNA is then released from the ribosome. This process is
 repeated until a stop codon (UAA, UGA or UAG) is detected by the
-ribosome which terminates translation.
+ribosome(Hellen, 2018){]}.
 
 \begin{figure}[ht]
 \includegraphics{./figures/initiation.jpg} 
@@ -328,84 +314,87 @@ Each ribosome synthesises a single protein during translation of an mRNA
 assuming it is not prematurely terminated. It has been known since the
 '60s that translation of an mRNA occurs via multiple bound ribosomes
 (polysomes) simultaneaously (\textbf{see figure
-\ref{fig:polysomes}})(Warner, Rich, \& Hall, 1962,Staehelin, Brinton,
+\ref{fig:polysomes}A-C})(Warner, Rich, \& Hall, 1962,Staehelin, Brinton,
 Wettstein, \& Noll (1963)). The translation efficiency of an mRNA
 depends on the number of ribosomes it is associated with synthesising
-proteins. There are efforts to model traanslation such as totally
-asymmetric simple exlcusion process (TASEP) (MacDonald, Gibbs, \&
-Pipkin, 1968,Maniloff (1969)) (\textbf{See figure \ref{fig:polysomes}}).
-While all steps of mRNA can affect the translation efficiency of an
-mRNA, it is most commonly regulated at the initiation step. Such
-regulation can be exerted for many transcripts at once (i.e.~globally)
-or for mRNAs that share certain characteristics (selective) (\textbf{see
-section \ref{regmRNA}}).
+proteins. While all steps of mRNA can affect the translation efficiency
+of an mRNA, it is most commonly regulated at the initiation step(Richter
+\& Coller, 2015,Dever \& Green (2012),({\textbf{???}})). Assessment
+which step of mRNA translation is affects is often done using
+experimental methods (e.g.~polysome profiling or measuring ribosome
+transit time). Furthermore, there are efforts to model translation such
+as totally asymmetric simple exlcusion process (TASEP) (MacDonald,
+Gibbs, \& Pipkin, 1968,Maniloff (1969)) (\textbf{See figure
+\ref{fig:polysomes}D}). A strong feature of translational control is
+that it can affect different numbers of mRNAs. When one or more
+components of the translation machinery are affected translation of a
+large set of mRNAs is affected (i.e.~global regulation). Whereas in
+other cases single, or a small number of mRNAs are selectively
+regulated, e.g.~through cis elements in the UTRs or RNA binding proteins
+(RBP). In some cases mRNAs escape global translational control. Examples
+global and selective regulation of mRNA translation are highlighted in
+section \ref{regmRNA}.
 
 \section{Regulation of mRNA translation} \label{regmRNA}
 
-Of the heretofore presented steps of mRNA translation the initiation is
-the most regulated step. From the perspective that mRNA translation
-contributes most to the cellular energy consumption, of which the
-initiation requires ATP, this process ought to be strictly regulated
-(Buttgereit \& Brand, 1995,Jackson (1991),N. Sonenberg \& Hinnebusch
-(2009)). Nevertheless, translation can also be regulated at the
-elongation (Richter \& Coller, 2015) and termination(Dever \& Green,
-2012) phases albeit to a lesser extent. Dynamic modulation of mRNA
-translation can be achieved through signalling pathways as well as
-several distinct cis and trans elements in both untranslated regions
-(UTRs) of an mRNA (\textbf{Figure \ref{fig:UTRFeat}}).
-
 \subsection{Global regulation of mRNA translation}
+
+As mentioned before, global mRNA regulation mRNA translation affects a
+large population of mRNA simultaneously and is linked to the
+availability of components of the translation machinery. There are two
+major signalling pathways, the PI3K/AKT/mTOR pathway and the integrated
+stress response, that regulate translation at a global level.
 
 \paragraph{mTOR} \label{mTOR}
 
 is a conserved Ser/Thr kinase and is found in two structurally and
-functionally distinct complexes, mTORC1 and mTORC2. (Saxton \& Sabatini,
-2017,Pearce et al. (2007)). mTOR activity is modulated via growth factor
-signalling (i.e.~insulin and insulin-like growth factor; IGF1) as well
-as cellular metabolism. While mTORC1 down stream signalling impinges on
-differention and growth, via phosphorylation of 4E-BPs and S6k). mTORC2
-promotes survival via signalling through protein kinase A (AKT).
-
-is centered around the energy status of the cell sensed through the
-ratio of adenosine-mono-phosphate (AMP) to adenosine-tri-phosphate (ATP)
+functionally distinct complexes, mTORC1 and mTORC2 (Saxton \& Sabatini,
+2017,Pearce et al. (2007)). In a growth promoting environment mTOR
+switches cell metabolism to increased production of protein, lipids and
+nucleotides, while suppressing catabolic pathways. mTORC2 promotes
+survival via signalling through protein kinase A (AKT). mTOR activity is
+modulated via growth factor signalling (i.e.~insulin and insulin-like
+growth factor; IGF1) as well as cellular metabolism. The metabolic
+pathway impinges on mTOR actvity in instances when the ratio of
+adenosine-mono-phosphate (AMP) to adenosine-tri-phosphate (ATP) shift
 that actives the AMP-kinase (AMPK) (Sanders, Grondin, Hegarty, Snowden,
-\& Carling, 2007,Kimball (2006)). Increase in AMPK activity leads to an
-inhibition of mTOR and therefore down regulation of mRNA translation
-initiation(Inoki, Zhu, \& Guan, 2003). Nutrient availability
-(i.e.~glucose and amino acids), oxygen levels are interwoven with
-cellular energy production by affecting the AMP/ATP ratios in the cell
-(Heerlein, Schulze, Hotz, Bärtsch, \& Mairbäurl, 2005). The role of
-cellular metabolism, of which its deregulation is considered a hallmark
-of cancer, on mTOR activity suggests that mRNA translation plays an
-important role in this disease (see \ref{translationInCancer}.
+\& Carling, 2007,Kimball (2006)). Such a shift can be induced by
+nutrient availability as well as oxygen levels. mTOR regulates mRNA
+translation by mediating availability of eIF4E by phosphorylating 4E
+binding proteins (4E-BPs). eIF4E is required for mRNA 5' cap binding and
+formation of the mRNA translation eIF4F complex. Therefore, inhibtion of
+mTOR leads to a down regulation of cap dependent mRNA translation
+initiation. In cancers, systems that are characterised by uncontrolled
+growth, proliferation and a tumor microenvironment limiting nutrient
+availability and inducing hypoxia, mTOR is often hyperactive. Therefore,
+mTOR ís interwoven in oncogenic signalling and in some cases linked to
+acquired resistance to chemotherapy. Therefore it is vital to
+comprehensively understand mTORC1 signalling in the context of cancer.
+\clearpage
 
-\begin{wrapfigure}{l}{6\textwidth}
+\begin{figure}
   \includegraphics{./figures/mTORsignal.jpg}
   \caption{Schematic representation of mTOR signaling to the translational machinery. Philippe P. Roux, and Ivan Topisirovic Mol. Cell. Biol. 2018; doi:10.1128/MCB.00070-18. Reprinted with permission. Copyright © 2018, American Society for Microbiology
  \label{fig:mtorsignal}}
-\end{wrapfigure}\paragraph{The relationship between mTOR and metabolsim}\paragraph{Global regulation of translation via mTOR} \label{regmtor}
+\end{figure}
 
-is achieved by phosphorylation of 4E-BP1 which facilitates formation of
-the eIF4F mRNA translation complex by regulating eIF4E availability
-(\textbf{see section \ref{initiation}}).
-
-\paragraph{The integrated stress response}
-
-is a signalling pathway which can be activated through kinase signalling
-orginating from various stress signals. These kinases include Protein
-kinase R-like endoplasmic reticulum kinase (PERK) which is activated by
-misfolded peptides in the endoplasmatic reticulum (ER), Heme regulated
-eIF2alpha kinase (HRI) which is activated during oxidative stress,
-protein kinase R (PKR) which is activated in response to certain viral
-infections and GCN2 which is activated when cells are deprived of amino
-acids(Kapur, Monaghan, \& Ackerman, 2017,B.-J. Guan et al.
-(2017),Taniuchi, Miyake, Tsugawa, Oyadomari, \& Oyadomari (2016),Andreev
-et al. (2015)). During the integrated stress response the alpha subunit
-of eIF2 is phosphorylated. Upon eIF2alpha phosphorylation, eIF2 alpha
-directly engages the guanine nucleotide exchange factor eIF2beta and
-precents conversion of inactive eIF2-GDP to active eIF2-GTP needed for
-met-tRNAi incorpration in the TC, therefore inhibiting translation by
-reducing PIC availability (N. Sonenberg \& Hinnebusch, 2009).
+\clearpage
+\paragraph{The integrated stress response} is a signalling pathway which
+can be activated through kinase signalling orginating from various
+stress signals. These kinases include Protein kinase R-like endoplasmic
+reticulum kinase (PERK) which is activated by misfolded peptides in the
+endoplasmatic reticulum (ER), Heme regulated eIF2alpha kinase (HRI)
+which is activated during oxidative stress, protein kinase R (PKR) which
+is activated in response to certain viral infections and GCN2 which is
+activated when cells are deprived of amino acids(Kapur, Monaghan, \&
+Ackerman, 2017,Guan et al. (2017),Taniuchi, Miyake, Tsugawa, Oyadomari,
+\& Oyadomari (2016),Andreev et al. (2015)). During the integrated stress
+response the alpha subunit of eIF2 is phosphorylated. Upon eIF2alpha
+phosphorylation, eIF2 alpha directly engages the guanine nucleotide
+exchange factor eIF2beta and precents conversion of inactive eIF2-GDP to
+active eIF2-GTP needed for met-tRNAi incorpration in the TC, therefore
+inhibiting translation by reducing PIC availability (Sonenberg \&
+Hinnebusch, 2009).
 
 \paragraph{Regulation of translation via the ISR}
 
@@ -922,11 +911,6 @@ what, when, where and how of protein synthesis. \emph{Nature Reviews.
 Molecular Cell Biology}, \emph{16}(11), 651--664.
 \url{https://doi.org/10.1038/nrm4069}
 
-\hypertarget{ref-Buttgereit1995}{}
-Buttgereit, F., \& Brand, M. D. (1995). A hierarchy of ATP-consuming
-processes in mammalian cells. \emph{The Biochemical Journal}, \emph{312
-( Pt 1)}(Pt 1), 163--7. \url{https://doi.org/10.1042/bj3120163}
-
 \hypertarget{ref-Calvo2009}{}
 Calvo, S. E., Pagliarini, D. J., \& Mootha, V. K. (2009). Upstream open
 reading frames cause widespread reduction of protein expression and are
@@ -1032,13 +1016,6 @@ Determines Cellular Responses to Chronic Stress. \emph{Molecular Cell},
 \emph{68}(5), 885--900.e6.
 \url{https://doi.org/10.1016/j.molcel.2017.11.007}
 
-\hypertarget{ref-Heerlein2005}{}
-Heerlein, K., Schulze, A., Hotz, L., Bärtsch, P., \& Mairbäurl, H.
-(2005). Hypoxia decreases cellular ATP demand and inhibits mitochondrial
-respiration of a549 cells. \emph{American Journal of Respiratory Cell
-and Molecular Biology}, \emph{32}(1), 44--51.
-\url{https://doi.org/10.1165/rcmb.2004-0202OC}
-
 \hypertarget{ref-Hellen2018}{}
 Hellen, C. U. T. (2018). Translation Termination and Ribosome Recycling
 in Eukaryotes. \emph{Cold Spring Harbor Perspectives in Biology},
@@ -1067,23 +1044,11 @@ Profiling of Mouse Embryonic Stem Cells Reveals the Complexity and
 Dynamics of Mammalian Proteomes. \emph{Cell}, \emph{147}(4), 789--802.
 \url{https://doi.org/10.1016/j.cell.2011.10.002}
 
-\hypertarget{ref-Inoki2003}{}
-Inoki, K., Zhu, T., \& Guan, K.-L. (2003). TSC2 mediates cellular energy
-response to control cell growth and survival. \emph{Cell},
-\emph{115}(5), 577--590.
-\url{https://doi.org/10.1016/s0092-8674(03)00929-2}
-
 \hypertarget{ref-Iwasaki2016}{}
 Iwasaki, S., Floor, S. N., \& Ingolia, N. T. (2016). Rocaglates convert
 DEAD-box protein eIF4A into a sequence-selective translational
 repressor. \emph{Nature}, \emph{534}(7608), 558--561.
 \url{https://doi.org/10.1038/nature17978}
-
-\hypertarget{ref-Jackson1991}{}
-Jackson, R. J. (1991). The ATP requirement for initiation of eukaryotic
-translation varies according to the mRNA species. \emph{European Journal
-of Biochemistry}, \emph{200}(2), 285--294.
-\url{https://doi.org/10.1111/j.1432-1033.1991.tb16184.x}
 
 \hypertarget{ref-Jia2021}{}
 Jia, J.-J., Lahr, R. M., Solgaard, M. T., Moraes, B. J., Pointet, R.,
@@ -1408,12 +1373,6 @@ Thoreen, C. C., Chantranupong, L., Keys, H. R., Wang, T., Gray, N. S.,
 \& Sabatini, D. M. (2012). A unifying model for mTORC1-mediated
 regulation of mRNA translation. \emph{Nature}, \emph{485}(7396),
 109--113. \url{https://doi.org/10.1038/nature11083}
-
-\hypertarget{ref-Topisirovic2011}{}
-Topisirovic, I., \& Sonenberg, N. (2011). mRNA Translation and Energy
-Metabolism in Cancer: The Role of the MAPK and mTORC1 Pathways.
-\emph{Cold Spring Harbor Symposia on Quantitative Biology}, \emph{76},
-355--367. \url{https://doi.org/10.1101/sqb.2011.76.010785}
 
 \hypertarget{ref-Vogel2012}{}
 Vogel, C., \& Marcotte, E. M. (2012). Insights into the regulation of
