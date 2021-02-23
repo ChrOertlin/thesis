@@ -10,7 +10,7 @@ output:
     fig_caption: yes
     number_sections: yes
 fontsize: 12pt
-linestretch: 1.25
+linestretch: 1.5
 toc-depth: 3
 secnumdepth: 5
 site: "bookdown::bookdown_site"
@@ -43,7 +43,7 @@ bibliography: library/thesis.bib
 
 # Abbreviations {-}
 
-```{r, echo=FALSE, warning=FALSE,message=F,prompt=F}
+```{r, echo=FALSE, warning=FALSE,message=FALSE,prompt=FALSE,tidy=TRUE}
 library(tidyverse)
 library(knitr)
 
