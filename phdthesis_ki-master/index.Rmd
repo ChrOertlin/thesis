@@ -11,8 +11,8 @@ output:
     number_sections: yes
 fontsize: 12pt
 linestretch: 1.25
-toc-depth: 3
-secnumdepth: 5
+toc-depth: 4
+secnumdepth: 4
 site: "bookdown::bookdown_site"
 documentclass: book
 classoption: openany # This removes the blank page after ToC
@@ -49,8 +49,8 @@ library(tidyverse)
 library(knitr)
 
 tibble(
-  Abbreviation = c("RPF","TE","UTR","TOP","uORF"),
-  Term = c("Ribosome Protected Fragment","Translation Efficiency","Untranslated region","Terminal oligopyrimidine","upstream open reading frame")) %>%
+  Abbreviation = c("RPF","TE","UTR","TOP","uORF","mORF"),
+  Term = c("Ribosome Protected Fragment","Translation Efficiency","Untranslated region","Terminal oligopyrimidine","upstream open reading frame","main open reading frame")) %>%
   arrange(Term) %>% # i.e. alphabetical order by Term
   kable(booktab = T, linesep = c("")) # linesep command suppresses the standard 5 row chunking
 ```
