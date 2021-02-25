@@ -48,7 +48,7 @@
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{4}
 \usepackage[none]{hyphenat}
 \usepackage[cmyk]{xcolor} % Recommended by US-AB
 \usepackage{lmodern} % Recommended by US-AB
@@ -109,6 +109,7 @@
 \toprule
 Abbreviation & Term\\
 \midrule
+mORF & main open reading frame\\
 RPF & Ribosome Protected Fragment\\
 TOP & Terminal oligopyrimidine\\
 TE & Translation Efficiency\\
@@ -139,7 +140,7 @@ translate the mRNAs into proteins by which the genetic information then
 is expressed. Synthesised proteins, if no longer needed in the cell, can
 be degraded by proteosomes (\textbf{see figure \ref{fig:geneExprPath}}).
 This flow of genetic information into expressed proteins is commonly
-referred to as the central dogma in molecular biology (Crick, 1970).
+referred to as the central dogma in molecular biology (F. Crick, 1970).
 \clearpage
 
 \begin{figure}
@@ -185,11 +186,12 @@ whereas mRNA transcript abundance was only mildly affected (Cheng et
 al., 2016).
 
 While the contribution of different steps of the gene expression is
-dependent on many different factors, e.g.~cellular state, treatments,
+dependent on many different factors, e.g.~cellular state or treatments,
 mRNA translation (synthesis of proteins) is an essential process of this
 pathway. Furthermore, dysregulation of mRNA translation has been
 observed in a plethora of diseases, ranging from neurological disorders
-to cancer(Kapur \& Ackerman, 2018,Ruggero (2013),Lee et al. (2021),Graff
+to cancer which warrants for a comprehensive understaning of this
+process (Kapur \& Ackerman, 2018,Ruggero (2013),Lee et al. (2021),Graff
 et al. (2009)). This thesis will focus on the role of mRNA translation
 in the context of cancer. \clearpage
 
@@ -279,7 +281,7 @@ Brunelle, Sharma, \& Green, 2006). eEF2 then promotes the translocation
 by which the codon ends of the tRNA follow into the P and E sites. The
 deacytelated tRNA is then released from the ribosome. This process is
 repeated until a stop codon (UAA, UGA or UAG) is detected by the
-ribosome(Hellen, 2018){]}.
+ribosome(C. U. T. Hellen, 2018){]}.
 
 \begin{figure}[ht]
 \includegraphics{./figures/initiation.jpg} 
@@ -299,7 +301,7 @@ This causes an ATP hydrolysis event resulting in a conformational change
 and release of the polypeptide chain. eRF1 and the ATP binding cassette
 protein (ABCE1) together promote the splitting of the 60S and 40S
 subunits after which they can be recycled(Pisarev et al., 2010,Dever \&
-Green (2012),Hellen (2018)).
+Green (2012),C. U. T. Hellen (2018)).
 
 \begin{wrapfigure}{r}{.4\textwidth}
   \includegraphics{./figures/polysome.pdf}
@@ -315,21 +317,25 @@ assuming it is not prematurely terminated. It has been known since the
 '60s that translation of an mRNA occurs via multiple bound ribosomes
 (polysomes) simultaneaously (\textbf{see figure
 \ref{fig:polysomes}A-C})(Warner, Rich, \& Hall, 1962,Staehelin, Brinton,
-Wettstein, \& Noll (1963)). The translation efficiency of an mRNA
-depends on the number of ribosomes it is associated with synthesising
-proteins. While all steps of mRNA can affect the translation efficiency
-of an mRNA, it is most commonly regulated at the initiation step(Richter
-\& Coller, 2015,Dever \& Green (2012),({\textbf{???}})). Assessment
-which step of mRNA translation is affects is often done using
-experimental methods (e.g.~polysome profiling or measuring ribosome
-transit time). Furthermore, there are efforts to model translation
-kineticssuch as totally asymmetric simple exlcusion process (TASEP) to
-obtain a better understanding of ribosome movements along the mRNA
-(MacDonald, Gibbs, \& Pipkin, 1968,Maniloff (1969)) (\textbf{See figure
+Wettstein, \& Noll (1963)).
+
+The translation efficiency of an mRNA depends on the number of ribosomes
+it is associated with synthesising proteins. While all steps of mRNA can
+affect the translation efficiency of an mRNA, it is most commonly
+regulated at the initiation step(Richter \& Coller, 2015,Dever \& Green
+(2012),Jackson, Hellen, \& Pestova (2010)). Assessment which step of
+mRNA translation is affects is often done using experimental methods
+(e.g.~polysome profiling or measuring ribosome transit time).
+Furthermore, there are efforts to model translation kinetics such as
+totally asymmetric simple exlcusion process (TASEP) to obtain a better
+understanding of ribosome movements along the mRNA (MacDonald, Gibbs, \&
+Pipkin, 1968,Maniloff (1969)) (\textbf{See figure
 \ref{fig:polysomes}D}). A model that assessed ribosome traffic under
 steady state and high initiation rates indicates traffic is not only
 dependent on the densities of ribosomes but also condon specific
-elongation rates and their distribution along the mRN ({\textbf{???}}).
+elongation rates and their distribution along the mRNA (Szavits-Nossan
+\& Evans, 2020).
+
 A strong feature of translational control of initiation rates or
 elongation rates is that it can affect mRNA distinct populations
 differently. When one or more components of the translation machinery
@@ -353,7 +359,7 @@ stress response, that regulate translation at a global level.
 Furthermore, the codon usage of mRNAs can be used to regulate
 translation globally by alterations in the cellular tRNA pool.
 
-\paragraph{mTOR} \label{mTOR}
+\subsubsection{mTOR} \label{mTOR}
 
 is a conserved Ser/Thr kinase and is found in two structurally and
 functionally distinct complexes, mTORC1 and mTORC2 (Saxton \& Sabatini,
@@ -367,19 +373,25 @@ pathway impinges on mTOR actvity in instances when the ratio of
 adenosine-mono-phosphate (AMP) to adenosine-tri-phosphate (ATP) shift
 that actives the AMP-kinase (AMPK) (Sanders, Grondin, Hegarty, Snowden,
 \& Carling, 2007,Kimball (2006)). Such a shift can be induced by
-nutrient availability as well as oxygen levels. mTOR regulates mRNA
-translation by mediating availability of eIF4E by phosphorylating 4E
-binding proteins (4E-BPs). eIF4E is required for mRNA 5' cap binding and
-formation of the mRNA translation eIF4F complex. Therefore, inhibtion of
-mTOR leads to a down regulation of cap dependent mRNA translation
-initiation. Next to global regulation of translation mTOR also
-selectively regulation translation for subset of mRNAs (\textbf{see
-section \ref{selective}}). In cancers, systems that are characterised by
-uncontrolled growth, proliferation and a tumor microenvironment limiting
-nutrient availability and inducing hypoxia, mTOR is often hyperactive.
-Therefore, mTOR ís interwoven in oncogenic signalling and in some cases
-linked to acquired resistance to chemotherapy. Therefore it is vital to
-comprehensively understand mTORC1 signalling in the context of cancer.
+nutrient availability as well as oxygen levels.
+
+\subsubsection{Regulation of translation via mTOR}
+
+mTOR regulates mRNA translation by mediating availability of eIF4E by
+phosphorylating 4E binding proteins (4E-BPs). eIF4E is required for mRNA
+5' cap binding and formation of the mRNA translation eIF4F complex.
+Therefore, inhibtion of mTOR leads to a down regulation of cap dependent
+mRNA translation initiation. Next to global regulation of translation
+mTOR also selectively regulation translation for subset of mRNAs
+(\textbf{see section \ref{selective}}).
+
+In cancers, systems that are characterised by uncontrolled growth,
+proliferation and a hostile tumor microenvironment limiting nutrient
+availability and induces hypoxia, mTOR is often hyperactive. This is
+indicative of that mTOR ís interwoven in oncogenic signalling and in
+some cases linked to acquired resistance to chemotherapy. Therefore it
+is vital to comprehensively understand mTORC1 signalling in the context
+of cancer.
 
 \begin{figure}
   \includegraphics{./figures/mTORsignal.jpg}
@@ -388,8 +400,8 @@ comprehensively understand mTORC1 signalling in the context of cancer.
 \end{figure}
 
 \clearpage
-\paragraph{The integrated stress response} is a signalling pathway which
-can be activated through kinase signalling orginating from various
+\subsubsection{The integrated stress response} is a signalling pathway
+which can be activated through kinase signalling orginating from various
 stress signals. These kinases include Protein kinase R-like endoplasmic
 reticulum kinase (PERK) which is activated by misfolded peptides in the
 endoplasmatic reticulum (ER), Heme regulated eIF2alpha kinase (HRI)
@@ -403,9 +415,9 @@ phosphorylation, eIF2 alpha directly engages the guanine nucleotide
 exchange factor eIF2beta and precents conversion of inactive eIF2-GDP to
 active eIF2-GTP needed for met-tRNAi incorpration in the TC, therefore
 inhibiting translation by reducing PIC availability (Sonenberg \&
-Hinnebusch, 2009).
+Hinnebusch, 2009) (\textbf{see also figure \ref{fig:initiation}}).
 
-\paragraph{Regulation of translation via the ISR}
+\subsubsection{Regulation of translation via the ISR}
 
 is, similar to mTOR signalling, achieved at a global and selective mRNA
 level. Since the phosphorylation of eIF2 alpha limits ternary complex
@@ -421,38 +433,111 @@ important in differentiation and cell cycle (Calvo, Pagliarini, \&
 Mootha, 2009,Ingolia, Lareau, \& Weissman (2011),D. R. Morris (1995)).
 The surrounding context of the uORF is important for its inhibitory
 effect through more efficient initiation, where the classical Kozak
-context is most efficient(Kozak, 1986,Calvo et al. (2009)). ATF4, a
-transcription factor for stress response genes, contains two uORFs of
-which one partially overlaps with the mORF. Under normal conditions ATF4
-mRNA translation is initiated at uORF1 and reinitiation at uORF2 occurs.
-The close proximity of uORF2 to the mORF causes ribosomes to scan past
-the mORF start thereby inhibiting the translation of the coding
-sequence. Limitiation of TC availability during ISR causes longer
-ribosome scanning times leading to that ribosomes scan past uORF2 and
-initiate at the mORF(Pakos-Zebrucka et al., 2016).
+context (i.e. {[}A,G{]}..\textbf{ATG}G) is most efficient(Kozak,
+1986,Calvo et al. (2009)). ATF4, a transcription factor for stress
+response genes, contains two uORFs of which one partially overlaps with
+the mORF. Under normal conditions ATF4 mRNA translation is initiated at
+uORF1 and reinitiation at uORF2 occurs. The close proximity of uORF2 to
+the mORF causes ribosomes to scan past the mORF start thereby inhibiting
+the translation of the coding sequence. Limitiation of TC availability
+during ISR causes longer ribosome scanning times leading to that
+ribosomes scan past uORF2 and initiate at the mORF(Pakos-Zebrucka et
+al., 2016).
 
-\paragraph{Regulation of mRNA translation by tRNAs} \label{tRNA}
+\subsubsection{Regulation of mRNA translation by tRNAs} \label{tRNA}
 
-tRNAs
+As touched upon earlier, tRNAs are an essential part of the translation
+machinery that carry the amino acids, to be incorporated into the
+polypeptide chain during the elongation process, to the ribosome. tRNAs
+consist of a 76-90 long nucleotide sequence set into a ``cloverleaf''
+structure forming several loops (Sharp, Schaack, Cooley, Burke, \& Soil,
+1985) (** see figure tRNA**). The acceptor stem binds the amino acid
+carried by the tRNA, while the anti-codon loop binds to the mRNA within
+the ribosome via classical watson-crick pairing (Watson \& Crick, 1953).
+Multiple codons can encode for the same amino acid (synonymous codons),
+however the availability of the tRNAs for different codons may vary
+which can influence elongation rates.
+
+\begin{wrapfigure}{o}{0.6\textwidth}
+  \includegraphics{./figures/tRNA.pdf}
+  \caption{ (A) Schematic representation of the tRNA cloverleaf structure with indicated anti-codon and amino acid acceptor sites. (B) Schematic representation of the proliferation and differentiation mRNAs dependent on distinct tRNA subsets. (C) Schematic representation of the U34 wobble position and the catalytic enzymes involved in this modifcation that is implied in tumor progression.
+ \label{fig:tRNA}}
+\end{wrapfigure}
+
+This supply ( i.e.~tRNA availability) and demand (i.e.~codon in
+expressed mRNA transcripts) relationship has been found to vary across
+different cellular states, e.g.~profiferation and differentation. In
+this model two distinct subsets of tRNAs are oberved; A tRNA subset
+induced under proliferation that is otherwise repressed and a subset
+with similar regulation under differentiation of which the supply
+matches the codon demand of the transcriptome (Gingold et al., 2014).
+Therefore, in this model differentiation and proliferation would underly
+two distinct translational programs dependent on tRNA expression. This
+model has been disputed and that the observed differences would be
+attributed to GC content in the mRNA (Rudolph et al., 2016).
+Nevertheless, abbarent tRNA expression and codon usage have been
+reported in cancer(Zhang et al., 2018). Furthermore, a comprehensive
+study including small RNAseq (i.e.~for identification of tRNAs) and
+protein samples across 17 tissues obtained from the The Cancer Genome
+Atlas (TCGA) reported a tRNA signature stratified by Ki67 (a
+proliferation marker) staining with implications for patient
+survival(Hernandez-Alias, Benisty, Schaefer, \& Serrano, 2020).
+Therefore, while a consensus on proliferation specific tRNA subsets
+might not have been reached, emerging evidence implicates a role thereof
+in cancer(Hernandez-Alias et al., 2020,Gingold et al. (2014),Zhang et
+al. (2018)).
+
+Other reports of translational intereference by tRNAs in cacner are
+attributed to tRNA modifications, specifically at the U34 anti- codon
+(or wobble) position which is highly conserved (Rapino, Delaunay, Zhou,
+Chariot, \& Close, 2017,El Yacoubi, Bailly, \& de Crécy-Lagard (2012)).
+Wobbling was proposed by Francis Crick and refers to the ability of
+non-watson-crick base pairing of tRNA anti codons(F. H. Crick, 1966).
+This enables a smaller set of tRNAs (41-55 in eukaryotes) to encode for
+the 64 possible codon combinations (Goodenbour \& Pan, 2006). In
+mammals, the U34 modification catalytic cascade involves the
+acetyltransferase Elongator (ELP3), the methyltransferase TRM9-like
+domain of Alkylation repair homolog 8 (ALKBH8), and the urmylation (URM)
+pathway, that includes the cytosolic thiouridylase homolog 1 and 2
+(CTU1/CTU2)(Kalhor \& Clarke, 2003,Karlsborn et al. (2014)). These
+enzymes ultimately modify the U34 modification into
+5-methoxycarbonyl-methyl-2-thiouridine (\(mcm^5s^2U\)) which ensures
+cognate codon recognition. This modification is thought to occur for a
+small subset of tRNAs, namely \(tRNA^{UUU}\), \(tRNA^{UUC}\),
+\(tRNA^{UUG}\), \(tRNA^{UCC}\), and \(tRNA^{UCU}\).
+
+Loss of the ability to modify U34 has been shown to reduce translation
+elongation rates with varying effects on protein expression (Nedialkova
+\& Leidel, 2015,Deng et al. (2015),Zinshteyn \& Gilbert (2013)). While
+in some cases U34 dependent signalling led to ribosome stalling
+resulting in protein aggregates and increased stress (Nedialkova \&
+Leidel, 2015,Zinshteyn \& Gilbert (2013)). Other reported a subtle
+dowregulation of proteins encoded by mRNAs requiring U34-modified tRNAs
+(Deng et al., 2015). U34 modifcation dependent tRNAs have been shown to
+play a role in cancer. For example, ELP3 is important in tumor
+initiation in the intestine and promotes breast cancer invasion as well
+as progresstion to metastisis(Ladang et al., 2015,Delaunay et al.
+(2016)).
 
 \subsection{Instances of selective translational control} \label{selective}
 
 Selective regulation of mRNA translation occurs via characteristics a
 limitited population of mRNA share found in the 5' and 3' UTRs of an
-mRNA ({\textbf{???}}) (\textbf{see figure \ref{fig:UTRFeat}}).
+mRNA (Leppek, Das, \& Barna, 2018) (\textbf{see figure
+\ref{fig:UTRFeat}}).
 
-\paragraph{mTOR sensitive}
+\subsubsection{mTOR sensitive}
 
 translation involves transcripts with a terminal oligo pyrimidine (TOP)
 motif consisting of a C followed by a stretch of 4-15 pyrimidines
 directly after the 5' cap show near complete dissociation from ribosomes
-under conditions when mTOR is inhibited ({\textbf{???}},Yamashita et al.
+under conditions when mTOR is inhibited (Meyuhas, 2000,Yamashita et al.
 (2008)). TOP mRNA are enriched for genes encoding for parts of the
-translation machinery ({\textbf{???}},Thoreen et al. (2012)). Recent
-work indicates the importance of La ribonucleoprotein domain family
-member 1 (LARP1) in regulation of TOPs. LARP1 is thought to bind to the
-5' mRNA cap of TOP mRNAs via its DM15 domain and represses translation
-by obstructing eIF4E binding. mTORC1 physically interacts and
+translation machinery (Meyuhas, 2000,Thoreen et al. (2012)). Recent work
+indicates the importance of La ribonucleoprotein domain family member 1
+(LARP1) in regulation of TOPs. LARP1 is thought to bind to the 5' mRNA
+cap of TOP mRNAs via its DM15 domain and represses translation by
+obstructing eIF4E binding. mTORC1 physically interacts and
 phosphorylates LARP1. When phophorylation occurs close to the DM15
 domain of LARP1 the inhibitory effect on mRNA translation of TOP mRNAs
 is abolished (Jia et al., 2021). Other instances of selective
@@ -465,7 +550,7 @@ addition to mTORs prominent role in translation on a global level,
 selective translational control through mTOR impinges on oncogenic
 signalling also.
 
-\paragraph{eIF4A sensitive mRNAs} \label{eif4a}
+\subsubsection{eIF4A sensitive mRNAs} \label{eif4a}
 
 Progression of the ribosome through the 5' UTR is dependent on eIF4A,
 the RNA helicase in the eIF4F complex, that unwinds structural elements
@@ -486,7 +571,7 @@ Here, rocaglates would clamp eIF4A to the mRNA causing a road block for
 ribosome scanning and premature translation initiation (Iwasaki, Floor,
 \& Ingolia, 2016).
 
-\paragraph{RNA binding proteins and trans-acting factors}
+\subsubsection{RNA binding proteins and trans-acting factors}
 
 The UTRs of an mRNA contain sequence elements to which RNA and RNA
 binding proteins (RBPs) bind and exert translational regulation. For
@@ -510,49 +595,24 @@ HuR targets are HIF-1, VEGF (important for angiogenesis) and the
 oncogene Myc (Denkert et al., 2004,López de Silanes et al. (2003),López
 de Silanes, Lal, \& Gorospe (2005)).
 
-\section{Regulatory modes of gene expression}
-
-EXPAND EVOLUTION - NATURE PAPER COMENSATORY EFFECTS ETC In
-transcriptome-wide studies of translation efficiencies the interplay
-between total mRNA and translated mRNA levels are interrogated.
-Traditionally it was thought that changes in translation efficiencies
-lead to altered protein levels. A change in translation efficiency is
-observed for mRNAs whose polysome-association is altered whereas their
-total mRNA does not change to a similar magnitude as the
-polysome-association (I.e. change in translation). An example thereof is
-TOP mRNA translation under conditions where mTOR is stimulated
-(Masvidal, Hulea, Furic, Topisirovic, \& Larsson, 2017).
-
-\begin{wrapfigure}{l}{0.6\textwidth}
-  \includegraphics{./figures/geneModes_MRNA.pdf}
-  \caption{Regulatory modes of gene expression - Schematic representation of regulatory modes of translation efficiency in a fold-change scatter plot. Indicated in red are changes in translation (i.e. changes in translated mRNA but not total mRNA), in green changes in mRNA abundance (i.e. congruent changes between total mRNA and translated mRNA) and in blue translational buffering (i.e. changes in total mRNA levels but not translated mRNA levels). TE changes as the TE-score would estimate them are indicated.\label{fig:mRNA}}
+\section{Expertimental methods to measure mRNA translation} \label{exptMethod}\begin{wrapfigure}{r}{0.6\textwidth}
+    \includegraphics{./figures/polyRibo.pdf}
+  \caption{Polysome profliles -  (top left) Schematic representation of a polysome profile using linear sucrose gradient fractionation. Indicated in the polysome profiles are the 40S, 60S ribosomal subunits as well as the 80S monosome. H.P. indicates heavy polysome fractions.Between conditions distribution changes for mRNA abundance (top right), translation (bottom left) and translation within high polysome fractions (bottom right) are illustrated. \label{fig:polyRibo}}
 \end{wrapfigure}
 
-In recent years, evidence emerged where translation efficiencies of
-mRNAs can be altered to compensate for changes in total mRNA levels.
-Within this newly identified mode of regulation of mRNA translation
-``translational buffering'', mRNA translation is altered such that
-changes in total mRNA levels do not influence their corresponding
-protein levels (Oertlin et al., 2019,McManus, May, Spealman, \& Shteyman
-(2014),Lorent et al. (2019)). Translational buffering is observed to
-compensate for inter-tissue, inter-species and inter-individual
-difference (Artieri \& Fraser, 2014,C. Cenik et al. (2015),Perl et al.
-(2017)). Furthermore, in bacteria translational buffering maintains
-protein complex stoichiometry as well as protein levels for conserved
-pathway across species (G.-W. Li, Burkhardt, Gross, \& Weissman,
-2014,Lalanne et al. (2018)). Recently translational buffering has been
-observed under conditions where estrogen receptor alpha (ERalpha) is
-depleted. ERalpha modulates activity of specific tRNA modification
-enzymes. These enzymes are needed for the U34 tRNA modification. Loss of
-ERalpha led to reduced U34 tRNA modification thereby hindering
-translation of mRNAs requiring such modified tRNAs. For these mRNAs,
-even though their total mRNA levels were induced across conditions,
-their protein levels remained constant (Lorent et al., 2019). Given
-these multiple roles of mRNA translation to regulate the proteome it is
-critical to distinguish them as their underlying mechanisms can have
-different biological implications.
+Methods that measure mRNA translation try to capture the number of
+ribosomes an mRNA is associated with on the prinicple that this is
+directly correlated with their translation efficiency. There are two
+methods that are predominantly used in for measuring mRNA translation,
+or changes in translation efficiencies across conditions, namely
+polysome profiling and ribosome profiling (\textbf{see figure
+\ref{fig:polyRibo}}). While polysome profiling separates mRNA based on
+the amount of bound ribosomes, ribosome profiling counts the number of
+ribosome protected fragments after a digestion step. These different
+approaches have their own strength and weaknesses which will be
+discussed on the following sections.
 
-\section{Expertimental methods to measure mRNA translation} \label{exptMethod}
+\clearpage
 
 \subsection{Polysome profiling}
 
@@ -667,33 +727,76 @@ been shown to be biased towards identification of dramatic shifts of
 associated ribosomes to mRNAs, whereas subtle shifts are masked which
 can lead to false biological conclusions. Polysome profiling is affected
 by this to a much lesser extent, thereby more robust in identifying such
-changes (Masvidal et al., 2017). RPFs in ribosome profiling provide
-exact nucleotide positions occupied by ribosomes thereby offering single
-nucleotide resolution. Polysome profiling cannot reveal ribosome
-locations along the mRNA. However, polysome profiling allows access to
-full-length mRNAs that includes the UTRs. The single nucleotide
-resolution of ribosome profiling is necessary in contexts studying local
-translation events such as ribosomal frame shifts (Rato, Amirova, Bates,
-Stansfield, \& Wallace, 2011) or uORF translation (Andreev et al.,
-2015). Higher sensitivity in detecting changes in translational
-efficiencies on a global scale makes polysome profiling more suitable
-for transcriptome-wide studies (Gandin et al., 2016a). Both methods have
-their strengths and weaknesses and therefore each method should be
-considered depending on the underlying biological question of each
-experiment.
+changes (Masvidal, Hulea, Furic, Topisirovic, \& Larsson, 2017). RPFs in
+ribosome profiling provide exact nucleotide positions occupied by
+ribosomes thereby offering single nucleotide resolution. Polysome
+profiling cannot reveal ribosome locations along the mRNA. However,
+polysome profiling allows access to full-length mRNAs that includes the
+UTRs. The single nucleotide resolution of ribosome profiling is
+necessary in contexts studying local translation events such as
+ribosomal frame shifts (Rato, Amirova, Bates, Stansfield, \& Wallace,
+2011) or uORF translation (Andreev et al., 2015). Higher sensitivity in
+detecting changes in translational efficiencies on a global scale makes
+polysome profiling more suitable for transcriptome-wide studies (Gandin
+et al., 2016a). Both methods have their strengths and weaknesses and
+therefore each method should be considered depending on the underlying
+biological question of each experiment.
+
+\section{Regulatory modes of gene expression} \label{modes}
+
+EXPAND EVOLUTION - NATURE PAPER COMENSATORY EFFECTS ETC In
+transcriptome-wide studies of translation efficiencies the interplay
+between total mRNA and translated mRNA levels are interrogated.
+Traditionally it was thought that changes in translation efficiencies
+lead to altered protein levels. A change in translation efficiency is
+observed for mRNAs whose polysome-association is altered whereas their
+total mRNA does not change to a similar magnitude as the
+polysome-association (I.e. change in translation). An example thereof is
+TOP mRNA translation under conditions where mTOR is stimulated (Masvidal
+et al., 2017).
+
+\begin{wrapfigure}{l}{0.6\textwidth}
+  \includegraphics{./figures/geneModes_MRNA.pdf}
+  \caption{Regulatory modes of gene expression - Schematic representation of regulatory modes of translation efficiency in a fold-change scatter plot. Indicated in red are changes in translation (i.e. changes in translated mRNA but not total mRNA), in green changes in mRNA abundance (i.e. congruent changes between total mRNA and translated mRNA) and in blue translational buffering (i.e. changes in total mRNA levels but not translated mRNA levels). TE changes as the TE-score would estimate them are indicated.\label{fig:modes}}
+\end{wrapfigure}
+
+In recent years, evidence emerged where translation efficiencies of
+mRNAs can be altered to compensate for changes in total mRNA levels.
+Within this newly identified mode of regulation of mRNA translation
+``translational buffering'', mRNA translation is altered such that
+changes in total mRNA levels do not influence their corresponding
+protein levels (Oertlin et al., 2019,McManus, May, Spealman, \& Shteyman
+(2014),Lorent et al. (2019)). Translational buffering is observed to
+compensate for inter-tissue, inter-species and inter-individual
+difference (Artieri \& Fraser, 2014,C. Cenik et al. (2015),Perl et al.
+(2017)). Furthermore, in bacteria translational buffering maintains
+protein complex stoichiometry as well as protein levels for conserved
+pathway across species (G.-W. Li, Burkhardt, Gross, \& Weissman,
+2014,Lalanne et al. (2018)). Recently translational buffering has been
+observed under conditions where estrogen receptor alpha (ERalpha) is
+depleted. ERalpha modulates activity of specific tRNA modification
+enzymes. These enzymes are needed for the U34 tRNA modification. Loss of
+ERalpha led to reduced U34 tRNA modification thereby hindering
+translation of mRNAs requiring such modified tRNAs. For these mRNAs,
+even though their total mRNA levels were induced across conditions,
+their protein levels remained constant (Lorent et al., 2019). Given
+these multiple roles of mRNA translation to regulate the proteome it is
+critical to distinguish them as their underlying mechanisms can have
+different biological implications.
 
 \section{Algorithms for analysis of changes in translation efficiencies}
 
 In polysome-profiling and ribosome profiling translated mRNAs
 (i.e.~polysome-associated mRNAs and RPFs) are separated in parallel from
-their total mRNA counterpart. Estimating translation efficiencies
-requires that changes in translated mRNA are corrected for changes in
-total mRNA to accurately identify the regulatory modes of gene
-expression (i.e.~translation, mRNA abundance and translational
-buffering)(Oertlin et al., 2019). Here we will discuss methods that
-analyse polysome-profiling and ribosome profiling data to estimate
-changes in translation efficiencies across 2 or more conditions and how
-these methods identify different regulatory modes of gene expression.
+their cytosplasmic mRNA (from now on referred to as total mRNA)
+counterpart. Estimating translation efficiencies requires that changes
+in translated mRNA are corrected for changes in total mRNA to accurately
+identify the regulatory modes of gene expression (i.e.~translation, mRNA
+abundance and translational buffering)(Oertlin et al., 2019). Here we
+will discuss methods that analyse polysome-profiling and ribosome
+profiling data to estimate changes in translation efficiencies across 2
+or more conditions and how these methods identify different regulatory
+modes of gene expression.
 
 Initially analysis of transcriptome-wide translation studies used an
 approach called the translation efficiency (TE-score) that uses the
@@ -715,17 +818,18 @@ leads to an elevated type-1 error. \clearpage
 \end{wrapfigure}
 
 \textbf{Figure \ref{fig:TE}} gives an overview of the relationship
-between a change in TE) and each regulatory mode of gene expression.
-Changes in mRNA abundance will lead to a \(\varDelta\)TE close to 0 in
-log space (i.e.~no change) as total mRNA and translated mRNA change with
-a similar magnitude. However, in the case of both translation and
-translational buffering, terms in the TE-score equation change leading
-to a \(\varDelta\)TE (TE \textless{} 0 or TE \textgreater{} 0) and
-thereby identification of both changes in translation and translational
-buffering simultaneously. Therefore, the TE-score method fails to
-differentiate between changes in translation and translational buffering
-which can have drastic consequences for the biological interpretation of
-the results (Oertlin et al., 2019).
+between a change in TE and each regulatory mode of gene expression
+(\textbf{see also figure \ref{fig:modes}}). Changes in mRNA abundance
+will lead to a \(\varDelta\)TE close to 0 in log space (i.e.~no change)
+as total mRNA and translated mRNA change with a similar magnitude.
+However, in the case of both translation and translational buffering,
+terms in the TE-score equation change leading to a \(\varDelta\)TE (TE
+\textless{} 0 or TE \textgreater{} 0) and thereby identification of both
+changes in translation and translational buffering simultaneously.
+Therefore, the TE-score method fails to differentiate between changes in
+translation and translational buffering which can have drastic
+consequences for the biological interpretation of the results (Oertlin
+et al., 2019) (\textbf{see also section \ref{modes}}).
 
 The TE-score approach was challenged by the Analysis of Translation
 Activity (anota) algorithm which was developed for DNA-microarray data
@@ -958,11 +1062,30 @@ RNA-seq Data. \emph{Current Protocols in Molecular Biology},
 Crick, F. (1970). Central Dogma of Molecular Biology. \emph{Nature},
 \emph{227}(5258), 561--563. \url{https://doi.org/10.1038/227561a0}
 
+\hypertarget{ref-Crick1966}{}
+Crick, F. H. (1966). Codon--Anticodon pairing: The wobble hypothesis.
+\emph{Journal of Molecular Biology}, \emph{19}(2), 548--555.
+\url{https://doi.org/10.1016/s0022-2836(66)80022-0}
+
 \hypertarget{ref-deSousaAbreu2009}{}
 de Sousa Abreu, R., Penalva, L. O., Marcotte, E. M., \& Vogel, C.
 (2009). Global signatures of protein and mRNA expression levels.
 \emph{Molecular BioSystems}, \emph{5}(12), 1512--1526.
 \url{https://doi.org/10.1039/b908315d}
+
+\hypertarget{ref-Delaunay2016}{}
+Delaunay, S., Rapino, F., Tharun, L., Zhou, Z., Heukamp, L., Termathe,
+M., \ldots{} Close, P. (2016). Elp3 links tRNA modification to
+IRES-dependent translation of LEF1 to sustain metastasis in breast
+cancer. \emph{Journal of Experimental Medicine}, \emph{213}(11),
+2503--2523. \url{https://doi.org/10.1084/jem.20160397}
+
+\hypertarget{ref-Deng2015}{}
+Deng, W., Babu, I. R., Su, D., Yin, S., Begley, T. J., \& Dedon, P. C.
+(2015). Trm9-Catalyzed tRNA Modifications Regulate Global Protein
+Expression by Codon-Biased Translation. \emph{PLOS Genetics},
+\emph{11}(12), e1005706.
+\url{https://doi.org/10.1371/journal.pgen.1005706}
 
 \hypertarget{ref-Denkert2004}{}
 Denkert, C., Weichert, W., Winzer, K.-J., Müller, B.-M., Noske, A.,
@@ -983,6 +1106,12 @@ Dorner, S., Brunelle, J. L., Sharma, D., \& Green, R. (2006). The hybrid
 state of tRNA binding is an authentic translation elongation
 intermediate. \emph{Nature Structural \& Molecular Biology},
 \emph{13}(3), 234--241. \url{https://doi.org/10.1038/nsmb1060}
+
+\hypertarget{ref-ElYacoubi2012}{}
+El Yacoubi, B., Bailly, M., \& de Crécy-Lagard, V. (2012). Biosynthesis
+and Function of Posttranscriptional Modifications of Transfer RNAs.
+\emph{Annual Review of Genetics}, \emph{46}(1), 69--95.
+\url{https://doi.org/10.1146/annurev-genet-110711-155641}
 
 \hypertarget{ref-Fan1998}{}
 Fan, X. C., \& Steitz, J. A. (1998). Overexpression of HuR, a
@@ -1010,6 +1139,18 @@ analysis of mammalian translatomes on a genome-wide scale. \emph{Journal
 of Visualized Experiments: JoVE}, (87).
 \url{https://doi.org/10.3791/51455}
 
+\hypertarget{ref-Gingold2014}{}
+Gingold, H., Tehler, D., Christoffersen, N. R., Nielsen, M. M., Asmar,
+F., Kooistra, S. M., \ldots{} Pilpel, Y. (2014). A Dual Program for
+Translation Regulation in Cellular Proliferation and Differentiation.
+\emph{Cell}, \emph{158}(6), 1281--1292.
+\url{https://doi.org/10.1016/j.cell.2014.08.011}
+
+\hypertarget{ref-Goodenbour2006}{}
+Goodenbour, J. M., \& Pan, T. (2006). Diversity of tRNA genes in
+eukaryotes. \emph{Nucleic Acids Research}, \emph{34}(21), 6137--6146.
+\url{https://doi.org/10.1093/nar/gkl725}
+
 \hypertarget{ref-Graff2009}{}
 Graff, J. R., Konicek, B. W., Lynch, R. L., Dumstorf, C. A., Dowless, M.
 S., McNulty, A. M., \ldots{} Carter, J. H. (2009). eIF4E activation is
@@ -1036,6 +1177,12 @@ Hellen, C. U. T. (2018). Translation Termination and Ribosome Recycling
 in Eukaryotes. \emph{Cold Spring Harbor Perspectives in Biology},
 \emph{10}(10), a032656.
 \url{https://doi.org/10.1101/cshperspect.a032656}
+
+\hypertarget{ref-Hernandez-Alias2020}{}
+Hernandez-Alias, X., Benisty, H., Schaefer, M. H., \& Serrano, L.
+(2020). Translational efficiency across healthy and tumor tissues is
+proliferation-related. \emph{Molecular Systems Biology}, \emph{16}(3),
+e9275. \url{https://doi.org/10.15252/msb.20199275}
 
 \hypertarget{ref-Hinnebusch2006}{}
 Hinnebusch, A. G. (2006). eIF3: A versatile scaffold for translation
@@ -1065,6 +1212,12 @@ DEAD-box protein eIF4A into a sequence-selective translational
 repressor. \emph{Nature}, \emph{534}(7608), 558--561.
 \url{https://doi.org/10.1038/nature17978}
 
+\hypertarget{ref-Jackson2010a}{}
+Jackson, R. J., Hellen, C. U., \& Pestova, T. V. (2010). THE MECHANISM
+OF EUKARYOTIC TRANSLATION INITIATION AND PRINCIPLES OF ITS REGULATION.
+\emph{Nature Reviews. Molecular Cell Biology}, \emph{11}(2), 113--127.
+\url{https://doi.org/10.1038/nrm2838}
+
 \hypertarget{ref-Jia2021}{}
 Jia, J.-J., Lahr, R. M., Solgaard, M. T., Moraes, B. J., Pointet, R.,
 Yang, A.-D., \ldots{} Fonseca, B. D. (2021). mTORC1 promotes TOP mRNA
@@ -1086,6 +1239,12 @@ Satija, R., \ldots{} Regev, A. (2015). Dynamic profiling of the protein
 life cycle in response to pathogens. \emph{Science}, \emph{347}(6226).
 \url{https://doi.org/10.1126/science.1259038}
 
+\hypertarget{ref-Kalhor2003}{}
+Kalhor, H. R., \& Clarke, S. (2003). Novel Methyltransferase for
+Modified Uridine Residues at the Wobble Position of tRNA.
+\emph{Molecular and Cellular Biology}, \emph{23}(24), 9283--9292.
+\url{https://doi.org/10.1128/MCB.23.24.9283-9292.2003}
+
 \hypertarget{ref-Kapur2018}{}
 Kapur, M., \& Ackerman, S. L. (2018). mRNA Translation Gone Awry:
 Translation Fidelity and Neurological Disease. \emph{Trends in Genetics:
@@ -1097,6 +1256,13 @@ Kapur, M., Monaghan, C. E., \& Ackerman, S. L. (2017). Regulation of
 mRNA Translation in Neurons-A Matter of Life and Death. \emph{Neuron},
 \emph{96}(3), 616--637.
 \url{https://doi.org/10.1016/j.neuron.2017.09.057}
+
+\hypertarget{ref-Karlsborn2014}{}
+Karlsborn, T., Tükenmez, H., Mahmud, A. K. M. F., Xu, F., Xu, H., \&
+Byström, A. S. (2014). Elongator, a conserved complex required for
+wobble uridine modifications in Eukaryotes. \emph{RNA Biology},
+\emph{11}(12), 1519--1528.
+\url{https://doi.org/10.4161/15476286.2014.992276}
 
 \hypertarget{ref-Kimball2006}{}
 Kimball, S. R. (2006). Interaction between the AMP-Activated Protein
@@ -1115,6 +1281,13 @@ Kozak, M. (1986). Point mutations define a sequence flanking the AUG
 initiator codon that modulates translation by eukaryotic ribosomes.
 \emph{Cell}, \emph{44}(2), 283--292.
 \url{https://doi.org/10.1016/0092-8674(86)90762-2}
+
+\hypertarget{ref-Ladang2015}{}
+Ladang, A., Rapino, F., Heukamp, L. C., Tharun, L., Shostak, K.,
+Hermand, D., \ldots{} Chariot, A. (2015). Elp3 drives Wnt-dependent
+tumor initiation and regeneration in the intestine. \emph{The Journal of
+Experimental Medicine}, \emph{212}(12), 2057--2075.
+\url{https://doi.org/10.1084/jem.20142288}
 
 \hypertarget{ref-Lalanne2018}{}
 Lalanne, J.-B., Taggart, J. C., Guo, M. S., Herzel, L., Schieler, A., \&
@@ -1139,6 +1312,12 @@ Lee, L. J., Papadopoli, D., Jewer, M., Rincon, S. del, Topisirovic, I.,
 Lawrence, M. G., \& Postovit, L.-M. (2021). Cancer Plasticity: The Role
 of mRNA Translation. \emph{Trends in Cancer}, \emph{7}(2), 134--145.
 \url{https://doi.org/10.1016/j.trecan.2020.09.005}
+
+\hypertarget{ref-Leppek2018}{}
+Leppek, K., Das, R., \& Barna, M. (2018). Functional 5' UTR mRNA
+structures in eukaryotic translation regulation and how to find them.
+\emph{Nature Reviews. Molecular Cell Biology}, \emph{19}(3), 158--174.
+\url{https://doi.org/10.1038/nrm.2017.103}
 
 \hypertarget{ref-Levine1993}{}
 Levine, T. D., Gao, F., King, P. H., Andrews, L. G., \& Keene, J. D.
@@ -1236,6 +1415,12 @@ Ribosome profiling reveals post-transcriptional buffering of divergent
 gene expression in yeast. \emph{Genome Research}, \emph{24}(3),
 422--430. \url{https://doi.org/10.1101/gr.164996.113}
 
+\hypertarget{ref-Meyuhas2000}{}
+Meyuhas, O. (2000). Synthesis of the translational apparatus is
+regulated at the translational level. \emph{European Journal of
+Biochemistry}, \emph{267}(21), 6321--6330.
+\url{https://doi.org/10.1046/j.1432-1327.2000.01719.x}
+
 \hypertarget{ref-Moazed1989}{}
 Moazed, D., \& Noller, H. F. (1989). Intermediate states in the movement
 of transfer RNA in the ribosome. \emph{Nature}, \emph{342}(6246),
@@ -1251,6 +1436,12 @@ Munro, J. B., Altman, R. B., O'Connor, N., \& Blanchard, S. C. (2007).
 Identification of Two Distinct Hybrid State Intermediates on the
 Ribosome. \emph{Molecular Cell}, \emph{25}(4), 505--517.
 \url{https://doi.org/10.1016/j.molcel.2007.01.022}
+
+\hypertarget{ref-Nedialkova2015}{}
+Nedialkova, D. D., \& Leidel, S. A. (2015). Optimization of Codon
+Translation Rates via tRNA Modifications Maintains Proteome Integrity.
+\emph{Cell}, \emph{161}(7), 1606--1618.
+\url{https://doi.org/10.1016/j.cell.2015.05.022}
 
 \hypertarget{ref-Oertlin2019}{}
 Oertlin, C., Lorent, J., Murie, C., Furic, L., Topisirovic, I., \&
@@ -1298,6 +1489,12 @@ The Role of ABCE1 in Eukaryotic Posttermination Ribosomal Recycling.
 \emph{Molecular Cell}, \emph{37}(2), 196--210.
 \url{https://doi.org/10.1016/j.molcel.2009.12.034}
 
+\hypertarget{ref-Rapino2017}{}
+Rapino, F., Delaunay, S., Zhou, Z., Chariot, A., \& Close, P. (2017).
+tRNA Modification: Is Cancer Having a Wobble? \emph{Trends in Cancer},
+\emph{3}(4), 249--252.
+\url{https://doi.org/10.1016/j.trecan.2017.02.004}
+
 \hypertarget{ref-Rato2011}{}
 Rato, C., Amirova, S. R., Bates, D. G., Stansfield, I., \& Wallace, H.
 M. (2011). Translational recoding as a feedback controller: Systems
@@ -1322,6 +1519,13 @@ DeRisi, J. L., \& Fanidi, A. (2014). Transcriptome-wide characterization
 of the eIF4A signature highlights plasticity in translation regulation.
 \emph{Genome Biology}, \emph{15}(10), 476.
 \url{https://doi.org/10.1186/s13059-014-0476-1}
+
+\hypertarget{ref-Rudolph2016}{}
+Rudolph, K. L. M., Schmitt, B. M., Villar, D., White, R. J., Marioni, J.
+C., Kutter, C., \& Odom, D. T. (2016). Codon-Driven Translational
+Efficiency Is Stable across Diverse Mammalian Cell States. \emph{PLOS
+Genetics}, \emph{12}(5), e1006024.
+\url{https://doi.org/10.1371/journal.pgen.1006024}
 
 \hypertarget{ref-Ruggero2013}{}
 Ruggero, D. (2013). Translational control in cancer etiology. \emph{Cold
@@ -1353,6 +1557,12 @@ Wolf, J., \ldots{} Selbach, M. (2011). Global quantification of
 mammalian gene expression control. \emph{Nature}, \emph{473}(7347),
 337--342. \url{https://doi.org/10.1038/nature10098}
 
+\hypertarget{ref-Sharp1985}{}
+Sharp, S. J., Schaack, J., Cooley, L., Burke, D. J., \& Soil, D. (1985).
+Structure and Transcription of Eukaryotic tRNA Gene. \emph{Critical
+Reviews in Biochemistry}, \emph{19}(2), 107--144.
+\url{https://doi.org/10.3109/10409238509082541}
+
 \hypertarget{ref-Silva2016}{}
 Silva, G. M., \& Vogel, C. (2016). Quantifying gene expression: The
 importance of being subtle. \emph{Molecular Systems Biology},
@@ -1377,6 +1587,12 @@ translation termination in Saccharomyces cerevisiae. \emph{The EMBO
 Journal}, \emph{14}(17), 4365--4373.
 \url{https://doi.org/10.1002/j.1460-2075.1995.tb00111.x}
 
+\hypertarget{ref-Szavits-Nossan2020b}{}
+Szavits-Nossan, J., \& Evans, M. R. (2020). Dynamics of ribosomes in
+mRNA translation under steady- and nonsteady-state conditions.
+\emph{Physical Review E}, \emph{101}(6), 062404.
+\url{https://doi.org/10.1103/PhysRevE.101.062404}
+
 \hypertarget{ref-Taniuchi2016}{}
 Taniuchi, S., Miyake, M., Tsugawa, K., Oyadomari, M., \& Oyadomari, S.
 (2016). Integrated stress response of vertebrates is regulated by four
@@ -1400,6 +1616,11 @@ Warner, J. R., Rich, A., \& Hall, C. E. (1962). Electron Microscope
 Studies of Ribosomal Clusters Synthesizing Hemoglobin. \emph{Science},
 \emph{138}(3548), 1399--1403.
 \url{https://doi.org/10.1126/science.138.3548.1399}
+
+\hypertarget{ref-Watson1953}{}
+Watson, J. D., \& Crick, F. H. C. (1953). Molecular Structure of Nucleic
+Acids: A Structure for Deoxyribose Nucleic Acid. \emph{Nature},
+\emph{171}(4356), 737--738. \url{https://doi.org/10.1038/171737a0}
 
 \hypertarget{ref-Wilusz2001}{}
 Wilusz, C. J., Wormington, M., \& Peltz, S. W. (2001). The cap-to-tail
@@ -1431,11 +1652,24 @@ oligo-pyrimidine (TOP) genes and analysis of their characteristics.
 \emph{Nucleic Acids Research}, \emph{36}(11), 3707--3715.
 \url{https://doi.org/10.1093/nar/gkn248}
 
+\hypertarget{ref-Zhang2018}{}
+Zhang, Z., Ye, Y., Gong, J., Ruan, H., Liu, C.-J., Xiang, Y., \ldots{}
+Han, L. (2018). Global analysis of tRNA and translation factor
+expression reveals a dynamic landscape of translational regulation in
+human cancers. \emph{Communications Biology}, \emph{1}, 234.
+\url{https://doi.org/10.1038/s42003-018-0239-8}
+
 \hypertarget{ref-Zhong2017}{}
 Zhong, Y., Karaletsos, T., Drewe, P., Sreedharan, V. T., Kuo, D., Singh,
 K., \ldots{} Rätsch, G. (2017). RiboDiff: Detecting changes of mRNA
 translation efficiency from ribosome footprints. \emph{Bioinformatics
 (Oxford, England)}, \emph{33}(1), 139--141.
 \url{https://doi.org/10.1093/bioinformatics/btw585}
+
+\hypertarget{ref-Zinshteyn2013}{}
+Zinshteyn, B., \& Gilbert, W. V. (2013). Loss of a Conserved tRNA
+Anticodon Modification Perturbs Cellular Signaling. \emph{PLOS
+Genetics}, \emph{9}(8), e1003675.
+\url{https://doi.org/10.1371/journal.pgen.1003675}
 
 \end{document}

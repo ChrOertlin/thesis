@@ -11,7 +11,7 @@ linestretch: 1.5
 geometry: "left=4cm, right=3cm, top=2.5cm, bottom=2.5cm"
 ---
 
-\pagenumbering{gobble}
+\pagenumbering{roman}
 
 \begin{center}
 
@@ -23,7 +23,7 @@ Karolinska Institutet, Stockholm, Sweden\\
 \vspace{75px}
 
 \begin{Large}
-\textbf{EXPLORING GENE EXPRESSION PROGRAMS IN CANCER}
+\textbf{EXPLORING GENE EXPRESSION PROGRAMS}
 \end{Large}
 
 \vspace{25px}
@@ -46,15 +46,15 @@ Stockholm 2021
 \clearpage
 
 \vspace*{\fill}
-TBD\newline
-TBD\newline
+\copyright 2021 Christian Oertlin\newline
+All previously published papaers were reproduced with permission\newline
 Published by Karolinska Institutet\newline
-TBD\newline
-TBD
+Printed by US-AB\newline
+ISBN
 
 \clearpage
 
-Exploring Gene Expression Programs in Cancer
+Exploring Gene Expression Programs
 
 THESIS FOR DOCTORAL DEGREE (Ph.D.)
 
@@ -77,22 +77,22 @@ Department of Oncology\\
 \end{minipage}
 \begin{minipage}[t]{0.55\textwidth}
 \textit{Opponent:}\\
-TBD\\
-TBD\\
-TBD\\
+Prof. Alessandro Quattrone\\
+University of Trento\\
+Department of Cellular, Computational and Integrative Biology\\
 
 \textit{Examination Board:}\\
-TBD\\
-TBD\\
-TBD\\
+Prof. Lukas Käll\\
+Kungliga Tekniska Högskolan\\
+Division of Gene Technology\\
 
-TBD\\
-TBD\\
-TBD\\
+Prof. Arne Östman\\
+Karolinska Institutet\\
+Department of Oncology\\
 
-TBD\\
-TBD\\
-TBD\\
+Prof. Rickard Sandberg\\
+Karolinska Institutet\\
+Department of Cell and Molecular Biology\\
 
 \end{minipage}
 \end{small}
@@ -108,16 +108,18 @@ placeholder
 
 **Oertlin Christian** , Lorent Julie , Murie Carl , Furic Luc , Topisirovic Ivan & Larsson Ola. (2019). Generally applicable transcriptome-wide analysis of translation using anota2seq. Nucleic acids research. 47. 10.1093/nar/gkz223. 
 
-Chan Karina$^\dagger$ , Robert Francis$^\dagger$ , **Oertlin, Christian**$^\dagger$ , Kapeller-Libermann Dana$^\dagger$ , Avizonis Daina , Gutierrez Johana , Handly-Santana Abram , Doubrovin Mikhail , Park Julia , Schoepfer Christina , Silva Brandon , Yao Melissa , Gorton Faith , Shi Junwei , Thomas Craig , Brown Lauren , Porco John , Pollak Michael , Larsson Ola & Chio Iok In Christine. (2019). eIF4A supports an oncogenic translation program in pancreatic ductal adenocarcinoma. Nature Communications. 10. 5151. 10.1038/s41467-019-13086-5. $^\dagger$Equal contribution.
+Chan Karina$^\dagger$ , Robert Francis$^\dagger$ , **Oertlin Christian**$^\dagger$ , Kapeller-Libermann Dana$^\dagger$ , Avizonis Daina , Gutierrez Johana , Handly-Santana Abram , Doubrovin Mikhail , Park Julia , Schoepfer Christina , Silva Brandon , Yao Melissa , Gorton Faith , Shi Junwei , Thomas Craig , Brown Lauren , Porco John , Pollak Michael , Larsson Ola & Chio Iok In Christine. (2019). eIF4A supports an oncogenic translation program in pancreatic ductal adenocarcinoma. Nature Communications. 10. 5151. 10.1038/s41467-019-13086-5. $^\dagger$Equal contribution.
 
-\vspace{50px}
 
-# List of additional publications
+\clearpage
+
+# Other publications or works
 
 Hipolito Victoria , Diaz Jacqueline , Tandoc Kristofferson , **Oertlin Christian** , Ristau Johannes , Chauhan Neha , Saric Amra , Mclaughlan Shannon , Larsson Ola , Topisirovic Ivan & Botelho Roberto. (2019). Enhanced translation expands the endo-lysosome size and promotes antigen presentation during phagocyte activation. PLOS Biology. 17. e3000535. 10.1371/journal.pbio.3000535. 
 
 Liang Shuo , Bellato Hermano , Lorent Julie , Lupinacci Fernanda , **Oertlin Christian** , Hoef Vincent , Andrade Victor , Roffé Martín , Masvidal Laia , Hajj Glaucia & Larsson, Ola. (2017). Polysome-profiling in small tissue samples. Nucleic acids research. 46. 10.1093/nar/gkx940. 
 
+Sophie   Kaspar,  **Christian Oertlin**,   Alexandra   Kukat   Katharina   Senft,   Karolina   SzczepanowskaChristina Lucas, Susanne Brodesser, Maria Hatzoglou, Ola Larsson, Ivan Topisirovic, and AleksandraTrifunovic,   Adaptation   to   mitochondrial   stress   requires   CHOP-directed   tuning   of   ISR,   in  review, Science Advances
 
 
 
