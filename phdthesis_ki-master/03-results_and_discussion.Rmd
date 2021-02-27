@@ -4,3 +4,16 @@ output: pdf_document
 
 
 \chapter{Results and discussion}
+
+\section{Generally applicable transcriptome-wide analysis of translation using anota2seq}
+
+Initially changes in translation efficiencies were estimated using the TE-score approach as outlined in section \ref{algorithm}. However, this method was being shown to be prone to identification of spurious correlations leading to elevated false positive identification that can result in false biological conclusions [@Larsson2010]. The identification of spurious correlations, when using the TE-score, can be attributed the inadequate correction for changes in total mRNA levels when estimating translation efficiencies [@Larsson2010,@Larsson2011]. The Analysis of Translation Activity (anota) algorithm was developed to facilitate analysis of translational efficiencies that are corrected for changes in total mRNA levels and therefore is not prone to spurious correlations[@Larsson2011]. 
+
+anota was developed for analysis of transcriptome-wide analysis for data quantified by DNA- microarrays. However, advances in experimental methodologies lead to the development in RNA sequencing. RNA sequencing and DNA microarray data have distinct characteristics that need to be accounted for before analysis (**see section \ref{algorithm}**). Therefore, while the statistical framework of anota2seq had been shown as an adequate approach for analysis of translational efficiencies for data from DNA microarrays it was not directly applicable to RNA sequencing data.  
+
+translational buffering (tebaldi,dassi,quattrone)
+
+development anota2seq
+
+approach using simulated data
+
