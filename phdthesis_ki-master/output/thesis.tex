@@ -829,7 +829,7 @@ the proteome is expected. The underlying biological implication for this
 mode mRNAs is often related to transcription (\textbf{See figure
 \ref{modes}}).
 
-\subsection{Translational buffering}
+\subsection{Translational buffering} \label{modeBuffering}
 
 In recent years, evidence emerged where translation efficiencies of
 mRNAs can be altered to compensate for changes in total mRNA levels.
@@ -867,15 +867,16 @@ compensates the transcriptional input at the translational level(Lalanne
 et al., 2018).
 
 A different form of translational buffering can be observed at in
-perturbed systems. In prostate cancer cells a transcriptional program
-was induced under estrogen receptor\(\alpha\) (ER\(\alpha\)) depletion
-that was offset at the level of translation. mRNAs whose transcription
-was induced required the tRNA u34 modification, of which the catalytic
-enzymes were dependent on ER\(\alpha\), for efficient translation
-(Lorent et al., 2019). In \textbf{study 3} we discuss the occurence of
-translational buffering in its ``offset'' context.
+perturbed systems. For example, in prostate cancer cells a
+transcriptional program was induced under estrogen receptor\(\alpha\)
+(ER\(\alpha\)) depletion that was offset at the level of translation.
+mRNAs whose transcription was induced required the tRNA u34
+modification, of which the catalytic enzymes were dependent on
+ER\(\alpha\), for efficient translation (Lorent et al., 2019). In
+\textbf{study 3} we discuss the occurence of translational buffering in
+its ``offset'' context.
 
-\section{Algorithms for analysis of changes in translation efficiencies}
+\section{Algorithms for analysis of changes in translation efficiencies}\label{algorithm}
 
 Given these multiple roles of mRNA translation to regulate the proteome
 it is critical to distinguish them as their underlying mechanisms can
@@ -922,7 +923,7 @@ Activity (anota) algorithm which was developed for DNA-microarray data
 (Larsson, Sonenberg, \& Nadon, 2011). anota combines analysis of partial
 variance (APV)(Schleifer, Eckholdt, Cohen, \& Keller, 1993) with a
 random variance model (RVM)(Wright \& Simon, 2003). RVM estimates gene
-variance using shared informatio across all genes to increase power for
+variance using shared information across all genes to increase power for
 detection of differential expression(Wright \& Simon, 2003). anota uses
 a two-step process that firstly assesses the model assumptions for (i)
 absence of highly influential data points, (ii) common slopes of sample
@@ -986,9 +987,10 @@ which assumes that the variance is equal to the mean(J. Lu et al.,
 and DESeq2 use negative binomial distributions in combination with
 generalized linear models (GLMs) (Robinson, McCarthy, \& Smyth, 2010,
 Love, Huber, \& Anders (2014)). The negative binomial distribution uses
-a dispersion parameter to account for overdispersion (McCarthy, Chen, \&
-Smyth, 2012). While analysis principles of DESeq2 and edgeR are similar
-they differ in their normalisation method, dispersion estimation and
+a dispersion parameter to account for differences in the mean-variance
+relationship across the expression range (McCarthy, Chen, \& Smyth,
+2012). While analysis principles of DESeq2 and edgeR are similar they
+differ in their normalisation method, dispersion estimation and
 information sharing across genes. In a simple differential expression
 analysis between two conditions with one RNA type the GLM model would be
 as in the following equation:
@@ -1055,6 +1057,101 @@ In \textbf{Study III} we explored the effects of insulin on gene
 expression in multiple cell lines.
 
 \chapter{Results and discussion}
+
+\section{Generally applicable transcriptome-wide analysis of translation using anota2seq}
+
+Initially changes in translation efficiencies were estimated using the
+TE-score approach as outlined in section \ref{algorithm}. However, this
+method was being shown to be prone to identification of spurious
+correlations leading to elevated false positive identification that can
+result in false biological conclusions (Larsson et al., 2010). The
+identification of spurious correlations, when using the TE-score, can be
+attributed the inadequate correction for changes in total mRNA levels
+when estimating translation efficiencies (Larsson et al., 2010,Larsson
+et al. (2011)). The Analysis of Translation Activity (anota) algorithm
+facilitates analysis of translational efficiencies that are corrected
+for changes in total mRNA levels and therefore is not prone to spurious
+correlations(Larsson et al., 2011).
+
+anota was developed for analysis of transcriptome-wide analysis for data
+quantified by DNA- microarrays (Larsson et al., 2010). However, advances
+in experimental methodologies lead to the development in RNA sequencing.
+RNA sequencing and DNA microarray data have distinct characteristics
+that need to be accounted for before analysis (\textbf{see section
+\ref{algorithm}}). Therefore, while the statistical framework of anota
+had been shown as an adequate approach for analysis of translational
+efficiencies for data from DNA microarrays it was not directly
+applicable to RNA sequencing data. The characteristic of RNA sequencing
+data, that makes applying anota directly not possible, is the mean
+variance relationship. This encompasses that the counts for lower
+expressed genes show higher variability than counts for higher expressed
+genes even after log transformation. Efforts have been made to make RNA
+sequencing data more DNA- microarray like so that algorithms developed
+for intensity based microarray data can be applied to count based RNA
+sequencing data (Law, Chen, Shi, \& Smyth, 2014,Love et al. (2014)).
+Anota2seq, the algorithm developed in this study, allows for
+transformation and normalisation of RNA sequencing data so that the
+anota statistical frame work can be applied for analysis of count data
+(Oertlin et al., 2019).
+
+Another feature of anota2seq is that it allows for statistical analysis
+of translational buffering. The need for the analysis of translational
+buffering, or the uncoupling of transcription from translation, has been
+noted before anota2seq's development by comparing 20 translatomes and
+transcriptomes with different underlying stimuli in mammalian cells
+(Tebaldi et al., 2012). The same authors proposed a framework, called
+tRanslatome, that combines several methodologies for analysis of
+differential transcription and translation efficiencies, including
+anota, for a comprehensive analysis of transcription and translation as
+well as their underlying mechanisms (Tebaldi, Dassi, Kostoska, Viero, \&
+Quattrone, 2014).
+
+\begin{wrapfigure}{o}{0.5\textwidth}
+  \includegraphics{./figures/geneModes_anota2seq.pdf}
+  \caption{anota2seq gene model for analysis of translational buffering /offsetting - Total mRNA expression is set out against translated mRNA expression for each biological replicate and treatment condition. The model shows total mRNA changes that are independent of translated mRNA changes which is classified as translational buffering. It is important to distinguish between the gene modes as their regulation could be due to different underlying biological mechanisms (**see section \ref{modes}**).
+  \label{fig:anota2seq}}
+\end{wrapfigure}
+
+Nevertheless, commonly observed in polysome and ribosome profiling data
+sets are three gene expression modes, translation, translational
+buffering and mRNA abundance. While anota can be used to identify genes
+among the translation and mRNA abundance mode, analysis for
+translational buffering was not implemented (\textbf{See Figure
+\ref{fig:anota}}). Anota2seq addresses this issue by changing the
+analysis model as described in section \ref{algorithm} to analyse
+changes in total mRNA levels corrected for changes in translated mRNA
+levels (i.e.~translational buffering, \textbf{see figure
+\ref{fig:anota2seq}}). Appliance of anota2seq has successfuly identified
+translational buffering in various context to which biological
+mechanisms could be linked. As mentioned earlier a transcriptome induced
+in prostate cancer was translationally buffered under ER\(\alpha\)
+depletion (\textbf{see section \ref{modeBuffering}}) (Lorent et al.,
+2019). Furthermore, in \textbf{study 2} translational buffering can be
+observed as a compensating mechanisms in ``healthy'' cells upon
+treatment with a eIF4A inhibitor and in \textbf{study 3} we identify
+mTOR dependent translational buffering for mRNAs with certain 3' UTR
+charactersitics.
+
+The aim of this study is to compare anota2seq's performance to other
+established algorithms for analysis of translation efficiencies,
+specifically their ability to distinguish the three prominent modes of
+gene expression. To achieve we used a simulated data based approach.
+While it is arguable to what extent conclusion drawn from simulated data
+can be extended towards empircal data it allows for a controlled
+environment where true positive changes are known in advance.
+Furthermore, the mean-variance relationship in the simulated data is
+based on a real polysome profiling data set to increase confidence that
+drawn conclusions are applicable to emprical data (Guan et al., 2017).
+
+We simulated multiple data sets that followed the following approach:
+Four replicates for a ``control'' and a ``treatment'' condition for both
+translated and total mRNA expression
+
+translational buffering (tebaldi,dassi,quattrone)
+
+development anota2seq
+
+approach using simulated data
 
 \chapter{Conclusions}
 
@@ -1459,6 +1556,12 @@ H. K., \ldots{} Marcotte, E. M. (2010). Protein abundances are more
 conserved than mRNA abundances across diverse taxa. \emph{Proteomics},
 \emph{10}(23), 4209--4212. \url{https://doi.org/10.1002/pmic.201000327}
 
+\hypertarget{ref-Law2014}{}
+Law, C. W., Chen, Y., Shi, W., \& Smyth, G. K. (2014). Voom: Precision
+weights unlock linear model analysis tools for RNA-seq read counts.
+\emph{Genome Biology}, \emph{15}(2), R29.
+\url{https://doi.org/10.1186/gb-2014-15-2-r29}
+
 \hypertarget{ref-Lee2005}{}
 Lee, J. W., Soung, Y. H., Kim, S. Y., Lee, H. W., Park, W. S., Nam, S.
 W., \ldots{} Lee, S. H. (2005). PIK3CA gene is frequently mutated in
@@ -1807,6 +1910,19 @@ Taniuchi, S., Miyake, M., Tsugawa, K., Oyadomari, M., \& Oyadomari, S.
 (2016). Integrated stress response of vertebrates is regulated by four
 eIF2\(\alpha\) kinases. \emph{Scientific Reports}, \emph{6}, 32886.
 \url{https://doi.org/10.1038/srep32886}
+
+\hypertarget{ref-Tebaldi2014}{}
+Tebaldi, T., Dassi, E., Kostoska, G., Viero, G., \& Quattrone, A.
+(2014). tRanslatome: An R/Bioconductor package to portray translational
+control. \emph{Bioinformatics}, \emph{30}(2), 289--291.
+\url{https://doi.org/10.1093/bioinformatics/btt634}
+
+\hypertarget{ref-Tebaldi2012}{}
+Tebaldi, T., Re, A., Viero, G., Pegoretti, I., Passerini, A., Blanzieri,
+E., \& Quattrone, A. (2012). Widespread uncoupling between transcriptome
+and translatome variations after a stimulus in mammalian cells.
+\emph{BMC Genomics}, \emph{13}(1), 220.
+\url{https://doi.org/10.1186/1471-2164-13-220}
 
 \hypertarget{ref-Thoreen2012}{}
 Thoreen, C. C., Chantranupong, L., Keys, H. R., Wang, T., Gray, N. S.,
