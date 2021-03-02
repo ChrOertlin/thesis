@@ -5,7 +5,7 @@ output: pdf_document
 
 \chapter{Results and discussion}
 
-\section{Generally applicable transcriptome-wide analysis of translation using anota2seq}
+\section{Study 1 - Generally applicable transcriptome-wide analysis of translation using anota2seq}
 
 Initially changes in translation efficiencies were estimated using the TE-score approach as outlined in section \ref{algorithm}. However, this method was being shown to be prone to identification of spurious correlations leading to elevated false positive identification that can result in false biological conclusions [@Larsson2010]. The identification of spurious correlations, when using the TE-score, can be attributed the inadequate correction for changes in total mRNA levels when estimating translation efficiencies [@Larsson2010,@Larsson2011]. The Analysis of Translation Activity (anota) algorithm facilitates analysis of translational efficiencies that are corrected for changes in total mRNA levels and therefore is not prone to spurious correlations[@Larsson2011]. 
 
@@ -19,11 +19,11 @@ Another feature of anota2seq is that it allows for statistical analysis of trans
   \label{fig:anota2seq}}
 \end{wrapfigure}
 
-Nevertheless, the commonly observed in polysome and ribosome profiling data sets include three gene expression modes, translation, translational buffering and mRNA abundance. While anota can be used to identify genes among the translation and mRNA abundance mode, analysis for translational buffering was not implemented therein (*See Figure \ref{fig:anota}*). Therefore, one would need to rely on the integration of several methods to efficiently analyse transcriptome-wide studies of translation efficiences. Anota2seq addresses this issue by changing the analysis model as described in section \ref{algorithm} to analyse changes in total mRNA levels corrected for changes in translated mRNA levels (i.e. translational buffering, **see figure \ref{fig:anota2seq}**). 
+Nevertheless, commonly observed in polysome and ribosome profiling data sets are three gene expression modes, translation, translational buffering and mRNA abundance. While anota can be used to identify genes among the translation and mRNA abundance mode, analysis for translational buffering was not implemented therein (*See Figure \ref{fig:anota}*). Therefore, one would need to rely on the integration of several methods to efficiently analyse transcriptome-wide studies of translation efficiences. Anota2seq addresses this issue by changing the analysis model as described in section \ref{algorithm} to analyse changes in total mRNA levels corrected for changes in translated mRNA levels (i.e. translational buffering, **see figure \ref{fig:anota2seq}**). 
 
-Appliance of anota2seq has successfuly identified translational buffering in various context to which biological mechanisms could be linked. As mentioned earlier a transcriptome induced in prostate cancer was translationally buffered under ER\(\alpha\) depletion (**see section \ref{modeBuffering}**) [@Lorent2019]. Furthermore, in **study 2** translational buffering can be observed as a compensating mechanisms in "healthy" cells upon treatment with a eIF4A inhibitor and in **study 3** we identify  mTOR dependent translational buffering for mRNAs with certain 3' UTR charactersitics.
+Appliance of anota2seq has successfuly identified translational buffering to which biological mechanisms could be linked,e.g. as mentioned earlier translationally bufferring under ER\(\alpha\) depletion in prostate cancer (**see section \ref{modeBuffering}**) [@Lorent2019]. Furthermore, in **study 2** translational buffering can be observed as a compensating mechanisms in "healthy" cells upon treatment with an eIF4A inhibitor and in **study 3** we identify  mTOR dependent translational buffering for mRNAs with certain 3' UTR charactersitics.
 
-The aim of this study is to compare anota2seq's performance to other established algorithms (i.e. DESeq2, RiboDiff, babel, TE-score and Xtail) for analysis of translation efficiencies, specifically their ability to distinguish the three prominent modes of gene expression. To achieve we used a simulated data based approach. While it is arguable to what extent conclusion drawn from simulated data can be extended towards empircal data it allows for a controlled environment where true positive changes are known in advance. Furthermore, the mean-variance relationship in the simulated data is based on a real polysome profiling data set to increase confidence that drawn conclusions are applicable to emprical data [@Guan2017].
+The aim of this study is to compare anota2seq's performance to other established algorithms (i.e. DESeq2, RiboDiff, babel, TE-score and Xtail) for analysis of translation efficiencies, specifically their ability to distinguish the three prominent modes of gene expression. To achieve we used a simulated data based approach. While it is arguable to what extent conclusion drawn from simulated data can be extended towards empircal data it allows for a controlled environment where true positive changes are known in advance. Furthermore, the mean-variance relationship in the simulated data is based on a real polysome profiling data set to increase confidence that drawn conclusions are also applicable to emprical data [@Guan2017].
 
 The simulated data consisted of four replicates for translated mRNA and total mRNA with a "control" and a "treatment" condition. Furthermore, the data sets contained a combination of the following gene sets:
 
@@ -35,15 +35,21 @@ The simulated data consisted of four replicates for translated mRNA and total mR
 
 "buffering": For this category the control condition for both the translated mRNA and total mRNA were drawn from the same NB distribution. The NB distribution for *total mRNA only* of the treatment condition was altered so that values would be drawn corresponding to a fold change (negative or positive) ranging between 1.5 to 3.0.
 
-As a first step we tested whether the methods could properly control for type-1 errors (i.e. false positive identifcation). For this we simulated a data set with genes belonging only to the "unchanged" category. This revealed that babel, but to an even greater extent Xtail, were unable to control their type-1 error as these methods assigned low p-values and FDRs when no real changes were present. This already indicated a limited applicability of Xtail and babel for statistical analysis of translatomes.
+As a first step we tested whether the methods could properly control for type-1 errors (i.e. false positive identifcation). For this we simulated a data set with genes belonging only to the "unchanged" category. This revealed that babel, but to an even greater extent Xtail, were unable to control their type-1 error as these methods assigned low p-values and FDRs when no real changes were present. This indicated a limited applicability of Xtail and babel for statistical analysis of translatomes.
 
 From the comparative analysis  of the analysis for changes in translation efficiencies affecting protein levels we concluded that anota2seq outperforms all other methods. This was assessed by comparing the area under the curve from Receiver operating characteristics (ROC) and precision recall curves. The ROC curves showed a, albeit slightly, better performance for detecting changes in translation. However, the precision recall was much higher for anota2seq which can be accredited to that the analysis principle of the other methods is based on identifying changes regardless of whether the change is in the translated mRNA or total mRNA (*as explained in section \ref{algorithm}*). Nevertheless, when comparing the performance using simulatd data in the absence of genes belonging to the "buffering" category anota2seq still showed superior performance. 
 
-Next to the a prior knowledge of the introduced changes in the simulation data, it also allows us to modify parameters to investigate the robustness of the methods to increased variance, overall sequencing depth and sequencing depth between samples as well as replication. Here, all methods showed robustness against these parameters as long as there was an overall sequencing depth of at least 5 million reads. 
+Next to the a prior knowledge of the introduced changes in the simulation data, it also allowed us to modify parameters to investigate the robustness of the methods to increased variance, overall sequencing depth and differing sequencing depth between samples. Here, all methods showed robustness against variance and sequencing depth differences between samples as long as a minimum of 5 million counts per sample was reached. 
+
+A short coming in the simulation study is that we did not assess the effects of systematic batch effects. Batch effects can be introduced e.g. during experimental design and there are many methods that try to correct for these[@Johnson2007,@Leek2014,@Zhang2020]. Other ways to correct for batch effects is their inclusion in the analysis model, which can be supplied to the analysis model in DESeq2, edgeR as well as anota2seq. Indeed analysis of a dataset with prominent batch effects showed that batch effects can dampen the efficiency of the anota2seq algorithm to identify changes but can be effectively corrected for in the algorithm.
+
+In this study we developed an analysis algorithm for efficient transcriptome-wide analysis of translation efficiencies applicable to DNA-microarrays and RNA seq. Furthermore, anota2seq has been successfully applied to broaden the knowledge around mRNA translation in various different contexts [@Lorent2019,@Chan2019,@Hipolito2019,@Chaparro2020]. 
+
+
+\section{Study 2 - eIF4A supports an oncogenic translation program in pancreatic ductal adenocarcinoma}
 
 
 
-
-
-
+\section{Study 3 - mTOR-dependent translational buffering overrides transcriptome alterations leading to
+maintained proteome composition}
 
