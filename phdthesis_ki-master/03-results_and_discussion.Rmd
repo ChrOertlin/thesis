@@ -60,6 +60,9 @@ The aim of *study 2* was to investigate the therapeutic effects oftargetting of 
 
 Using polysome profiling we then sought to decipher the mechanisms explaining the increased sensivity to CR-31 in KP organoids.  First we investigated the differences in gene expression between untreated KP and N organoids. Analysis of changes in translation efficiencies using anota2seq revealed massive modulation at both transcription and translation indicative of the underlying differences in e.g. genomic stability and enhanced oncogenic signalling impinging on protein synthesis. Consistent with the OP-puromycin incorporation and SUNsET experiments, CR-31 had only little effect on translation in N organoids, whereas in KP organoids exclusively changes in translation were detected.
 
+We then compared the mRNAs affected by CR-31 in KP to the acquired translational profile of untreated KP and N organoids. In order to achieve this we visualised the mRNAs affected by CR-31 in KP onto the data of the untreated KP vs N organoids comparison. This revealed that the acquired translational program of KP organoids is reversed when treated with CR-31. 
+
+Performing a similar analysis, we visualised mRNAs sensitive to CR-31 in KP onto the data of the CR-31 treated N organoids. mRNAs affected by CR-31 in KP were translationally buffered in CR-31 treated N organoids. Translational buffering, as an adaptive response to treatment, has been shown to maintain protein homeostasis by inducing a transcriptional response increasing the pool of mRNAs that can be translated [@Lorent2019]. This could partially explain as to why CR-31 does not reduce protein synthesis in N organoids to a similar extent as in KP organoids. 
 
 
 
