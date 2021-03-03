@@ -172,7 +172,7 @@ that observed a poor mRNA to protein correlation and indicated a larger
 role of post transcriptional regulation in gene expression than
 previously assumed (J. Lu, Tomfohr, \& Kepler, 2005,Vogel \& Marcotte
 (2012),de Sousa Abreu, Penalva, Marcotte, \& Vogel (2009),Schwanhäusser
-et al. (2011),Silva \& Vogel (2016)).
+et al. (2011),G. M. Silva \& Vogel (2016)).
 
 The debate on which step of the gene expression pathway contributes most
 is ongoing, nevertheless an understanding has been reached that the
@@ -431,12 +431,12 @@ Weinberg, 2011).
 \subsubsection{Global regulation of translation via mTOR}
 
 mTOR regulates mRNA translation mainly by mediating availability of
-eIF4E by phosphorylating 4E binding proteins (4E-BPs)(Gingras et al.,
-1999). eIF4E is required for mRNA 5' cap binding and formation of the
-mRNA translation eIF4F complex. Therefore, inhibtion of mTOR leads to a
-down regulation of cap dependent mRNA translation initiation. eIF4E has
-overexpression is commonly found cancers and targetted using
-4E-antisense oligonucleotides as anti-cancer therapy (Hong et al.,
+eIF4E by phosphorylating 4E binding proteins (4E-BPs)(A.-C. Gingras et
+al., 1999). eIF4E is required for mRNA 5' cap binding and formation of
+the mRNA translation eIF4F complex. Therefore, inhibtion of mTOR leads
+to a down regulation of cap dependent mRNA translation initiation. eIF4E
+has overexpression is commonly found cancers and targetted using
+4E-antisense oligonucleotides as anti-cancer therapy (D. S. Hong et al.,
 2011). Other downstream targets of mTOR such as S6k which has been shown
 to regulate components of the translation machinery, e.g.~by activiation
 of programmed cell death protein 4(PDCD4) which disrupts eIF4G-eIF4A
@@ -542,7 +542,7 @@ two distinct translational programs dependent on tRNA expression. This
 model has been disputed and that the observed differences would be
 attributed to GC content in the mRNA (Rudolph et al., 2016).
 Nevertheless, abbarent tRNA expression and codon usage have been
-reported in cancer(Zhang et al., 2018). Furthermore, a comprehensive
+reported in cancer(Z. Zhang et al., 2018). Furthermore, a comprehensive
 study including small RNAseq (i.e.~for identification of tRNAs) and
 protein samples across 17 tissues obtained from the The Cancer Genome
 Atlas (TCGA) reported a tRNA signature stratified by Ki67 (a
@@ -550,7 +550,7 @@ proliferation marker) staining with implications for patient
 survival(Hernandez-Alias, Benisty, Schaefer, \& Serrano, 2020).
 Therefore, while a consensus on proliferation specific tRNA subsets
 might not have been reached, emerging evidence implicates a role thereof
-in cancer(Hernandez-Alias et al., 2020,Gingold et al. (2014),Zhang et
+in cancer(Hernandez-Alias et al., 2020,Gingold et al. (2014),Z. Zhang et
 al. (2018)).
 
 Other reports of translational intereference by tRNAs in cacner are
@@ -922,14 +922,15 @@ The TE-score approach was challenged by the Analysis of Translation
 Activity (anota) algorithm which was developed for DNA-microarray data
 (Larsson, Sonenberg, \& Nadon, 2011). anota combines analysis of partial
 variance (APV)(Schleifer, Eckholdt, Cohen, \& Keller, 1993) with a
-random variance model (RVM)(Wright \& Simon, 2003). RVM estimates gene
-variance using shared information across all genes to increase power for
-detection of differential expression(Wright \& Simon, 2003). anota uses
-a two-step process that firstly assesses the model assumptions for (i)
-absence of highly influential data points, (ii) common slopes of sample
-classes, (iii) homoscedasticity of residuals and (iv) normal
-distribution of per gene residuals. In the second step then performs
-analysis of changes in translational activity using the following model:
+random variance model (RVM)(G. W. Wright \& Simon, 2003). RVM estimates
+gene variance using shared information across all genes to increase
+power for detection of differential expression(G. W. Wright \& Simon,
+2003). anota uses a two-step process that firstly assesses the model
+assumptions for (i) absence of highly influential data points, (ii)
+common slopes of sample classes, (iii) homoscedasticity of residuals and
+(iv) normal distribution of per gene residuals. In the second step then
+performs analysis of changes in translational activity using the
+following model:
 
 \[log(y_{gi}) = \beta_g^{RNA}\ X_i^{RNA}+ \beta_g^{cond}\ X_i^{cond} + \varepsilon_{gi}\]
 
@@ -1021,7 +1022,7 @@ involving 2 or more treatment conditions, Riborex and Ribodiff limit the
 study design to only two conditions. DeltaTE gives their users full
 flexibility of the DESeq2 GLM model. Xtail is a method developed for
 ribosome profiling that makes use of DESeq2 for RNAseq count
-normalisation (Xiao, Zou, Liu, \& Yang, 2016). Their assessment of
+normalisation (Z. Xiao, Zou, Liu, \& Yang, 2016). Their assessment of
 differences in translation efficiencies relies on probability matrices
 for the ratio of translated mRNA over total mRNA within condition and a
 between condition ratio of these ratios. Babel was the first algorithm
@@ -1058,7 +1059,7 @@ expression in multiple cell lines.
 
 \chapter{Results and discussion}
 
-\section{Generally applicable transcriptome-wide analysis of translation using anota2seq}
+\section{Study 1 - Generally applicable transcriptome-wide analysis of translation using anota2seq}
 
 Initially changes in translation efficiencies were estimated using the
 TE-score approach as outlined in section \ref{algorithm}. However, this
@@ -1091,8 +1092,7 @@ for intensity based microarray data can be applied to count based RNA
 sequencing data (Law, Chen, Shi, \& Smyth, 2014,Love et al. (2014)).
 Anota2seq, the algorithm developed in this study, allows for
 transformation and normalisation of RNA sequencing data so that the
-anota statistical frame work can be applied for analysis of count data
-(Oertlin et al., 2019).
+anota statistical frame work can be applied for analysis of count data.
 
 Another feature of anota2seq is that it allows for statistical analysis
 of translational buffering. The need for the analysis of translational
@@ -1108,7 +1108,7 @@ Quattrone, 2014).
 
 \begin{wrapfigure}{o}{0.5\textwidth}
   \includegraphics{./figures/geneModes_anota2seq.pdf}
-  \caption{anota2seq gene model for analysis of translational buffering /offsetting - Total mRNA expression is set out against translated mRNA expression for each biological replicate and treatment condition. The model shows total mRNA changes that are independent of translated mRNA changes which is classified as translational buffering. It is important to distinguish between the gene modes as their regulation could be due to different underlying biological mechanisms (**see section \ref{modes}**).
+  \caption{anota2seq gene model for analysis of translational buffering /offsetting - Total mRNA expression is set out against translated mRNA expression for each biological replicate and treatment condition. The model shows total mRNA changes that are independent of translated mRNA changes which is classified as translational buffering. It is important to distinguish between the gene modes as their regulation could be due to different underlying biological mechanisms (see section \ref{modes}).
   \label{fig:anota2seq}}
 \end{wrapfigure}
 
@@ -1116,42 +1116,316 @@ Nevertheless, commonly observed in polysome and ribosome profiling data
 sets are three gene expression modes, translation, translational
 buffering and mRNA abundance. While anota can be used to identify genes
 among the translation and mRNA abundance mode, analysis for
-translational buffering was not implemented (\textbf{See Figure
-\ref{fig:anota}}). Anota2seq addresses this issue by changing the
+translational buffering was not implemented therein (\emph{See Figure
+\ref{fig:anota}}). Therefore, one would need to rely on the integration
+of several methods to efficiently analyse transcriptome-wide studies of
+translation efficiences. Anota2seq addresses this issue by changing the
 analysis model as described in section \ref{algorithm} to analyse
 changes in total mRNA levels corrected for changes in translated mRNA
 levels (i.e.~translational buffering, \textbf{see figure
-\ref{fig:anota2seq}}). Appliance of anota2seq has successfuly identified
-translational buffering in various context to which biological
-mechanisms could be linked. As mentioned earlier a transcriptome induced
-in prostate cancer was translationally buffered under ER\(\alpha\)
-depletion (\textbf{see section \ref{modeBuffering}}) (Lorent et al.,
-2019). Furthermore, in \textbf{study 2} translational buffering can be
-observed as a compensating mechanisms in ``healthy'' cells upon
-treatment with a eIF4A inhibitor and in \textbf{study 3} we identify
-mTOR dependent translational buffering for mRNAs with certain 3' UTR
-charactersitics.
+\ref{fig:anota2seq}}).
+
+Appliance of anota2seq has successfuly identified translational
+buffering to which biological mechanisms could be linked,e.g.~as
+mentioned earlier translationally bufferring under ER\(\alpha\)
+depletion in prostate cancer (\textbf{see section \ref{modeBuffering}})
+(Lorent et al., 2019). Furthermore, in \textbf{study 2} translational
+buffering can be observed as a compensating mechanisms in ``healthy''
+cells upon treatment with an eIF4A inhibitor and in \textbf{study 3} we
+identify mTOR dependent translational buffering for mRNAs with certain
+3' UTR charactersitics.
 
 The aim of this study is to compare anota2seq's performance to other
-established algorithms for analysis of translation efficiencies,
-specifically their ability to distinguish the three prominent modes of
-gene expression. To achieve we used a simulated data based approach.
-While it is arguable to what extent conclusion drawn from simulated data
-can be extended towards empircal data it allows for a controlled
-environment where true positive changes are known in advance.
-Furthermore, the mean-variance relationship in the simulated data is
-based on a real polysome profiling data set to increase confidence that
-drawn conclusions are applicable to emprical data (Guan et al., 2017).
+established algorithms (i.e.~DESeq2, RiboDiff, babel, TE-score and
+Xtail) for analysis of translation efficiencies, specifically their
+ability to distinguish the three prominent modes of gene expression. To
+achieve we used a simulated data based approach. While it is arguable to
+what extent conclusion drawn from simulated data can be extended towards
+empircal data it allows for a controlled environment where true positive
+changes are known in advance. Furthermore, the mean-variance
+relationship in the simulated data is based on a real polysome profiling
+data set to increase confidence that drawn conclusions are also
+applicable to emprical data (Guan et al., 2017).
 
-We simulated multiple data sets that followed the following approach:
-Four replicates for a ``control'' and a ``treatment'' condition for both
-translated and total mRNA expression
+The simulated data consisted of four replicates for translated mRNA and
+total mRNA with a ``control'' and a ``treatment'' condition.
+Furthermore, the data sets contained a combination of the following gene
+sets:
 
-translational buffering (tebaldi,dassi,quattrone)
+``Unchanged'': For this simulation category we drew reads from the same
+NB distrubution for both the control and treatment conditions in both
+the translated and total mRNA. This catergory reprents genes that would
+be unaffected by e.g.~a stimulus of between cellular states.
 
-development anota2seq
+``mRNA abundance'': For this category the control condition for both the
+translated mRNA and total mRNA were drawn from the same NB distribution.
+The NB distribution for \emph{both translated mRNA and total mRNA} of
+the treatment condition was altered so that values would be drawn
+corresponding to a fold change (negative or positive) ranging between
+1.5 to 3.0. The directionality of the fold changes (i.e.~up or down
+regulation) was the same for translated mRNA and total mRNA.
 
-approach using simulated data
+``translation'': For this category the control condition for both the
+translated mRNA and total mRNA were drawn from the same NB distribution.
+The NB distribution for \emph{translated mRNA only} of the treatment
+condition was altered so that values would be drawn corresponding to a
+fold change (negative or positive) ranging between 1.5 to 3.0.
+
+``buffering'': For this category the control condition for both the
+translated mRNA and total mRNA were drawn from the same NB distribution.
+The NB distribution for \emph{total mRNA only} of the treatment
+condition was altered so that values would be drawn corresponding to a
+fold change (negative or positive) ranging between 1.5 to 3.0.
+
+As a first step we tested whether the methods could properly control for
+type-1 errors (i.e.~false positive identifcation). For this we simulated
+a data set with genes belonging only to the ``unchanged'' category. This
+revealed that babel, but to an even greater extent Xtail, were unable to
+control their type-1 error as these methods assigned low p-values and
+FDRs when no real changes were present. This indicated a limited
+applicability of Xtail and babel for statistical analysis of
+translatomes.
+
+From the comparative analysis of the analysis for changes in translation
+efficiencies affecting protein levels we concluded that anota2seq
+outperforms all other methods. This was assessed by comparing the area
+under the curve from Receiver operating characteristics (ROC) and
+precision recall curves. The ROC curves showed a, albeit slightly,
+better performance for detecting changes in translation. However, the
+precision recall was much higher for anota2seq which can be accredited
+to that the analysis principle of the other methods is based on
+identifying changes regardless of whether the change is in the
+translated mRNA or total mRNA (\emph{as explained in section
+\ref{algorithm}}). Nevertheless, when comparing the performance using
+simulatd data in the absence of genes belonging to the ``buffering''
+category anota2seq still showed superior performance.
+
+Next to the a prior knowledge of the introduced changes in the
+simulation data, it also allowed us to modify parameters to investigate
+the robustness of the methods to increased variance, overall sequencing
+depth and differing sequencing depth between samples. Here, all methods
+showed robustness against variance and sequencing depth differences
+between samples as long as a minimum of 5 million counts per sample was
+reached.
+
+A short coming in the simulation study is that we did not assess the
+effects of systematic batch effects. Batch effects can be introduced
+e.g.~during experimental design and there are many methods that try to
+correct for these(W. E. Johnson, Li, \& Rabinovic, 2007,Leek (2014),Y.
+Zhang, Parmigiani, \& Johnson (2020)). Other ways to correct for batch
+effects is their inclusion in the analysis model, which can be supplied
+to the analysis model in DESeq2, edgeR as well as anota2seq. Indeed
+analysis of a dataset with prominent batch effects showed that batch
+effects can dampen the efficiency of the anota2seq algorithm to identify
+changes but can be effectively corrected for in the algorithm.
+
+In this study we developed an analysis algorithm for efficient
+transcriptome-wide analysis of translation efficiencies applicable to
+DNA-microarrays and RNA seq. Furthermore, anota2seq has been
+successfully applied to broaden the knowledge around mRNA translation in
+various different contexts (Lorent et al., 2019,Chan et al.
+(2019),Hipolito et al. (2019),Chaparro et al. (2020)).
+
+\section{Study 2 - eIF4A supports an oncogenic translation program in pancreatic ductal adenocarcinoma}
+
+Pancreatic cancer is considered a lethal malignancy and has limitited
+treatment options. A study on predicitons for european cancer mortality
+rates for 2021 concluded that health efforts should focus on pancreatic
+cancer. While other cancers (e.g.~ovary, breast and stomach) showed a
+decline in mortality rates, no major overall decline was observed for
+pancreatic cancer in the period of 1970-2021 (Carioli et al., 2021).
+
+Pancreatic ductal adeno carcinoma (PDAC) accounts for over 90\% of
+exocrine pancreatic cancer, whereas non ductal pancreatic cancers
+e.g.~acinar cell carcinomas are uncommon (Feldmann, Beaty, Hruban, \&
+Maitra, 2007,Jun \& Hong (2016)). It is estimated the 60-70\% of the
+PDACs arise in the head (Luchini, Capelli, \& Scarpa, 2016). So far
+treatment options are mostly limited to surgical removal, which can be
+complicated due to the anatomical location of the pancreas head.
+
+With the increasing understanding of tumor heterogeneity, i.e.~tumors
+with similar tissue origin are not necessarily identical at a molecular
+level, anti cancer therapy improved (Biankin \& Hudson, 2011). In breast
+cancer stratification by histological,molecular and gene expression
+features lead to identification of several breast cancer subtypes for
+which different treatment options exist, e.g. \(ER^+\) breast cancer
+subtypes respond to endocrine therapy whereas \(ER^-\) do not(Andre \&
+Pusztai, 2006,Parker et al. (2009)). While breast canacer treatment
+strategies benefit from a rather well established understanding of the
+molecular subtypes, in pancreatic cancer trascriptomic based subtyping
+is still ongoing (P. Bailey et al., 2016,Puleo et al. (2018),Collisson
+et al. (2011),Moffitt et al. (2015),Collisson, Bailey, Chang, \& Biankin
+(2019)). Therefore, it is warranted to extend current knowledge around
+pancreatic cancer to advance therapeutic strategies in this lethal
+disease.
+
+Nevertheless, commonly shared among PDAs are oncogenic mutations in KRAS
+as well as inactivation of tumor supressors e.g.~TP53 (S. Jones et al.,
+2008). Furthermore, PDAs have been shown to be dependent on increased
+protein synthesis mediated by Kras (Chio et al., 2016). This indicates
+an important role of mRNA translation in PDA.
+
+The aim of \emph{study 2} was to investigate the therapeutic effects of
+targetting eIF4A in a three dimensional PDA organoid cell culture with
+mutations in the \(Kras^{LSL-G12D}\), \(Trp53^{LSL-R172H}\) and Pdx1-cre
+alleles that has been shown to recapitulate PDA tumor progression (Boj
+et al., 2015). The inhibition of eIF4A was done using a synthetic
+rocaglate, CR-1-31B (CR-31). Rocaglates have been shown to inhibit eIF4A
+helicase activity and displayed anti tumor activity (Cencic et al.,
+2009).
+
+We first wanted to establish the therapeutic validity of targetting
+eIF4A in PDA. In vitro experiments comparing treated PDA organoids (KP)
+to their normal (N) counter parts revealed hightened sensitivity of PDA
+organoids to CR-31 treatment. OP-puromycin incorporation showed reduced
+protein synthesis in KP, whereas N were affected to a lesser extent.
+Furthermore, similar effects were found in vivo for PDA tumours where
+also CR-31 reduced protein synthesis (assessed by SUnSET assay), tumor
+growth (assessed by ultra sound imaging) and increased survival. The
+effect on protein synthesis was not due to inhibition of oncogenic
+signalling pathways which was evaluated western blot assessing the
+phosphorylation of e.g.~AKT, mTOR and 4E-BP1. From these findings we
+concluded that there is therapeutic validity in targetting eIF4A in PDA
+that acts downsteam of oncogenic signalling pathways.
+
+Using polysome profiling we then sought to decipher the mechanisms
+explaining the increased sensivity to CR-31 in KP organoids. First we
+investigated the differences in gene expression between untreated KP and
+N organoids. Analysis of changes in translation efficiencies using
+anota2seq revealed massive modulation at both transcription and
+translation indicative of the underlying differences in e.g.~genomic
+stability and enhanced oncogenic signalling impinging on protein
+synthesis. Consistent with the in vitro OP-puromycin incorporation and
+in vivo SUNsET experiments, CR-31 had only little effect on translation
+in N organoids, whereas in KP organoids exclusively changes in
+translation were detected.
+
+We then compared the mRNAs affected by CR-31 in KP to the acquired
+translational profile of untreated KP and N organoids. In order to
+achieve this we visualised the mRNAs affected by CR-31 in KP onto the
+data of the untreated KP vs N organoids comparison. This revealed that
+the acquired translational program of KP organoids is reversed when
+treated with CR-31.
+
+Performing a similar analysis, we visualised mRNAs sensitive to CR-31 in
+KP onto the data of the CR-31 treated N organoids. mRNAs affected by
+CR-31 in KP were translationally buffered in CR-31 treated N organoids.
+Translational buffering, as an adaptive response to treatment, has been
+shown to maintain protein homeostasis by inducing a transcriptional
+response increasing the pool of mRNAs that can be translated (Lorent et
+al., 2019). The ability for N organoids in increase transcription for
+mRNAs affected by CR-31, whereas KP cannot, could partially explain as
+to why protein synthesis is not reduced to a similar extent in N as in
+KP.
+
+We then assessed 5' UTR characteristics of the translationally regulated
+mRNAs upon CR-31 treatment in KP organoids. It was reported that
+eIF4A-senstive mRNAs showed overall and more structured 5' UTRs
+(e.g.~containing G-quadruplexes) (Rubio et al., 2014,Wolfe et al.
+(2014),Gandin et al. (2016b)). Furthermore, a mechanisms by which
+rocaglates would clamp eIF4A to mRNAs with {[}A,G{]} repeats in their 5
+UTR was described (Iwasaki, Floor, \& Ingolia, 2016). However, mRNAs
+sensitive to CR-31 treatment herien showed overall shorter 5' UTRs that
+were more structured when corrected for their length without enrichment
+for 4G-quadruplexes or {[}A,G{]} repeats. From the polysome profiling
+and UTR analysis we concluded that eIF4A supports an oncogenic
+translation program in PDA cells for mRNAs with shorter but structured
+5' UTRs.
+
+Shorter 5' UTRs have been shown to be sensitive to eIF4E expression and
+enconde for metabolic functions (see section \ref{regmRNA}). When we
+compared an eIF4E overexpression signature in the KP vs N and CR-31
+treated KP we observed that in KP organoids translationally regulated
+mRNAs under eIF4E overexpression were also translationally activated.
+This observation is consistent with reports of 4E-BP1 loss in pancreatic
+cancer (Y. Martineau et al., 2014). CR-31 treatment in KP reversed the
+translational profile for these mRNAs. Therefore, while rocaglates have
+been shown to directly target eIF4A (Cencic et al., 2009). eIF4A
+inhibition in tumors resistant to mTOR inhibiton by loss of 4E-BP1 has
+been shown to circumvent this resistance (D. Müller et al., 2019).
+Therefore, eIF4F complex formation could be disrupted by reduced eIF4A
+availability to an extent that also cap dependent translation is
+affected in PDA organoids herein.
+
+When further inspecting the regulated gene sets in treated and untreated
+KP compared to their normal counterparts we could see an enrichtment in
+metabolic pathways, e.g.~Oxidative phosphorylation. This pathway was
+upregulated in untreated KP compared to N, whereas in KP CR-31 treatment
+reversed the translational profile of this pathway. These findings were
+experimentally validated and shown to disrupt the mitochondrial
+respiration (measured by oxygen consumption rates).
+
+A way to counter loss of energy production through oxidative
+phosphorylation is to increase activity of other anaerobic metabolic
+pathways, i.e.~glycolysis. However, in CR-31 treated KP we could not
+detect a upregulation of glycolysis measured by \(U-C^{13}\) glucose
+labeling and extra cellular acidification rates nor did CR-31 treatement
+affect expression of glycolytic enzymes (e.g.~HK1,HK2, LDHA, SLCA1,
+SLCA3). Furthermore, glucose deprivation did not further sensitise to
+CR-31 treatment. This was rather unexpected, given that increased
+glycolysis is characteristic for cancers as described by Otto walburg
+(Warburg, Wind, \& Negelein, 1927). However, the polysome prolfing data
+revealed translational downregulation and subsequent reduction of
+protein expression for the glucose transporter Slc2a6. Indeed,
+perturbation of Slc2a6 using \(sgRNA^{Slc2a6}\) in N and KP organoids
+revealed a decrease in glucose uptake. From this we concluded that
+glycolytic compensation of KP is diminished by translational regulation
+of the glucose transporter Slc2a6 upon CR-31 treatment.
+
+Among the translationally activated genes in the CR-31 treated KP
+organoids where mRNAs involved in the glutamine metabolism (i.e.~Slc1a5
+and Gls1). Furthermore, glutamine levels were elevated in patient
+derived PDA cell lines treated with CR-31. Glutamine can be converted
+into \(\alpha\)-ketoglutarate and funneled into the krebs cycle and
+therefore can serve to increase energy production (D. Xiao et al.,
+2016). Indeed, using gas chromatography mass spectrometry (GC/MS) to
+quantify downstream metabolites after culturing PDA cells in
+\(C_5^{13}\)- glutamine, we identified a shift towards reductive
+carboxylation of \(\alpha\)-ketoglutarate obtained from \(C_5^{13}\)-
+glutamine to produce acetyl-CoA. Notably, the glutamine metabolism was
+not elevated in N organoids.
+
+A combined treatment of CR-31 with glutaminase inhibitors (BPTES or
+CB839) could sensitise to CR-31 treatment patient-derived PDA cells to
+CR-31 treatment. Therefore, our study suggests an eIF4A dependent
+translational program in PDA that can act as a theurapeutic target in
+PDA. Furthermore, a recently published ribosome profiling study of a
+CR-31 treated human pancreatic cancer cell line (PANC1) observed the
+same therapeutic effect of CR-31 treatment in vivo on survival and tumor
+volume (Singh et al., 2021). This underlines the significance of our
+study in identifying eIF4A as therapeutic target in PDA.
+
+Nevertheless, the same study indicated differences on the underlying
+regulated mRNA subsets. They report, in line with the literature, that
+eIF4A depdent mRNAs show long and structured 5' UTRs containing
+G-quadruplexes (Singh et al., 2021,Wolfe et al. (2014)). While the 5'
+UTRs of the mRNAs identified herein where overall shorter, they were
+overall more structured. Furthermore, the mRNAs identifed in Singh et.
+al. were involved in KRAS signalling, which was unaltered in our study.
+
+This raises some questions about the differences between experimental
+setups and their potential influence on biological outcomes. For
+instance, Singh et. al. performed ribosome profiling on a PANC1 cell
+line culture treated with 25nM CR-31, wheres herein we performed
+polysome profiling on a 3D-organoid culture treated with 10nM CR-31. The
+differences between ribosome and polysome profiling have been discussed
+extensively (see section \ref{exptMethod}). However, by measuring IC50
+concentrations for CR-31 in a panel of pancreatic cancer cell lines, the
+autors show a \textasciitilde{}6-fold difference in susceptability to
+CR-31. PANC1 cells were most affected by CR-31. Dosage dependent
+viability experiments of patient derived PDA cells in our study revealed
+that at 10nM viability was reduced by \textasciitilde{}30\%, whereas
+treatment with 25nM reduced viability by \textgreater{} 50\%.
+Furthermore, a combination treatment of CR-31 and CB839 showed no
+difference at 25nM CR-31, whereas at 12.50nM a difference was observed.
+Therefore, combining the findings of these two studies indicate that
+CR-31 treatment in PDA indeed has a therapetuic effect, however the
+underlying mechanisms that are observed in the transcriptome wide
+analysis of translation efficiencies are likeley dependent on the cell
+culture and treatment dosages.
+
+\section{Study 3 - mTOR-dependent translational buffering overrides transcriptome alterations leading to
+maintained proteome composition}
 
 \chapter{Conclusions}
 
@@ -1182,6 +1456,12 @@ Translation factors promote the formation of two states of the
 closed-loop mRNP. \emph{Nature}, \emph{453}(7199), 1276--1280.
 \url{https://doi.org/10.1038/nature06974}
 
+\hypertarget{ref-Andre2006}{}
+Andre, F., \& Pusztai, L. (2006). Molecular classification of breast
+cancer: Implications for selection of adjuvant chemotherapy.
+\emph{Nature Clinical Practice Oncology}, \emph{3}(11), 621--632.
+\url{https://doi.org/10.1038/ncponc0636}
+
 \hypertarget{ref-Andreev2015}{}
 Andreev, D. E., O'Connor, P. B., Fahey, C., Kenny, E. M., Terenin, I.
 M., Dmitriev, S. E., \ldots{} Baranov, P. V. (2015). Translation of
@@ -1201,6 +1481,12 @@ eIF5, and initiator tRNAMet is an important translation initiation
 intermediate in vivo. \emph{Genes \& Development}, \emph{14}(19),
 2534--2546. \url{https://doi.org/10.1101/gad.831800}
 
+\hypertarget{ref-Bailey2016}{}
+Bailey, P., Chang, D. K., Nones, K., Johns, A. L., Patch, A.-M.,
+Gingras, M.-C., \ldots{} Grimmond, S. M. (2016). Genomic analyses
+identify molecular subtypes of pancreatic cancer. \emph{Nature},
+\emph{531}(7592), 47--52. \url{https://doi.org/10.1038/nature16965}
+
 \hypertarget{ref-Baou2011}{}
 Baou, M., Norton, J. D., \& Murphy, J. J. (2011). AU-rich RNA binding
 proteins in hematopoiesis and leukemogenesis. \emph{Blood},
@@ -1212,6 +1498,17 @@ Bhat, M., Robichaud, N., Hulea, L., Sonenberg, N., Pelletier, J., \&
 Topisirovic, I. (2015). Targeting the translation machinery in cancer.
 \emph{Nature Reviews Drug Discovery}, \emph{14}(4), 261--278.
 \url{https://doi.org/10.1038/nrd4505}
+
+\hypertarget{ref-Biankin2011}{}
+Biankin, A. V., \& Hudson, T. J. (2011). Somatic variation and cancer:
+Therapies lost in the mix. \emph{Human Genetics}, \emph{130}(1), 79--91.
+\url{https://doi.org/10.1007/s00439-011-1010-0}
+
+\hypertarget{ref-Boj2015}{}
+Boj, S. F., Hwang, C.-I., Baker, L. A., Chio, I. I. C., Engle, D. D.,
+Corbo, V., \ldots{} Tuveson, D. A. (2015). Organoid Models of Human and
+Mouse Ductal Pancreatic Cancer. \emph{Cell}, \emph{160}(1), 324--338.
+\url{https://doi.org/10.1016/j.cell.2014.12.021}
 
 \hypertarget{ref-Brar2015}{}
 Brar, G. A., \& Weissman, J. S. (2015). Ribosome profiling reveals the
@@ -1231,12 +1528,41 @@ polymorphic among humans. \emph{Proceedings of the National Academy of
 Sciences}, \emph{106}(18), 7507--7512.
 \url{https://doi.org/10.1073/pnas.0810916106}
 
+\hypertarget{ref-Carioli2021}{}
+Carioli, G., Malvezzi, M., Bertuccio, P., Boffetta, P., Levi, F.,
+Vecchia, C. L., \& Negri, E. (2021). European cancer mortality
+predictions for the year 2021 with focus on pancreatic and female lung
+cancer. \emph{Annals of Oncology}, \emph{0}(0).
+\url{https://doi.org/10.1016/j.annonc.2021.01.006}
+
+\hypertarget{ref-Cencic2009}{}
+Cencic, R., Carrier, M., Galicia-Vázquez, G., Bordeleau, M.-E.,
+Sukarieh, R., Bourdeau, A., \ldots{} Pelletier, J. (2009). Antitumor
+Activity and Mechanism of Action of the Cyclopenta{[}b{]}Benzofuran,
+Silvestrol. \emph{PLoS ONE}, \emph{4}(4).
+\url{https://doi.org/10.1371/journal.pone.0005223}
+
 \hypertarget{ref-Cenik2015}{}
 Cenik, C., Cenik, E. S., Byeon, G. W., Grubert, F., Candille, S. I.,
 Spacek, D., \ldots{} Snyder, M. P. (2015). Integrative analysis of RNA,
 translation, and protein levels reveals distinct regulatory variation
 across humans. \emph{Genome Research}, \emph{25}(11), 1610--1621.
 \url{https://doi.org/10.1101/gr.193342.115}
+
+\hypertarget{ref-Chan2019}{}
+Chan, K., Robert, F., Oertlin, C., Kapeller-Libermann, D., Avizonis, D.,
+Gutierrez, J., \ldots{} Chio, I. I. C. (2019). eIF4A supports an
+oncogenic translation program in pancreatic ductal adenocarcinoma.
+\emph{Nature Communications}, \emph{10}(1), 5151.
+\url{https://doi.org/10.1038/s41467-019-13086-5}
+
+\hypertarget{ref-Chaparro2020}{}
+Chaparro, V., Leroux, L.-P., Masvidal, L., Lorent, J., Graber, T. E.,
+Zimmermann, A., \ldots{} Jaramillo, M. (2020). Translational profiling
+of macrophages infected with Leishmania donovani identifies mTOR- and
+eIF4A-sensitive immune-related transcripts. \emph{PLOS Pathogens},
+\emph{16}(6), e1008291.
+\url{https://doi.org/10.1371/journal.ppat.1008291}
 
 \hypertarget{ref-Cheng2016}{}
 Cheng, Z., Teo, G., Krueger, S., Rock, T. M., Koh, H. W. L., Choi, H.,
@@ -1245,12 +1571,31 @@ protein expression response to misfolding stress. \emph{Molecular
 Systems Biology}, \emph{12}(1), 855.
 \url{https://doi.org/10.15252/msb.20156423}
 
+\hypertarget{ref-Chio2016}{}
+Chio, I. I. C., Jafarnejad, S. M., Ponz-Sarvise, M., Park, Y., Rivera,
+K., Palm, W., \ldots{} Tuveson, D. A. (2016). NRF2 Promotes Tumor
+Maintenance by Modulating mRNA Translation in Pancreatic Cancer.
+\emph{Cell}, \emph{166}(4), 963--976.
+\url{https://doi.org/10.1016/j.cell.2016.06.056}
+
 \hypertarget{ref-Chothani2019}{}
 Chothani, S., Adami, E., Ouyang, J. F., Viswanathan, S., Hubner, N.,
 Cook, S. A., \ldots{} Rackham, O. J. L. (2019). deltaTE: Detection of
 Translationally Regulated Genes by Integrative Analysis of Ribo-seq and
 RNA-seq Data. \emph{Current Protocols in Molecular Biology},
 \emph{129}(1), e108. \url{https://doi.org/10.1002/cpmb.108}
+
+\hypertarget{ref-Collisson2019}{}
+Collisson, E. A., Bailey, P., Chang, D. K., \& Biankin, A. V. (2019).
+Molecular subtypes of pancreatic cancer. \emph{Nature Reviews
+Gastroenterology \& Hepatology}, \emph{16}(4), 207--220.
+\url{https://doi.org/10.1038/s41575-019-0109-y}
+
+\hypertarget{ref-Collisson2011}{}
+Collisson, E. A., Sadanandam, A., Olson, P., Gibb, W. J., Truitt, M.,
+Gu, S., \ldots{} Gray, J. W. (2011). Subtypes of pancreatic ductal
+adenocarcinoma and their differing responses to therapy. \emph{Nature
+Medicine}, \emph{17}(4), 500--503. \url{https://doi.org/10.1038/nm.2344}
 
 \hypertarget{ref-Connolly2006}{}
 Connolly, E., Braunstein, S., Formenti, S., \& Schneider, R. J. (2006).
@@ -1326,6 +1671,12 @@ Fan, X. C., \& Steitz, J. A. (1998). Overexpression of HuR, a
 nuclearCytoplasmic shuttling protein, increases the in vivo stability of
 ARE-containing mRNAs. \emph{The EMBO Journal}, \emph{17}(12),
 3448--3460. \url{https://doi.org/10.1093/emboj/17.12.3448}
+
+\hypertarget{ref-Feldmann2007}{}
+Feldmann, G., Beaty, R., Hruban, R. H., \& Maitra, A. (2007). Molecular
+genetics of pancreatic intraepithelial neoplasia. \emph{Journal of
+Hepato-Biliary-Pancreatic Surgery}, \emph{14}(3), 224--232.
+\url{https://doi.org/10.1007/s00534-006-1166-5}
 
 \hypertarget{ref-Gandin2016}{}
 Gandin, V., Masvidal, L., Cargnello, M., Gyenis, L., McLaughlan, S.,
@@ -1421,6 +1772,13 @@ initiation complexes. \emph{Trends in Biochemical Sciences},
 \emph{31}(10), 553--562.
 \url{https://doi.org/10.1016/j.tibs.2006.08.005}
 
+\hypertarget{ref-Hipolito2019}{}
+Hipolito, V. E. B., Diaz, J. A., Tandoc, K. V., Oertlin, C., Ristau, J.,
+Chauhan, N., \ldots{} Botelho, R. J. (2019). Enhanced translation
+expands the endo-lysosome size and promotes antigen presentation during
+phagocyte activation. \emph{PLOS Biology}, \emph{17}(12), e3000535.
+\url{https://doi.org/10.1371/journal.pbio.3000535}
+
 \hypertarget{ref-Hong2011}{}
 Hong, D. S., Kurzrock, R., Oh, Y., Wheler, J., Naing, A., Brail, L.,
 \ldots{} Simon, G. (2011). A phase 1 dose escalation, pharmacokinetic,
@@ -1448,6 +1806,12 @@ Profiling of Mouse Embryonic Stem Cells Reveals the Complexity and
 Dynamics of Mammalian Proteomes. \emph{Cell}, \emph{147}(4), 789--802.
 \url{https://doi.org/10.1016/j.cell.2011.10.002}
 
+\hypertarget{ref-Iwasaki2016}{}
+Iwasaki, S., Floor, S. N., \& Ingolia, N. T. (2016). Rocaglates convert
+DEAD-box protein eIF4A into a sequence-selective translational
+repressor. \emph{Nature}, \emph{534}(7608), 558--561.
+\url{https://doi.org/10.1038/nature17978}
+
 \hypertarget{ref-Jackson2010a}{}
 Jackson, R. J., Hellen, C. U., \& Pestova, T. V. (2010). THE MECHANISM
 OF EUKARYOTIC TRANSLATION INITIATION AND PRINCIPLES OF ITS REGULATION.
@@ -1468,6 +1832,12 @@ and proliferation via induction of the \(\beta\)-catenin/SIRT3 signaling
 pathway in cervical cancer. \emph{Journal of Hematology \& Oncology},
 \emph{11}(1), 139. \url{https://doi.org/10.1186/s13045-018-0674-5}
 
+\hypertarget{ref-Johnson2007}{}
+Johnson, W. E., Li, C., \& Rabinovic, A. (2007). Adjusting batch effects
+in microarray expression data using empirical Bayes methods.
+\emph{Biostatistics (Oxford, England)}, \emph{8}(1), 118--127.
+\url{https://doi.org/10.1093/biostatistics/kxj037}
+
 \hypertarget{ref-JolyAnne-Laure2018}{}
 Joly Anne-Laure, Seitz Christina, Liu Sang, Kuznetsov Nikolai V., Gertow
 Karl, Westerberg Lisa S., \ldots{} Andersson John. (2018). Alternative
@@ -1476,11 +1846,23 @@ Associated With Human Atherosclerotic Plaque Stability.
 \emph{Circulation Research}, \emph{122}(10), 1385--1394.
 \url{https://doi.org/10.1161/CIRCRESAHA.117.312340}
 
+\hypertarget{ref-Jones2008}{}
+Jones, S., Zhang, X., Parsons, D. W., Lin, J. C.-H., Leary, R. J.,
+Angenendt, P., \ldots{} Kinzler, K. W. (2008). Core Signaling Pathways
+in Human Pancreatic Cancers Revealed by Global Genomic Analyses.
+\emph{Science}, \emph{321}(5897), 1801--1806.
+\url{https://doi.org/10.1126/science.1164368}
+
 \hypertarget{ref-Jovanovic2015}{}
 Jovanovic, M., Rooney, M. S., Mertins, P., Przybylski, D., Chevrier, N.,
 Satija, R., \ldots{} Regev, A. (2015). Dynamic profiling of the protein
 life cycle in response to pathogens. \emph{Science}, \emph{347}(6226).
 \url{https://doi.org/10.1126/science.1259038}
+
+\hypertarget{ref-Jun2016}{}
+Jun, S.-Y., \& Hong, S.-M. (2016). Nonductal Pancreatic Cancers.
+\emph{Surgical Pathology Clinics}, \emph{9}(4), 581--593.
+\url{https://doi.org/10.1016/j.path.2016.05.005}
 
 \hypertarget{ref-Kalhor2003}{}
 Kalhor, H. R., \& Clarke, S. (2003). Novel Methyltransferase for
@@ -1574,6 +1956,11 @@ Lawrence, M. G., \& Postovit, L.-M. (2021). Cancer Plasticity: The Role
 of mRNA Translation. \emph{Trends in Cancer}, \emph{7}(2), 134--145.
 \url{https://doi.org/10.1016/j.trecan.2020.09.005}
 
+\hypertarget{ref-Leek2014}{}
+Leek, J. T. (2014). Svaseq: Removing batch effects and other unwanted
+noise from sequencing data. \emph{Nucleic Acids Research},
+\emph{42}(21), e161--e161. \url{https://doi.org/10.1093/nar/gku864}
+
 \hypertarget{ref-Leppek2018}{}
 Leppek, K., Das, R., \& Barna, M. (2018). Functional 5' UTR mRNA
 structures in eukaryotic translation regulation and how to find them.
@@ -1656,6 +2043,11 @@ differential expression in multiple SAGE libraries: An overdispersed
 log-linear model approach. \emph{BMC Bioinformatics}, \emph{6}(1), 165.
 \url{https://doi.org/10.1186/1471-2105-6-165}
 
+\hypertarget{ref-Luchini2016}{}
+Luchini, C., Capelli, P., \& Scarpa, A. (2016). Pancreatic Ductal
+Adenocarcinoma and Its Variants. \emph{Surgical Pathology Clinics},
+\emph{9}(4), 547--560. \url{https://doi.org/10.1016/j.path.2016.05.003}
+
 \hypertarget{ref-MacDonald1968a}{}
 MacDonald, C. T., Gibbs, J. H., \& Pipkin, A. C. (1968). Kinetics of
 biopolymerization on nucleic acid templates. \emph{Biopolymers},
@@ -1665,6 +2057,12 @@ biopolymerization on nucleic acid templates. \emph{Biopolymers},
 Maniloff, J. (1969). Theoretical considerations of biopolymer synthesis.
 \emph{Journal of Theoretical Biology}, \emph{23}(3), 441--454.
 \url{https://doi.org/10.1016/0022-5193(69)90030-7}
+
+\hypertarget{ref-Martineau2014}{}
+Martineau, Y., Azar, R., Müller, D., Lasfargues, C., El Khawand, S.,
+Anesia, R., \ldots{} Pyronnet, S. (2014). Pancreatic tumours escape from
+translational control through 4E-BP1 loss. \emph{Oncogene},
+\emph{33}(11), 1367--1374. \url{https://doi.org/10.1038/onc.2013.100}
 
 \hypertarget{ref-Masvidal2017}{}
 Masvidal, L., Hulea, L., Furic, L., Topisirovic, I., \& Larsson, O.
@@ -1695,6 +2093,13 @@ Moazed, D., \& Noller, H. F. (1989). Intermediate states in the movement
 of transfer RNA in the ribosome. \emph{Nature}, \emph{342}(6246),
 142--148. \url{https://doi.org/10.1038/342142a0}
 
+\hypertarget{ref-Moffitt2015}{}
+Moffitt, R. A., Marayati, R., Flate, E. L., Volmar, K. E., Loeza, S. G.
+H., Hoadley, K. A., \ldots{} Yeh, J. J. (2015). Virtual microdissection
+identifies distinct tumor- and stroma-specific subtypes of pancreatic
+ductal adenocarcinoma. \emph{Nature Genetics}, \emph{47}(10),
+1168--1178. \url{https://doi.org/10.1038/ng.3398}
+
 \hypertarget{ref-Morris1995}{}
 Morris, D. R. (1995). Growth control of translation in mammalian cells.
 \emph{Progress in Nucleic Acid Research and Molecular Biology},
@@ -1705,6 +2110,13 @@ Munro, J. B., Altman, R. B., O'Connor, N., \& Blanchard, S. C. (2007).
 Identification of Two Distinct Hybrid State Intermediates on the
 Ribosome. \emph{Molecular Cell}, \emph{25}(4), 505--517.
 \url{https://doi.org/10.1016/j.molcel.2007.01.022}
+
+\hypertarget{ref-Muller2019}{}
+Müller, D., Shin, S., Goullet de Rugy, T., Samain, R., Baer, R.,
+Strehaiano, M., \ldots{} Martineau, Y. (2019). eIF4A inhibition
+circumvents uncontrolled DNA replication mediated by 4E-BP1 loss in
+pancreatic cancer. \emph{JCI Insight}, \emph{4}(21).
+\url{https://doi.org/10.1172/jci.insight.121951}
 
 \hypertarget{ref-Nedialkova2015}{}
 Nedialkova, D. D., \& Leidel, S. A. (2015). Optimization of Codon
@@ -1730,6 +2142,13 @@ Pakos-Zebrucka, K., Koryga, I., Mnich, K., Ljujic, M., Samali, A., \&
 Gorman, A. M. (2016). The integrated stress response. \emph{EMBO
 Reports}, \emph{17}(10), 1374--1395.
 \url{https://doi.org/10.15252/embr.201642195}
+
+\hypertarget{ref-Parker2009}{}
+Parker, J. S., Mullins, M., Cheang, M. C., Leung, S., Voduc, D.,
+Vickery, T., \ldots{} Bernard, P. S. (2009). Supervised Risk Predictor
+of Breast Cancer Based on Intrinsic Subtypes. \emph{Journal of Clinical
+Oncology}, \emph{27}(8), 1160--1167.
+\url{https://doi.org/10.1200/JCO.2008.18.1370}
 
 \hypertarget{ref-Pearce2007}{}
 Pearce, L. R., Huang, X., Boudeau, J., Paw\textbackslash{}lowski, R.,
@@ -1763,6 +2182,13 @@ Pópulo, H., Lopes, J. M., \& Soares, P. (2012). The mTOR Signalling
 Pathway in Human Cancer. \emph{International Journal of Molecular
 Sciences}, \emph{13}(2), 1886--1918.
 \url{https://doi.org/10.3390/ijms13021886}
+
+\hypertarget{ref-Puleo2018}{}
+Puleo, F., Nicolle, R., Blum, Y., Cros, J., Marisa, L., Demetter, P.,
+\ldots{} Maréchal, R. (2018). Stratification of Pancreatic Ductal
+Adenocarcinomas Based on Tumor and Microenvironment Features.
+\emph{Gastroenterology}, \emph{155}(6), 1999--2013.e3.
+\url{https://doi.org/10.1053/j.gastro.2018.08.033}
 
 \hypertarget{ref-Rapino2017}{}
 Rapino, F., Delaunay, S., Zhou, Z., Chariot, A., \& Close, P. (2017).
@@ -1875,6 +2301,12 @@ Silva, G. M., \& Vogel, C. (2016). Quantifying gene expression: The
 importance of being subtle. \emph{Molecular Systems Biology},
 \emph{12}(10), 885. \url{https://doi.org/10.15252/msb.20167325}
 
+\hypertarget{ref-Singh2021}{}
+Singh, K., Lin, J., Lecomte, N., Mohan, P., Gokce, A., Sanghvi, V. R.,
+\ldots{} Wendel, H.-G. (2021). Targeting eIF4A Dependent Translation of
+KRAS Signaling Molecules. \emph{Cancer Research}.
+\url{https://doi.org/10.1158/0008-5472.CAN-20-2929}
+
 \hypertarget{ref-Sonenberg2009}{}
 Sonenberg, N., \& Hinnebusch, A. G. (2009). Regulation of Translation
 Initiation in Eukaryotes: Mechanisms and Biological Targets.
@@ -1942,6 +2374,11 @@ Brüning, T., \ldots{} Kaessmann, H. (2020). Transcriptome and
 translatome co-evolution in mammals. \emph{Nature}, \emph{588}(7839),
 642--647. \url{https://doi.org/10.1038/s41586-020-2899-z}
 
+\hypertarget{ref-Warburg1927}{}
+Warburg, O., Wind, F., \& Negelein, E. (1927). THE METABOLISM OF TUMORS
+IN THE BODY. \emph{The Journal of General Physiology}, \emph{8}(6),
+519--530. \url{https://doi.org/10.1085/jgp.8.6.519}
+
 \hypertarget{ref-Warner1962a}{}
 Warner, J. R., Rich, A., \& Hall, C. E. (1962). Electron Microscope
 Studies of Ribosomal Clusters Synthesizing Hemoglobin. \emph{Science},
@@ -1970,6 +2407,12 @@ detection of differential gene expression in small microarray
 experiments. \emph{Bioinformatics (Oxford, England)}, \emph{19}(18),
 2448--2455. \url{https://doi.org/10.1093/bioinformatics/btg345}
 
+\hypertarget{ref-Xiao2016a}{}
+Xiao, D., Zeng, L., Yao, K., Kong, X., Wu, G., \& Yin, Y. (2016). The
+glutamine-alpha-ketoglutarate (AKG) metabolism and its nutritional
+implications. \emph{Amino Acids}, \emph{48}(9), 2067--2080.
+\url{https://doi.org/10.1007/s00726-016-2254-8}
+
 \hypertarget{ref-Xiao2016}{}
 Xiao, Z., Zou, Q., Liu, Y., \& Yang, X. (2016). Genome-wide assessment
 of differential translations with ribosome profiling data. \emph{Nature
@@ -1988,6 +2431,12 @@ Yang, J., Nie, J., Ma, X., Wei, Y., Peng, Y., \& Wei, X. (2019).
 Targeting PI3K in cancer: Mechanisms and advances in clinical trials.
 \emph{Molecular Cancer}, \emph{18}(1), 26.
 \url{https://doi.org/10.1186/s12943-019-0954-x}
+
+\hypertarget{ref-Zhang2020}{}
+Zhang, Y., Parmigiani, G., \& Johnson, W. E. (2020). ComBat-seq: Batch
+effect adjustment for RNA-seq count data. \emph{NAR Genomics and
+Bioinformatics}, \emph{2}(lqaa078).
+\url{https://doi.org/10.1093/nargab/lqaa078}
 
 \hypertarget{ref-Zhang2018}{}
 Zhang, Z., Ye, Y., Gong, J., Ruan, H., Liu, C.-J., Xiang, Y., \ldots{}
