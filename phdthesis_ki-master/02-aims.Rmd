@@ -11,6 +11,6 @@ In **Study I** we adapted an algorithm for ANalysis Of Translation Activity data
 
 We then applied the anota2seq algorithm to investigate changes in translation efficiencies in two cancer models:
 
-In **Study II** we unravelled the effects of eIF4A, an RNA helicase, inhibition using a synthetic rocaglate CR-1-31-B (CR-31) in pancreatic ductal adenocarcinoma.
+In **Study II** we unraveled the effects of eIF4A, an RNA helicase, inhibition using a synthetic rocaglate CR-1-31-B (CR-31) in pancreatic ductal adenocarcinoma.
 
 In **Study III** we explored the effects of insulin on gene expression in multiple cell lines.

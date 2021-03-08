@@ -5,6 +5,7 @@ output: pdf_document
 
 \chapter{Conclusions}
  
- Cancer is a vastly heterogenous disease that is characterised by uncontrollable growth and proliferation as well as dysregulated metabolism that can evade therapy through acquiring resistance. mRNA translation is a common denominator of these processes and it is therefore paramount to understand the precise mechanisms by which mRNA transaltion is regulated to better formulate therapeutic strategies against cancer. 
+ Cancer is a vastly heterogeneous disease that is characterised by uncontrollable growth and proliferation as well as dysregulated metabolism that can evade therapy through acquiring resistance. mRNA translation is a common denominator of these processes and it is therefore paramount to understand the precise mechanisms by which mRNA translation is regulated to better formulate therapeutic strategies against cancer. 
  
-This thesis provides an advance in methodology that facilitates transcriptome-wide analysis of translation efficiencies that can be applied to study cancer models and how they adapt to evade therapeutic strategies. Furthermore, by applying this methodology
+This thesis provides an advance in methodology to analyse transcriptome-wide changes translation efficiencies that can be applied to study cancer models. Using this methodology in the context of pancreatic cancer we could propose a possible new therapeutic strategy for this lethal disease where treatment options are limited. Lastly, we explore the effects of insulin on gene expression in an unprecedented study that highlighted an adapted insulin responsiveness of cancer cells. Furthermore, we highlight the ability of cancer cells to be able to translationally buffer genes which is a feature they share with stem cells.
+
