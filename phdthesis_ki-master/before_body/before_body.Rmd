@@ -23,7 +23,7 @@ Karolinska Institutet, Stockholm, Sweden\\
 \vspace{75px}
 
 \begin{Large}
-\textbf{EXPLORING GENE EXPRESSION PROGRAMS}
+\textbf{EXPLORING GENE EXPRESSION PROGRAMS: THE ROLE OF MRNA TRANSLATION IN CANCER}
 \end{Large}
 
 \vspace{25px}

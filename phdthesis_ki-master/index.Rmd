@@ -20,7 +20,6 @@ geometry: "left=4cm, right=3cm, top=3cm, bottom=3cm"
 header-includes:
 - \usepackage{placeins}
 - \usepackage{titlesec}
-- \newcommand{\sectionbreak}{\clearpage}
 - \usepackage{amsmath}
 - \usepackage{wrapfig}
 - \usepackage{caption}
