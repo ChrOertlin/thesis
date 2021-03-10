@@ -5,7 +5,7 @@ output:
       in_header: preamble.tex
     keep_tex: yes
     pandoc_args: [ "--csl", "_apa.csl" ] # apa citation style
-  latex_engine: pdflatex
+  latex_engine: xelatex
   pdf_document:
     fig_caption: yes
     number_sections: yes
