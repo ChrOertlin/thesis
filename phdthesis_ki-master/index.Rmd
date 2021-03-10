@@ -5,8 +5,8 @@ output:
       in_header: preamble.tex
     keep_tex: yes
     pandoc_args: [ "--csl", "_apa.csl" ] # apa citation style
-  latex_engine: xelatex
-  pdf_document:
+    latex_engine: xelatex
+    pdf_document:
     fig_caption: yes
     number_sections: yes
 fontsize: 12pt
@@ -20,12 +20,12 @@ geometry: "left=4cm, right=3cm, top=3cm, bottom=3cm"
 header-includes:
 - \usepackage{placeins}
 - \usepackage{titlesec}
+- \usepackage{amssymb}
 - \usepackage{amsmath}
 - \usepackage{wrapfig}
 - \usepackage{caption}
 - \captionsetup[figure]{font=scriptsize}
 - \usepackage{float}
-- \usepackage{amssymb}
 - \usepackage{subcaption}
 
 subparagraph: yes
