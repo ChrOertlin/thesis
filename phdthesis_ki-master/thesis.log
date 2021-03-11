@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.3.10)  10 MAR 2021 19:28
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.3.10)  11 MAR 2021 19:33
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -502,30 +502,1418 @@ LaTeX Info: Redefining \selectfont on input line 755.
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
-) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen195
+\WF@size=\dimen196
+\c@WF@wrappedlines=\count316
+\WF@box=\box58
+\WF@everypar=\toks28
+Package: wrapfig 2003/01/31  v 3.6
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count317
+\float@exts=\toks29
+\float@box=\box59
+\@float@everytoks=\toks30
+\@floatcapt=\box60
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count318
+\c@subtable=\count319
 )
+\cslhangindent=\skip71
+\csllabelwidth=\skip72
+(thesis.aux)
+\openout1 = `thesis.aux'.
 
-! LaTeX Error: Command `\eth' already defined.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 137.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 137.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 137.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 137.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 137.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 137.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 137.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 ...ol{\eth}            {\mathord}{AMSb}{"67}
-                                                   
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999970497384594]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999970497384594]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 137.
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latin
+modern-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=Ma
+thScriptScript}},BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->s*[0.9999970497384594]"[latinmodern-math.otf]/OT:
+script=math;language=dflt;"<7.2-10.2>s*[0.9999970497384594]"[latinmodern-math.o
+tf]/OT:script=math;language=dflt;+ssty=0;"<-7.2>s*[0.9999970497384594]"[latinmo
+dern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999970497384594]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 137.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 137.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
+ line 137.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 137.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
+t line 137.
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000097049443433.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000097049443433.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000097049443433.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000097049443433.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000097049443433.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latin
+modern-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=Ma
+thScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustme
+nt={\fontdimen
+(fontspec)             8\font =8.124pt\relax \fontdimen 9\font =4.728pt\relax
+(fontspec)             \fontdimen 10\font =5.328pt\relax \fontdimen 11\font
+(fontspec)             =8.232pt\relax \fontdimen 12\font =4.14pt\relax
+(fontspec)             \fontdimen 13\font =4.356pt\relax \fontdimen 14\font
+(fontspec)             =4.356pt\relax \fontdimen 15\font =3.468pt\relax
+(fontspec)             \fontdimen 16\font =2.964pt\relax \fontdimen 17\font
+(fontspec)             =2.964pt\relax \fontdimen 18\font =3.0pt\relax
+(fontspec)             \fontdimen 19\font =2.4pt\relax \fontdimen 22\font
+(fontspec)             =3.0pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->s*[1.000097049443433]"[latinmodern-math.otf]/OT:s
+cript=math;language=dflt;"<7.2-10.2>s*[1.000097049443433]"[latinmodern-math.otf
+]/OT:script=math;language=dflt;+ssty=0;"<-7.2>s*[1.000097049443433]"[latinmoder
+n-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =8.124pt\relax \fontdimen 9\font
+(fontspec)             =4.728pt\relax \fontdimen 10\font =5.328pt\relax
+(fontspec)             \fontdimen 11\font =8.232pt\relax \fontdimen 12\font
+(fontspec)             =4.14pt\relax \fontdimen 13\font =4.356pt\relax
+(fontspec)             \fontdimen 14\font =4.356pt\relax \fontdimen 15\font
+(fontspec)             =3.468pt\relax \fontdimen 16\font =2.964pt\relax
+(fontspec)             \fontdimen 17\font =2.964pt\relax \fontdimen 18\font
+(fontspec)             =3.0pt\relax \fontdimen 19\font =2.4pt\relax \fontdimen
+(fontspec)             22\font =3.0pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.000097049443433]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =8.124pt\relax \fontdimen 9\font
+(fontspec)             =4.728pt\relax \fontdimen 10\font =5.328pt\relax
+(fontspec)             \fontdimen 11\font =8.232pt\relax \fontdimen 12\font
+(fontspec)             =4.14pt\relax \fontdimen 13\font =4.356pt\relax
+(fontspec)             \fontdimen 14\font =4.356pt\relax \fontdimen 15\font
+(fontspec)             =3.468pt\relax \fontdimen 16\font =2.964pt\relax
+(fontspec)             \fontdimen 17\font =2.964pt\relax \fontdimen 18\font
+(fontspec)             =3.0pt\relax \fontdimen 19\font =2.4pt\relax \fontdimen
+(fontspec)             22\font =3.0pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 137.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
+t line 137.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 137.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
+t line 137.
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998970500334856.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998970500334856.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998970500334856.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998970500334856.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998970500334856.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latin
+modern-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=Ma
+thScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustme
+nt={\fontdimen
+(fontspec)             8\font =0.48pt\relax \fontdimen 9\font =2.4pt\relax
+(fontspec)             \fontdimen 10\font =2.004pt\relax \fontdimen 11\font
+(fontspec)             =1.332pt\relax \fontdimen 12\font =7.2pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->s*[0.9998970500334856]"[latinmodern-math.otf]/OT:
+script=math;language=dflt;"<7.2-10.2>s*[0.9998970500334856]"[latinmodern-math.o
+tf]/OT:script=math;language=dflt;+ssty=0;"<-7.2>s*[0.9998970500334856]"[latinmo
+dern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.48pt\relax \fontdimen 9\font
+(fontspec)             =2.4pt\relax \fontdimen 10\font =2.004pt\relax
+(fontspec)             \fontdimen 11\font =1.332pt\relax \fontdimen 12\font
+(fontspec)             =7.2pt\relax \fontdimen 13\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9998970500334856]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.48pt\relax \fontdimen 9\font
+(fontspec)             =2.4pt\relax \fontdimen 10\font =2.004pt\relax
+(fontspec)             \fontdimen 11\font =1.332pt\relax \fontdimen 12\font
+(fontspec)             =7.2pt\relax \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 1
+37.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
+t line 137.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 137
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
+t line 137.
+LaTeX Info: Redefining \microtypecontext on input line 137.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-LatinModernRoman.
+cfg
+File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
+ern Roman (RS)
+)
+Package hyperref Info: Link coloring OFF on input line 137.
+(C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestrin
+g.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count320
+)
+LaTeX Info: Redefining \ref on input line 137.
+LaTeX Info: Redefining \pageref on input line 137.
+LaTeX Info: Redefining \nameref on input line 137.
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(113.81102pt, 415.12572pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 624.25346pt, 85.35826pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=415.12572pt
+* \textheight=624.25346pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=13.08827pt
+* \topmargin=-18.78552pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+(thesis.toc
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 8.4pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 4.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
+.
+(C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 12.0011pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.40076pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.00055pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 11.99872pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.3991pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 4.
+
+Underfull \hbox (badness 1769) in paragraph at lines 17--17
+ [][] [][]\TU/lmr/m/n/12 Selective or ”mTOR sensitive” regulation of 
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 36--36
+ [][] [][]\TU/lmr/m/n/12 Study 3 - mTOR-dependent translational buffering overr
+ides 
+ []
+
+
+Underfull \hbox (badness 7944) in paragraph at lines 36--36
+ \TU/lmr/m/n/12 transcriptome alterations leading to maintained proteome 
+ []
+
+[1
+
+
+])
+\tf@toc=\write3
+\openout3 = `thesis.toc'.
+
+[2] [11
+
+
+]
+Chapter 1.
+File: ./figures/geneExprPath_2.pdf Graphic file (type pdf)
+<use ./figures/geneExprPath_2.pdf>
+
+Underfull \hbox (badness 1348) in paragraph at lines 180--180
+\TU/lmr/m/n/8 in pre-mRNA containing a 5’ cap (black oval) introns (teal
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 183--184
+\TU/lmr/bx/n/12 of gene expression[] \TU/lmr/m/n/12 The
+ []
+
+
+Underfull \hbox (badness 5908) in paragraph at lines 183--184
+\TU/lmr/m/n/12 whole genetic code of an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+\TU/lmr/m/n/12 organisms is stored as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+\TU/lmr/m/n/12 is the process by which
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+\TU/lmr/m/n/12 temporary copies of the
+ []
+
+
+Underfull \hbox (badness 6063) in paragraph at lines 183--184
+\TU/lmr/m/n/12 DNA are generated called
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 183--184
+\TU/lmr/m/n/12 core (nucleus). RNAs can
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+\TU/lmr/m/n/12 multiple different variants
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 183--184
+\TU/lmr/m/n/12 are produced. A subset
+ []
+
+
+Underfull \hbox (badness 4132) in paragraph at lines 183--184
+\TU/lmr/m/n/12 of processed RNAs is the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+\TU/lmr/m/n/12 so called messenger RNA
+ []
+
+[1
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
+
+ []
+
+[2
+
+]
+File: ./figures/UTRFeatures.pdf Graphic file (type pdf)
+<use ./figures/UTRFeatures.pdf>
+[3]
+File: ./figures/doodleTranslation.pdf Graphic file (type pdf)
+<use ./figures/doodleTranslation.pdf>
+[4
+
+]
+Underfull \hbox (badness 1057) in paragraph at lines 224--225
+[] []|\TU/lmr/bx/n/12 1.2.4. Elongation[] \TU/lmr/m/n/12 The 80S ribosome conta
+ins three sites important for
+ []
+
+File: ./figures/initiation.jpg Graphic file (type bmp)
+<./figures/initiation.jpg>
+[5
+
+] [6]
+File: ./figures/polysome.pdf Graphic file (type pdf)
+<use ./figures/polysome.pdf>
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 239.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 239.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.00073pt on input line 239.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00046pt on input line 239.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.99915pt on input line 239.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 239.
+
+Underfull \hbox (badness 3989) in paragraph at lines 239--239
+\TU/lmr/m/n/8 extracted from different positions along
+ []
+
+
+Underfull \hbox (badness 7151) in paragraph at lines 239--239
+\TU/lmr/m/n/8 a sucrose gradient used for polysome
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 239--239
+\TU/lmr/m/n/8 fractionation see section []1.4[]. Reprinted
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 239--239
+\TU/lmr/m/n/8 with permission. DR. T. STAEHELIN
+ []
+
+
+Underfull \hbox (badness 5119) in paragraph at lines 239--239
+\TU/lmr/m/n/8 10.1038/199865a0. Copyright © 1963,
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 239--239
+\TU/lmr/m/n/8 the TAPES method - A ribosome (A)
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 239--239
+\TU/lmr/m/n/8 can initiate with rate $[]$ on an mRNA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+[][] []|\TU/lmr/bx/n/12 1.2.5. Termination and recycling[]
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 242--243
+\TU/lmr/m/n/12 and eRF3-GTPAlkalaeva, Pisarev, Frolova,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+[] []|\TU/lmr/bx/n/12 1.2.6. Translation efficiency[] \TU/lmr/m/n/12 Each
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 246--247
+\TU/lmr/m/n/12 translation of an mRNA assuming it is
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 246--247
+\TU/lmr/m/n/12 not prematurely terminated. It has been
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+\TU/lmr/m/n/12 (polysomes) simultaneaously (\TU/lmr/bx/n/12 see figure
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 246--247
+\TU/lmr/m/n/12 of an mRNA depends on the number of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
+
+ []
+
+[7
+
+]
+Underfull \hbox (badness 1577) in paragraph at lines 259--260
+\TU/lmr/m/n/12 structurally and functionally distinct complexes, mTORC1 and mTO
+RC2
+ []
+
+[8]
+File: ./figures/mTORsignal.jpg Graphic file (type bmp)
+<./figures/mTORsignal.jpg>
+
+Underfull \hbox (badness 2538) in paragraph at lines 269--270
+\TU/lmr/m/n/12 role in metabolic signalling
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\TU/lmr/m/n/12 where it integrates amino
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\TU/lmr/m/n/12 acid availability, glucose
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\TU/lmr/m/n/12 For example, increased
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\TU/lmr/m/n/12 amino acid availability
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\TU/lmr/m/n/12 induces relocalisation of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\TU/lmr/m/n/12 mTOR into proximity of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\TU/lmr/m/n/12 Rag GTPases leading to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\TU/lmr/m/n/12 its activation (Sancak et
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 269--270
+\TU/lmr/m/n/12 al., 2008). Furthermore,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\TU/lmr/m/n/12 Glucose deprivation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\TU/lmr/m/n/12 and oxygen availability
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 269--270
+\TU/lmr/m/n/12 regulate mTOR activity via
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\TU/lmr/m/n/12 adenosine-mono-phosphate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\TU/lmr/m/n/12 kinase (AMPK) signalling.
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 269--270
+\TU/lmr/m/n/12 AMPK is activated when a
+ []
+
+[9] [10] [11]
+Underfull \hbox (badness 1308) in paragraph at lines 298--299
+\TU/lmr/m/n/12 uORFs among these mRNAs are oncogenes and transcripts important 
+in
+ []
+
+[12]
+File: ./figures/tRNA.pdf Graphic file (type pdf)
+<use ./figures/tRNA.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+[][] []|\TU/lmr/bx/n/12 1.3.4. Regulation of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+\TU/lmr/bx/n/12 mRNA translation by
+ []
+
+
+Underfull \hbox (badness 6284) in paragraph at lines 307--308
+\TU/lmr/bx/n/12 tRNAs[] \TU/lmr/m/n/12 As touched upon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+\TU/lmr/m/n/12 part of the translation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+\TU/lmr/m/n/12 machinery that carry the
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 307--308
+\TU/lmr/m/n/12 (\TU/lmr/bx/n/12 see figure []1.3.4[]\TU/lmr/m/n/12 ). The
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 307--308
+\TU/lmr/m/n/12 acid carried by the tRNA,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+\TU/lmr/m/n/12 while the anti-codon loop
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 307--308
+\TU/lmr/m/n/12 binds to the mRNA within
+ []
+
+
+Underfull \hbox (badness 8000) in paragraph at lines 307--308
+\TU/lmr/m/n/12 the ribosome via classical
+ []
+
+[13]
+Underfull \hbox (badness 2495) in paragraph at lines 311--312
+\TU/lmr/m/n/12 the acetyltransferase Elongator (ELP3), the methyltransferase TR
+M9-like
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 311--312
+\TU/lmr/m/n/12 domain of Alkylation repair homolog 8 (ALKBH8), and the urmylati
+on
+ []
+
+
+Underfull \hbox (badness 4765) in paragraph at lines 311--312
+\TU/lmr/m/n/12 U34 modification into 5-methoxycarbonyl-methyl-2-thiouridine ($[
+][][][][][][]$)
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 319--321
+
+ []
+
+[15]
+File: ./figures/polyRibo.pdf Graphic file (type pdf)
+<use ./figures/polyRibo.pdf>
+
+Underfull \hbox (badness 7186) in paragraph at lines 328--329
+\TU/lmr/m/n/12 translation try to capture
+ []
+
+
+Underfull \hbox (badness 8170) in paragraph at lines 328--329
+\TU/lmr/m/n/12 mRNA is associated with
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 328--329
+\TU/lmr/m/n/12 on the prinicple that this
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 328--329
+\TU/lmr/m/n/12 is directly correlated with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+\TU/lmr/m/n/12 their translation efficiency.
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 328--329
+\TU/lmr/m/n/12 are predominantly used for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+\TU/lmr/m/n/12 or changes in translation
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 328--329
+\TU/lmr/m/n/12 efficiencies across conditions,
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 328--329
+\TU/lmr/m/n/12 explained below in further
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+\TU/lmr/m/n/12 Polysome profiling is a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+\TU/lmr/m/n/12 in translational efficiencies
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 332--333
+\TU/lmr/m/n/12 of mRNAs between two or
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 332--333
+\TU/lmr/m/n/12 monosomes, ribosomal subunits and messenger ribonucleoprotein pa
+rticles
+ []
+
+[16]
+File: ./figures/polysome_shifts.pdf Graphic file (type pdf)
+<use ./figures/polysome_shifts.pdf>
+
+Underfull \hbox (badness 7379) in paragraph at lines 339--340
+\TU/lmr/bx/n/12 left\TU/lmr/m/n/12 ). Subsequent peaks
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 339--340
+\TU/lmr/m/n/12 along the frations indicate
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 339--340
+\TU/lmr/m/n/12 along the fractions, i.e. in
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 339--340
+\TU/lmr/m/n/12 a pool of the same mRNA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+\TU/lmr/m/n/12 many will be associated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+\TU/lmr/m/n/12 with different numbers of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+\TU/lmr/m/n/12 ribosomes. Changes in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+\TU/lmr/m/n/12 mRNA abundance will
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 339--340
+\TU/lmr/m/n/12 lead to an overall increase
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 339--340
+\TU/lmr/m/n/12 in the amount of isolated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+\TU/lmr/m/n/12 polysome-associated mRNA
+ []
+
+[17] [18] [19]
+Underfull \hbox (badness 10000) in paragraph at lines 361--363
+
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 364--364
+|[]\TU/lmr/bx/n/12 Modes for regulation of gene expression through mRNA
+ []
+
+[20]
+File: ./figures/geneModes_MRNA.pdf Graphic file (type pdf)
+<use ./figures/geneModes_MRNA.pdf>
+
+Underfull \hbox (badness 4024) in paragraph at lines 373--374
+[][]\TU/lmr/m/n/12 When comparing perturbed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
+\TU/lmr/m/n/12 control state we typically
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
+\TU/lmr/m/n/12 observe three “modes” in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
+\TU/lmr/m/n/12 “mRNA abundance” and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
+[] []|\TU/lmr/bx/n/12 1.5.1. Translation[] \TU/lmr/m/n/12 A
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 377--378
+\TU/lmr/m/n/12 either increase or decrease,
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 377--378
+\TU/lmr/m/n/12 however corresponding total
+ []
+
+[21]
+Underfull \hbox (badness 1242) in paragraph at lines 385--386
+[] []|\TU/lmr/bx/n/12 1.5.3. Translational buffering[] \TU/lmr/m/n/12 The third
+ mode for regulation of gene
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
+
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 398--399
+\TU/lmr/m/n/12 Given multiple roles of mRNA translation to regulate the proteom
+e via
+ []
+
+[23]
+File: ./figures/geneModes_TE.pdf Graphic file (type pdf)
+<use ./figures/geneModes_TE.pdf>
+
+Underfull \hbox (badness 1478) in paragraph at lines 409--409
+\TU/lmr/m/n/8 expression - Schematic representation of regulatory
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 409--409
+\TU/lmr/m/n/8 plot. Indicated in red are changes in translation
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 412--413
+\TU/lmr/m/n/12 for DNA-microarray data (Larsson,
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 412--413
+\TU/lmr/m/n/12 shared information across all genes
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 412--413
+\TU/lmr/m/n/12 to increase power for detection of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
+\TU/lmr/m/n/12 differential expression(Wright &
+ []
+
+[24]
+File: ./figures/geneModes_anota_Larsson.pdf Graphic file (type pdf)
+<use ./figures/geneModes_anota_Larsson.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
+[]\TU/lmr/m/n/8 Figure 1.12: |anota gene models - Schematic
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 421--421
+\TU/lmr/m/n/8 mRNA expression is set out against total mRNA
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 421--421
+\TU/lmr/m/n/8 total mRNA levels (top right); change in mRNA
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 424--425
+[][]\TU/lmr/m/n/12 Within anota a common slope for
+ []
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 424--425
+\TU/lmr/m/n/12 relationship is calculated. The
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 424--425
+\TU/lmr/m/n/12 translation efficiency. A simplified
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 424--425
+\TU/lmr/m/n/12 view of this model can be seen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+\TU/lmr/m/n/12 efficiencies can also be observed
+ []
+
+
+Underfull \hbox (badness 5147) in paragraph at lines 424--425
+\TU/lmr/m/n/12 levels (\TU/lmr/bx/n/12 Figure []1.12[] top right\TU/lmr/m/n/12 
+).
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 424--425
+\TU/lmr/m/n/12 mRNA abundance genes (\TU/lmr/bx/n/12 Figure
+ []
+
+[25] [26] [27]
+Chapter 2.
+[28
+
+]
+Chapter 3.
+
+Underfull \hbox (badness 1472) in paragraph at lines 458--459
+[]\TU/lmr/m/n/12 Another feature of anota2seq is that it allows for statistical
+ analysis of
+ []
+
+[29
+
+]
+File: ./figures/geneModes_anota2seq.pdf Graphic file (type pdf)
+<use ./figures/geneModes_anota2seq.pdf>
+
+Underfull \hbox (badness 5446) in paragraph at lines 463--463
+[]\TU/lmr/m/n/8 Figure 3.1: |anota2seq gene model for analysis
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 463--463
+\TU/lmr/m/n/8 expression is set out against translated mRNA
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 463--463
+\TU/lmr/m/n/8 that are independent of translated mRNA changes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+\TU/lmr/m/n/12 translation, translational buffering
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+\TU/lmr/m/n/12 mode, analysis for translational
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 466--467
+\TU/lmr/m/n/12 (\TU/lmr/m/it/12 See Figure []1.12[]\TU/lmr/m/n/12 ). Therefore,
+ one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+\TU/lmr/m/n/12 of several methods to efficiently
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+\TU/lmr/m/n/12 analyse transcriptome-wide studies
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 466--467
+\TU/lmr/m/n/12 addresses this issue by changing
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 466--467
+\TU/lmr/m/n/12 the analysis model as described in
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 466--467
+\TU/lmr/m/n/12 section []1.6[] to analyse changes in
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 466--467
+\TU/lmr/m/n/12 total mRNA levels corrected for
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 466--467
+\TU/lmr/m/n/12 changes in translated mRNA levels
+ []
+
+[30] [31]
+Underfull \hbox (badness 1194) in paragraph at lines 484--485
+[]\TU/lmr/m/n/12 From the comparative analysis of the analysis for changes in t
+ranslation
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 490--492
+
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 497--498
+\TU/lmr/m/n/12 pancreatic cancer, whereas non ductal pancreatic cancers e.g. ac
+inar cell
+ []
+
+[33] [34]
+Underfull \hbox (badness 3291) in paragraph at lines 513--514
+\TU/lmr/m/n/12 mRNAs showed overall and more structured 5’ UTRs (e.g. containin
+g
+ []
+
+[35]
+Underfull \hbox (badness 1418) in paragraph at lines 521--522
+\TU/lmr/m/n/12 Furthermore, glutamine levels were elevated in patient derived P
+DA cell
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 527--529
+
+ []
+
+[37]
+Underfull \hbox (badness 4492) in paragraph at lines 531--531
+\TU/lmr/bx/n/12 transcriptome alterations leading to maintained proteome
+ []
+
+[38] [39]
+Underfull \hbox (badness 1436) in paragraph at lines 543--544
+\TU/lmr/m/n/12 exhibited translational buffering upon insulin stimulation while
+ mTOR is
+ []
+
+[40] [41] [42] [43]
+Chapter 4.
+
+Underfull \hbox (badness 2103) in paragraph at lines 565--566
+\TU/lmr/m/n/12 therapy through acquiring resistance. mRNA translation is a comm
+on
+ []
+
+[44
+
+] [45
+
+] [46
+
+] [47]
+Underfull \hbox (badness 1960) in paragraph at lines 656--658
+[][]\TU/lmr/m/n/12 Chaparro, V., Leroux, L.-P., Masvidal, L., Lorent, J., Grabe
+r, T. E.,
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 656--658
+\TU/lmr/m/n/12 Zimmermann, A., … Jaramillo, M. (2020). Translational profiling 
+of
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 656--658
+\TU/lmr/m/n/12 macrophages infected with Leishmania donovani identifies mTOR- a
+nd
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 656--658
+\TU/lmr/m/n/12 eIF4A-sensitive immune-related transcripts. \TU/lmr/m/it/12 PLOS
+ Pathogens\TU/lmr/m/n/12 , \TU/lmr/m/it/12 16\TU/lmr/m/n/12 (6),
+ []
+
+[48]
+Underfull \hbox (badness 1242) in paragraph at lines 665--667
+[][]\TU/lmr/m/n/12 Chothani, S., Adami, E., Ouyang, J. F., Viswanathan, S., Hub
+ner, N.,
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 665--667
+\TU/lmr/m/n/12 Cook, S. A., … Rackham, O. J. L. (2019). deltaTE: Detection of
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 665--667
+\TU/lmr/m/n/12 Translationally Regulated Genes by Integrative Analysis of Ribo-
+seq
+ []
+
+[49]
+Underfull \hbox (badness 3009) in paragraph at lines 686--688
+[][]\TU/lmr/m/n/12 D’Souza, A. R., & Minczuk, M. (2018). Mitochondrial transcri
+ption
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 686--688
+\TU/lmr/m/n/12 and translation: overview. \TU/lmr/m/it/12 Essays in Biochemistr
+y\TU/lmr/m/n/12 , \TU/lmr/m/it/12 62\TU/lmr/m/n/12 (3), 309–320.
+ []
+
+[50] [51] [52] [53]
+Overfull \hbox (1.13829pt too wide) in paragraph at lines 782--784
+\TU/lmr/m/n/12 Translational efficiency across healthy and tumor tissues is pro
+liferation-related.
+ []
+
+[54]
+Missing character: There is no β in font [lmroman12-regular]:mapping=tex-text;!
+[55]
+Underfull \hbox (badness 2119) in paragraph at lines 854--856
+\TU/lmr/m/n/12 Effect of inserting AUG triplets upstream from the coding sequen
+ce
+ []
+
+[56] [57]
+Underfull \hbox (badness 1824) in paragraph at lines 902--904
+\TU/lmr/m/n/12 Hel-N1: An autoimmune RNA-binding protein with specificity for 3
+’
+ []
+
+[58]
+Missing character: There is no α in font [lmroman12-regular]:mapping=tex-text;!
+
+Underfull \hbox (badness 1478) in paragraph at lines 935--937
+\TU/lmr/m/n/12 biopolymerization on nucleic acid templates. \TU/lmr/m/it/12 Bio
+polymers\TU/lmr/m/n/12 , \TU/lmr/m/it/12 6\TU/lmr/m/n/12 (1), 1–5.
+ []
+
+[59]
+Missing character: There is no α in font [lmroman12-regular]:mapping=tex-text;!
+
+Underfull \hbox (badness 1264) in paragraph at lines 947--949
+[][]\TU/lmr/m/n/12 Mayer, I. A., Abramson, V. G., Formisano, L., Balko, J. M., 
+Estrada,
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 947--949
+\TU/lmr/m/n/12 of Alpelisib (BYL719), a PI3Kα-Specific Inhibitor, with Letrozol
+e in
+ []
+
+[60]
+Missing character: There is no α in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no β in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no β in font [lmroman12-regular]:mapping=tex-text;!
+
+Underfull \hbox (badness 3758) in paragraph at lines 980--982
+[][]\TU/lmr/m/n/12 Nagpal, N., Ahmad, H. M., Chameettachal, S., Sundar, D., Gho
+sh,
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 980--982
+\TU/lmr/m/n/12 S., & Kulshreshtha, R. (2015). HIF-inducible miR-191 promotes
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 980--982
+\TU/lmr/m/n/12 in hypoxic microenvironment. \TU/lmr/m/it/12 Scientific Reports\
+TU/lmr/m/n/12 , \TU/lmr/m/it/12 5\TU/lmr/m/n/12 , 9650. []$[] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 986--988
+\TU/lmr/m/n/12 using Anota2seq. \TU/lmr/m/it/12 Nucleic Acids Research\TU/lmr/m
+/n/12 , \TU/lmr/m/it/12 47\TU/lmr/m/n/12 (12), e70–e70. []$[] [] [] [] [] []
+ []
+
+[61] [62] [63]
+Underfull \hbox (badness 3547) in paragraph at lines 1046--1048
+\TU/lmr/m/n/12 translational regulation of S-adenosylmethionine decarboxylase m
+RNA.
+ []
+
+[64] [65] [66]
+Missing character: There is no α in font [lmroman12-regular]:mapping=tex-text;!
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1144
+\TU/lmr/m/n/12 Mechanisms of miRNA-Mediated Gene Regulation from Common
+ []
+
+[68]
+Underfull \hbox (badness 7777) in paragraph at lines 1172--1174
+\TU/lmr/m/n/12 glutamine-alpha-ketoglutarate (AKG) metabolism and its nutrition
+al
+ []
+
+[69] [70] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 19568 strings out of 411732
- 332037 string characters out of 2841320
- 758078 words of memory out of 3000000
- 39369 multiletter control sequences out of 15000+200000
- 403806 words of font info for 30 fonts, out of 3000000 for 9000
+ 20466 strings out of 411732
+ 352166 string characters out of 2841320
+ 880483 words of memory out of 3000000
+ 40174 multiletter control sequences out of 15000+200000
+ 406773 words of font info for 55 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,0n,102p,513b,269s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 98i,12n,122p,1808b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-No pages of output.
+Output written on thesis.pdf (73 pages).

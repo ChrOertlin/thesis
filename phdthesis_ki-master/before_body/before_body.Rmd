@@ -11,7 +11,7 @@ linestretch: 1.5
 geometry: "left=4cm, right=3cm, top=2.5cm, bottom=2.5cm"
 ---
 
-\pagenumbering{roman}
+\pagenumbering{gobble}
 
 \begin{center}
 
@@ -47,7 +47,7 @@ Stockholm 2021
 
 \vspace*{\fill}
 \copyright 2021 Christian Oertlin\newline
-All previously published papaers were reproduced with permission\newline
+All previously published papers were reproduced with permission\newline
 Published by Karolinska Institutet\newline
 Printed by US-AB\newline
 ISBN
@@ -96,20 +96,36 @@ Department of Cell and Molecular Biology\\
 
 \end{minipage}
 \end{small}
-
-
 \clearpage
+\newpage
 
+\
+
+\newpage
 # Abstract
-placeholder
-\clearpage
 
+Transcriptome-wide studies of translation efficiencies focus on understanding translational regulation to better formulate treatment strategies in disease. In **Study 1** we developed an algorithm for analysis of translation efficiency data, called anota2seq. We show that anota2seq outperforms current methodologies and due to its unique approach of analysis among its peers it is the only method to statistically distinguish important modes for regulation of gene expression.
+
+Pancreatic cancer is a lethal malignancy with very limited treatment options. In **Study 2** we evaluate the impact of using an eIF4A inhibitor, CR-31, on mRNA translation in pancreatic cancer. eIF4A is a component of the eIF4F translation initiation complex. We show that inhibiting eIF4A in murine and human pancreatic ductal adenocarcinoma (PDA) models induces an energy crisis by impacting translation of mRNAs related to oxidative phosphorylation and glycolysis. PDAs, as a means to compensate, shifted their metabolic dependency towards glutamine metabolism. Exploiting this dependence using a combined treatment of eIF4A and glutaminase inhibitors revealed an exciting therapeutic treatment strategy for PDA that did not affect healthy cells.
+
+In **Study 3** we investigated the effecs of insulin on gene expression in malignant and  non-malignant cells. This revealed that malignant cells differ in their transcriptional response to insulin from non-malignant cells, whereas in both translation was dependent on mammalian/mechanistic target of rapamycin (mTOR). However, mTOR inhibition during insulin stimulation in malignant cells lead to that the transcriptional response was translationally offset. mTOR in its complex 1 formation is a major regulator of translation initiation by regulation of eIF4E availability  which facilitates formation of the eIF4F complex. Hypoxia leads to a reduction in mTOR activity. Comparing the effects of mTOR inhibition in malignant cells to that of hypoxia in stem cells revealed that these vastly different cell types share the ability to translationally offset mRNAs.
+
+
+\clearpage
+\newpage
+
+\
+
+\newpage
 # List of publications
 
 **Oertlin Christian** , Lorent Julie , Murie Carl , Furic Luc , Topisirovic Ivan & Larsson Ola. (2019). Generally applicable transcriptome-wide analysis of translation using anota2seq. Nucleic acids research. 47. 10.1093/nar/gkz223. 
 
-Chan Karina$^\dagger$ , Robert Francis$^\dagger$ , **Oertlin Christian**$^\dagger$ , Kapeller-Libermann Dana$^\dagger$ , Avizonis Daina , Gutierrez Johana , Handly-Santana Abram , Doubrovin Mikhail , Park Julia , Schoepfer Christina , Silva Brandon , Yao Melissa , Gorton Faith , Shi Junwei , Thomas Craig , Brown Lauren , Porco John , Pollak Michael , Larsson Ola & Chio Iok In Christine. (2019). eIF4A supports an oncogenic translation program in pancreatic ductal adenocarcinoma. Nature Communications. 10. 5151. 10.1038/s41467-019-13086-5. $^\dagger$Equal contribution.
+Chan Karina$^\dagger$ , Robert Francis$^\dagger$ , **Oertlin Christian**$^\dagger$ , Kapeller-Libermann Dana$^\dagger$ , Avizonis Daina , Gutierrez Johana , Handly-Santana Abram , Doubrovin Mikhail , Park Julia , Schoepfer Christina , Silva Brandon , Yao Melissa , Gorton Faith , Shi Junwei , Thomas Craig , Brown Lauren , Porco John , Pollak Michael , Larsson Ola & Chio Iok In Christine. (2019). eIF4A supports an oncogenic translation program in pancreatic ductal adenocarcinoma. Nature Communications. 10. 5151. 10.1038/s41467-019-13086-5.
 
+**Christian Oertlin**$^\dagger$ , Johannes Ristau$^\dagger$ ,  Hayley Kim, Kristofferson Tandoc, Shannon Mclaughlan, Valentina Gandin,  Laia Masvidal, Marie Cargnello, Krzysztof Szkop, Shan Chen, Kathleen Watt, Laura Lee, Shuo Liang, Georgios Mermelakas, Janne Lehtiö,  Lynne-Marie Postovit, Luc Furic, Ivan Topisirovic and Ola Larsson. *Manuscript in preparation*. 
+
+$^\dagger$Equal contribution.
 
 \clearpage
 
@@ -119,7 +135,7 @@ Hipolito Victoria , Diaz Jacqueline , Tandoc Kristofferson , **Oertlin Christian
 
 Liang Shuo , Bellato Hermano , Lorent Julie , Lupinacci Fernanda , **Oertlin Christian** , Hoef Vincent , Andrade Victor , Roffé Martín , Masvidal Laia , Hajj Glaucia & Larsson, Ola. (2017). Polysome-profiling in small tissue samples. Nucleic acids research. 46. 10.1093/nar/gkx940. 
 
-Sophie   Kaspar,  **Christian Oertlin**,   Alexandra   Kukat   Katharina   Senft,   Karolina   SzczepanowskaChristina Lucas, Susanne Brodesser, Maria Hatzoglou, Ola Larsson, Ivan Topisirovic, and AleksandraTrifunovic,   Adaptation   to   mitochondrial   stress   requires   CHOP-directed   tuning   of   ISR,   in  review, Science Advances
+Sophie   Kaspar,  **Christian Oertlin**,   Alexandra   Kukat   Katharina   Senft,   Karolina   SzczepanowskaChristina Lucas, Susanne Brodesser, Maria Hatzoglou, Ola Larsson, Ivan Topisirovic, and AleksandraTrifunovic,   Adaptation   to   mitochondrial   stress   requires   CHOP-directed   tuning   of   ISR,   *in  revision*, Science Advances
 
 
 
