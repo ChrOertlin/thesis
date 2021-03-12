@@ -23,7 +23,7 @@ Karolinska Institutet, Stockholm, Sweden\\
 \vspace{75px}
 
 \begin{Large}
-\textbf{EXPLORING GENE EXPRESSION PROGRAMS: THE ROLE OF MRNA TRANSLATION IN CANCER}
+\textbf{INTERROGATION OF GENE EXPRESSION PROGRAMS IN PERTURBED SYSTEMS}
 \end{Large}
 
 \vspace{25px}
@@ -54,7 +54,7 @@ ISBN
 
 \clearpage
 
-Exploring Gene Expression Programs
+Interrogation of gene expression programs in perturbed systems
 
 THESIS FOR DOCTORAL DEGREE (Ph.D.)
 
