@@ -9,5 +9,5 @@ Cancer is a vastly heterogeneous disease that is characterised by uncontrollable
  
 This thesis provides an advance in methodology to analyse transcriptome-wide changes translation efficiencies that can be applied to study cancer models. Using this methodology in the context of pancreatic cancer we could propose a possible new therapeutic strategy for this lethal disease where treatment options are limited. Lastly, we explore the effects of insulin on gene expression in an unprecedented study that highlighted an adapted insulin responsiveness of cancer cells. Furthermore, we illuminate the ability of cancer cells to translationally buffer genes which is a feature they share with stem cells and could therefore be an acquired mechanism.
 
-Taken together this thesis provides insight on gene expression in two different cancer models that could potentially lead to clinical applications. While these works are a step forward more research is needed to grasp the full extent of the mechanisms involved in cancer.
+Taken together this thesis provides insight on gene expression in two different cancer models that could potentially lead to clinical applications. While these studies are a step forward, more research is needed to grasp the full extent of the mechanisms involved in cancer.
 

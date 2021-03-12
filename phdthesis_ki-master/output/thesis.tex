@@ -159,12 +159,44 @@
 \toprule
 Abbreviation & Term\\
 \midrule
-mORF & main open reading frame\\
-RPF & Ribosome Protected Fragment\\
+3' & 3 prime\\
+4E-BP & 4E binding protein\\
+5' & 5 prime\\
+A-site & Acceptor-site\\
+AMP & Adenosine-mono-phosphate\\
+AMPK & Adenosine-mono-phosphate
+kinase\\
+ATP & adenosine triphosphate\\
+ABCE1 & ATP binding cassette protein\\
+DNA & Deoxyribonucleic acid\\
+eEF & Eukaryotic elongation factor\\
+eIF & Eukaryotic initiation facotr\\
+eRF & Eukaryotic release factor\\
+E-site & Exit-site\\
+GTP & Guanosine triphosphate\\
+LARP1 & La ribonucleoprotein domain family member 1\\
+mORF & Main open reading frame\\
+mTOR & Mammalian/mechatistic target of rapamycin\\
+mRNA & Messenger RNA\\
+met-tRNAi & Methionyl-initiatior transfer RNA\\
+MAPK & Mitogen-activated protein
+kinase\\
+PDA & Pancreatic ductal adenocarcinoma\\
+P-site & Peptidyl-site\\
+PI3K & Phosphoinositide 3-kinase\\
+PIC & Pre-initiation complex\\
+PDCD4 & Programmed cell death protein 4\\
+AKT & Protein kinase A\\
+RNA & Ribonucleic acid\\
+RPF & Ribosome protected fragment\\
+RBP & RNA binding protein\\
+S6K & S6 kinase\\
 TOP & Terminal oligopyrimidine\\
-TE & Translation Efficiency\\
+TC & Ternary complex\\
+tRNA & Transfer RNA\\
+TE & Translation efficiency\\
 UTR & Untranslated region\\
-uORF & upstream open reading frame\\
+uORF & Upstream open reading frame\\
 \bottomrule
 \end{tabular}
 \clearpage
@@ -177,21 +209,21 @@ uORF & upstream open reading frame\\
 \subsection{The central dogma of gene expression}
   \begin{wrapfigure}{r}{.6\textwidth}
   \includegraphics{./figures/geneExprPath_2.pdf}
-  \caption{The gene expression pathway - DNA is transcribed in pre-mRNA containing a 5' cap (black oval) introns (teal boxes),exons (purple boxes) and a poly(A) tail. RNAs are processed into mRNAs consisting out ouf a 5' cap, exons and a poly(A) tail. mRNAs can be transported out of the cellular nucleus into the cytoplasm where they can be degraded, stored or translated into proteins depending on cellular demands. Synthesised proteins can be degraded by proteosomes. \label{fig:geneExprPath}}
+  \caption{The gene expression pathway - DNA is transcribed into RNA containing a 5' cap (black oval) introns (teal boxes),exons (purple boxes) and a poly(A) tail. RNAs are processed into mRNAs that consisting of a 5' cap, exons and a poly(A) tail. mRNAs can be transported out of the cellular nucleus into the cytoplasm where they can be degraded, stored or translated into proteins depending on cellular demands. Synthesised proteins can be degraded by proteosomes. \label{fig:geneExprPath}}
 \end{wrapfigure}
 
-The whole genetic code of an organisms is stored as deoxyribonucleic acid (DNA) molecules in a double stranded formation as highly condensed chromosomes. Transcription is the process by which temporary copies of the DNA are generated called transcripts or ribonucleic acid (RNA) that occurs in the cell's core (nucleus). RNAs can undergo processing by which multiple different variants coming from the same region are produced. A subset of processed RNAs is the so called messenger RNA (mRNA). These mRNAs are transported from the nucleus into the cytoplasm where they can be stored, degraded or associate with ribosomes. Ribosomes translate mRNAs in proteins that fulfil major functions within the cell. Proteins themselves can also undergo degradation. (\textbf{see figure \ref{fig:geneExprPath}}). This flow of genetic information into expressed proteins is commonly referred to as the central dogma in molecular biology (F. Crick, 1970).
+The whole genetic code of an organisms is stored as deoxyribonucleic acid (DNA) molecules in a double stranded formation as highly condensed chromosomes. Transcription is the process whereby temporary copies of the DNA are generated, called transcripts or ribonucleic acid (RNA), and occurs in the cell's core (nucleus). RNAs can undergo processing by which multiple different variants coming from the same region are produced. A subset of processed RNAs is the so called messenger RNA (mRNA). These mRNAs are transported from the nucleus into the cytoplasm where they can be stored, degraded or associate with ribosomes. Ribosomes translate mRNAs in proteins that fulfill major functions within the cell. Proteins themselves can also undergo degradation. (\textbf{see figure \ref{fig:geneExprPath}}). This flow of genetic information into expressed proteins is commonly referred to as the central dogma in molecular biology (F. Crick, 1970).
 \clearpage
 
 \subsection{Contribution to gene expression}
 
 Proteins are the last product of the gene expression pathway and carry out the vast majority of all cellular functions. While it is apparent that modulation of protein levels will offer information on the changes in gene expression, it cannot completely answer the question as to why the levels change. In a disease context, protein levels alone might offer sufficient insight to explain phenotypic differences. However, information on how these differences arise mechanistically is obscured. Yet, these differences in underlying biological mechanisms can be used as targets in therapeutic strategies.
 
-Experimental methods to measure gene expression at different steps are often to referred as ``omics'' (e.g.~proteomics for protein expression, transcriptomics for mRNA expression). These methods provide snapshots of the step under scrutiny in a specific context (steady state or perturbation) for a large portion of genes or proteins. Initially, transcriptomics studies approached gene expression with the assumption that mRNA expression is the main determinant for protein levels and therefore could be used as a proxy for them. However, this view was challenged by several landmark studies that observed a poor mRNA to protein correlation and indicated a larger role of post transcriptional regulation in gene expression than previously assumed Silva \& Vogel (2016).
+Experimental methods to measure gene expression at different steps are often referred to as ``omics'' (e.g.~proteomics for protein expression, transcriptomics for mRNA expression). These methods provide snapshots of the step under scrutiny in a specific context (steady state or perturbation) for a large portion of genes or proteins. Initially, transcriptomics studies approached gene expression with the assumption that mRNA expression is the main determinant for protein levels and therefore could be used as a proxy for them. However, this view was challenged by several landmark studies that observed a poor mRNA to protein correlation and indicated a larger role of post transcriptional regulation in gene expression than previously assumed (de Sousa Abreu, Penalva, Marcotte, \& Vogel, 2009; Lu, Tomfohr, \& Kepler, 2005; Schwanhäusser et al., 2011; Silva \& Vogel, 2016; Vogel \& Marcotte, 2012).
 
-The debate regarding which step of the gene expression pathway contributes most is ongoing, nevertheless an understanding has been reached that the cellular context is a major determinant. At steady state mRNA levels seem to explain protein abundance best, however in perturbed systems the contribution of transcript abundance is shifted away to other steps (Liu, Beyer, \& Aebersold, 2016). For example in a study that challenged immune cells, protein levels were dependent on cellular transcript levels (Jovanovic et al., 2015). In contrast a study investigating cells under stress observed extensive modulation at the protein levels, whereas mRNA transcript abundance was only mildly affected (Cheng et al., 2016).
+The debate regarding which step of the gene expression pathway contributes most is ongoing, nevertheless an understanding has been reached that the cellular context is a major determinant. At steady state, mRNA levels seem to explain protein abundance best, however in perturbed systems the contribution of transcript abundance alone is not sufficient to explain protein abundance (Liu, Beyer, \& Aebersold, 2016). For example in a study that challenged immune cells, protein levels were dependent on cellular transcript levels (Jovanovic et al., 2015). In contrast a study investigating cells under stress observed extensive modulation at the protein levels, whereas mRNA transcript abundance was only mildly affected (Cheng et al., 2016).
 
-While the contribution of different steps of the gene expression is dependent on many different factors, e.g.~cellular state or treatments, mRNA translation (synthesis of proteins) is an essential process of this pathway. Furthermore, dysregulation of mRNA translation has been observed in multiple diseases, ranging from neurological disorders to cancer which warrants for a comprehensive understanding of this process Graff et al. (2009). This thesis will focus on the role of mRNA translation in gene expression in the context of cancer.
+While the contribution of different steps of the gene expression is dependent on many different factors, e.g.~cellular state or treatments, mRNA translation (synthesis of proteins) is an essential process of this pathway. Furthermore, dysregulation of mRNA translation has been observed in multiple diseases, ranging from neurological disorders to cancer which warrants for a comprehensive understanding of this process (Graff et al., 2009; Kapur \& Ackerman, 2018; L. J. Lee et al., 2021; Ruggero, 2013). This thesis will focus on the role of mRNA translation in the context of cancer.
 \newline
 
 \section{mRNA translation}
