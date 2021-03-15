@@ -18,10 +18,8 @@ documentclass: book
 classoption: openany # This removes the blank page after ToC
 geometry: "left=4cm, right=3cm, top=3cm, bottom=3cm"
 header-includes:
-- \usepackage{amsmath}
 - \usepackage{placeins}
 - \usepackage{titlesec}
-- \usepackage{amsmath}
 - \usepackage{wrapfig}
 - \usepackage{caption}
 - \captionsetup[figure]{font=scriptsize}
