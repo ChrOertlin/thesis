@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2021.3.15)  15 MAR 2021 13:13
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.3.15)  15 MAR 2021 14:25
 entering extended mode
 **./thesis.tex
 (thesis.tex
-LaTeX2e <2020-10-01>
-L3 programming layer <2020-10-05> xparse <2020-03-03>
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> xparse <2020-03-03>
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cl
 s
 Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
@@ -12,15 +12,15 @@ Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
 o
 File: bk12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count171
-\c@chapter=\count172
-\c@section=\count173
-\c@subsection=\count174
-\c@subsubsection=\count175
-\c@paragraph=\count176
-\c@subparagraph=\count177
-\c@figure=\count178
-\c@table=\count179
+\c@part=\count175
+\c@chapter=\count176
+\c@section=\count177
+\c@subsection=\count178
+\c@subsubsection=\count179
+\c@paragraph=\count180
+\c@subparagraph=\count181
+\c@figure=\count182
+\c@table=\count183
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -104,13 +104,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 pn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count180
+\inf@bad=\count184
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count181
-\leftroot@=\count182
+\uproot@=\count185
+\leftroot@=\count186
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count183
-\DOTSCASE@=\count184
+\classnum@=\count187
+\DOTSCASE@=\count188
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -119,15 +119,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count185
-\c@MaxMatrixCols=\count186
+\macc@depth=\count189
+\c@MaxMatrixCols=\count190
 \dotsspace@=\muskip16
-\c@parentequation=\count187
-\dspbrk@lvl=\count188
+\c@parentequation=\count191
+\dspbrk@lvl=\count192
 \tag@help=\toks17
-\row@=\count189
-\column@=\count190
-\maxfields@=\count191
+\row@=\count193
+\column@=\count194
+\maxfields@=\count195
 \andhelp@=\toks18
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
@@ -173,7 +173,7 @@ r XeLaTeX)
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\eto
 olbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count192
+\etb@tempcnta=\count196
 )
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fon
 tspec.sty
@@ -181,17 +181,22 @@ tspec.sty
 parse\xparse.sty
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\exp
 l3.sty
-Package: expl3 2020-10-05 L3 programming layer (loader) 
+Package: expl3 2021-02-18 L3 programming layer (loader) 
 
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3
 backend-xetex.def
-File: l3backend-xetex.def 2020-09-24 L3 backend support: XeTeX
-\g__graphics_track_int=\count193
+File: l3backend-xetex.def 2021-03-02 L3 backend support: XeTeX
+()
+\c__kernel_sys_dvipdfmx_version_int=\count197
+\l__color_backend_stack_int=\count198
+\g__color_backend_stack_int=\count199
+\g__graphics_track_int=\count266
 \l__pdf_internal_box=\box49
-\g__pdf_backend_object_int=\count194
-\g__pdf_backend_annotation_int=\count195
+\g__pdf_backend_object_int=\count267
+\g__pdf_backend_annotation_int=\count268
+\g__pdf_backend_link_int=\count269
 ))
-Package: xparse 2020-10-05 L3 Experimental document command parser
+Package: xparse 2020-10-27 L3 Experimental document command parser
 
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/x
 parse\xparse-generic.tex))
@@ -201,17 +206,17 @@ Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
 tspec-xetex.sty
 Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count196
-\l__fontspec_language_int=\count197
-\l__fontspec_strnum_int=\count198
-\l__fontspec_tmp_int=\count199
-\l__fontspec_tmpa_int=\count266
-\l__fontspec_tmpb_int=\count267
-\l__fontspec_tmpc_int=\count268
-\l__fontspec_em_int=\count269
-\l__fontspec_emdef_int=\count270
-\l__fontspec_strong_int=\count271
-\l__fontspec_strongdef_int=\count272
+\l__fontspec_script_int=\count270
+\l__fontspec_language_int=\count271
+\l__fontspec_strnum_int=\count272
+\l__fontspec_tmp_int=\count273
+\l__fontspec_tmpa_int=\count274
+\l__fontspec_tmpb_int=\count275
+\l__fontspec_tmpc_int=\count276
+\l__fontspec_em_int=\count277
+\l__fontspec_emdef_int=\count278
+\l__fontspec_strong_int=\count279
+\l__fontspec_strongdef_int=\count280
 \l__fontspec_tmpa_dim=\dimen148
 \l__fontspec_tmpb_dim=\dimen149
 \l__fontspec_tmpc_dim=\dimen150
@@ -224,7 +229,7 @@ Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 tspec.cfg)))
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkey
 val.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xk
 eyval.tex
@@ -235,12 +240,12 @@ vutils.tex
 
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\ke
 yval.tex))
-\XKV@depth=\count273
+\XKV@depth=\count281
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\c@eu@=\count274
-\c@eu@i=\count275
-\c@mkern=\count276
+\c@eu@=\count282
+\c@eu@i=\count283
+\c@mkern=\count284
 )
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upqu
 ote.sty
@@ -253,24 +258,24 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ))
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mi
 crotype.sty
-Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
+Package: microtype 2021/02/25 v2.8b Micro-typographical refinements (RS)
 \MT@toks=\toks23
-\MT@count=\count277
-LaTeX Info: Redefining \textls on input line 790.
+\MT@count=\count285
+LaTeX Info: Redefining \textls on input line 788.
 \MT@outer@kern=\dimen151
-LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count278
+LaTeX Info: Redefining \textmicrotypecontext on input line 1358.
+\MT@listname@count=\count286
 
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mi
 crotype-xetex.def
-File: microtype-xetex.def 2019/11/18 v2.7d Definitions specific to xetex (RS)
-LaTeX Info: Redefining \lsstyle on input line 258.
+File: microtype-xetex.def 2021/02/25 v2.8b Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 254.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mi
 crotype.cfg
-File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
+File: microtype.cfg 2021/02/25 v2.8b microtype main configuration file (RS)
 ))
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geo
 metry.sty
@@ -280,9 +285,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 ex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count279
-\Gm@cntv=\count280
-\c@Gm@tempcnt=\count281
+\Gm@cnth=\count287
+\Gm@cntv=\count288
+\c@Gm@tempcnt=\count289
 \Gm@bindingoffset=\dimen152
 \Gm@wd@mp=\dimen153
 \Gm@odd@mp=\dimen154
@@ -297,7 +302,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 g\geometry.cfg))
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyp
 erref.sty
-Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
 
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\lt
 xcmds.sty
@@ -342,15 +347,20 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kv
 options.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen160
-\Hy@linkcounter=\count282
-\Hy@pagecounter=\count283
+\Hy@linkcounter=\count290
+\Hy@pagecounter=\count291
 
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1
 enc.def
-File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+)
+(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyp
+erref-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
 )
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\in
 tcalc.sty
@@ -360,26 +370,26 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 texcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count284
-Package hyperref Info: Option `unicode' set `true' on input line 4338.
+\Hy@SavedSpaceFactor=\count292
 
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pue
 nc.def
-File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 4464.
-Package hyperref Info: Link nesting OFF on input line 4469.
-Package hyperref Info: Hyper index ON on input line 4472.
-Package hyperref Info: Plain pages OFF on input line 4479.
-Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Option `unicode' set `true' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count285
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count293
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5076.
+LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen161
 
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bit
@@ -391,18 +401,18 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count286
+\Fld@menulength=\count294
 \Field@Width=\dimen162
 \Fld@charsize=\dimen163
-Package hyperref Info: Hyper figures OFF on input line 6347.
-Package hyperref Info: Link nesting OFF on input line 6352.
-Package hyperref Info: Hyper index ON on input line 6355.
-Package hyperref Info: backreferencing OFF on input line 6362.
-Package hyperref Info: Link coloring OFF on input line 6367.
-Package hyperref Info: Link coloring with OCG OFF on input line 6372.
-Package hyperref Info: PDF/A mode OFF on input line 6377.
-LaTeX Info: Redefining \ref on input line 6417.
-LaTeX Info: Redefining \pageref on input line 6421.
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
 
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegsh
 i-ltx.sty
@@ -410,15 +420,15 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count287
-\c@Item=\count288
-\c@Hfootnote=\count289
+\Hy@abspage=\count295
+\c@Item=\count296
+\c@Hfootnote=\count297
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxe
 tex.def
-File: hxetex.def 2020-05-15 v7.00e Hyperref driver for XeTeX
+File: hxetex.def 2021-02-27 v7.00k Hyperref driver for XeTeX
 
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\
 stringenc.sty
@@ -426,10 +436,10 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box50
-\c@Hy@AnnotLevel=\count290
-\HyField@AnnotCount=\count291
-\Fld@listcount=\count292
-\c@bookmark@seq@number=\count293
+\c@Hy@AnnotLevel=\count298
+\HyField@AnnotCount=\count299
+\Fld@listcount=\count300
+\c@bookmark@seq@number=\count301
 
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/rerunfileche
 ck\rerunfilecheck.sty
@@ -452,23 +462,23 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 30.
 
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/tools\longta
-ble.sty
+(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\
+longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip53
 \LTright=\skip54
 \LTpre=\skip55
 \LTpost=\skip56
-\LTchunksize=\count294
+\LTchunksize=\count302
 \LTcapwidth=\dimen164
 \LT@head=\box51
 \LT@firsthead=\box52
 \LT@foot=\box53
 \LT@lastfoot=\box54
-\LT@cols=\count295
-\LT@rows=\count296
-\c@LT@tables=\count297
-\c@LT@chunks=\count298
+\LT@cols=\count303
+\LT@rows=\count304
+\c@LT@tables=\count305
+\c@LT@chunks=\count306
 \LT@p@ftn=\toks25
 )
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\boo
@@ -484,12 +494,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen172
 \cmidrulekern=\dimen173
 \defaultaddspace=\dimen174
-\@cmidla=\count299
-\@cmidlb=\count300
+\@cmidla=\count307
+\@cmidlb=\count308
 \@aboverulesep=\dimen175
 \@belowrulesep=\dimen176
-\@thisruleclass=\count301
-\@lastruleclass=\count302
+\@thisruleclass=\count309
+\@lastruleclass=\count310
 \@thisrulewidth=\dimen177
 )
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\gra
@@ -512,7 +522,7 @@ Package graphics Info: Driver file: xetex.def on input line 105.
 
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def
 \xetex.def
-File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
+File: xetex.def 2021/03/02 v5.0j Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen178
 \Gin@req@width=\dimen179
@@ -526,7 +536,7 @@ line 40.
 )
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/parskip\pars
 kip.sty
-Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
+Package: parskip 2021-03-02 v2.0g non-zero parskip adjustments
 )
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/hyphenat\hyp
 henat.sty
@@ -554,8 +564,8 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fan
 cyhdr.sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
-s
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
 \f@nch@headwidth=\skip57
 \f@nch@O@elh=\skip58
 \f@nch@O@erh=\skip59
@@ -568,11 +578,11 @@ s
 )
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/caption\capt
 ion.sty
-Package: caption 2020/09/12 v3.5b Customizing captions (AR)
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
 (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/caption\capt
 ion3.sty
-Package: caption3 2020/09/17 v2.1b caption3 kernel (AR)
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \captionmargin=\dimen180
 \captionmargin@=\dimen181
 \captionwidth=\dimen182
@@ -582,8 +592,8 @@ Package: caption3 2020/09/17 v2.1b caption3 kernel (AR)
 \caption@hangindent=\dimen186
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count303
-\c@continuedfloat=\count304
+\c@caption@flags=\count311
+\c@continuedfloat=\count312
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -648,12 +658,12 @@ Type  H <return>  for immediate help.
 l.81 \usepackage{amsmath}
                           
 Here is how much of TeX's memory you used:
- 16744 strings out of 412235
- 290312 string characters out of 2848597
- 680064 words of memory out of 3000000
- 36066 multiletter control sequences out of 15000+200000
- 535464 words of font info for 32 fonts, out of 3000000 for 9000
+ 16367 strings out of 411732
+ 286933 string characters out of 2834728
+ 685268 words of memory out of 3000000
+ 36186 multiletter control sequences out of 15000+200000
+ 403806 words of font info for 30 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 81i,0n,111p,561b,166s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 95i,0n,117p,561b,160s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 No pages of output.
