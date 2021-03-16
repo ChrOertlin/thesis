@@ -23,7 +23,7 @@ Karolinska Institutet, Stockholm, Sweden\\
 \vspace{75px}
 
 \begin{Large}
-\textbf{INTERROGATION OF GENE EXPRESSION PROGRAMS IN PERTURBED SYSTEMS}
+\textbf{DEVELOPING ANALYTICAL TOOLS TO INVESTIGATE THE ROLE OF TRANSLATION IN HOMEOSTASIS AND DISEASE}
 \end{Large}
 
 \vspace{25px}
@@ -50,13 +50,14 @@ Stockholm 2021
 All previously published papers were reproduced with permission\newline
 Published by Karolinska Institutet\newline
 Printed by US-AB\newline
-ISBN
+ISBN 978-91-8016-202-9
 
 \clearpage
 
-Interrogation of gene expression programs in perturbed systems
+Developing analytical tools to investigate the role of translation in homeostasis and disease
 
-THESIS FOR DOCTORAL DEGREE (Ph.D.)
+THESIS FOR DOCTORAL DEGREE (Ph.D.)\newline
+In light of the global pandemic the dissertation will be held online.
 
 By
 
@@ -102,6 +103,7 @@ Department of Cell and Molecular Biology\\
 \
 
 \newpage
+
 # Abstract
 
 Transcriptome-wide studies of translation efficiencies increase our on understanding of translational regulation to better understand homeostatic mechanisms and formulate treatment strategies in disease. In **Study 1**, we developed an algorithm for analysis of translation efficiency, called anota2seq. We show that anota2seq outperforms current methodologies and, due to its unique approach of analysis, it is the only method to statistically distinguish important modes for regulation of gene expression, i.e translation and translational buffering.
@@ -118,6 +120,7 @@ Collectively, these studies improved analysis of translational efficiencies and 
 \
 
 \newpage
+
 # List of publications
 
 **Oertlin Christian** , Lorent Julie , Murie Carl , Furic Luc , Topisirovic Ivan & Larsson Ola. (2019). Generally applicable transcriptome-wide analysis of translation using anota2seq. Nucleic acids research. 47. 10.1093/nar/gkz223. 
@@ -136,7 +139,7 @@ Hipolito Victoria , Diaz Jacqueline , Tandoc Kristofferson , **Oertlin Christian
 
 Liang Shuo , Bellato Hermano , Lorent Julie , Lupinacci Fernanda , **Oertlin Christian** , Hoef Vincent , Andrade Victor , Roffé Martín , Masvidal Laia , Hajj Glaucia & Larsson, Ola. (2017). Polysome-profiling in small tissue samples. Nucleic acids research. 46. 10.1093/nar/gkx940. 
 
-Sophie   Kaspar,  **Christian Oertlin**,   Alexandra   Kukat   Katharina   Senft,   Karolina   SzczepanowskaChristina Lucas, Susanne Brodesser, Maria Hatzoglou, Ola Larsson, Ivan Topisirovic, and AleksandraTrifunovic,   Adaptation   to   mitochondrial   stress   requires   CHOP-directed   tuning   of   ISR,   *in  revision*, Science Advances
+Sophie   Kaspar,  **Christian Oertlin**,   Alexandra   Kukat   Katharina   Senft,   Karolina   Szczepanowska, Christina Lucas, Susanne Brodesser, Maria Hatzoglou, Ola Larsson, Ivan Topisirovic, and AleksandraTrifunovic,   Adaptation   to   mitochondrial   stress   requires   CHOP-directed   tuning   of   ISR,   *accepted*, Science Advances
 
 
 

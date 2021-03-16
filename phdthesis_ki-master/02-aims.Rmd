@@ -3,12 +3,12 @@ output: pdf_document
 ---
 
 \chapter{Aims of this thesis}
-The aims of this thesis are to expand current methodologies for analysis of translation efficiency data and explore the regulation of gene expression in cancer.
+This thesis aims to expand current methodologies for analysis of translation efficiency data and explore the regulation of gene expression in cancer.
 
-In **Study I** we adapted the ANalysis Of Translation Activity data (anota) algorithm so that it could be applied to next generation sequencing data. Furthermore, we implemented the analysis of translational buffering a recently described regulatory mode of gene expression. The resulting algorithm was named anota2seq.
+In **Study I**, we adapted the ANalysis Of Translation Activity data (anota) algorithm so that it could be applied to next-generation sequencing data. Furthermore, we implemented the analysis of translational buffering a recently described  mode for regulation of gene expression. The resulting algorithm was named anota2seq.
 
 We then applied the anota2seq algorithm to investigate changes in translation efficiencies in two cancer models:
 
-In **Study II** we unraveled the effects of eIF4A, an RNA helicase, inhibition using a synthetic rocaglate CR-1-31-B (CR-31) in pancreatic ductal adenocarcinoma.
+In **Study II** we unravelled the effects of eIF4A, an RNA helicase, inhibition using a synthetic rocaglate CR-1-31-B (CR-31) in pancreatic ductal adenocarcinoma.
 
 In **Study III** we explored the effects of insulin on gene expression in multiple cell lines.
