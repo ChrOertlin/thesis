@@ -139,4 +139,8 @@ Hipolito Victoria , Diaz Jacqueline , Tandoc Kristofferson , **Oertlin Christian
 
 Liang Shuo , Bellato Hermano , Lorent Julie , Lupinacci Fernanda , **Oertlin Christian** , Hoef Vincent , Andrade Victor , Roffé Martín , Masvidal Laia , Hajj Glaucia & Larsson, Ola. (2017). Polysome-profiling in small tissue samples. Nucleic acids research. 46. 10.1093/nar/gkx940. 
 
-Kaspar Sophie, **Oertlin Christian**, Kukat Alexandra, Senft Katharina, Szczepanowska Karolina, Lucas Christina, Brodesser Susanne, Hatzoglou Maria, Larsson Ola, Topisirovic Ivan and Trifunovic Aleksandra. Adaptation   to   mitochondrial   stress   requires   CHOP-directed   tuning   of   ISR,   *accepted*, Science Advances.
+Kaspar Sophie, **Oertlin Christian**, Kukat Alexandra, Senft Katharina, Szczepanowska Karolina, Lucas Christina, Brodesser Susanne, Hatzoglou Maria, Larsson Ola, Topisirovic Ivan and Trifunovic Aleksandra. Adaptation   to   mitochondrial   stress   requires   CHOP-directed   tuning   of   ISR.   *accepted*. Science Advances.
+ 
+Ristau Johannes, Watt Kathleen, **Oertlin Christian** and Larsson Ola. Polysome-profiling for transcriptome-wide studies of mRNA translation. Methods in Molecular Biology. *in review*.
+
+**Oertlin Christian**, Watt Kathleen, Ristau Johannes and Larsson Ola. Anota2seq for transcriptome-wide studies of mRNA translation. Methods in Molecular Biology. *in review*.
