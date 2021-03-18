@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.3.15)  17 MAR 2021 20:04
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.3.15)  18 MAR 2021 13:04
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -935,12 +935,12 @@ Overfull \hbox (26.67836pt too wide) in alignment at lines 119--144
  []
 
 
-Overfull \hbox (26.67836pt too wide) in alignment at lines 144--169
+Overfull \hbox (26.67836pt too wide) in alignment at lines 144--170
  [] [] 
  []
 
 
-Overfull \hbox (26.67836pt too wide) in alignment at lines 169--194
+Overfull \hbox (26.67836pt too wide) in alignment at lines 170--195
  [] [] 
  []
 
@@ -948,61 +948,66 @@ Overfull \hbox (26.67836pt too wide) in alignment at lines 169--194
 
 
 ]
-Overfull \hbox (26.67836pt too wide) in alignment at lines 194--213
+Overfull \hbox (26.67836pt too wide) in alignment at lines 195--219
  [] [] 
  []
 
-[12] [13]
+
+Overfull \hbox (26.67836pt too wide) in alignment at lines 219--238
+ [] [] 
+ []
+
+[12] [13] [14]
 Chapter 1.
 File: ./figures/geneExprPath_2.pdf Graphic file (type pdf)
 <use ./figures/geneExprPath_2.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--236
+Underfull \hbox (badness 10000) in paragraph at lines 250--261
 \TU/lmr/bx/n/12 of gene expression[] \TU/lmr/m/n/12 In
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 225--236
+Underfull \hbox (badness 6412) in paragraph at lines 250--261
 \TU/lmr/m/n/12 process whereby temporary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--236
+Underfull \hbox (badness 10000) in paragraph at lines 250--261
 \TU/lmr/m/n/12 copies of the DNA are
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 225--236
+Underfull \hbox (badness 1796) in paragraph at lines 250--261
 \TU/lmr/m/n/12 nucleus. These copies are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--236
+Underfull \hbox (badness 10000) in paragraph at lines 250--261
 \TU/lmr/m/n/12 RNAs undergo processing
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 225--236
+Underfull \hbox (badness 2875) in paragraph at lines 250--261
 \TU/lmr/m/n/12 by which multiple different
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--236
+Underfull \hbox (badness 10000) in paragraph at lines 250--261
 \TU/lmr/m/n/12 RNAs is the so called
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--236
+Underfull \hbox (badness 10000) in paragraph at lines 250--261
 \TU/lmr/m/n/12 messenger RNA (mRNA).
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 225--236
+Underfull \hbox (badness 3471) in paragraph at lines 250--261
 \TU/lmr/m/n/12 where they can be stored,
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 225--236
+Underfull \hbox (badness 1997) in paragraph at lines 250--261
 \TU/lmr/m/n/12 degraded or translated into
  []
 
@@ -1010,7 +1015,7 @@ Underfull \hbox (badness 1997) in paragraph at lines 225--236
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 277--287
+Underfull \hbox (badness 10000) in paragraph at lines 302--312
 
  []
 
@@ -1023,13 +1028,13 @@ File: ./figures/UTRFeatures_2.pdf Graphic file (type pdf)
 File: ./figures/doodleTranslation.pdf Graphic file (type pdf)
 <use ./figures/doodleTranslation.pdf>
 [4]
-Underfull \hbox (badness 2941) in paragraph at lines 332--366
+Underfull \hbox (badness 2941) in paragraph at lines 357--391
 [] []|\TU/lmr/bx/n/12 1.2.3. Initiation[] \TU/lmr/m/n/12 In eukaryotes, 5’ cap-
 dependent initiation of mRNA
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 369--387
+Underfull \hbox (badness 1057) in paragraph at lines 394--412
 [] []|\TU/lmr/bx/n/12 1.2.4. Elongation[] \TU/lmr/m/n/12 The 80S ribosome conta
 ins three sites important for
  []
@@ -1043,77 +1048,77 @@ File: ./figures/initiation.jpg Graphic file (type bmp)
 File: ./figures/polysome.pdf Graphic file (type pdf)
 <use ./figures/polysome.pdf>
 
-Underfull \hbox (badness 3989) in paragraph at lines 400--400
+Underfull \hbox (badness 3989) in paragraph at lines 425--425
 \TU/lmr/m/n/8 extracted from different positions along
  []
 
 
-Underfull \hbox (badness 7151) in paragraph at lines 400--400
+Underfull \hbox (badness 7151) in paragraph at lines 425--425
 \TU/lmr/m/n/8 a sucrose gradient used for polysome
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 400--400
+Underfull \hbox (badness 1297) in paragraph at lines 425--425
 \TU/lmr/m/n/8 fractionation see section []1.4[]. Reprinted
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 400--400
+Underfull \hbox (badness 1874) in paragraph at lines 425--425
 \TU/lmr/m/n/8 with permission. DR. T. STAEHELIN
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--411
+Underfull \hbox (badness 10000) in paragraph at lines 428--436
 [][] []|\TU/lmr/bx/n/12 1.2.5. Termination and recycling[]
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 403--411
+Underfull \hbox (badness 1454) in paragraph at lines 428--436
 \TU/lmr/m/n/12 upon recognition of a stop codon. This
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 403--411
+Underfull \hbox (badness 2111) in paragraph at lines 428--436
 \TU/lmr/m/n/12 causes an hydrolysis event resulting in a
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 403--411
+Underfull \hbox (badness 2635) in paragraph at lines 428--436
 \TU/lmr/m/n/12 conformational change and release of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--435
+Underfull \hbox (badness 10000) in paragraph at lines 439--460
 [] []|\TU/lmr/bx/n/12 1.2.6. Translation efficiency[] \TU/lmr/m/n/12 Each
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 414--435
+Underfull \hbox (badness 1490) in paragraph at lines 439--460
 \TU/lmr/m/n/12 profiling and ribosome profiling are used to study translation e
 fficiencies
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--435
+Underfull \hbox (badness 10000) in paragraph at lines 439--460
 
  []
 
 [8
 
 ]
-Underfull \hbox (badness 1803) in paragraph at lines 468--487
+Underfull \hbox (badness 1803) in paragraph at lines 493--512
 \TU/lmr/m/n/12 mediated through the phosphoinositide 3-kinase (PI3K) / AKT path
 way.
  []
 
 
-Underfull \hbox (badness 7308) in paragraph at lines 468--487
+Underfull \hbox (badness 7308) in paragraph at lines 493--512
 \TU/lmr/m/n/12 PI3K activation generates phosphatidylinositol-3,4,5-trisphospha
 te (PIP3).
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 468--487
+Underfull \hbox (badness 2020) in paragraph at lines 493--512
 \TU/lmr/m/n/12 of PIP3 to phosphatidylinositol 4,5-bisphosphate (PIP2). PIP3 re
 cruits
  []
@@ -1122,7 +1127,7 @@ cruits
 File: ./figures/mTORsignal.jpg Graphic file (type bmp)
 <./figures/mTORsignal.jpg>
 
-Underfull \hbox (badness 1117) in paragraph at lines 515--532
+Underfull \hbox (badness 1117) in paragraph at lines 540--557
 []\TU/lmr/m/n/12 mTOR also fulfills a central role in metabolic signalling. Her
 e, mTOR
  []
@@ -1130,78 +1135,98 @@ e, mTOR
 [11
 
 ]
-Underfull \hbox (badness 1331) in paragraph at lines 533--538
+Underfull \hbox (badness 1331) in paragraph at lines 558--563
 []\TU/lmr/m/n/12 In cancer, cellular metabolism, proliferation as well as growt
 h are often
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 563--565
+Underfull \hbox (badness 1715) in paragraph at lines 588--590
 []\TU/lmr/m/n/12 Collectively, through acting on its downstream targets, mTOR r
 egulates
  []
 
 
-Underfull \hbox (badness 4132) in paragraph at lines 570--591
+Underfull \hbox (badness 4132) in paragraph at lines 595--616
 [] []|\TU/lmr/bx/n/12 1.3.1.2.1 Terminal oligo pyrmidine mRNAs[] \TU/lmr/m/n/12
  Selective or “mTOR
  []
 
-[12] [13] [14] [15]
+[12] [13] [14] [15] [16]
 File: ./figures/tRNA.pdf Graphic file (type pdf)
 <use ./figures/tRNA.pdf>
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 737--747
+
+Underfull \hbox (badness 10000) in paragraph at lines 771--781
 [][] []|\TU/lmr/bx/n/12 1.3.3. Regulation of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 737--747
-\TU/lmr/bx/n/12 mRNA translation by
+Underfull \hbox (badness 10000) in paragraph at lines 771--781
+\TU/lmr/bx/n/12 mRNA translation
  []
 
 
-Underfull \hbox (badness 6284) in paragraph at lines 737--747
-\TU/lmr/bx/n/12 tRNAs[] \TU/lmr/m/n/12 As touched upon
+Underfull \hbox (badness 10000) in paragraph at lines 771--781
+\TU/lmr/bx/n/12 by tRNAs[] \TU/lmr/m/n/12 As touched
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 737--747
-\TU/lmr/m/n/12 part of the translation
+Underfull \hbox (badness 10000) in paragraph at lines 771--781
+\TU/lmr/m/n/12 upon earlier, tRNAs are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 737--747
-\TU/lmr/m/n/12 machinery that carry the
+Underfull \hbox (badness 10000) in paragraph at lines 771--781
+\TU/lmr/m/n/12 an essential part of the
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 737--747
-\TU/lmr/m/n/12 of a 76-90 long nucleotide
+Underfull \hbox (badness 10000) in paragraph at lines 771--781
+\TU/lmr/m/n/12 translation machinery that
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 737--747
-\TU/lmr/m/n/12 structure forming several
+Underfull \hbox (badness 5802) in paragraph at lines 771--781
+\TU/lmr/m/n/12 carry the amino acids to
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 737--747
-\TU/lmr/m/n/12 stem binds the amino acid
+Underfull \hbox (badness 4441) in paragraph at lines 771--781
+\TU/lmr/m/n/12 tRNAs consist of a 76-90
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 737--747
+Underfull \hbox (badness 1087) in paragraph at lines 771--781
+\TU/lmr/m/n/12 into a “cloverleaf” structure
+ []
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 771--781
+\TU/lmr/m/n/12 et al., 1985) (\TU/lmr/bx/n/12 see figure
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 771--781
+\TU/lmr/m/n/12 binds the amino, while the
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 771--781
 \TU/lmr/m/n/12 mRNA within the ribosome
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 737--747
-\TU/lmr/m/n/12 via classical watson-crick
+Underfull \hbox (badness 10000) in paragraph at lines 771--781
+\TU/lmr/m/n/12 via classical Watson-Crick
  []
 
 
-Overfull \hbox (0.40315pt too wide) in paragraph at lines 748--770
+Underfull \hbox (badness 3471) in paragraph at lines 771--781
+\TU/lmr/m/n/12 basepairing (Watson et al.,
+ []
+
+
+Overfull \hbox (0.40315pt too wide) in paragraph at lines 782--805
 \TU/lmr/m/n/12 relationship has been found to vary across different cellular st
 ates, e.g. proliferation
  []
@@ -1210,85 +1235,93 @@ ates, e.g. proliferation
 File: ./figures/polyRibo.pdf Graphic file (type pdf)
 <use ./figures/polyRibo.pdf>
 
-Underfull \hbox (badness 2582) in paragraph at lines 872--872
+Underfull \hbox (badness 2582) in paragraph at lines 907--907
 \TU/lmr/m/n/8 Fractions corresponding to efficiently translated mRNAs are
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 872--872
+Underfull \hbox (badness 1097) in paragraph at lines 907--907
 \TU/lmr/m/n/8 (left). During ribosome profiling a fraction from the whole
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--882
+Underfull \hbox (badness 10000) in paragraph at lines 910--917
 []\TU/lmr/m/n/12 Two methods are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--882
+Underfull \hbox (badness 10000) in paragraph at lines 910--917
 \TU/lmr/m/n/12 predominantly used for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--882
+Underfull \hbox (badness 10000) in paragraph at lines 910--917
 \TU/lmr/m/n/12 to estimate changes in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--882
+Underfull \hbox (badness 10000) in paragraph at lines 910--917
 \TU/lmr/m/n/12 profiling and ribosome
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 875--882
+Underfull \hbox (badness 4072) in paragraph at lines 910--917
 \TU/lmr/m/n/12 profiling (\TU/lmr/bx/n/12 see figure []1.8[]\TU/lmr/m/n/12 ).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--882
+Underfull \hbox (badness 10000) in paragraph at lines 910--917
 \TU/lmr/m/n/12 These methods capture
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--882
+Underfull \hbox (badness 10000) in paragraph at lines 910--917
+\TU/lmr/m/n/12 the number of ribosomes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 910--917
+\TU/lmr/m/n/12 an mRNA is associated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 910--917
+\TU/lmr/m/n/12 ribosomes is an adequate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 910--917
+\TU/lmr/m/n/12 of estimator changes in
+ []
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 910--917
+\TU/lmr/m/n/12 translation efficiencies when
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 910--917
 \TU/lmr/m/n/12 initation is rate limiting.
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 875--882
+Underfull \hbox (badness 2359) in paragraph at lines 910--917
 \TU/lmr/m/n/12 Indeed, as explained above
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 885--897
+Underfull \hbox (badness 10000) in paragraph at lines 920--931
 \TU/lmr/m/n/12 Polysome profiling allows
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 885--897
+Underfull \hbox (badness 1838) in paragraph at lines 920--931
 \TU/lmr/m/n/12 for separation of polysomes
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 885--897
+Underfull \hbox (badness 2495) in paragraph at lines 920--931
 \TU/lmr/m/n/12 from monosomes, ribosomal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 885--897
-\TU/lmr/m/n/12 subunits and messenger
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 885--897
-\TU/lmr/m/n/12 ribonucleoprotein particles (mRNPs). During the assay, ribosomes
-
- []
-
-
-Underfull \hbox (badness 3407) in paragraph at lines 885--897
-\TU/lmr/m/n/12 are immobilized on the mRNAs using translation elongation inhibi
-tors,
  []
 
 File: ./figures/polysome_shifts.pdf Graphic file (type pdf)
@@ -1296,137 +1329,152 @@ File: ./figures/polysome_shifts.pdf Graphic file (type pdf)
 [21
 
 ]
-Underfull \hbox (badness 3826) in paragraph at lines 903--925
-\TU/lmr/m/n/12 can be seen in (\TU/lmr/bx/n/12 Fig []1.9[]
+Underfull \hbox (badness 10000) in paragraph at lines 937--959
+\TU/lmr/m/it/12 left\TU/lmr/m/n/12 ). Subsequent peaks
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 903--925
+Underfull \hbox (badness 4686) in paragraph at lines 937--959
 \TU/lmr/m/n/12 along the frations indicate
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 903--925
+Underfull \hbox (badness 2538) in paragraph at lines 937--959
 \TU/lmr/m/n/12 along the fractions, i.e. in
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 903--925
+Underfull \hbox (badness 1057) in paragraph at lines 937--959
 \TU/lmr/m/n/12 a pool of the same mRNA
  []
 
 
-Underfull \hbox (badness 5637) in paragraph at lines 903--925
-\TU/lmr/m/n/12 in mRNA abundance may
+Underfull \hbox (badness 10000) in paragraph at lines 937--959
+\TU/lmr/m/n/12 many will be associated
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 903--925
-\TU/lmr/m/n/12 lead to an overall increase
+Underfull \hbox (badness 10000) in paragraph at lines 937--959
+\TU/lmr/m/n/12 with different numbers of
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 903--925
-\TU/lmr/m/n/12 in the amount of isolated
- []
-
-[22] [23]
-Underfull \hbox (badness 4205) in paragraph at lines 993--1007
-[] []|\TU/lmr/bx/n/12 1.4.3. Comparing ribosome and polysome profiling[] \TU/lm
-r/m/n/12 Albeit both
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 1047--1050
-
+Underfull \hbox (badness 10000) in paragraph at lines 937--959
+\TU/lmr/m/n/12 ribosomes (Gandin et al.,
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 1050--1050
+Underfull \hbox (badness 1728) in paragraph at lines 937--959
+\TU/lmr/m/n/12 abundance may lead to an
+ []
+
+[22]
+Underfull \hbox (badness 1122) in paragraph at lines 980--988
+[] []|\TU/lmr/bx/n/12 1.4.2. Ribosome profiling[] \TU/lmr/m/n/12 R17 bacterioph
+age ribosome protected RNA
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 989--1010
+\TU/lmr/m/n/12 produce fragments of similar length. Furthermore, ribosomes unde
+rgoing
+ []
+
+[23] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 1087--1090
+
+ []
+
+[25]
+Underfull \hbox (badness 2875) in paragraph at lines 1090--1090
 |[]\TU/lmr/bx/n/12 Modes for regulation of gene expression through mRNA
  []
 
 File: ./figures/geneModes_MRNA.pdf Graphic file (type pdf)
 <use ./figures/geneModes_MRNA.pdf>
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 1057--1067
+
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1108
 []\TU/lmr/m/n/12 From transcriptome-wide
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1057--1067
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1108
 \TU/lmr/m/n/12 assessments of translation
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 1057--1067
+Underfull \hbox (badness 1137) in paragraph at lines 1097--1108
 \TU/lmr/m/n/12 using ribosome or polysome
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1057--1067
-\TU/lmr/m/n/12 and polysome-associated
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1108
+\TU/lmr/m/n/12 profiling expression levels
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 1057--1067
-\TU/lmr/m/n/12 mRNAs (or RPFs). For
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1108
+\TU/lmr/m/n/12 for both cytoplasmic and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1057--1067
+Underfull \hbox (badness 6268) in paragraph at lines 1097--1108
+\TU/lmr/m/n/12 polysome-associated mRNAs
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1108
 \TU/lmr/m/n/12 simplicity, from now on,
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 1057--1067
+Underfull \hbox (badness 5893) in paragraph at lines 1097--1108
 \TU/lmr/m/n/12 these RNA types will be
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 1057--1067
+Underfull \hbox (badness 1708) in paragraph at lines 1097--1108
 \TU/lmr/m/n/12 referred to as total mRNA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1057--1067
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1108
 \TU/lmr/m/n/12 (i.e. cytoplasmic mRNA)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1057--1067
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1108
 \TU/lmr/m/n/12 and translated mRNA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1057--1067
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1108
 \TU/lmr/m/n/12 (i.e. polysome-associated
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 1057--1067
+Underfull \hbox (badness 7081) in paragraph at lines 1097--1108
 \TU/lmr/m/n/12 mRNA or RPFs). The
  []
 
 
-Underfull \hbox (badness 3482) in paragraph at lines 1057--1067
+Underfull \hbox (badness 3482) in paragraph at lines 1097--1108
 \TU/lmr/m/n/12 for both translated mRNA
  []
 
-[26]
-Underfull \hbox (badness 1803) in paragraph at lines 1106--1118
-[] []|\TU/lmr/bx/n/12 1.5.3. Translational buffering[] \TU/lmr/m/n/12 The third
- mode of regulation of gene
+
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1108
+\TU/lmr/m/n/12 and total mRNA allows
  []
 
-
-Overfull \hbox (0.95966pt too wide) in paragraph at lines 1119--1126
+[26]
+Overfull \hbox (0.95966pt too wide) in paragraph at lines 1156--1163
 []\TU/lmr/m/n/12 Current literature supports multiple forms of translational bu
 ffering. Translational
  []
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 1150--1165
+Underfull \hbox (badness 10000) in paragraph at lines 1187--1202
 
  []
 
@@ -1434,32 +1482,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 1150--1165
 File: ./figures/geneModes_TE.pdf Graphic file (type pdf)
 <use ./figures/geneModes_TE.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 1209--1222
+Underfull \hbox (badness 10000) in paragraph at lines 1244--1257
 \TU/lmr/m/n/12 when proposing the Analysis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1209--1222
+Underfull \hbox (badness 10000) in paragraph at lines 1244--1257
 \TU/lmr/m/n/12 of Translation Activity (anota)
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 1209--1222
+Underfull \hbox (badness 1546) in paragraph at lines 1244--1257
 \TU/lmr/m/n/12 algorithm which was developed for
  []
 
 
-Underfull \hbox (badness 6364) in paragraph at lines 1209--1222
+Underfull \hbox (badness 6364) in paragraph at lines 1244--1257
 \TU/lmr/m/n/12 DNA-microarray data (Larsson et
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 1209--1222
+Underfull \hbox (badness 1371) in paragraph at lines 1244--1257
 \TU/lmr/m/n/12 using shared information across all
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1209--1222
+Underfull \hbox (badness 10000) in paragraph at lines 1244--1257
 \TU/lmr/m/n/12 homoscedasticity of residuals and
  []
 
@@ -1469,37 +1517,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 1209--1222
 File: ./figures/geneModes_anota_Larsson.pdf Graphic file (type pdf)
 <use ./figures/geneModes_anota_Larsson.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 1235--1235
+Underfull \hbox (badness 10000) in paragraph at lines 1270--1270
 []\TU/lmr/m/n/8 Figure 1.12: |anota gene models - Schematic
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 1235--1235
+Underfull \hbox (badness 1629) in paragraph at lines 1270--1270
 \TU/lmr/m/n/8 mRNA expression is set out against total mRNA
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 1235--1235
+Underfull \hbox (badness 1960) in paragraph at lines 1270--1270
 \TU/lmr/m/n/8 change in translation efficiency with varying total
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 1238--1260
+Underfull \hbox (badness 1163) in paragraph at lines 1273--1295
 \TU/lmr/m/n/12 translation efficiency. A simplified
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 1238--1260
+Underfull \hbox (badness 1609) in paragraph at lines 1273--1295
 \TU/lmr/m/n/12 view of this model is provided in
  []
 
 
-Underfull \hbox (badness 3536) in paragraph at lines 1238--1260
+Underfull \hbox (badness 3536) in paragraph at lines 1273--1295
 \TU/lmr/m/n/12 in translation efficiencies can also
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 1261--1273
+Underfull \hbox (badness 2065) in paragraph at lines 1273--1295
+\TU/lmr/m/n/12 data sets, as they resemble genes
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 1296--1308
 \TU/lmr/m/n/12 platform to assess transcriptome-wide changes before the advent 
 of RNA
  []
@@ -1507,7 +1560,7 @@ of RNA
 [31
 
 ]
-Underfull \hbox (badness 1406) in paragraph at lines 1274--1288
+Underfull \hbox (badness 1406) in paragraph at lines 1309--1323
 \TU/lmr/m/n/12 have been initially approached using Poisson distributions which
  assumes
  []
@@ -1519,144 +1572,123 @@ Chapter 2.
 ]
 Chapter 3.
 
-Underfull \hbox (badness 1152) in paragraph at lines 1366--1384
+Underfull \hbox (badness 1152) in paragraph at lines 1401--1416
 []\TU/lmr/m/n/12 Anota was developed for analysis of transcriptome-wide analysi
 s for data
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 1385--1395
+Underfull \hbox (badness 1472) in paragraph at lines 1417--1427
 []\TU/lmr/m/n/12 Another feature of anota2seq is that it allows for statistical
  analysis of
+ []
+
+File: ./figures/geneModes_anota2seq.pdf Graphic file (type pdf)
+<use ./figures/geneModes_anota2seq.pdf>
+
+Underfull \hbox (badness 5446) in paragraph at lines 1431--1431
+[]\TU/lmr/m/n/8 Figure 3.1: |anota2seq gene model for analysis
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 1431--1431
+\TU/lmr/m/n/8 expression is set out against translated mRNA
  []
 
 [35
 
 ]
-File: ./figures/geneModes_anota2seq.pdf Graphic file (type pdf)
-<use ./figures/geneModes_anota2seq.pdf>
-
-Underfull \hbox (badness 5446) in paragraph at lines 1399--1399
-[]\TU/lmr/m/n/8 Figure 3.1: |anota2seq gene model for analysis
- []
-
-
-Underfull \hbox (badness 6477) in paragraph at lines 1399--1399
-\TU/lmr/m/n/8 expression is set out against translated mRNA
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 1399--1399
-\TU/lmr/m/n/8 that are independent of translated mRNA changes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1402--1414
+Underfull \hbox (badness 10000) in paragraph at lines 1434--1446
 \TU/lmr/m/n/12 translation, translational buffering
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1402--1414
-\TU/lmr/m/n/12 mode, analysis for translational
+Underfull \hbox (badness 10000) in paragraph at lines 1434--1446
+\TU/lmr/m/n/12 mode, analysis of translational
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 1402--1414
+Underfull \hbox (badness 1082) in paragraph at lines 1434--1446
 \TU/lmr/m/n/12 (\TU/lmr/m/it/12 See Figure []1.12[]\TU/lmr/m/n/12 ). Therefore,
  one
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1402--1414
+Underfull \hbox (badness 10000) in paragraph at lines 1434--1446
 \TU/lmr/m/n/12 of several methods to efficiently
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1402--1414
+Underfull \hbox (badness 10000) in paragraph at lines 1434--1446
 \TU/lmr/m/n/12 analyse transcriptome-wide studies
  []
 
 
-Underfull \hbox (badness 7486) in paragraph at lines 1402--1414
+Underfull \hbox (badness 7486) in paragraph at lines 1434--1446
 \TU/lmr/m/n/12 addresses this issue by changing
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 1402--1414
+Underfull \hbox (badness 1142) in paragraph at lines 1434--1446
 \TU/lmr/m/n/12 the analysis model as described in
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 1402--1414
-\TU/lmr/m/n/12 section []1.6[] to analyse changes in
- []
-
-
-Underfull \hbox (badness 7759) in paragraph at lines 1402--1414
-\TU/lmr/m/n/12 total mRNA levels corrected for
- []
-
-
-Underfull \hbox (badness 1092) in paragraph at lines 1402--1414
-\TU/lmr/m/n/12 changes in translated mRNA levels
- []
-
-
-Underfull \hbox (badness 1655) in paragraph at lines 1415--1424
+Underfull \hbox (badness 1655) in paragraph at lines 1447--1456
 []\TU/lmr/m/n/12 Application of anota2seq has successfully identified translati
 onal buffering
  []
 
 [36] [37]
-Underfull \hbox (badness 1194) in paragraph at lines 1482--1495
+Underfull \hbox (badness 1194) in paragraph at lines 1515--1527
 []\TU/lmr/m/n/12 From the comparative analysis of the analysis for changes in t
 ranslation
  []
 
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 1515--1525
+
+Underfull \hbox (badness 10000) in paragraph at lines 1549--1559
 
  []
 
-
-Underfull \hbox (badness 1394) in paragraph at lines 1533--1543
+[38]
+Underfull \hbox (badness 1394) in paragraph at lines 1567--1577
 \TU/lmr/m/n/12 pancreatic cancer, whereas non ductal pancreatic cancers e.g. ac
 inar cell
  []
 
 [39] [40]
-Underfull \hbox (badness 1478) in paragraph at lines 1615--1630
+Underfull \hbox (badness 1478) in paragraph at lines 1649--1665
 \TU/lmr/m/n/12 was affected upon CR-31 treatment in KP organoids. It was report
 ed
  []
 
 [41]
-Underfull \hbox (badness 1783) in paragraph at lines 1644--1655
+Underfull \hbox (badness 1783) in paragraph at lines 1679--1690
 \TU/lmr/m/n/12 metabolic pathways, e.g. Oxidative phosphorylation. This pathway
  was
  []
 
 [42]
-Underfull \hbox (badness 1354) in paragraph at lines 1684--1694
+Underfull \hbox (badness 1354) in paragraph at lines 1718--1728
 \TU/lmr/m/n/12 could sensitise to CR-31 treatment patient-derived PDAC cells to
  CR-31
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1695--1724
+Underfull \hbox (badness 10000) in paragraph at lines 1729--1761
 
  []
 
-[43] [44] [45]
-Underfull \hbox (badness 1436) in paragraph at lines 1804--1816
+[43] [44]
+Underfull \hbox (badness 1436) in paragraph at lines 1817--1829
 \TU/lmr/m/n/12 exhibited translational buffering upon insulin stimulation while
  mTOR is
  []
 
-[46] [47] [48] [49]
+[45] [46] [47] [48] [49]
 Chapter 4.
 
-Underfull \hbox (badness 2103) in paragraph at lines 1948--1955
+Underfull \hbox (badness 2103) in paragraph at lines 1965--1972
 \TU/lmr/m/n/12 therapy through acquiring resistance. mRNA translation is a comm
 on
  []
@@ -1668,127 +1700,115 @@ on
 ] [52] [53] [54
 
 ] [55]
-Underfull \hbox (badness 2486) in paragraph at lines 2202--2205
+Underfull \hbox (badness 2486) in paragraph at lines 2221--2224
 \TU/lmr/m/n/12 Therapies lost in the mix. \TU/lmr/m/it/12 Human Genetics\TU/lmr
 /m/n/12 , \TU/lmr/m/it/12 130\TU/lmr/m/n/12 (1), 79–91. []$[][][][][] []
  []
 
 [56]
-Underfull \hbox (badness 1960) in paragraph at lines 2299--2305
+Underfull \hbox (badness 1960) in paragraph at lines 2318--2324
 []\TU/lmr/m/n/12 Chaparro, V., Leroux, L.-P., Masvidal, L., Lorent, J., Graber,
  T. E.,
  []
 
 
-Underfull \hbox (badness 3240) in paragraph at lines 2299--2305
+Underfull \hbox (badness 3240) in paragraph at lines 2318--2324
 \TU/lmr/m/n/12 Zimmermann, A., … Jaramillo, M. (2020). Translational profiling 
 of
  []
 
 
-Underfull \hbox (badness 6268) in paragraph at lines 2299--2305
+Underfull \hbox (badness 6268) in paragraph at lines 2318--2324
 \TU/lmr/m/n/12 macrophages infected with leishmania donovani identifies mTOR- a
 nd
  []
 
 [57]
-Underfull \hbox (badness 1931) in paragraph at lines 2346--2351
+Underfull \hbox (badness 1931) in paragraph at lines 2365--2370
 []\TU/lmr/m/n/12 Connolly, E., Braunstein, S., Formenti, S., & Schneider, R. J.
  (2006).
  []
 
 
-Underfull \hbox (badness 6173) in paragraph at lines 2346--2351
+Underfull \hbox (badness 6173) in paragraph at lines 2365--2370
 \TU/lmr/m/n/12 Hypoxia inhibits protein synthesis through a 4E-BP1 and elongati
 on
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 2346--2351
+Underfull \hbox (badness 2158) in paragraph at lines 2365--2370
 \TU/lmr/m/n/12 factor 2 kinase pathway controlled by mTOR and uncoupled in brea
 st
  []
 
 [58]
-Underfull \hbox (badness 1424) in paragraph at lines 2369--2373
+Underfull \hbox (badness 1424) in paragraph at lines 2381--2385
 []\TU/lmr/m/n/12 Dassi, E., Greco, V., Sidarovich, V., Zuccotti, P., Arseni, N.
 , Scaruffi,
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 2369--2373
+Underfull \hbox (badness 3612) in paragraph at lines 2381--2385
 \TU/lmr/m/n/12 P., … Quattrone, A. (2015). Translational compensation of genomi
 c
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 2369--2373
+Underfull \hbox (badness 2961) in paragraph at lines 2381--2385
 \TU/lmr/m/n/12 instability in neuroblastoma. \TU/lmr/m/it/12 Scientific Reports
 \TU/lmr/m/n/12 , \TU/lmr/m/it/12 5\TU/lmr/m/n/12 (1), 14364. []$[][][][][] []
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 2387--2392
+Underfull \hbox (badness 1331) in paragraph at lines 2399--2404
 []\TU/lmr/m/n/12 Deng, W., Babu, I. R., Su, D., Yin, S., Begley, T. J., & Dedon
 , P.
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 2387--2392
+Underfull \hbox (badness 2512) in paragraph at lines 2399--2404
 \TU/lmr/m/n/12 C. (2015). Trm9-catalyzed tRNA modifications regulate global pro
 tein
  []
 
 [59]
-Underfull \hbox (badness 3009) in paragraph at lines 2415--2418
+Underfull \hbox (badness 3009) in paragraph at lines 2427--2430
 []\TU/lmr/m/n/12 D’Souza, A. R., & Minczuk, M. (2018). Mitochondrial transcript
 ion
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 2415--2418
+Underfull \hbox (badness 3547) in paragraph at lines 2427--2430
 \TU/lmr/m/n/12 and translation: Overview. \TU/lmr/m/it/12 Essays in Biochemistr
 y\TU/lmr/m/n/12 , \TU/lmr/m/it/12 62\TU/lmr/m/n/12 (3), 309–320.
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 2450--2456
+Underfull \hbox (badness 1430) in paragraph at lines 2455--2461
 \TU/lmr/m/n/12 oligopyrimidine (TOP) mRNA translation downstream of mTOR comple
 x
  []
 
 [60] [61] [62]
-Underfull \hbox (badness 2495) in paragraph at lines 2610--2615
+Underfull \hbox (badness 2495) in paragraph at lines 2621--2626
 \TU/lmr/m/n/12 (2015). Understanding biases in ribosome profiling experiments r
 eveals
  []
 
-[63]
-Underfull \hbox (badness 1189) in paragraph at lines 2674--2678
-[]\TU/lmr/m/n/12 Johansson, H. J., Socciarelli, F., Vacanti, N. M., Haugen, M. 
-H., Zhu,
- []
-
-
-Underfull \hbox (badness 5652) in paragraph at lines 2674--2678
-\TU/lmr/m/n/12 and proteogenomic landscape. \TU/lmr/m/it/12 Nature Communicatio
-ns\TU/lmr/m/n/12 , \TU/lmr/m/it/12 10\TU/lmr/m/n/12 (1), 1600.
- []
-
-[64]
-Underfull \hbox (badness 1024) in paragraph at lines 2730--2735
+[63] [64]
+Underfull \hbox (badness 1024) in paragraph at lines 2746--2751
 []\TU/lmr/m/n/12 Karlsborn, T., Tükenmez, H., Mahmud, A. K. M. F., Xu, F., Xu, 
 H.,
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 2730--2735
+Underfull \hbox (badness 1028) in paragraph at lines 2746--2751
 \TU/lmr/m/n/12 & Byström, A. S. (2014). Elongator, a conserved complex required
  for
  []
 
 [65]
-Underfull \hbox (badness 2237) in paragraph at lines 2773--2777
+Underfull \hbox (badness 2237) in paragraph at lines 2789--2793
 []\TU/lmr/m/n/12 Kwok, C. K., & Merrick, C. J. (2017). G-quadruplexes: Predicti
 on,
  []
@@ -1798,141 +1818,141 @@ Missing character: There is no α in font [lmroman12-regular]:mapping=tex-text;!
 [68]
 Missing character: There is no α in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ′ in font [lmroman12-regular]:mapping=tex-text;!
-[69] [70]
+[69]
 Missing character: There is no α in font [lmroman12-regular]:mapping=tex-text;!
-[71]
+[70]
 Missing character: There is no α in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no β in font [lmroman12-regular]:mapping=tex-text;!
+[71]
 Missing character: There is no β in font [lmroman12-regular]:mapping=tex-text;!
 
-Underfull \hbox (badness 1215) in paragraph at lines 3075--3080
+Underfull \hbox (badness 1215) in paragraph at lines 3091--3096
 []\TU/lmr/m/n/12 Nagpal, N., Ahmad, H. M., Chameettachal, S., Sundar, D., Ghosh
 , S.,
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 3075--3080
+Underfull \hbox (badness 1810) in paragraph at lines 3091--3096
 \TU/lmr/m/n/12 & Kulshreshtha, R. (2015). HIF-inducible miR-191 promotes migrat
 ion
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 3075--3080
+Underfull \hbox (badness 1496) in paragraph at lines 3091--3096
 \TU/lmr/m/n/12 microenvironment. \TU/lmr/m/it/12 Scientific Reports\TU/lmr/m/n/
 12 , \TU/lmr/m/it/12 5\TU/lmr/m/n/12 , 9650. []$[][][][][] [] [] [] [][][] [] [
 ][][] [] [][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 3094--3098
+Underfull \hbox (badness 1472) in paragraph at lines 3110--3114
 \TU/lmr/m/it/12 Bioinformatics\TU/lmr/m/n/12 , \TU/lmr/m/it/12 29\TU/lmr/m/n/12
  (23), 2995–3002. []$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][] [
 ] [][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 3100--3105
+Underfull \hbox (badness 3735) in paragraph at lines 3116--3121
 []\TU/lmr/m/n/12 Ortiz-Zapater, E., Pineda, D., Martínez-Bosch, N., Fernández-M
 iranda,
  []
 
 [72]
-Underfull \hbox (badness 1924) in paragraph at lines 3138--3143
+Underfull \hbox (badness 1924) in paragraph at lines 3154--3159
 []\TU/lmr/m/n/12 Pearce, L. R., Huang, X., Boudeau, J., Paw{\textbackslash}lows
 ki, R.,
  []
 
-[73] [74]
-Underfull \hbox (badness 2875) in paragraph at lines 3226--3230
+[73]
+Underfull \hbox (badness 2875) in paragraph at lines 3235--3239
 \TU/lmr/m/it/12 Biological Chemistry\TU/lmr/m/n/12 , \TU/lmr/m/it/12 276\TU/lmr
 /m/n/12 (33), 30914–30922. []$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [
 ][][][] [] [][][] []
  []
 
-[75]
-Underfull \hbox (badness 1226) in paragraph at lines 3288--3292
+[74] [75]
+Underfull \hbox (badness 1226) in paragraph at lines 3297--3301
 \TU/lmr/m/n/12 Velculescu, V. E. (2004). High frequency of mutations of the PIK
 3CA
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 3288--3292
+Underfull \hbox (badness 1527) in paragraph at lines 3297--3301
 \TU/lmr/m/n/12 gene in human cancers. \TU/lmr/m/it/12 Science\TU/lmr/m/n/12 , \
 TU/lmr/m/it/12 304\TU/lmr/m/n/12 (5670), 554–554. Retrieved from
  []
 
 [76] [77]
-Underfull \hbox (badness 1776) in paragraph at lines 3403--3409
+Underfull \hbox (badness 1776) in paragraph at lines 3412--3418
 \TU/lmr/m/n/12 of the SUP45 (eRF1) and SUP35 genes interact to mediate translat
 ion
  []
 
-[78]
 Missing character: There is no α in font [lmroman12-regular]:mapping=tex-text;!
-
-Underfull \hbox (badness 1132) in paragraph at lines 3440--3444
+[78]
+Underfull \hbox (badness 1132) in paragraph at lines 3456--3460
 \TU/lmr/m/n/12 tRanslatome: An r/bioconductor package to portray translational 
 control.
  []
 
-[79]
-Underfull \hbox (badness 1210) in paragraph at lines 3488--3492
+
+Underfull \hbox (badness 1210) in paragraph at lines 3504--3508
 \TU/lmr/m/n/12 abundance from proteomic and transcriptomic analyses. \TU/lmr/m/
 it/12 Nature Reviews.
  []
 
-
-Underfull \hbox (badness 1577) in paragraph at lines 3499--3503
+[79]
+Underfull \hbox (badness 1577) in paragraph at lines 3515--3519
 []\TU/lmr/m/n/12 Waldron, J. A., Raza, F., & Le Quesne, J. (2018). eIF4A allevi
 ates
  []
 
 
-Underfull \hbox (badness 5878) in paragraph at lines 3499--3503
+Underfull \hbox (badness 5878) in paragraph at lines 3515--3519
 \TU/lmr/m/n/12 the translational repression mediated by classical secondary str
 uctures
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 3511--3515
+Underfull \hbox (badness 1189) in paragraph at lines 3527--3531
 []\TU/lmr/m/n/12 Wang, Z.-Y., Leushkin, E., Liechti, A., Ovchinnikova, S., Mößi
 nger, K.,
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 3511--3515
+Underfull \hbox (badness 1466) in paragraph at lines 3527--3531
 \TU/lmr/m/n/12 Brüning, T., … Kaessmann, H. (2020). Transcriptome and translato
 me
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 3528--3532
+Underfull \hbox (badness 2343) in paragraph at lines 3544--3548
 []\TU/lmr/m/n/12 Weldon, C., Eperon, I. C., & Dominguez, C. (2016). Do we know
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 3528--3532
+Underfull \hbox (badness 2744) in paragraph at lines 3544--3548
 \TU/lmr/m/n/12 whether potential g-quadruplexes actually form in long functiona
 l RNA
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 3528--3532
+Underfull \hbox (badness 1655) in paragraph at lines 3544--3548
 \TU/lmr/m/n/12 molecules? \TU/lmr/m/it/12 Biochemical Society Transactions\TU/l
 mr/m/n/12 , \TU/lmr/m/it/12 44\TU/lmr/m/n/12 (6), 1761–1768. []$[][][][][] []
  []
 
 [80] [81] [82] (thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DE76B1FB1AD74F9AF8AF4AD26F10794A;9378.
+(rerunfilecheck)             Checksum: F75ED5F876AE8A890AB1CCF5935E5A59;9462.
  ) 
 Here is how much of TeX's memory you used:
  17259 strings out of 411732
  304986 string characters out of 2834728
- 741059 words of memory out of 3000000
+ 740997 words of memory out of 3000000
  36962 multiletter control sequences out of 15000+200000
  416082 words of font info for 48 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  95i,12n,117p,1197b,484s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.pdf (87 pages).
+Output written on thesis.pdf (88 pages).
