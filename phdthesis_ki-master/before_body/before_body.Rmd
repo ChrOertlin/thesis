@@ -60,6 +60,8 @@ THESIS FOR DOCTORAL DEGREE (Ph.D.)\newline
 In light of the global pandemic the dissertation will be held online.
 The meeting information will be published prior to the defence on the KI-website.
 
+**Friday, April 23rd, 2021, 13:00**
+
 By
 
 \textbf{Christian Oertlin}
@@ -109,7 +111,7 @@ Department of Cell and Molecular Biology\\
 
 Transcriptome-wide studies of translation efficiencies are required to improve understanding of translational regulation and its role in homeostatic mechanisms. In **Study 1**, we developed an algorithm for analysis of translation efficiency, called anota2seq. We show that anota2seq outperforms current methodologies and, due to its unique analytical approach, it is the only method to statistically distinguish important modes for regulation of gene expression, i.e translation and translational buffering.
 
-Pancreatic cancer is a lethal malignancy with very limited treatment options. In **Study 2**, we evaluate the impact of using an eIF4A inhibitor, CR-31, on mRNA translation in pancreatic cancer. eIF4A is a component of the eIF4F translation initiation complex. We show that inhibiting eIF4A in murine and human pancreatic ductal adenocarcinoma (PDAC) models induces an energy crisis by impacting translation of mRNAs related to oxidative phosphorylation and glycolysis. This leads to the shift of metabolic dependency of PDACs towards reductive glutamine metabolism. Exploiting this dependence using a combined treatment of eIF4A and glutaminase inhibitors revealed an exciting therapeutic treatment strategy for PDA that did not affect healthy cells.
+Pancreatic cancer is a lethal malignancy with very limited treatment options. In **Study 2**, we evaluate the impact of using an eIF4A inhibitor, CR-31, on mRNA translation in pancreatic cancer. eIF4A is a component of the eIF4F translation initiation complex. We show that inhibiting eIF4A in murine and human pancreatic ductal adenocarcinoma (PDAC) models induces an energy crisis by impacting translation of mRNAs related to oxidative phosphorylation and glycolysis. This leads to the shift of metabolic dependency of PDACs towards reductive glutamine metabolism. Exploiting the dependence on reductive glutamine metabolism using a combined treatment of eIF4A and glutaminase inhibitors revealed an exciting therapeutic treatment strategy for PDAC that did not affect healthy cells.
 
 In **Study 3**, we investigated the effecs of insulin on gene expression in malignant and  non-malignant cells. This revealed that malignant cells modulate total mRNA levels differerenly in response to insulin compared to non-malignant cells, whereas in both translation was dependent on mammalian/mechanistic target of rapamycin (mTOR). However, mTOR inhibition during insulin stimulation in malignant cells lead to translational offsetting of alterations in total mRNA levels. Comparing the effects of mTOR inhibition in malignant cells to that of hypoxia in stem cells revealed that these vastly different cell types share the ability to translationally offset mRNAs.
 
