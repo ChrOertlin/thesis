@@ -336,7 +336,7 @@ Furthermore, alternative splicing may result in isoforms with different
 5' UTRs. This leads to altered translation of mRNAs encoding for the
 same protein (S. N. Floor et al., 2016; Jewer et al., 2020).
 
-\subsection{mRNA translation} \label{translation}
+\subsection{The steps in mRNA translation} \label{translation}
 
 In eukryotes, mRNA translation occurs in the cytoplasm for the vast
 majority of protein coding mRNAs. However a small subset of mRNAs
@@ -435,7 +435,7 @@ polypeptide chain. eRF1 and the ATP binding cassette protein (ABCE1)
 together promote the splitting of the 60S and 40S subunits after which
 they can be recycled (Hellen, 2018; Pisarev et al., 2010).
 
-\subsection{Translation efficiency}
+\subsection{Translation efficiency} \label{transEff}
 
 Each ribosome synthesises a single protein during translation of an mRNA
 assuming it is not prematurely terminated. It has been known since the
@@ -757,10 +757,9 @@ uORFs in ATF4, the uORFs in GADD34 are too close together to allow for
 reinitiation. Under basal conditions uORF2, which has a poor Kozak
 context, represses translation of the cdsORF. However, under stress
 causing eIF2\(\alpha\) phosphorylation, ribosomes scan past uORF2 to
-translate the cdsORF (Young et al., 2015). Furthermore, both uORF1 and
-uORF2 seem to initiate translation to repress the cdsORF under basal
-conditions. Lastly, structural elements in proximity of the uORF can
-also influence its translation (H. Ruan et al., 1994).
+translate the cdsORF (Young et al., 2015). Lastly, structural elements
+in proximity of the uORF can also influence its translation (H. Ruan et
+al., 1994).
 
 \subsection{Regulation of mRNA translation by tRNAs} \label{tRNA}\begin{wrapfigure}{r}{0.6\textwidth}
   \includegraphics{./figures/tRNA.pdf}
@@ -772,7 +771,7 @@ As touched upon earlier, tRNAs are an essential part of the translation
 machinery that carry the amino acids to the ribosome. In eukaryotes,
 tRNAs consist of a 76-90 long nucleotide sequence set into a
 ``cloverleaf'' structure forming several loops (Sharp et al., 1985)
-(\textbf{see figure \ref{tRNA}}). The acceptor stem binds the amino,
+(\emph{see figure \ref{fig:tRNA}}). The acceptor stem binds the amino,
 while the anti-codon loop binds to the mRNA within the ribosome via
 classical Watson-Crick basepairing (Watson et al., 1953). Multiple
 codons can encode for the same amino acid (synonymous codons), however
@@ -782,44 +781,46 @@ influence elongation rates and thus protein synthesis.
 This supply ( i.e.~tRNA availability) and demand (i.e.~codon
 composition) relationship has been found to vary across different
 cellular states, e.g.~proliferation and differentiation. Gingold et. al.
-observed two differen tRNA subsets. One subset is induced when
+observed two different tRNA subsets. One subset is induced when
 proliferation is stimulated and is otherwise repressed. And the other
 subset increases expression when differentiation is induced and is
-repressed otherwise. Both tRNA subsets match the codon demand of the
-transcriptome under their respective cellular state (Gingold et al.,
-2014). This model has been disputed and it was proposed that the
-observed differences may be attributed to GC content in the mRNA
-(Rudolph et al., 2016). Nevertheless, abberant tRNA expression and codon
-usage have been reported in cancer (Z. Zhang et al., 2018). Furthermore,
-a comprehensive study using small RNAseq (e.g.~for identification of
-tRNAs) and protein samples across 17 tissues reported a tRNA signature
-stratified by proliferation marker Ki67 staining. The identified tRNA
-signature has implications for patient survival (Hernandez-Alias et al.,
-2020). Therefore, while a consensus on proliferation specific tRNA
-subsets might not have been reached, emerging evidence implicates a role
-thereof in cancer (Gingold et al., 2014; Hernandez-Alias et al., 2020;
-Z. Zhang et al., 2018). For instance, increased expression of
+repressed otherwise (\emph{see figure \ref{fig:tRNA}}). Both tRNA
+subsets match the codon demand of the transcriptome under their
+respective cellular state (Gingold et al., 2014). This model has been
+disputed and it was proposed that the observed differences may be
+attributed to GC content in the mRNA (Rudolph et al., 2016).
+Nevertheless, abberant tRNA expression and codon usage have been
+reported in cancer (Z. Zhang et al., 2018). Furthermore, a comprehensive
+study using small RNAseq (e.g.~for identification of tRNAs) and protein
+samples across 17 tissues reported a tRNA signature stratified by
+proliferation marker Ki67 staining. The identified tRNA signature has
+implications for patient survival (Hernandez-Alias et al., 2020).
+Therefore, while a consensus on proliferation specific tRNA subsets
+might not have been reached, emerging evidence implicates a role thereof
+in cancer (Gingold et al., 2014; Hernandez-Alias et al., 2020; Z. Zhang
+et al., 2018). For instance, increased expression of
 \(tRNA_{CCG}^{Arg}\) and \(tRNA_{UUC}^{Glu}\) has been observed in
-breast cancer cell lines and proposed to drive metastasis (Goodarzi et
-al., 2016).
+breast cancer cell lines and are proposed to drive metastasis (Goodarzi
+et al., 2016).
 
 Others reported of a role for tRNAs in cancer attributed to tRNA
-modifications, specifically at the U34 anti- codon (at wobble) position
-which is highly conserved (El Yacoubi et al., 2012; Lorent et al., 2019;
-Rapino et al., 2017). The ability to wobble was proposed by Francis
-Crick and refers to non-Watson-Crick base pairing of tRNA anti-codons
-(F. H. Crick, 1966). This enables a smaller set of tRNAs (41-55 in
-eukaryotes) to encode for the 64 possible codon combinations (Goodenbour
-et al., 2006). In mammals, the U34 modification catalytic cascade
-involves the acetyltransferase Elongator (ELP3), the methyltransferase
-TRM9-like domain of Alkylation repair homolog 8 (ALKBH8), and the
-urmylation (URM) pathway. The URM includes the cytosolic thiouridylase
-homolog 1 and 2 (CTU1/CTU2) (Kalhor et al., 2003; Karlsborn et al.,
-2014). These enzymes ultimately modify the U34 position into
+modifications, specifically at the highly conserved U34 anti-codon
+(wobble) position (El Yacoubi et al., 2012; Lorent et al., 2019; Rapino
+et al., 2017). The ability to wobble was proposed by Francis Crick and
+refers to non-Watson-Crick base pairing of tRNA anti-codons (F. H.
+Crick, 1966). This enables a smaller set of tRNAs (41-55 in eukaryotes)
+to encode for the 64 possible codon combinations (Goodenbour et al.,
+2006). In mammals, the U34 modification catalytic cascade involves the
+acetyltransferase Elongator (ELP3), the methyltransferase TRM9-like
+domain of Alkylation repair homolog 8 (ALKBH8), and the urmylation (URM)
+pathway. The URM pathway includes the cytosolic thiouridylase homolog 1
+and 2 (CTU1/CTU2) (Kalhor et al., 2003; Karlsborn et al., 2014). These
+enzymes ultimately modify the U34 position into
 5-methoxycarbonyl-methyl-2-thiouridine (\(mcm^5s^2U\)) which ensures
 cognate codon recognition. This modification is thought to occur in
 tRNAs with a U in the wobble position, e.g. \(tRNA^{UUU}\),
-\(tRNA^{UUC}\), \(tRNA^{UUG}\), \(tRNA^{UCC}\), and \(tRNA^{UCU}\).
+\(tRNA^{UUC}\), \(tRNA^{UUG}\), \(tRNA^{UCC}\), and \(tRNA^{UCU}\)
+(\emph{see figure \ref{fig:tRNA}}).
 
 Loss of the ability to modify U34 has been shown to reduce translation
 elongation rates with varying effects on protein expression (Deng et
@@ -893,7 +894,7 @@ bone osteosarcoma epithelial cells, overexpression of HuR led to a dose
 dependent increase in eIF4E protein levels. The increase in protein
 levels was atrributed to eIF4E transcript stabilisation through binding
 of HuR to AU-rich elements (AREs) in the 3' UTR of eIF4E (Topisirovic et
-al., 2009). Other known drivers of tumor progression targetted by HuR
+al., 2009). Other known drivers of tumor progression targeted by HuR
 include hypoxia inducible factor 1 (HIF-1), VEGF, c-Myc (Denkert et al.,
 2004; López de Silanes et al., 2003, 2005). Furthermore, studies in
 breast, colon and lung cancer observed correlation between HuR and
@@ -904,7 +905,7 @@ malignancy (Denkert et al., 2004; López de Silanes et al., 2003, 2005).
 
 \begin{wrapfigure}{r}{0.6\textwidth}
     \includegraphics{./figures/polyRibo.pdf}
-  \caption{Polysome profiling and ribosome profiling workflows. In polysome profiling a fraction from whole cytoplasmic RNA is loaded onto a sucrose gradient on which they get separated by sedimentation into the sucrose gradient using ultra centrifugation. Fractions corresponding to efficiently translated mRNAs are collected and can be quantified with for example RNA sequencing (left). During ribosome profiling a fraction from the whole cytoplasmic RNA is exposed to a digestion agent which breaks the RNA. Ribosomes will protect fragments thereby creating ribosome protected fragments. These fragments are then isolated and can be sequenced.  \label{fig:polyRibo}}
+  \caption{Polysome profiling and ribosome profiling workflows. In polysome profiling a fraction from whole cytoplasmic RNA is loaded onto a sucrose gradient on which they get separated by sedimentation into the sucrose gradient using ultra centrifugation. Fractions corresponding to efficiently translated mRNAs are collected and can be quantified with for example RNA sequencing (left). During ribosome profiling a fraction from the whole cytoplasmic RNA is exposed to a digestion agent which breaks the RNA. Ribosomes will protect fragments thereby creating ribosome protected fragments. These fragments are then isolated and can be sequenced. Note the differently coloured mRNAs and how both methods separate them. \label{fig:polyRibo}}
 \end{wrapfigure}
 
 Two methods are predominantly used for measuring mRNA translation to
@@ -913,7 +914,8 @@ polysome profiling and ribosome profiling (\textbf{see figure
 \ref{fig:polyRibo}}). These methods capture the number of ribosomes an
 mRNA is associated with. The number of bound ribosomes is an adequate of
 estimator changes in translation efficiencies when initation is rate
-limiting. Indeed, as explained above this is a common scenario.
+limiting. Indeed, as explained above this is a common scenario
+(\emph{see section \ref{transEff}}).
 
 \subsection{Polysome profiling}
 
@@ -945,7 +947,7 @@ of isolated polysome-associated mRNA without a shift of the distribution
 along the fractions (\emph{Fig \ref{fig:polysome} top right}). This
 means that the translation efficiency per mRNA remains unchanged. In
 contrast, changes in translational efficiency can be observed by shifts
-along the polysome fractions. For example, if the mRNA shift from the
+along the polysome fractions. For example, if the mRNAs shift from the
 light (inefficiently translated) towards the heavy (efficiently
 translated) polysome fractions or vice versa in the absence of changes
 in total mRNA levels (\emph{Fig \ref{fig:polysome} bottom left}). Shifts
@@ -954,15 +956,15 @@ around 4 bound ribosomes to 7 bound ribosomes) can also occur (\emph{Fig
 \ref{fig:polysome} bottom right}). Quantification of mRNA levels within
 each fraction can be assessed using Northern blotting or reverse
 transcription quantitative polymerase chain reaction (RT-qPCR). For
-transcriptome-wide studies efficiently translated mRNAs are pooled and
+transcriptome-wide studies, efficiently translated mRNAs are pooled and
 quantified using either DNA-microarrays or RNA sequencing.
 
 Pooling of mRNAs as well as collection of multiple fractions makes
 polysome profiling inconvenient when dealing with low amounts of input
-RNA or with large samples sizes. Therefore, an optimized sucrose
+RNA or with large samples sizes. Therefore, an optimised sucrose
 gradient was developed where mRNAs bound to \textgreater{}3 ribosomes
 are collected on a sucrose cushion and thereby can be isolated from one
-single fraction (Liang et al., 2018). This optimized gradient allows for
+single fraction (Liang et al., 2018). This optimised gradient allows for
 application of polysome profiling in small tissue samples where RNA
 quantity is limiting and reduces labor intensity of the assay.
 
@@ -996,7 +998,7 @@ fragments such as rRNAs, non-coding RNAs (ncRNAs) or large
 ribonucleoprotein complexes can co-migrate and contaminate the sample.
 Typically RPFs with a size ranging from 25-30 nucleotides are selected
 for quantification. However, RBP-or 43S-protected RNAs, such as those
-localized in stress granules, may produce fragments of similar length.
+localised in stress granules, may produce fragments of similar length.
 Furthermore, ribosomes undergoing conformational changes have been shown
 to protect fragments corresponding to a length of 21nt when translation
 elongation is blocked by e.g.~CHX (L. F. Lareau et al., 2014).
@@ -1013,7 +1015,7 @@ been developed (O'Connor et al., 2016). RUST can reveal mRNA sequence
 features affecting RPF density globally. The authors applied RUST to 30
 publicly available data sets and identified substanial sequence
 heterogeneity affecting RPF densities. Thus, sequence bias is prominent
-in ribosome profiling data (O'Connor et al., 2016).
+in ribosome profiling (O'Connor et al., 2016).
 
 Initially, fragmented total mRNA using alkaline hydrolysis of the same
 size were retrieved in paralell to RPFs. This was achieved by extraction
@@ -1032,31 +1034,31 @@ from non- efficiently translated mRNAs along a sucrose gradient thereby
 creating an mRNA based perspective for analysing changes in
 translational efficiencies. In contrast, ribosome profiling determines
 translational efficiencies by counting the number of RPFs of both
-efficiently and non-efficiently translated mRNAs. This can have
-implications for identifaction of transcript variants. For example, if a
-ribosome would not protect a fragment differentiating two isoforms,
-information on the isoforms would be lost during ribosome profiling (S.
-N. Floor et al., 2016). In polysome profiling the integrity of the mRNA
-is preserved. This gives polysome profiling the advantage in cases where
-transcript variants with different 5' UTR lengths are of interest. This
-makes polysome profiling, but not ribosome profiling, compatible with
-methods to investigate UTRs (e.g.~CAGE and 3P-seq) (C. H. Jan et al.,
-2011; Takahashi et al., 2012).
+efficiently and non-efficiently translated mRNAs (\emph{see figure
+\ref{fig:polyRibo}}). This can have implications for identifaction of
+transcript variants. For example, if a ribosome would not protect a
+fragment differentiating two isoforms, information on the isoforms would
+be lost during ribosome profiling (S. N. Floor et al., 2016). In
+polysome profiling the integrity of the mRNA is preserved. This gives
+polysome profiling the advantage in cases where transcript variants with
+different 5' UTR lengths are of interest. This makes polysome profiling,
+but not ribosome profiling, compatible with methods to investigate UTRs
+(e.g.~CAGE and 3P-seq) (C. H. Jan et al., 2011; Takahashi et al., 2012).
 
 Shifts in ribosome association can be dramatic (e.g.~near complete
 dissociation of ribosomes from an mRNA) or subtle (e.g.~shifts from 2 to
 4 ribosomes). These shifts can occur due to different properties of the
 mRNAs the ribosomes associate with (Gandin et al., 2016b). When dramatic
 and subtle changes in ribosome association are present in parallel,
-ribosome profiling is biased towards identification of great magnitude
-shifts and masks the subtle ones (Gandin et al., 2016b). Gandin et. al.
-showed under mTOR inhibition ribosome profiling studies are likely to
-predominantly identify TOP mRNAs (i.e.~heavy shifters). In contrast,
-polysome profiling identified both TOP and non-TOP mRNAs (i.e.~more
-subtle shifters compared to TOP mRNAs) when mTOR is inhibited (Gandin et
-al., 2016b). Therefore, in scenarios where global mRNA translation is
-affected, application of ribosome profiling could lead to imprecise
-biological conclusions. The masking of subtle changes has been
+ribosome profiling is biased towards identification of shifts with a
+greater magnitude and masks the subtle ones (Gandin et al., 2016b).
+Gandin et. al. showed under mTOR inhibition ribosome profiling studies
+are likely to predominantly identify TOP mRNAs (i.e.~heavy shifters). In
+contrast, polysome profiling identified both TOP and non-TOP mRNAs
+(i.e.~more subtle shifters compared to TOP mRNAs) when mTOR is inhibited
+(Gandin et al., 2016b). Therefore, in scenarios where global mRNA
+translation is affected, application of ribosome profiling could lead to
+imprecise biological conclusions. The masking of subtle changes has been
 attrituted to the indirect estimation of translation efficiencies from
 counting RPFs for ribosome profiling, which is highly dependent on the
 abundance of mRNAs. In polysome profiling this effect is much less
@@ -1091,7 +1093,7 @@ the underlying biological question. \newline
 
 \begin{wrapfigure}{r}{0.6\textwidth}
   \includegraphics{./figures/geneModes_MRNA.pdf}
-  \caption{Modes for regulation of gene expression - Schematic representation of modes by which mRNA translation regulates gene expression in a fold-change scatter plot. Indicated in red are changes in translation (i.e. changes in translated mRNA but not total mRNA), in green changes in mRNA abundance (i.e. congruent changes between total mRNA and translated mRNA) and in blue translational buffering (i.e. changes in total mRNA levels but not translated mRNA levels). TE changes as the TE-score would estimate them are indicated.\label{fig:modes}}
+  \caption{Modes for regulation of gene expression - Schematic representation of modes by which mRNA translation regulates gene expression. Indicated are: changes of the translation mode, i.e. an mRNA increases its ribosome association without a change in total mRNA levels; The mRNA abundance mode, i.e. changes in total mRNA levels paralleled by changes in translated mRNA levels; The translational buffering mode, i.e. changes in total mRNA levels without changes in translated mRNA levels. Also indicated is the expected outcome on the proteome for all three modes. \label{fig:modes}}
 \end{wrapfigure}
 
 From transcriptome-wide assessments of translation using ribosome or
@@ -1108,37 +1110,37 @@ expression in the studied system.
 
 When comparing perturbed systems to their corresponding control state
 three ``modes'' in which translated mRNA and total mRNA distinctly
-interact can be observed (\emph{see figure \ref{modes}}). These modes
-are referred to as ``mRNA abundance'', ``translation'' (i.e.~changes in
-translation efficiencies leading to altered protein levels) and,
-``translational buffering'' (i.e.~changes in translation efficiencies
-ensuring protein homeostasis).
+interact can be observed (\emph{see figure \ref{fig:modes}}). These
+modes are referred to as ``mRNA abundance'', ``translation''
+(i.e.~changes in translation efficiencies leading to altered protein
+levels) and, ``translational buffering'' (i.e.~changes in translation
+efficiencies ensuring stable protein levels across conditions).
 
 \subsection{mRNA Abundance mode}
 
 A change in mRNA abundance is observed when total mRNA levels change, by
 e.g.~transcription or mRNA stability, but the translation efficiency of
-those mRNA is unaltered. (\emph{see figure \ref{modes}}). The change in
-total mRNA levels alters the ability of mRNAs to compete for components
-of the translation machinery. Thus, their association to ribosomes can
-be explained by their abundance. While the translation efficiency for
-these mRNAs is unaltered, an alteration of protein synthesis from these
-mRNAs is expected as more or less mRNAs are translated.
+those mRNA is unaltered. (\emph{see figure \ref{fig:modes}}). The change
+in total mRNA levels alters the number of mRNAs to compete for
+components of the translation machinery. Thus, their association to
+ribosomes can be explained by their abundance. While the translation
+efficiency for these mRNAs is unaltered, an alteration of protein
+synthesis from is expected as more or less mRNAs are translated.
 
 \subsection{Translation mode}
 
 A change in translation occurs when translated mRNA levels either
 increase or decrease, while corresponding total mRNA levels remain
-constant or change to a lesser extent (\emph{see figure \ref{modes}}).
-The change in ribosome association indepedent of total mRNA levels is
-therefore a change in their translation efficiency. A prominent example
-of this mode can be observed for TOP mRNAs. Under conditions when mTOR
-is inhibited, TOP mRNAs show a near complete dissassociation from
-ribosomes (Gandin et al., 2016b). Furthermore, during the ISR,
-translation of ATF4 mRNA is altered due to eIF2\(\alpha\)
-phosphorylation. Similar to changes in mRNA abundance, mRNAs under the
-translation mode lead to changes in corresponding protein levels
-(\emph{see figure \ref{modes}}).
+constant or change to a lesser extent (\emph{see figure
+\ref{fig:modes}}). The change in ribosome association indepedent of
+total mRNA levels is therefore a change in their translation efficiency.
+A prominent example of this mode can be observed for TOP mRNAs. Under
+conditions when mTOR is inhibited, TOP mRNAs show a near complete
+dissassociation from ribosomes (Gandin et al., 2016b). Furthermore,
+during the ISR, translation of ATF4 mRNA is altered due to
+eIF2\(\alpha\) phosphorylation. Similar to changes in mRNA abundance,
+mRNAs under the translation mode lead to changes in corresponding
+protein levels (\emph{see figure \ref{fig:modes}}).
 
 \subsection{Translational buffering mode} \label{modeBuffering}
 
@@ -1149,9 +1151,9 @@ conditions. Translational buffering thus reflects a change in
 translation efficiency as the proportion of mRNAs associated with
 ribosomes is altered. In contrast to changes in translation and mRNA
 abundance, translational buffering has been shown to maintain similar
-protein levels across conditions rather than inducing alterations
-(\emph{See figure \ref{modes}}) (Lorent et al., 2019; McManus et al.,
-2014).
+protein levels across conditions rather than inducing alterations to
+them (\emph{See figure \ref{fig:modes}}) (Lorent et al., 2019; McManus
+et al., 2014).
 
 Current literature supports multiple forms of translational buffering.
 Translational buffering can compensate for differences in mRNA levels
@@ -1238,7 +1240,7 @@ consequences for the interpretation of the results. \clearpage
 
 \begin{wrapfigure}{o}{0.5\textwidth}
   \includegraphics{./figures/geneModes_TE.pdf}
-  \caption{TE-scores for modes for regulation of gene expression -  Schematic representation of modes for regulation of gene expression in a fold-change scatter plot. The x-axis indicates the fold-change for total mRNA levels. The y-axis indicates the fold-change for translated mRNA levels. Indicated in red are changes in translation efficiency altering protein levels, in green changes in mRNA abundance and in blue changes in translation efficiency leading to translational buffering/offsetting. The relationship for the TE-score and the modes for regulation of gene expression is indicated. \label{fig:TE}}
+  \caption{TE-scores for modes for regulation of gene expression -  Schematic representation of modes for regulation of gene expression in a fold-change scatter plot. The x-axis indicates the fold-change for total mRNA levels. The y-axis indicates the fold-change for translated mRNA levels. Indicated in red are changes in translation efficiency altering protein levels (i.e. translation mode), in green changes in mRNA abundance and in blue changes in translation efficiency leading to translational buffering/offsetting. The relationship for the TE-score and the modes for regulation of gene expression is indicated. \label{fig:TE}}
 \end{wrapfigure}
 
 The TE-score approach was questioned when proposing the Analysis of
@@ -1266,7 +1268,7 @@ treatment classes and \(\varepsilon_{gi}\) denotes the residual error.
 
 \begin{wrapfigure}{o}{0.5\textwidth}
   \includegraphics{./figures/geneModes_anota_Larsson.pdf}
-  \caption{anota gene models - Schematic representation of the anota analysis models. Translated mRNA expression is set out against total mRNA expression for each biological replicate and treatment condition. Top left shows the model of a gene that is differentially translated (i.e. change in translated but not total mRNA). The difference in the slope intercepts are used to estimate changes in translation efficiencies between conditions. Other gene models are shown; change in translation efficiency with varying total mRNA levels (top right); change in mRNA abundance (bottom left) and translational buffering (bottom right).
+  \caption{anota gene models - Schematic representation of the anota analysis models. Translated mRNA expression is set out against total mRNA expression for each biological replicate and treatment condition. Top left shows the model of a gene that is differentially translated (i.e. change in translated but not total mRNA). The difference in the slope intercepts is used to estimate changes in translation efficiencies between conditions. Other gene models are shown; change in translation efficiency leading to altered protein levels with varying total mRNA levels (top right); change in mRNA abundance (bottom left) and translational buffering (bottom right).
   \label{fig:anota}}
 \end{wrapfigure}
 
@@ -1358,7 +1360,7 @@ translation. Although these methods have distinct approaches to identify
 changes in translation efficiencies, their principle of analysis is
 similar to comparing a ratio of ratios (see TE-score equation above).
 Therefore these methods suffer from similar issues as the TE-score which
-will be discussed in \emph{Study 1}.
+will be discussed in \textbf{Study 1}.
 
 \chapter{Aims of this thesis}
 
@@ -1434,8 +1436,8 @@ well as their underlying mechanisms (Tebaldi et al., 2014).
 Nevertheless, commonly observed in polysome and ribosome profiling data
 sets are three gene expression modes, translation, translational
 buffering and mRNA abundance. While anota can be used to identify genes
-among the translation and mRNA abundance mode, analysis of translational
-buffering was not implemented therein (\emph{See Figure
+among the translation and mRNA abundance modes, analysis of
+translational buffering was not implemented therein (\emph{See Figure
 \ref{fig:anota}}). Therefore, one would need to rely on the integration
 of several methods to efficiently analyse transcriptome-wide studies of
 translation efficiences. Anota2seq addresses this issue by changing the
@@ -1445,14 +1447,12 @@ levels (i.e.~translational buffering, \emph{see figure
 \ref{fig:anota2seq}}).
 
 Application of anota2seq has successfully identified translational
-buffering to which biological mechanisms could be linked, e.g.~as
-mentioned earlier translationally bufferring under ER\(\alpha\)
-depletion in prostate cancer (\emph{see section \ref{modeBuffering}})
-(Lorent et al., 2019). Furthermore, in \textbf{study 2} translational
-buffering can be observed as a compensating mechanism in ``healthy''
-cells upon treatment with an eIF4A inhibitor and in \textbf{study 3} we
-identify mTOR dependent translational buffering for mRNAs with certain
-3' UTR characteristics.
+buffering to which biological mechanisms could be linked (Lorent et al.,
+2019). Furthermore, in \textbf{study 2} translational buffering can be
+observed as a compensating mechanism in ``healthy'' cells upon treatment
+with an eIF4A inhibitor and in \textbf{study 3} we identify mTOR
+dependent translational buffering for mRNAs with certain 3' UTR
+characteristics.
 
 The aim of this study was to compare anota2seq's performance to other
 established algorithms (i.e.~DESeq2, RiboDiff, babel, TE-score and
@@ -1462,19 +1462,17 @@ modes of gene expression (\emph{see figure \ref{fig:modes}}). To achieve
 this we used simulated data. While it is arguable to what extent
 conclusion drawn from simulated data can be extended towards empirical
 data, it allows for a controlled environment where true positive changes
-are known in advance. Furthermore, the mean-variance relationship in the
-simulated data is based on a real polysome profiling data set to
-increase confidence that drawn conclusions are also applicable to
-empirical data (Guan et al., 2017). Furthermore, during testing of our
-simulation we used an additional data set to estimate parameters from to
-generate data sets. Using these simulated data to compare the
-performance of the above mentioned algorithms showed almost identical
-results.
+are known in advance. The mean-variance relationship in the simulated
+data is based on a real polysome profiling data set to increase
+confidence that drawn conclusions are also applicable to empirical data
+(Guan et al., 2017). Furthermore, during testing of our simulation we
+used an additional data set to estimate parameters from to generate data
+sets. Using these simulated data to compare the performance of the above
+mentioned algorithms showed almost identical results.
 
 The simulated data consisted of four replicates for translated mRNA and
-total mRNA with a ``control'' and a ``treatment'' condition.
-Furthermore, the data sets contained a combination of the following gene
-sets:
+total mRNA with a ``control'' and a ``treatment'' condition. The data
+sets also contained a combination of the following gene sets:
 
 \emph{Unchanged}: For this simulation category we sampled reads from the
 same NB distribution for both the control and treatment conditions in
@@ -1548,7 +1546,7 @@ changes drastically.
 
 In this study, we developed an analysis algorithm for efficient
 transcriptome-wide analysis of translation efficiencies applicable to
-DNA-microarrays and RNA seq. Furthermore, anota2seq has been
+DNA-microarrays and RNA sequencing. Furthermore, anota2seq has been
 successfully applied to broaden the knowledge around mRNA translation in
 various different contexts (Chan et al., 2019; Chaparro et al., 2020;
 Hipolito et al., 2019; Lorent et al., 2019). Furthermore, more recently
@@ -1575,7 +1573,7 @@ this disease is less than 10\% (Rawla et al., 2019). A Dutch nationwide
 study indicated that in cases were surgical removal was possible 5-year
 survival only increased from 9.1\% to 16.5\% (Latenstein et al., 2020).
 
-With the increasing understanding of tumor heterogeneity anti-cancer
+With the increasing understanding of tumor heterogeneity, anti-cancer
 therapy improved (Biankin et al., 2011). For example, in breast cancer
 stratification by histological, molecular and gene expression features
 identified several breast cancer subtypes for which different treatment
@@ -1593,8 +1591,8 @@ While intricacies of molecular subtypes are still being investigated,
 research has shown that oncogenic mutations in KRAS as well as
 inactivation of tumor suppressor TP53 are commonly shared among PDACs
 (S. Jones et al., 2008). Furthermore, PDACs have been shown to be
-dependent on increased protein synthesis mediated induced via KRAS
-mutations (Chio et al., 2016). This indicates an important role of mRNA
+dependent on increased protein synthesis induced via KRAS mutations
+(Chio et al., 2016). This indicates an important role of mRNA
 translation in PDAC.
 
 The aim of \emph{study 2} was to investigate the therapeutic effects of
@@ -1614,7 +1612,7 @@ in PDAC. \emph{In vitro} experiments comparing treated PDAC organoids
 of KP organoids to CR-31 treatment relative to N organoids. OP-puromycin
 incorporation showed reduced protein synthesis in KP organoids, whereas
 N organoids were affected to a lesser extent. Furthermore, similar
-effects were found \emph{in vivo} for PDAC tumours. Here CR-31 reduced
+effects were found \emph{in vivo} for PDAC tumours. Here, CR-31 reduced
 protein synthesis (assessed by SUnSET assay), tumor growth (assessed by
 ultra sound imaging) and increased survival of mice. The effect on
 protein synthesis was not due to inhibition of oncogenic signalling
@@ -1623,38 +1621,41 @@ phosphorylation of e.g.~AKT, mTOR and 4E-BP1. From these findings we
 concluded that there is therapeutic validity in targeting eIF4A in PDAC.
 
 Using polysome profiling, we then sought to decipher the mechanisms
-explaining the increased sensitivity to CR-31 in KP organoids. First we
+explaining the increased sensitivity to CR-31 in KP organoids. First, we
 investigated the differences in gene expression between untreated KP
 organoids and N organoids. Analysis of changes in translation
 efficiencies using anota2seq revealed massive modulation at both total
-mRNA levels and translation indicative of underlying differences in
-e.g.~genomic stability and enhanced oncogenic signalling impinging on
-protein synthesis reported in PDAC (Boj et al., 2015). Consistent with
-the \emph{in vitro} OP-puromycin incorporation and \emph{in vivo} SUNsET
+mRNA and translated mRNA levels in KP organoids relative to N organoids.
+This is indicative of the underlying differences in e.g.~genomic
+stability and enhanced oncogenic signalling impinging on protein
+synthesis reported in PDAC (Boj et al., 2015).
+
+We then compared the translatome of treated KP organoids to the
+differences between untreated KP organoids and N organoids. Treatment of
+KP organoids with CR-31 reversed the changes of untreated KP organoids
+as compared to N organoids. Furthermore, CR-31 treatment in N organoids
+had no apparent effect on mRNA translation. This is consistent with the
+\emph{in vitro} OP-puromycin incorporation and \emph{in vivo} SUNsET
 experiments, CR-31 strongly impacted global protein synthesis in KP
 organoids, while only exerting a modest effect in N organoids.
-
-We then compared the translatomes of untreated KP organoids to that of N
-organoids. This revealed differences at both total mRNA levels as well
-as translation. Treatment of KP organoids with CR-31 reversed the
-changes in untreated KP organoids as compared to N organoids. mRNAs
-affected by CR-31 in KP organoids showed modulated total mRNA levels in
-N organoids that were offset at the level of translation. Translational
-offsetting has been shown to keep protein levels constant despite
-alterions in total mRNA levels (Lorent et al., 2019). The ability for N
-organoids to modulate mRNAs levels affected by CR-31 that can be
-translationally offset, whereas KP cannot, could partially explain as to
-why protein synthesis is not reduced to a similar extent in N as in KP.
+Nevertheless, mRNAs affected by CR-31 in KP organoids showed modulated
+total mRNA levels in N organoids that were offset at the level of
+translation. Translational offsetting has been shown to keep protein
+levels constant despite alterions in total mRNA levels (Lorent et al.,
+2019). The ability for N organoids to modulate total mRNA levels of
+which translation is affected in KP organoids by CR-31 could partially
+explain as to why protein synthesis is not reduced to a similar extent
+in N organoids as in KP organoids.
 
 We then assessed 5' UTR characteristics of the mRNAs whose translation
 was affected upon CR-31 treatment in KP organoids. It was reported that
-eIF4A-senstive mRNAs showed overall and more structured 5' UTRs
+eIF4A-senstive mRNAs showed overall longer and more structured 5' UTRs
 (e.g.~containing G-quadruplexes) (Gandin et al., 2016b; Rubio et al.,
 2014; Wolfe et al., 2014). Furthermore, a mechanisms by which rocaglates
 would clamp eIF4A to mRNAs with {[}A,G{]} repeats in their 5 UTR was
 described (Iwasaki et al., 2016). However, mRNAs sensitive to CR-31
 treatment herein had short 5' UTRs that were more structured when
-corrected for their length without enrichment for 4G-quadruplexes or
+corrected for their length without enrichment for G-quadruplexes or
 {[}A,G{]} repeats. Therefore, CR-31 sensitive mRNAs in KP organoids show
 5' UTR characteristics different from those reported in the literature
 (\emph{see section \ref{sel4F}}). However, based on our polysome
@@ -1663,30 +1664,30 @@ oncogenic translation program in PDAC cells for mRNAs with shorter but
 more structured 5' UTRs as compared to our background set (i.e.~all
 non-regulated mRNAs).
 
-Translation of mRNAs harbouring shorter 5' UTRs has been shown to be
-sensitive to eIF4E expression and encode for metabolic functions (Gandin
-et al., 2016b). When we compared an eIF4E overexpression signature in
-the KP vs N and CR-31 treated KP we observed that in KP organoids
-translationally regulated mRNAs under eIF4E overexpression were also
-translationally activated. This observation is consistent with reports
-of 4E-BP1 loss in pancreatic cancer and consequently increased ability
-of eIF4E to engage in the eIF4F complex (Y. Martineau et al., 2014).
-eIF4A inhibition in tumors resistant to mTOR inhibiton by loss of 4E-BP1
-has been shown to circumvent this resistance (D. Müller et al., 2019).
-Indeed, CR-31 treatment in KP organoids reversed the translational
-profile for eIF4E-sensitive mRNAs.
+Translation of mRNAs harbouring short 5' UTRs and long 5' UTRs has been
+shown to be sensitive to eIF4E expression (Gandin et al., 2016b). When
+we compared an eIF4E overexpression signature in the KP vs N and CR-31
+treated KP we observed that in KP organoids translationally regulated
+mRNAs under eIF4E overexpression were also translationally activated.
+This observation is consistent with reports of 4E-BP1 loss in pancreatic
+cancer and consequently increased ability of eIF4E to engage in the
+eIF4F complex (Y. Martineau et al., 2014). eIF4A inhibition in tumors
+resistant to mTOR inhibiton by loss of 4E-BP1 has been shown to
+circumvent this resistance (D. Müller et al., 2019). CR-31 treatment in
+KP organoids reversed the translational profile for eIF4E-sensitive
+mRNAs.
 
 We further inspected the regulated gene sets in treated and untreated KP
-organoids compared to N organoids. Here we could see an enrichment in
-metabolic pathways, e.g.~Oxidative phosphorylation. This pathway was
-upregulated at the polysome associated mRNA levels in untreated KP
-compared to N, whereas in KP organoids CR-31 treatment reversed the
-translational profile of this pathway. Furthermore, CR-31 treatment in
-KP organoids lead to reduced oxygen consumption rates, whereas N
-organoids where affected to a lesser extent. While measuring oxygen
-consumption rates do not rule out that non-mitochondrial sources are
-affected, we attributed the observed decrease in oxygen consumption to
-defective oxydative phosphorylation.
+organoids compared to N organoids. Here, we could see an enrichment in
+metabolic pathways, e.g.~oxidative phosphorylation. Th oxidative
+phosphorylation pathway was upregulated at the polysome associated mRNA
+level in untreated KP organoids compared to N organoids, whereas in KP
+organoids CR-31 treatment reversed the translational profile of this
+pathway. Furthermore, CR-31 treatment in KP organoids lead to reduced
+oxygen consumption rates, whereas N organoids where affected to a lesser
+extent. While measuring oxygen consumption rates do not rule out that
+non-mitochondrial sources are affected, we attributed the observed
+decrease in oxygen consumption to defective oxydative phosphorylation.
 
 A way to counter loss of energy production through oxidative
 phosphorylation is to increase activity of other metabolic pathways,
@@ -1720,11 +1721,10 @@ CB839) could sensitise to CR-31 treatment patient-derived PDAC cells to
 CR-31 treatment indicating that glutamine utlisation is important
 therein. Therefore, our study suggests an eIF4A dependent translational
 program in PDAC that can act as a theurapeutic target in PDAC.
-Furthermore, a recently published ribosome profiling study of a CR-31
-treated human pancreatic cancer cell line (PANC1) observed the same
-therapeutic effect of CR-31 treatment \emph{in vivo} on survival and
-tumor volume (Singh et al., 2021). This underlines the significance of
-our study in identifying eIF4A as therapeutic target in PDAC.
+Furthermore, a recently published observed the same therapeutic effect
+of CR-31 treatment \emph{in vivo} on survival and tumor volume (Singh et
+al., 2021). This underlines the significance of our study in identifying
+eIF4A as therapeutic target in PDAC.
 
 Nevertheless, the same study indicated differences on 5' UTR
 characteristics of eIF4A-sensitive mRNA subsets (Singh et al., 2021).
@@ -1754,10 +1754,12 @@ CR-31 treatment alone. However, at 12.50nM CR-31 treatment, combined
 treated with CR-31 and CB839 further reduced viability. Therefore,
 combining the findings of these two studies indicate that CR-31
 treatment in PDAC indeed has a therapeutic effect. However the
-underlying mechanisms that are observed in the transcriptome wide
+underlying mechanisms that are observed in the transcriptome-wide
 analysis of translation efficiencies could be dependent on the
 experimental method to assess mRNA translation, the model system and
-drug concentrations. \newline
+drug concentrations. Therefore, further research is warranted to resolve
+these discrepancies and better understand the regulation of mRNA
+translation upon eIF4A inhibition in PDAC. \newline
 \section{Study 3 - Insulin signalling gene expression landscapes distinguish non-transformed vs. BCa cells}
 
 An important factor to consider in breast cancer treatment are life
@@ -1807,25 +1809,26 @@ translational response upon insulin stimulation. Among the
 translationally activated mRNAs were mRNAs with short 5' UTRs that
 harboured TOP motifs which is in accordance that insulin signalling
 leads to activation of mTORC1 and phosphorylation of its downstream
-targets. When visualising the mRNAs in the data where MCF7 cells were
-stimulated with insulin in the presence of torin1 we observed that the
-changes in mRNA translation were almost fully reversed. Torin1 is an
-mTOR active site inhibitor. This led to the conclusion that the effects
-of insulin on gene expression are to a great extent dependent on mTOR
-activity.
+targets. When visualising the upon stimulated translationally activated
+mRNAs in MCF7 in the data where MCF7 cells were stimulated with insulin
+in the presence of torin1, we observed that the changes in mRNA
+translation were almost fully reversed. Torin1 is an mTOR active site
+inhibitor. This led to the conclusion that the effects of insulin on
+gene expression are to a great extent dependent on mTOR activity.
 
 What was surprising to us was the observation that a subset of mRNAs
 exhibited translational buffering upon insulin stimulation while mTOR is
 inhibited. For these mRNAs, the total mRNA levels were increased,
 whereas the polysome-association was unaltered between conditions Thus,
 changes in total mRNA levels where offset at the level of translation.
-Using HiRIEF LC/MS we show that translationally offset mRNAs maintain
-constant protein expression across conditions (Branca et al., 2014). The
-ability of translational offsetting to maintain constant protein levels
-across conditions despite alterions in total RNA levels has been shown
-by others before (Lorent et al., 2019). These findings indicate that
-mTOR can act as a gatekeeper for transcriptional programs to fine tune
-translation in response to extra cellular or intra cellular signals.
+Using high resolution isoelectric focussing (HiRIEF) LC/MS we show that
+translationally offset mRNAs maintain constant protein expression across
+conditions (Branca et al., 2014). The ability of translational
+offsetting to maintain constant protein levels across conditions despite
+alterions in total RNA levels has been shown by others before (Lorent et
+al., 2019). These findings indicate that mTOR can act as a gatekeeper
+for modulations of total mRNA levels to fine tune translation in
+response to extra cellular or intra cellular signals.
 
 MCF7 cells are of epithelial origin and therefore not ``classical''
 insulin-sensitive such as adipose tissue or muscle cells. The strong
@@ -1881,7 +1884,8 @@ from each subset. The differences in regulation of gene expression were
 not dependent on codon usage which has been described before in a
 different context (Lorent et al., 2019). However, overall uncoupled
 mRNAs had shorter 3' UTRs with a higher GC content and were depleted for
-HuR binding sites.
+HuR binding sites. Notably, there were no strong differences in 5' UTR
+characteristics between these subsets.
 
 The depletion of HuR binding sites in the 3' UTRs of the uncoupled
 subset prompted us to investigate mRNA stability differences. Using a
