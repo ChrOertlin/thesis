@@ -65,6 +65,8 @@
 \titleformat{\chapter}{\normalfont\bfseries}{\thechapter.}{15pt}{}\titlespacing*{\chapter}{0pt}{-50pt}{0pt}
 \titleformat{\section}{\normalfont\bfseries}{\thesection.}{1em}{}\titlespacing*{\section}{0pt}{0pt}{0pt}
 \titleformat{\subsection}[runin]{\normalfont\bfseries}{\thesubsection.}{1em}{}
+\titleformat{\subsubsection}[runin]{\normalfont\bfseries}{\thesubsubsection.}{1em}{}
+\titleformat{\paragraph}[runin]{\normalfont\bfseries}{\theparagraph.}{1em}{}
 
 \usepackage{CJKutf8} % For Mandarin in Acknowledgments
 
@@ -123,34 +125,34 @@ mcm\textasciicircum{}5s\textasciicircum{}2U & 5-methoxycarbonyl-methyl-2-thiouri
 5' & 5 prime\\
 m7g & 7-methyl-guanylate\\
 \addlinespace
-ELP3 & Acetyltransferase elongator\\
 ATF4 & Activating transcription factor 4\\
 AMP & Adenosine-mono-phosphate\\
 AMPK & Adenosine-mono-phosphate
 kinase\\
 ATP & Adenosine-tri-phosphate\\
-\addlinespace
 A-site & Aminoacyl-site\\
+\addlinespace
 aa-tRNA & Aminoacyl-tRNA\\
 APV & Analysis of partial varaince\\
 ABCE1 & ATP binding cassette protein\\
 ARE & AU-rich element\\
-\addlinespace
 ChIP & Chromatin immunoprecipitation\\
+\addlinespace
 cdsORF & Coding open reading frame\\
 CDS & Coding sequence\\
 CR-31 & CR-1-31-B\\
 CHX & Cyclohexamide\\
-\addlinespace
 CPE & Cytoplasmic polyadenylation\\
-CPEB & Cytoplasmic polyadenylation element binding proteins\\
+\addlinespace
+CPEB & Cytoplasmic polyadenylation element binding protein\\
 CTU1/2 & Cytosolic thiourdylase 1/2\\
 DNA & Deoxyribonucleic acid\\
 REDD1 & Development and
 DNA damage response 1\\
-\addlinespace
 GADD34 & DNA-inducible gene 34\\
+\addlinespace
 dsRNA & Double-stranded RNA\\
+ELP3 & Elongator acetyltransferase complex subunit 3\\
 ER & Endoplasmatic reticulum\\
 ERalpha & Estrogen receptor alpha\\
 eEF & Eukaryotic elongation factor\\
@@ -164,13 +166,13 @@ GCN2 & General control nonderepressible 2\\
 \addlinespace
 GLM & Generalised linear model\\
 GDP & Guanosine-di-phosphate\\
-GTP & Guanosine triphosphate\\
+GTP & Guanosine-tri-phosphate\\
 HRI & Heme regulation eIF2alpha kinase\\
 HuR & Human antigen R\\
 \addlinespace
 HIF-1 & Hypoxia inducible factor 1\\
-IGF1R & IGF1 receptor\\
-IGF1 & Insulin-like growth factor 1\\
+IGF & Insulin-like growth factor 1\\
+IGF1R & Insulin-like growth factor receptor\\
 IR & Insulin receptor\\
 ISR & Integrated stress response\\
 \addlinespace
@@ -185,57 +187,54 @@ ALKBH8 & Methyltrasnferase TRM9-like domain of alkylation repair homolog 8\\
 miRNA & microRNA\\
 MAPK & Mitogen-activated protein
 kinase\\
-MAPK & Mitogen activated protein kinase\\
-\addlinespace
-nM & Nano Molar\\
 NB & Negative binomial\\
+\addlinespace
 Gld2 & Non-canonical poly(A) polymerase\\
 ncRNA & Non-coding RNA\\
 ODC1 & Ornithine decarboxylase\\
-\addlinespace
-PDA & Pancreatic ductal adenocarcinoma\\
+PDAC & Pancreatic ductal adenocarcinoma\\
 P-site & Peptidyl-site\\
+\addlinespace
 PTEN & Phosphatase and tensin homologue\\
 PIP3 & Phosphatidylinositol-3,4,5-trisphosphate\\
 PIP2 & Phosphatidylinositol-4,5-bisphosphate\\
-\addlinespace
+PI3K & Phosphoinositide-3-kinase\\
 PDK1 & Phosphoinositide-dependent kinase 1\\
-PI3K & Phosphoinositide 3-kinase\\
-PABP & Poly A binding protein\\
+\addlinespace
+PABP & Poly (A) binding protein\\
 PARN & Poly(A) deadynelase\\
 PIC & Pre-initiation complex\\
-\addlinespace
 PDCD4 & Programmed cell death protein 4\\
 AKT & Protein kinase A\\
+\addlinespace
 PKR & Protein Kinase R\\
 PERK & Protein kinase R-like endoplasmatic reticulum kinase\\
 RVM & Random variance model\\
-\addlinespace
 Rheb & Ras homologue enriched in brain\\
 ROC & Receiver operating characteristics\\
+\addlinespace
+RT-qPCR & Reverse transcription quantitative polymerase chain
+reaction\\
 RNA & Ribonucleic acid\\
 rpS6 & Ribosomal protein S6\\
 S6K & Ribosomal protein S6 kinases\\
-\addlinespace
 rRNA & Ribosomal RNA\\
+\addlinespace
 RPF & Ribosome protected fragment\\
 RBP & RNA binding protein\\
 LKB1 & Serine/threonine kinase 11\\
-sRNA & silence RNA\\
-\addlinespace
+siRNA & silence RNA\\
 sgRNA & Single guide RNA\\
+\addlinespace
 TOP & Terminal oligopyrimidine\\
 TC & Ternary complex\\
-RT-qPCR & Teverse transcription quantitative polymerase chain
-reaction\\
 tRNA & Transfer RNA\\
-\addlinespace
 TE & Translation efficiency\\
 TSC & Tuberous sclerosis complex\\
+\addlinespace
 UTR & Untranslated region\\
 uORF & Upstream open reading frame\\
 URM & Urmylation\\
-\addlinespace
 VEGF & Vascular endothelial growth factor\\*
 \end{longtable}
 
@@ -246,7 +245,7 @@ VEGF & Vascular endothelial growth factor\\*
 
 \begin{wrapfigure}{r}{.6\textwidth}
   \includegraphics{./figures/geneExprPath_2.pdf}
-  \caption{The gene expression pathway - DNA is transcribed into RNA. RNAs are processed into mRNAs that consist of a 5' cap, exons and a poly(A) tail. mRNAs can be transported out of the cellular nucleus into the cytoplasm where they can be degraded, stored or translated into proteins depending on cellular demands. Synthesised proteins can be degraded by proteosomes. Coloured boxes in the DNA refer to introns (teal) and exons (purple). Introns are non-protein-encoding parts of the genome, whereas exons encode for proteins. mRNAs are depicted as purple lines, i.e. a series of exons, with an AAAAA extension and an oval shape at its start. Proteins are depicted as a series of pink balls.  \label{fig:geneExprPath}}
+  \caption{The gene expression pathway - DNA is transcribed into RNA. RNAs are processed into mRNAs that consist of a 5' cap, exons and a poly(A) tail. mRNAs can be transported out of the cellular nucleus into the cytoplasm where they can be degraded, stored or translated into proteins depending on cellular demands. Synthesised proteins can be degraded by proteosomes. Coloured boxes in the DNA refer to introns (teal) and exons (purple). Introns are non-coding parts of the genome, whereas exons encoding regions. mRNAs are depicted as purple lines, i.e. a series of exons, with an AAAAA extension and an oval shape at its start. Proteins are depicted as a series of pink balls.  \label{fig:geneExprPath}}
 \end{wrapfigure}
 
 In eukaryotic cells, genetic code is stored as deoxyribonucleic acid
@@ -269,7 +268,7 @@ it cannot completely answer the question as to why the protein levels
 change. In a disease context, protein levels alone might only offer
 sufficient insight to explain phenotypic differences. Studying the
 mechanisms that drive differences in protein levels is thus required to
-improve understanding of biological processes and their dysregylation in
+improve understanding of biological processes and their dysregulation in
 disease.
 
 Recently developed system biology methods allow investigation of gene
@@ -301,16 +300,16 @@ endoplasmatic reticulum stress observed extensive modulation of protein
 levels, whereas mRNA abundance was only mildly affected (Cheng et al.,
 2016).
 
-Thus, the contribution of different steps of the gene expression is
-dependent on many different factors, e.g.~cellular state or treatments.
-mRNA translation is an essential process in determining composition of
-the proteome. Furthermore, dysregulation of mRNA translation has been
-observed in multiple diseases, ranging from neurological disorders to
-cancer which warrants for a comprehensive understanding of this process
-(Graff et al., 2009; Kapur et al., 2018; L. J. Lee et al., 2021;
-Ruggero, 2013; Tahmasebi et al., 2018). This thesis focusses on
-increasing understanding of the role of mRNA translation in cancer.
-\newline
+Thus, the contribution of different steps of the gene expression pathway
+is dependent on many different factors, e.g.~cellular state or
+treatments. Nevertheless, mRNA translation is an essential process in
+determining composition of the proteome. Furthermore, dysregulation of
+mRNA translation has been observed in multiple diseases, ranging from
+neurological disorders to cancer which warrants for a comprehensive
+understanding of this process (Graff et al., 2009; Kapur et al., 2018;
+L. J. Lee et al., 2021; Ruggero, 2013; Tahmasebi et al., 2018). This
+thesis focusses on increasing understanding of the role of mRNA
+translation in cancer. \newline
 \section{mRNA translation} \subsection{Schematic representation of mRNA}
 mRNAs contain a protein coding region which is flanked by untranslated
 regions (5' and 3' UTRs). UTRs contain post-transcriptional regulatory
@@ -328,14 +327,14 @@ details}).
 The 5' end of mRNAs contain a 7-methyl-guanylate (m7G) cap that is
 important for translation initiation, while the 3' end has a poly-A tail
 protecting the mRNA against degradation (Grifo et al., 1983; Wilusz et
-al., 2001). Multiple different mRNAs variants (also called isoforms)
-from the same genomic region can exist. Isoforms may arise due to
-alternave transcription start site usage or a process called alternative
-splicing. Isoforms can co-exist at the same time and have differing
-properties that can perform distinct functions (Joly Anne-Laure et al.,
-2018). Furthermore, alternative splicing may result in in isoforms with
-different 5' UTRs. This leads to altered translation of mRNAs encoding
-for the same protein (S. N. Floor et al., 2016; Jewer et al., 2020).
+al., 2001). Multiple different mRNA variants (also called isoforms) from
+the same gene can exist. Isoforms may arise due to alternave
+transcription start site usage or a process called alternative splicing.
+Isoforms can co-exist at the same time and have differing properties
+that can perform distinct functions (Joly Anne-Laure et al., 2018).
+Furthermore, alternative splicing may result in isoforms with different
+5' UTRs. This leads to altered translation of mRNAs encoding for the
+same protein (S. N. Floor et al., 2016; Jewer et al., 2020).
 
 \subsection{mRNA translation} \label{translation}
 
@@ -349,12 +348,12 @@ discussed in detail below.
 
 \begin{wrapfigure}{o}{1\textwidth}
   \includegraphics{./figures/doodleTranslation.pdf}
-  \caption{mRNA translation initiation, elongation, termination and ribosome recycling steps - The ribosome binds to the mRNA and initiates scanning for a start codon (AUG). The elongation phase incorporates amino acids into a polypeptide chain (i.e. the protein product). Once a stop codon (e.g. UGA) is detected the ribosome terminates translation and releases the polypeptide chain. The ribosome can then be recycled to participate in the translation of another mRNA or reinitiate on the same mRNA. Green ovals represent the 80s ribosome. Within the ribosome the E, P and A-sites are indicated with yellow boxes (see section \ref{elongation} for details. Polypeptide chains are depicted as a series of pink balls. Orange crosses represent transfer RNAs (tRNA) (see section \ref{elongation} and \ref{tRNA} for more details on tRNAs).  \label{fig:doodlemRNASteps}}
+  \caption{mRNA translation initiation, elongation, termination and ribosome recycling steps - The ribosome binds to the mRNA and initiates scanning for a start codon (AUG). The elongation phase incorporates amino acids into a polypeptide chain (i.e. the protein product). Once a stop codon (e.g. UGA) is detected, the ribosome terminates translation and releases the polypeptide chain. The ribosome can then be recycled to participate in the translation of another mRNA or reinitiate on the same mRNA. Green ovals represent the ribosomal subunits. Within the ribosome the E, P and A-sites are indicated with yellow boxes (see section \ref{elongation} for details). Polypeptide chains are depicted as a series of pink balls. Orange crosses represent transfer RNAs (tRNA) (see section \ref{elongation} and \ref{tRNA} for more details on tRNAs).  \label{fig:doodlemRNASteps}}
 \end{wrapfigure}
 
 \clearpage
 
-\subsection{Initiation} \label{initiation}
+\subsubsection{Initiation} \label{initiation}
 
 In eukaryotes, 5' cap-dependent initiation of mRNA translation consists
 of multiple stages. First, a ternary complex (TC) consisting of
@@ -362,36 +361,36 @@ guanosine-tri-phosphate (GTP) bound eukaryotic initiation factor (eIF) 2
 and methionine-initiator transfer RNA (met-tRNAi) is formed. This is
 followed by formation of the 43S pre-initiation complex (PIC). The PIC
 consists of a 40S ribosome subunit, the TC and, translation iniation
-factors eIF1, eIF1A, eIF3, eIF5 (Asano et al., 2000). mRNAs then undergo
-``activation''. Here, the 5' cap proximal structure is bound by eIF4F.
-eIF4F is the 5' cap binding complex consisting of: the 5' cap binding
-protein eIF4E, the RNA helicase eIF4A and, a scaffold protein eIF4G
-(Grifo et al., 1983). The Poly (A) binding protein (PABP) binds to the
-poly(A) tail of the 3' UTR and causes circularisation of the mRNA. The
-circularisation improves stability of the mRNA and aids in recruitment
-of translation initiation factors (Ivanov et al., 2016). Upon mRNA
-recruitment, the ATP-dependent eIF4A helicase activity of the eIF4F
-complex facilitates scanning of 43S PIC along the 5'UTR together with
-eIF4B and eIF4H. Recognition of the translation initiation codon (AUG)
-induces formation of the 48S initiation complex. Once the initiation
-codon (AUGi) is reached, displacement of eIF1 occurs which allows eIF5
-to hydrolyse eIF2-bound GTP. The 60S ribosomal subunit then joins the
-40S ribosomal subunit which causes the release of eIF2-GDP and other
-initiation factors (eIF1, eIF3, eIF4B, eIF4F and eIF5). Subunit joining
-is mediated by eIF5B. After subunit joining the 80S ribosome is formed
-and the elongation process starts (\emph{see figure \ref{initiation}})
-(Asano et al., 2000; Hinnebusch, 2006; Jackson et al., 2010). A
-mechanism for cap dependent translation initiation that is independent
-of eIF4E has been described. Here, eIF3d binds the 5' cap of mRNAs
-containing and RNA element that blocks eIF4E binding (A. S. Y. Lee et
-al., 2015,A. S. Y. Lee et al. (2016)). Next to 5'cap-dependent
+factors eIF1, eIF1A, eIF3 and, eIF5 (Asano et al., 2000). mRNAs then
+undergo ``activation''. Here, the 5' cap proximal structure is bound by
+eIF4F. eIF4F is the 5' cap binding complex consisting of: the 5' cap
+binding protein eIF4E, the RNA helicase eIF4A and, a scaffold protein
+eIF4G (Grifo et al., 1983). The Poly (A) binding protein (PABP) binds to
+the poly(A) tail of the 3' UTR and causes circularisation of the mRNA.
+The circularisation improves stability of the mRNA and aids in
+recruitment of translation initiation factors (Ivanov et al., 2016).
+Upon mRNA recruitment, the ATP-dependent eIF4A helicase activity of the
+eIF4F complex facilitates scanning of 43S PIC along the 5'UTR together
+with eIF4B and eIF4H. Recognition of the translation initiation codon
+(AUG) induces formation of the 48S initiation complex. Once the
+initiation codon (AUGi) is reached, displacement of eIF1 occurs which
+allows eIF5 to hydrolyse eIF2-bound GTP. The 60S ribosomal subunit then
+joins the 40S ribosomal subunit which causes the release of eIF2-GDP and
+other initiation factors (eIF1, eIF3, eIF4B, eIF4F and eIF5). Subunit
+joining is mediated by eIF5B. After subunit joining the 80S ribosome is
+formed and the elongation process starts (\emph{see figure
+\ref{initiation}}) (Asano et al., 2000; Hinnebusch, 2006; Jackson et
+al., 2010). A mechanism for cap dependent translation initiation that is
+independent of eIF4E has been described. Here, eIF3d binds the 5' cap of
+mRNAs containing an RNA element that blocks eIF4E binding (A. S. Y. Lee
+et al., 2015,A. S. Y. Lee et al. (2016)). Next to 5'cap-dependent
 initiation, mRNA translation can also be initiated in a 5'
 cap-independent manner, e.g.~via the internal ribosome entry site (IRES)
 (\emph{see figure \ref{fig:UTRFeat}}). Mechanisms for 5' cap-independent
 mRNA translation initiation are extensively reviewed elsewhere (Lacerda
 et al., 2017; I. N. Shatsky et al., 2018).
 
-\subsection{Elongation} \label{elongation}
+\subsubsection{Elongation} \label{elongation}
 
 The 80S ribosome contains three sites important for decoding an mRNA:
 the aminoacyl (A), peptidyl (P) and exit (E) sites. During elongation in
@@ -421,9 +420,9 @@ A-site of the ribosome.
 
 \clearpage
 
-\subsection{Termination and recycling}\begin{wrapfigure}{r}{.4\textwidth}
+\subsubsection{Termination and recycling}\begin{wrapfigure}{r}{.4\textwidth}
   \includegraphics{./figures/polysome.pdf}
-  \caption{Electromicrongraph of ribosomes extracted from different positions along a sucrose gradient used for polysome fractionation (A-C). For details on polysome fractionation see section \ref{exptMethod}. Reprinted with permission. DR. T. STAEHELIN et. al. Nature.1963 Aug 31;199:865-70.doi: 10.1038/199865a0. Copyright © 1963, Nature Publishing Group.
+  \caption{Electromicrongraph of ribosomes extracted from different positions along a sucrose gradient used for polysome fractionation (A-C). Multiple ribosomes bound to the same mRNA can be observed. For details on polysome fractionation see section \ref{exptMethod}. Reprinted with permission. DR. T. STAEHELIN et. al. Nature.1963 Aug 31;199:865-70.doi: 10.1038/199865a0. Copyright © 1963, Nature Publishing Group.
  \label{fig:polysomes}}
 \end{wrapfigure}
 
@@ -440,25 +439,25 @@ they can be recycled (Hellen, 2018; Pisarev et al., 2010).
 
 Each ribosome synthesises a single protein during translation of an mRNA
 assuming it is not prematurely terminated. It has been known since the
-'60s that translation of an mRNA occurs via multiple bound ribosomes
+`60s that translation of an mRNA occurs via multiple bound ribosomes
 (polysomes) simultaneaously (\emph{see figure \ref{fig:polysomes}A-C})
 (Staehelin et al., 1963; Warner et al., 1962). Therefore the translation
 efficiency of an mRNA depends on the number of ribosomes it is
 associated with. Experimental methods like polysome profiling and
-ribosome profiling are used to study translation efficiencies
-(\emph{explained in detail in section \ref{exptMethod}}). While all
-steps of translation can affect the translation efficiency of an mRNA,
-it is thought to most commonly be regulated at the initiation step
-(Dever et al., 2012; Jackson et al., 2010; J. D. Richter et al., 2015).
-This is supported by findings using polysome profiling in yeast that was
-cultured in nutrient rich medium where initiation was rate-limiting for
-most mRNAs (Arava et al., 2003). Furthermore, a recent ribosome
-profiling study assessed transcriptome-wide elongation rates. This
-revealed a similar rate of elongation for mRNAs of different classes.
-These classes were a stratification of mRNAs based on their UTRs or
-codon composition of the coding sequence (Ingolia et al., 2011). The
-next section will go further into detail how translation initiation and
-elongation can be regulated. \newline
+ribosome profiling are used to study translation efficiencies by
+measuring the number of bound ribosomes on an mRNA (\emph{explained in
+detail in section \ref{exptMethod}}). While all steps of translation can
+affect the translation efficiency of an mRNA, it is thought to most
+commonly be regulated at the initiation step (Dever et al., 2012;
+Jackson et al., 2010; J. D. Richter et al., 2015). This is supported by
+findings using polysome profiling in yeast that was cultured in nutrient
+rich medium where initiation was rate-limiting for most mRNAs (Arava et
+al., 2003). Furthermore, a recent ribosome profiling study assessed
+transcriptome-wide elongation rates. This revealed a similar rate of
+elongation for mRNAs of different classes, e.g.~mRNAs with differences
+in 5' UTR characterstics (Ingolia et al., 2011). The next section will
+go further into detail how translation initiation and elongation can be
+regulated. \newline
 \section{Regulation of mRNA translation} \label{regmRNA}
 
 mRNA translation is the most energy consuming process in the cell. In a
@@ -471,15 +470,15 @@ expression pathway requires it to be tightly regulated.
 Regulation of translation can be exerted at a global level,
 i.e.~regulation of a large set of mRNA simultaneously. Global regulation
 of mRNA translation can be achieved by, e.g.~perturbations of major
-signalling pathways impinging on mRNA translation. A strong feature of
-regulation of mRNA translation is that it can affect specific mRNA
-populations selectively. Selective translational regulation acts on
-characteristics of mRNAs, e.g.~through 5' UTRs or RNA binding proteins
-(RBP) that bind to the 3' UTRs (\textbf{see figure \ref{fig:UTRFeat}})
-(Leppek et al., 2018). Furthermore, regulation of initiation factors can
-also regulate translation selectively (Wolfe et al., 2014,Gandin et al.
-(2016b)). Below we will discuss multiple mechanisms that regulate mRNA
-translation globally or selectively.
+signalling pathways impinging on mRNA translation. Regulation of mRNA
+translation is that it can affect specific mRNA populations selectively.
+Selective translational regulation acts on characteristics of mRNAs,
+e.g.~through 5' UTRs or RNA binding proteins (RBP) that bind to the 3'
+UTRs (\textbf{see figure \ref{fig:UTRFeat}}) (Leppek et al., 2018).
+Furthermore, regulation of initiation factors can also regulate
+translation selectively (Wolfe et al., 2014,Gandin et al. (2016b)).
+Below we will discuss multiple mechanisms that regulate mRNA translation
+globally or selectively.
 
 \subsection{mTOR} \label{mTOR}
 
@@ -584,7 +583,7 @@ inhibits eEF2, thus attenuating elongation rates. (X. Wang et al.,
 S6Ks. Furthermore, phosphorylation of PDCD4 by S6K triggers its
 degradation. PDCD4 blocks eIF4G-eIF4A interactions repressing eIF4A
 activity and cap-dependent mRNA translation (Dorrello et al., 2006; A.
-Göke et al., 2002). Lastly, phosphorylation of eIF4B by S6K is suggest
+Göke et al., 2002). Lastly, phosphorylation of eIF4B by S6K is suggested
 to stimulate the unwinding activity of eIF4A (Rogers et al., 2001).
 
 Collectively, through acting on its downstream targets, mTOR regulates
@@ -608,20 +607,20 @@ al., 2017). A panel of researches was asked to evaluate these findings,
 which led to the establishment of a model for translational regulation
 via LARP1 (Berman et al., 2021). According to this model, LARP1 binds to
 the 5' mRNA cap of TOP mRNAs via its DM15 domain. Binding of DM15
-represses translation of TOP mRNAs by obstructing eIF4E binding occurs
-in instances where mTOR activity is reduced. Under conditions where mTOR
-is active, DM15 is phosphorylated by mTOR. This causes DM15 to release
-the 5' cap. However, the la domain of LARP1 remains bound to the 3' UTR.
-The still bound la domain stabileses the mRNA to facilitate translation
-(Berman et al., 2021). Other instances of selective translation by mTOR
-are explained in the next section.
+represses translation of TOP mRNAs by obstructing eIF4E binding and
+occurs in instances where mTOR activity is reduced. Under conditions
+where mTOR is active, DM15 is phosphorylated by mTOR. This causes DM15
+to release the 5' cap. However, the la domain of LARP1 remains bound to
+the 3' UTR. The still bound la domain stabilises the mRNA to facilitate
+translation (Berman et al., 2021). Other instances of selective
+translation by mTOR are explained in the next section.
 
 \paragraph{Selective regulation through members of the eIF4F complex} \label{sel4F}
 
 As mentioned above, the eIF4F complex consists of eIF4E, eIF4A and eIF4G
 and is required for cap-dependent mRNA translation (A. G. Hinnebusch,
 2014). The availability of the eIF4F complex is limited under basal
-condition due to that eIF4E is bound by 4E-BPs. Therefore, under basal
+conditions due to that eIF4E is bound by 4E-BPs. Therefore, under basal
 conditions mRNAs must compete for access to components of the
 translation machinery. Such competition is affected by characteristics
 of 5' UTRs that introduce variation to how well mRNAs can be translated.
@@ -665,7 +664,7 @@ et al., 2018). However, Waldron et al. show that \(GCC_4\) motifs fail
 to form G-quadruplexes in their reporter mRNA system. The authors
 concluded that eIF4A dependence of mRNAs with \(GGC_4\) motifs enriched
 in their 5' UTR was likely mediated by classical hairpin-like structures
-(Waldron et al., 2018). In addition, in Rubio et. al. one third of
+(Waldron et al., 2018). In addition, in Rubio et al. one third of
 eIF4A-dependent mRNAs exhibited multiple 5' UTR variants, while for
 eIF4A-independent mRNAs this was \textless{} 1\% (Rubio et al., 2014).
 Translation of mRNAs with different 5' UTR variants has recently been
@@ -712,8 +711,7 @@ R (PKR) which is activated in response to certain viral infections by
 binding to double-stranded RNA (dsRNA); and general control
 nonderepressible 2 (GCN2) which is activated when cells are deprived of
 amino acids (Dmitry E Andreev et al., 2015; Guan et al., 2017; Kapur et
-al., 2017; Lemaire et al., 2005; Taniuchi et al., 2016). (\emph{see also
-figure \ref{fig:initiation}}).
+al., 2017; Lemaire et al., 2005; Taniuchi et al., 2016).
 
 \subsubsection{Global and selective regulation of translation via the ISR}
 
@@ -724,21 +722,21 @@ directly engages the guanine nucleotide exchange factor eIF2B and
 prevents conversion of inactive eIF2-GDP to active eIF2-GTP needed for
 met-tRNAi incorporation in the TC. This reduces TC availability and
 causes a global downregulation of mRNA translation (Sonenberg et al.,
-2009) While global translation is reduced upon ISR, translation of a
-selective subset of mRNA with upstream open reading frames (uORFs) is
-increased. A uORF is a reading frame that originates in the 5' UTR of an
-mRNA upstream of the coding ORF (cdsORF) (\emph{see Figure
-\ref{fig:UTRFeat}}). uORFs can be out of frame with the cdsORF and, when
-translated, lower the expression of the cdsORF (Kozak, 1984). Activating
-transcription factor 4 (ATF4), that regulates expression of stress
-response genes, contains multiple uORFs of which one partially overlaps
-with the cdsORF. Under normal conditions ATF4 translation is initiated
-at uORF1 and reinitiation at uORF2 occurs. The overlap of uORF2 with the
-cdsORF causes ribosomes to synthesise protein from uORF2 thereby
-inhibiting the translation of the cdsORF. Limitation of TC availability
-during ISR causes longer ribosome scanning times leading to that
-ribosomes scan past uORF2 and initiate at the cdsORF (i.e.~delayed
-reinitiation) (Pakos-Zebrucka et al., 2016).
+2009) (\emph{see figure \ref{fig:initiation}}). While global translation
+is reduced upon ISR, translation of a selective subset of mRNA with
+upstream open reading frames (uORFs) is increased. A uORF is a reading
+frame that originates in the 5' UTR of an mRNA upstream of the coding
+ORF (cdsORF) (\emph{see Figure \ref{fig:UTRFeat}}). uORFs can be out of
+frame with the cdsORF and, when translated, lower the expression of the
+cdsORF (Kozak, 1984). Activating transcription factor 4 (ATF4), that
+regulates expression of stress response genes, contains multiple uORFs
+of which one partially overlaps with the cdsORF. Under normal conditions
+ATF4 translation is initiated at uORF1 and reinitiation at uORF2 occurs.
+The overlap of uORF2 with the cdsORF causes ribosomes to synthesise
+protein from uORF2 thereby inhibiting the translation of the cdsORF.
+Limitation of TC availability during ISR causes longer ribosome scanning
+times leading to that ribosomes scan past uORF2 and initiate at the
+cdsORF (i.e.~delayed reinitiation) (Pakos-Zebrucka et al., 2016).
 
 Ribosome profiling studies indicate that 50\% of mammalian mRNAs harbour
 uORFs (\emph{see section \ref{exptMethod} for detials on ribosome
@@ -749,7 +747,7 @@ also be regulated by ``leaky scanning''. The surrounding sequence of the
 uORF is important for initiation of translation. An AUG in the classical
 Kozak context (i.e.~RNN\textbf{AUG}G) is most efficient for translation
 initiation due to better recognition by the met-tRNAi (Calvo et al.,
-2009; Kozak, 1986). Unfavored flanking sequences of the AUG can cause
+2009; Kozak, 1986). Unfavoured flanking sequences of the AUG can cause
 the ribosome to scan past the AUG, this process is called ``leaky
 scanning''. An example of this is DNA-inducible gene 34 (GADD34) which
 increases its translation upon ER stress, i.e.~a condition where
