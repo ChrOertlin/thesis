@@ -1,15 +1,12 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.3.15)  22 MAR 2021 12:47
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.3.10)  24 MAR 2021 17:43
 entering extended mode
 **./thesis.tex
 (thesis.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> xparse <2020-03-03>
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cl
-s
+L3 programming layer <2021-02-18> xparse <2020-03-03> (C:\Program Files\MiKTeX\
+tex/latex/base\book.cls
 Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.cl
-o
+(C:\Program Files\MiKTeX\tex/latex/base\bk12.clo
 File: bk12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count175
@@ -24,9 +21,7 @@ File: bk12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.s
-ty
+) (C:\Program Files\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -60,48 +55,22 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/setspace\set
-space.sty
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ams
-symb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ams
-fonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks15
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsm
-ath.sty
+) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip49
 For additional information on amsmath, use the `?' option.
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amst
-ext.sty
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsg
-en.sty
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks16
+\@emptytoks=\toks15
 \ex@=\dimen139
-))
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsb
-sy.sty
+)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen140
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amso
-pn.sty
+) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count184
@@ -124,256 +93,187 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \dotsspace@=\muskip16
 \c@parentequation=\count191
 \dspbrk@lvl=\count192
-\tag@help=\toks17
+\tag@help=\toks16
 \row@=\count193
 \column@=\count194
 \maxfields@=\count195
-\andhelp@=\toks18
+\andhelp@=\toks17
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
 \tagshift@=\dimen144
 \tagwidth@=\dimen145
 \totwidth@=\dimen146
 \lineht@=\dimen147
-\@envbody=\toks19
+\@envbody=\toks18
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks20
+\mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxe
-tex.sty
+) (C:\Program Files\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifte
-x.sty
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
-))
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iflu
-atex.sty
+)) (C:\Program Files\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/base\fixltx2
-e.sty
-Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
-Applying: [2015/01/01] Old fixltx2e package on input line 46.
-
-Package fixltx2e Warning: fixltx2e is not required with releases after 2015
-(fixltx2e)                All fixes are now in the LaTeX kernel.
-(fixltx2e)                See the latexrelease package for details.
-
-Already applied: [0000/00/00] Old fixltx2e package on input line 53.
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/xelatex/mathspec\m
-athspec.sty
-Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection fo
-r XeLaTeX)
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\eto
-olbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count196
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fon
-tspec.sty
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/x
-parse\xparse.sty
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\exp
-l3.sty
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/unicode-math\unicode-math.st
+y (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2021-02-18 L3 programming layer (loader) 
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3
-backend-xetex.def
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
 File: l3backend-xetex.def 2021-03-02 L3 backend support: XeTeX
 ()
-\c__kernel_sys_dvipdfmx_version_int=\count197
-\l__color_backend_stack_int=\count198
-\g__color_backend_stack_int=\count199
-\g__graphics_track_int=\count266
+\c__kernel_sys_dvipdfmx_version_int=\count196
+\l__color_backend_stack_int=\count197
+\g__color_backend_stack_int=\count198
+\g__graphics_track_int=\count199
 \l__pdf_internal_box=\box49
-\g__pdf_backend_object_int=\count267
-\g__pdf_backend_annotation_int=\count268
-\g__pdf_backend_link_int=\count269
+\g__pdf_backend_object_int=\count266
+\g__pdf_backend_annotation_int=\count267
+\g__pdf_backend_link_int=\count268
 ))
+Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/unicode-math\unicode-math-xete
+x.sty
+Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLa
+TeX
+(C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
 Package: xparse 2020-10-27 L3 Experimental document command parser
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/x
-parse\xparse-generic.tex))
+(C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex)) (C:\P
+rogram Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
+) (C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.sty
 Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fon
-tspec-xetex.sty
+(C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec-xetex.sty
 Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count270
-\l__fontspec_language_int=\count271
-\l__fontspec_strnum_int=\count272
-\l__fontspec_tmp_int=\count273
-\l__fontspec_tmpa_int=\count274
-\l__fontspec_tmpb_int=\count275
-\l__fontspec_tmpc_int=\count276
-\l__fontspec_em_int=\count277
-\l__fontspec_emdef_int=\count278
-\l__fontspec_strong_int=\count279
-\l__fontspec_strongdef_int=\count280
+\l__fontspec_script_int=\count269
+\l__fontspec_language_int=\count270
+\l__fontspec_strnum_int=\count271
+\l__fontspec_tmp_int=\count272
+\l__fontspec_tmpa_int=\count273
+\l__fontspec_tmpb_int=\count274
+\l__fontspec_tmpc_int=\count275
+\l__fontspec_em_int=\count276
+\l__fontspec_emdef_int=\count277
+\l__fontspec_strong_int=\count278
+\l__fontspec_strongdef_int=\count279
 \l__fontspec_tmpa_dim=\dimen148
 \l__fontspec_tmpb_dim=\dimen149
 \l__fontspec_tmpc_dim=\dimen150
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc
-.sty
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fon
-tspec.cfg)))
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkey
-val.sty
-Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xk
-eyval.tex
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xk
-vutils.tex
-\XKV@toks=\toks21
-\XKV@tempa@toks=\toks22
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\ke
-yval.tex))
-\XKV@depth=\count281
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+) (C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.cfg))) (C:\Program Files
+\MiKTeX\tex/latex/base\fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+(C:\Program Files\MiKTeX\tex/latex/base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-\c@eu@=\count282
-\c@eu@i=\count283
-\c@mkern=\count284
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upqu
-ote.sty
+\g__um_fam_int=\count280
+\g__um_fonts_used_int=\count281
+\l__um_primecount_int=\count282
+\g__um_primekern_muskip=\muskip17
+
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/unicode-math\unicode-math-tabl
+e.tex))) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/base\textcom
-p.sty
+(C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-))
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mi
-crotype.sty
-Package: microtype 2021/02/25 v2.8b Micro-typographical refinements (RS)
-\MT@toks=\toks23
-\MT@count=\count285
+)) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2020/12/07 v2.8 Micro-typographical refinements (RS)
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+\MT@toks=\toks21
+\MT@count=\count283
 LaTeX Info: Redefining \textls on input line 788.
 \MT@outer@kern=\dimen151
 LaTeX Info: Redefining \textmicrotypecontext on input line 1358.
-\MT@listname@count=\count286
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mi
-crotype-xetex.def
-File: microtype-xetex.def 2021/02/25 v2.8b Definitions specific to xetex (RS)
+\MT@listname@count=\count284
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype-xetex.def
+File: microtype-xetex.def 2020/12/07 v2.8 Definitions specific to xetex (RS)
 LaTeX Info: Redefining \lsstyle on input line 254.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mi
-crotype.cfg
-File: microtype.cfg 2021/02/25 v2.8b microtype main configuration file (RS)
-))
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geo
-metry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvt
-ex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-)
-\Gm@cnth=\count287
-\Gm@cntv=\count288
-\c@Gm@tempcnt=\count289
-\Gm@bindingoffset=\dimen152
-\Gm@wd@mp=\dimen153
-\Gm@odd@mp=\dimen154
-\Gm@even@mp=\dimen155
-\Gm@layoutwidth=\dimen156
-\Gm@layoutheight=\dimen157
-\Gm@layouthoffset=\dimen158
-\Gm@layoutvoffset=\dimen159
-\Gm@dimlist=\toks24
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/xelatex/xetexconfi
-g\geometry.cfg))
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyp
-erref.sty
-Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\lt
-xcmds.sty
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2020/12/07 v2.8 microtype main configuration file (RS)
+)) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/parskip\parskip.sty
+Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count285
+)) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds
-\pdftexcmds.sty
+Package xcolor Info: Driver file: xetex.def on input line 225.
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2021/03/02 v5.0j Graphics/color driver for xetex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/xurl\xurl.sty
+Package: xurl 2020/12/30 v 0.09a modify URL breaks
+(C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\
-infwarerr.sty
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 )
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\
-kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/kvdefineke
-ys\kvdefinekeys.sty
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.st
+y
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\
-pdfescape.sty
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hyco
-lor.sty
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\
-letltxmacro.sty
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxh
-ook.sty
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kv
-options.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-)
-\@linkdim=\dimen160
-\Hy@linkcounter=\count290
-\Hy@pagecounter=\count291
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1
-enc.def
+\@linkdim=\dimen152
+\Hy@linkcounter=\count286
+\Hy@pagecounter=\count287
+(C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyp
-erref-langpatches.def
+) (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref-langpatches.def
 File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
 nguages
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\in
-tcalc.sty
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\e
-texcmds.sty
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count292
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pue
-nc.def
+\Hy@SavedSpaceFactor=\count288
+(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4073.
@@ -384,26 +284,18 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count293
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
+\c@Hy@tempcnt=\count289
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen161
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bit
-set.sty
+\XeTeXLinkMargin=\dimen153
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc
-\bigintcalc.sty
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count294
-\Field@Width=\dimen162
-\Fld@charsize=\dimen163
+\Fld@menulength=\count290
+\Field@Width=\dimen154
+\Fld@charsize=\dimen155
 Package hyperref Info: Hyper figures OFF on input line 6075.
 Package hyperref Info: Link nesting OFF on input line 6080.
 Package hyperref Info: Hyper index ON on input line 6083.
@@ -413,57 +305,66 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6100.
 Package hyperref Info: PDF/A mode OFF on input line 6105.
 LaTeX Info: Redefining \ref on input line 6145.
 LaTeX Info: Redefining \pageref on input line 6149.
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegsh
-i-ltx.sty
+(C:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count295
-\c@Item=\count296
-\c@Hfootnote=\count297
+\Hy@abspage=\count291
+\c@Item=\count292
+\c@Hfootnote=\count293
 )
 Package hyperref Info: Driver (autodetected): hxetex.
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxe
-tex.def
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hxetex.def
 File: hxetex.def 2021-02-27 v7.00k Hyperref driver for XeTeX
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\
-stringenc.sty
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box50
-\c@Hy@AnnotLevel=\count298
-\HyField@AnnotCount=\count299
-\Fld@listcount=\count300
-\c@bookmark@seq@number=\count301
+\c@Hy@AnnotLevel=\count294
+\HyField@AnnotCount=\count295
+\Fld@listcount=\count296
+\c@bookmark@seq@number=\count297
 
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/rerunfileche
-ck\rerunfilecheck.sty
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.
+sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/base\atverye
-nd-ltx.sty
+(C:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/uniquecoun
-ter\uniquecounter.sty
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounter.
+sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip52
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/bookmark\bkm-dvipdfm.def
+File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
+\BKM@id=\count298
+)) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 30.
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\
-longtable.sty
+\Gm@cnth=\count299
+\Gm@cntv=\count300
+\c@Gm@tempcnt=\count301
+\Gm@bindingoffset=\dimen156
+\Gm@wd@mp=\dimen157
+\Gm@odd@mp=\dimen158
+\Gm@even@mp=\dimen159
+\Gm@layoutwidth=\dimen160
+\Gm@layoutheight=\dimen161
+\Gm@layouthoffset=\dimen162
+\Gm@layoutvoffset=\dimen163
+\Gm@dimlist=\toks22
+(C:\Program Files\MiKTeX\tex/xelatex/xetexconfig\geometry.cfg)) (C:\Program Fil
+es\MiKTeX\tex/latex/latex-tools\longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip53
 \LTright=\skip54
@@ -479,10 +380,8 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LT@rows=\count304
 \c@LT@tables=\count305
 \c@LT@chunks=\count306
-\LT@p@ftn=\toks25
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\boo
-ktabs.sty
+\LT@p@ftn=\toks23
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen165
 \lightrulewidth=\dimen166
@@ -501,286 +400,598 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count309
 \@lastruleclass=\count310
 \@thisrulewidth=\dimen177
+) (C:\Program Files\MiKTeX\tex/latex/latex-tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count311
+\calc@Bcount=\count312
+\calc@Adimen=\dimen178
+\calc@Bdimen=\dimen179
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count313
+\calc@Cskip=\skip59
 )
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\gra
-phicx.sty
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/footnotehyper\footnotehyper.st
+y
+Package: footnotehyper 2021/02/04 v1.1d hyperref aware footnote.sty (JFB)
+\FNH@notes=\box55
+\FNH@width=\dimen180
+\FNH@toks=\toks24
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\gra
-phics.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\tri
-g.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg
-\graphics.cfg
+) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 105.
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def
-\xetex.def
-File: xetex.def 2021/03/02 v5.0j Graphics/color driver for xetex
-))
-\Gin@req@height=\dimen178
-\Gin@req@width=\dimen179
 )
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/grffile\grff
-ile.sty
-Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
-y)
-Package grffile Info: This package is an empty stub for compatibility on input 
-line 40.
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/parskip\pars
-kip.sty
-Package: parskip 2021-03-02 v2.0g non-zero parskip adjustments
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/hyphenat\hyp
-henat.sty
+\Gin@req@height=\dimen181
+\Gin@req@width=\dimen182
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/hyphenat\hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language79
 LaTeX Info: Redefining \_ on input line 43.
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolo
-r.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg
-\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: xetex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fan
-cyhdr.sty
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip57
-\f@nch@O@elh=\skip58
-\f@nch@O@erh=\skip59
-\f@nch@O@olh=\skip60
-\f@nch@O@orh=\skip61
-\f@nch@O@elf=\skip62
-\f@nch@O@erf=\skip63
-\f@nch@O@olf=\skip64
-\f@nch@O@orf=\skip65
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/caption\capt
-ion.sty
+\f@nch@headwidth=\skip60
+\f@nch@O@elh=\skip61
+\f@nch@O@erh=\skip62
+\f@nch@O@olh=\skip63
+\f@nch@O@orh=\skip64
+\f@nch@O@elf=\skip65
+\f@nch@O@erf=\skip66
+\f@nch@O@olf=\skip67
+\f@nch@O@orf=\skip68
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/caption\capt
-ion3.sty
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen180
-\captionmargin@=\dimen181
-\captionwidth=\dimen182
-\caption@tempdima=\dimen183
-\caption@indent=\dimen184
-\caption@parindent=\dimen185
-\caption@hangindent=\dimen186
+\captionmargin=\dimen183
+\captionmargin@=\dimen184
+\captionwidth=\dimen185
+\caption@tempdima=\dimen186
+\caption@indent=\dimen187
+\caption@parindent=\dimen188
+\caption@hangindent=\dimen189
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count311
-\c@continuedfloat=\count312
+\c@caption@flags=\count314
+\c@continuedfloat=\count315
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltca
-ption.sty
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
-))
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\tit
-lesec.sty
+)) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box55
-\beforetitleunit=\skip66
-\aftertitleunit=\skip67
-\ttl@plus=\dimen187
-\ttl@minus=\dimen188
-\ttl@toksa=\toks26
-\titlewidth=\dimen189
-\titlewidthlast=\dimen190
-\titlewidthfirst=\dimen191
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/cjk\CJKutf8.
-sty
+\ttl@box=\box56
+\beforetitleunit=\skip69
+\aftertitleunit=\skip70
+\ttl@plus=\dimen190
+\ttl@minus=\dimen191
+\ttl@toksa=\toks25
+\titlewidth=\dimen192
+\titlewidthlast=\dimen193
+\titlewidthfirst=\dimen194
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/cjk\CJKutf8.sty
 Package: CJKutf8 2015/04/18 4.8.4
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpd
-f.sty
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/base\inputen
-c.sty
+) (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
-\inpenc@prehook=\toks27
-\inpenc@posthook=\toks28
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-) (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/cjk\CJK.st
-y
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/cjk\CJK.sty
 Package: CJK 2015/04/18 4.8.4
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/cjk/mule\MUL
-Eenc.sty
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/cjk/mule\MULEenc.sty
 Package: MULEenc 2015/04/18 4.8.4
-) (C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/cjk\CJK.en
-c
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/cjk\CJK.enc
 File: CJK.enc 2015/04/18 4.8.4
 )
 LaTeX Info: Redefining \selectfont on input line 755.
-\CJK@indent=\box56
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc
-.sty
+\CJK@indent=\box57
+) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-))
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/placeins\pla
-ceins.sty
+)) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrap
-fig.sty
-\wrapoverhang=\dimen192
-\WF@size=\dimen193
-\c@WF@wrappedlines=\count313
-\WF@box=\box57
-\WF@everypar=\toks29
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen195
+\WF@size=\dimen196
+\c@WF@wrappedlines=\count316
+\WF@box=\box58
+\WF@everypar=\toks28
 Package: wrapfig 2003/01/31  v 3.6
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/float\float.
-sty
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count314
-\float@exts=\toks30
-\float@box=\box58
-\@float@everytoks=\toks31
-\@floatcapt=\box59
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/caption\subc
-aption.sty
+\c@float@type=\count317
+\float@exts=\toks29
+\float@box=\box59
+\@float@everytoks=\toks30
+\@floatcapt=\box60
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
-\c@subfigure=\count315
-\c@subtable=\count316
-) (thesis.aux)
+\c@subfigure=\count318
+\c@subtable=\count319
+) (C:\Program Files\MiKTeX\tex/latex/latex-tools\array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen197
+\ar@mcellbox=\box61
+\extrarowheight=\dimen198
+\NC@list=\toks31
+\extratabsurround=\skip71
+\backup@length=\skip72
+\ar@cellbox=\box62
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip73
+\multirow@cntb=\count320
+\multirow@dima=\skip74
+\bigstrutjot=\dimen199
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks32
+\minrowclearance=\skip75
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+(C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/tabu\tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box63
+\sift@deathcycles=\count321
+\@vwid@loff=\dimen256
+\@vwid@roff=\dimen257
+)
+\c@taburow=\count322
+\tabu@nbcols=\count323
+\tabu@cnt=\count324
+\tabu@Xcol=\count325
+\tabu@alloc=\count326
+\tabu@nested=\count327
+\tabu@target=\dimen258
+\tabu@spreadtarget=\dimen259
+\tabu@naturalX=\dimen260
+\tabucolX=\dimen261
+\tabu@Xsum=\dimen262
+\extrarowdepth=\dimen263
+\abovetabulinesep=\dimen264
+\belowtabulinesep=\dimen265
+\tabustrutrule=\dimen266
+\tabu@thebody=\toks33
+\tabu@footnotes=\toks34
+\tabu@box=\box64
+\tabu@arstrutbox=\box65
+\tabu@hleads=\box66
+\tabu@vleads=\box67
+\tabu@cellskip=\skip76
+)
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/threeparttable\threeparttable.
+sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box68
+)
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/threeparttablex\threeparttable
+x.sty
+Package: threeparttablex 2013/07/23 v0.3 by daleif
+(C:\Program Files\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+(C:\Program Files\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\TPTL@width=\skip77
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/ulem\ulem.sty
+\UL@box=\box69
+\UL@hyphenbox=\box70
+\UL@skip=\skip78
+\UL@hook=\toks35
+\UL@height=\dimen267
+\UL@pe=\count328
+\UL@pixel=\dimen268
+\ULC@box=\box71
+Package: ulem 2019/11/18
+\ULdepth=\dimen269
+) (C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen270
+\c@nlinenum=\count329
+\TeXr@lab=\toks36
+)
+\cslhangindent=\skip79
+\csllabelwidth=\skip80
+(thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
-4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 152.
 
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.
-fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Info: Redefining \microtypecontext on input line 94.
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999970497384594]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999970497384594]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 152.
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latin
+modern-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=Ma
+thScriptScript}},BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->s*[0.9999970497384594]"[latinmodern-math.otf]/OT:
+script=math;language=dflt;"<7.2-10.2>s*[0.9999970497384594]"[latinmodern-math.o
+tf]/OT:script=math;language=dflt;+ssty=0;"<-7.2>s*[0.9999970497384594]"[latinmo
+dern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999970497384594]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 152.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 152.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
+ line 152.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 152.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
+t line 152.
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000097049443433.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000097049443433.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000097049443433.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000097049443433.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000097049443433.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latin
+modern-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=Ma
+thScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustme
+nt={\fontdimen
+(fontspec)             8\font =8.124pt\relax \fontdimen 9\font =4.728pt\relax
+(fontspec)             \fontdimen 10\font =5.328pt\relax \fontdimen 11\font
+(fontspec)             =8.232pt\relax \fontdimen 12\font =4.14pt\relax
+(fontspec)             \fontdimen 13\font =4.356pt\relax \fontdimen 14\font
+(fontspec)             =4.356pt\relax \fontdimen 15\font =3.468pt\relax
+(fontspec)             \fontdimen 16\font =2.964pt\relax \fontdimen 17\font
+(fontspec)             =2.964pt\relax \fontdimen 18\font =3.0pt\relax
+(fontspec)             \fontdimen 19\font =2.4pt\relax \fontdimen 22\font
+(fontspec)             =3.0pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->s*[1.000097049443433]"[latinmodern-math.otf]/OT:s
+cript=math;language=dflt;"<7.2-10.2>s*[1.000097049443433]"[latinmodern-math.otf
+]/OT:script=math;language=dflt;+ssty=0;"<-7.2>s*[1.000097049443433]"[latinmoder
+n-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =8.124pt\relax \fontdimen 9\font
+(fontspec)             =4.728pt\relax \fontdimen 10\font =5.328pt\relax
+(fontspec)             \fontdimen 11\font =8.232pt\relax \fontdimen 12\font
+(fontspec)             =4.14pt\relax \fontdimen 13\font =4.356pt\relax
+(fontspec)             \fontdimen 14\font =4.356pt\relax \fontdimen 15\font
+(fontspec)             =3.468pt\relax \fontdimen 16\font =2.964pt\relax
+(fontspec)             \fontdimen 17\font =2.964pt\relax \fontdimen 18\font
+(fontspec)             =3.0pt\relax \fontdimen 19\font =2.4pt\relax \fontdimen
+(fontspec)             22\font =3.0pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.000097049443433]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =8.124pt\relax \fontdimen 9\font
+(fontspec)             =4.728pt\relax \fontdimen 10\font =5.328pt\relax
+(fontspec)             \fontdimen 11\font =8.232pt\relax \fontdimen 12\font
+(fontspec)             =4.14pt\relax \fontdimen 13\font =4.356pt\relax
+(fontspec)             \fontdimen 14\font =4.356pt\relax \fontdimen 15\font
+(fontspec)             =3.468pt\relax \fontdimen 16\font =2.964pt\relax
+(fontspec)             \fontdimen 17\font =2.964pt\relax \fontdimen 18\font
+(fontspec)             =3.0pt\relax \fontdimen 19\font =2.4pt\relax \fontdimen
+(fontspec)             22\font =3.0pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 152.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
+t line 152.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 152.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
+t line 152.
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998970500334856.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998970500334856.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998970500334856.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998970500334856.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998970500334856.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latin
+modern-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=Ma
+thScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustme
+nt={\fontdimen
+(fontspec)             8\font =0.48pt\relax \fontdimen 9\font =2.4pt\relax
+(fontspec)             \fontdimen 10\font =2.004pt\relax \fontdimen 11\font
+(fontspec)             =1.332pt\relax \fontdimen 12\font =7.2pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->s*[0.9998970500334856]"[latinmodern-math.otf]/OT:
+script=math;language=dflt;"<7.2-10.2>s*[0.9998970500334856]"[latinmodern-math.o
+tf]/OT:script=math;language=dflt;+ssty=0;"<-7.2>s*[0.9998970500334856]"[latinmo
+dern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.48pt\relax \fontdimen 9\font
+(fontspec)             =2.4pt\relax \fontdimen 10\font =2.004pt\relax
+(fontspec)             \fontdimen 11\font =1.332pt\relax \fontdimen 12\font
+(fontspec)             =7.2pt\relax \fontdimen 13\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9998970500334856]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.48pt\relax \fontdimen 9\font
+(fontspec)             =2.4pt\relax \fontdimen 10\font =2.004pt\relax
+(fontspec)             \fontdimen 11\font =1.332pt\relax \fontdimen 12\font
+(fontspec)             =7.2pt\relax \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 1
+52.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
+t line 152.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 152
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
+t line 152.
+LaTeX Info: Redefining \microtypecontext on input line 152.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
 
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt
--LatinModernRoman.cfg
-File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-LatinModernRoman.
+cfg
+File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
 ern Roman (RS)
 )
+Package hyperref Info: Link coloring OFF on input line 152.
+(C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\coert\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestrin
+g.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count330
+)
+LaTeX Info: Redefining \ref on input line 152.
+LaTeX Info: Redefining \pageref on input line 152.
+LaTeX Info: Redefining \nameref on input line 152.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
@@ -814,90 +1025,34 @@ ern Roman (RS)
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 94.
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nam
-eref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/refcount\ref
-count.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/generic/gettitlest
-ring\gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count317
-)
-LaTeX Info: Redefining \ref on input line 94.
-LaTeX Info: Redefining \pageref on input line 94.
-LaTeX Info: Redefining \nameref on input line 94.
-(thesis.out) (thesis.out)
-\@outlinefile=\write3
-\openout3 = `thesis.out'.
-
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: threeparttable package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (thesis.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-.
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmr' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 8.4pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 4.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
 .
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+(C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 12.0011pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.40076pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.00055pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 11.99872pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.3991pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 4.
 
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.f
-d
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-4.
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.f
-d
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 4.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ums
-a.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt
--msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
-
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ums
-b.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(C:\Users\ChristianOertlin\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt
--msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
 Underfull \hbox (badness 1769) in paragraph at lines 17--17
  [][] [][]\TU/lmr/m/n/12 Selective or ”mTOR sensitive” regulation of 
  []
@@ -906,41 +1061,41 @@ Underfull \hbox (badness 1769) in paragraph at lines 17--17
 
 
 ])
-\tf@toc=\write4
-\openout4 = `thesis.toc'.
+\tf@toc=\write3
+\openout3 = `thesis.toc'.
 
 [2]
-Overfull \hbox (27.65036pt too wide) in alignment at lines 108--112
+Overfull \hbox (27.65033pt too wide) in alignment at lines 173--177
  [] [] 
  []
 
 
-Overfull \hbox (27.65036pt too wide) in alignment at lines 112--117
+Overfull \hbox (27.65033pt too wide) in alignment at lines 177--182
  [] [] 
  []
 
 
-Overfull \hbox (27.65036pt too wide) in alignment at lines 117--119
+Overfull \hbox (27.65033pt too wide) in alignment at lines 182--184
  [] [] 
  []
 
 
-Overfull \hbox (27.65036pt too wide) in alignment at lines 119--121
+Overfull \hbox (27.65033pt too wide) in alignment at lines 184--186
  [] [] 
  []
 
 
-Overfull \hbox (27.65036pt too wide) in alignment at lines 121--146
+Overfull \hbox (27.65033pt too wide) in alignment at lines 186--211
  [] [] 
  []
 
 
-Overfull \hbox (27.65036pt too wide) in alignment at lines 146--172
+Overfull \hbox (27.65033pt too wide) in alignment at lines 211--237
  [] [] 
  []
 
 
-Overfull \hbox (27.65036pt too wide) in alignment at lines 172--197
+Overfull \hbox (27.65033pt too wide) in alignment at lines 237--262
  [] [] 
  []
 
@@ -948,12 +1103,12 @@ Overfull \hbox (27.65036pt too wide) in alignment at lines 172--197
 
 
 ]
-Overfull \hbox (27.65036pt too wide) in alignment at lines 197--222
+Overfull \hbox (27.65033pt too wide) in alignment at lines 262--287
  [] [] 
  []
 
 
-Overfull \hbox (27.65036pt too wide) in alignment at lines 222--239
+Overfull \hbox (27.65033pt too wide) in alignment at lines 287--304
  [] [] 
  []
 
@@ -962,78 +1117,73 @@ Chapter 1.
 File: ./figures/geneExprPath_2.pdf Graphic file (type pdf)
 <use ./figures/geneExprPath_2.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--262
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 \TU/lmr/bx/n/12 of gene expression[] \TU/lmr/m/n/12 In
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 251--262
+Underfull \hbox (badness 6412) in paragraph at lines 318--319
 \TU/lmr/m/n/12 process whereby temporary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--262
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 \TU/lmr/m/n/12 copies of the DNA are
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 251--262
+Underfull \hbox (badness 1796) in paragraph at lines 318--319
 \TU/lmr/m/n/12 nucleus. These copies are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--262
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 \TU/lmr/m/n/12 RNAs undergo processing
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 251--262
+Underfull \hbox (badness 2875) in paragraph at lines 318--319
 \TU/lmr/m/n/12 by which multiple different
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--262
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 \TU/lmr/m/n/12 RNAs is the so called
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--262
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 \TU/lmr/m/n/12 messenger RNA (mRNA).
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 251--262
+Underfull \hbox (badness 3471) in paragraph at lines 318--319
 \TU/lmr/m/n/12 where they can be stored,
- []
-
-
-Underfull \hbox (badness 1997) in paragraph at lines 251--262
-\TU/lmr/m/n/12 degraded or translated into
  []
 
 [1
 
 
 ]
-Underfull \hbox (badness 1242) in paragraph at lines 303--313
+Underfull \hbox (badness 1242) in paragraph at lines 329--331
 []\TU/lmr/m/n/12 Thus, the contribution of different steps of the gene expressi
 on pathway
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 303--313
+Underfull \hbox (badness 1394) in paragraph at lines 329--331
 \TU/lmr/m/n/12 is dependent on many different factors, e.g. cellular state or t
 reatments.
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 303--313
+Underfull \hbox (badness 3701) in paragraph at lines 329--331
 \TU/lmr/m/n/12 Nevertheless, mRNA translation is an essential process in determ
 ining
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--313
+Underfull \hbox (badness 10000) in paragraph at lines 329--331
 
  []
 
@@ -1046,7 +1196,7 @@ File: ./figures/UTRFeatures_2.pdf Graphic file (type pdf)
 File: ./figures/doodleTranslation.pdf Graphic file (type pdf)
 <use ./figures/doodleTranslation.pdf>
 [4]
-Underfull \hbox (badness 1210) in paragraph at lines 358--392
+Underfull \hbox (badness 1210) in paragraph at lines 357--358
 [] []|\TU/lmr/bx/n/12 1.2.2.1. Initiation[] \TU/lmr/m/n/12 In eukaryotes, 5’ ca
 p-dependent initiation of mRNA
  []
@@ -1060,76 +1210,81 @@ File: ./figures/initiation.jpg Graphic file (type bmp)
 File: ./figures/polysome.pdf Graphic file (type pdf)
 <use ./figures/polysome.pdf>
 
-Underfull \hbox (badness 3989) in paragraph at lines 426--426
+Underfull \hbox (badness 3989) in paragraph at lines 376--376
 \TU/lmr/m/n/8 extracted from different positions along
  []
 
 
-Underfull \hbox (badness 7151) in paragraph at lines 426--426
+Underfull \hbox (badness 7151) in paragraph at lines 376--376
 \TU/lmr/m/n/8 a sucrose gradient used for polysome
  []
 
 
-Underfull \hbox (badness 7256) in paragraph at lines 426--426
+Underfull \hbox (badness 7256) in paragraph at lines 376--376
 \TU/lmr/m/n/8 fractionation (A-C). Multiple ribosomes
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 426--426
+Underfull \hbox (badness 1286) in paragraph at lines 376--376
 \TU/lmr/m/n/8 section []1.4[]. Reprinted with permission.
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 426--426
+Underfull \hbox (badness 1231) in paragraph at lines 376--376
 \TU/lmr/m/n/8 Aug 31;199:865-70.doi: 10.1038/199865a0.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--437
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
 [][] []|\TU/lmr/bx/n/12 1.2.2.3. Termination and recycling[]
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 429--437
+Underfull \hbox (badness 4543) in paragraph at lines 379--380
+\TU/lmr/m/n/12 by two eukaryotic release factors (eRF),
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 379--380
 \TU/lmr/m/n/12 upon recognition of a stop codon. This
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 429--437
+Underfull \hbox (badness 2111) in paragraph at lines 379--380
 \TU/lmr/m/n/12 causes an hydrolysis event resulting in a
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 429--437
+Underfull \hbox (badness 2635) in paragraph at lines 379--380
 \TU/lmr/m/n/12 conformational change and release of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--461
+Underfull \hbox (badness 10000) in paragraph at lines 383--385
 [] []|\TU/lmr/bx/n/12 1.2.3. Translation efficiency[] \TU/lmr/m/n/12 Each
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--461
+Underfull \hbox (badness 10000) in paragraph at lines 383--385
 
  []
 
 [8
 
 ]
-Underfull \hbox (badness 1803) in paragraph at lines 494--513
+Underfull \hbox (badness 1803) in paragraph at lines 396--397
 \TU/lmr/m/n/12 mediated through the phosphoinositide 3-kinase (PI3K) / AKT path
 way.
  []
 
 
-Underfull \hbox (badness 7308) in paragraph at lines 494--513
+Underfull \hbox (badness 7308) in paragraph at lines 396--397
 \TU/lmr/m/n/12 PI3K activation generates phosphatidylinositol-3,4,5-trisphospha
 te (PIP3).
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 494--513
+Underfull \hbox (badness 2020) in paragraph at lines 396--397
 \TU/lmr/m/n/12 of PIP3 to phosphatidylinositol 4,5-bisphosphate (PIP2). PIP3 re
 cruits
  []
@@ -1138,7 +1293,7 @@ cruits
 File: ./figures/mTORsignal.jpg Graphic file (type bmp)
 <./figures/mTORsignal.jpg>
 
-Underfull \hbox (badness 1117) in paragraph at lines 541--558
+Underfull \hbox (badness 1117) in paragraph at lines 408--409
 []\TU/lmr/m/n/12 mTOR also fulfills a central role in metabolic signalling. Her
 e, mTOR
  []
@@ -1146,95 +1301,96 @@ e, mTOR
 [11
 
 ]
-Underfull \hbox (badness 1331) in paragraph at lines 559--564
+Underfull \hbox (badness 1331) in paragraph at lines 410--411
 []\TU/lmr/m/n/12 In cancer, cellular metabolism, proliferation as well as growt
 h are often
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 567--573
+Underfull \hbox (badness 1533) in paragraph at lines 414--415
 [] []|\TU/lmr/bx/n/12 1.3.1.1. Global regulation of translation via mTOR[] \TU/
 lmr/m/n/12 Well studied
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 589--591
+Underfull \hbox (badness 1715) in paragraph at lines 418--419
 []\TU/lmr/m/n/12 Collectively, through acting on its downstream targets, mTOR r
 egulates
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 596--617
+Underfull \hbox (badness 2990) in paragraph at lines 424--425
 [] []|\TU/lmr/bx/n/12 1.3.1.2.1. Terminal oligo pyrmidine mRNAs[] \TU/lmr/m/n/1
 2 Selective or “mTOR
  []
 
-[12] [13] [14] [15] [16]
+[12] [13]
+Underfull \hbox (badness 1102) in paragraph at lines 430--431
+\TU/lmr/m/n/12 mRNAs exhibited multiple 5’ UTR variants, while for eIF4A-indepe
+ndent
+ []
+
+[14] [15] [16]
 File: ./figures/tRNA.pdf Graphic file (type pdf)
 <use ./figures/tRNA.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 770--780
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
 [][] []|\TU/lmr/bx/n/12 1.3.3. Regulation of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 770--780
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
 \TU/lmr/bx/n/12 mRNA translation by
  []
 
 
-Underfull \hbox (badness 6284) in paragraph at lines 770--780
+Underfull \hbox (badness 6284) in paragraph at lines 451--452
 \TU/lmr/bx/n/12 tRNAs[] \TU/lmr/m/n/12 As touched upon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 770--780
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
 \TU/lmr/m/n/12 part of the translation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 770--780
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
 \TU/lmr/m/n/12 machinery that carry the
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 770--780
+Underfull \hbox (badness 2941) in paragraph at lines 451--452
 \TU/lmr/m/n/12 of a 76-90 long nucleotide
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 770--780
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
 \TU/lmr/m/n/12 structure forming several
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 770--780
+Underfull \hbox (badness 1173) in paragraph at lines 451--452
 \TU/lmr/m/n/12 binds the amino, while the
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 770--780
+Underfull \hbox (badness 1137) in paragraph at lines 451--452
 \TU/lmr/m/n/12 mRNA within the ribosome
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 770--780
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
 \TU/lmr/m/n/12 via classical Watson-Crick
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 770--780
-\TU/lmr/m/n/12 basepairing (Watson et al.,
- []
-
-
-Overfull \hbox (0.40315pt too wide) in paragraph at lines 781--805
+Overfull \hbox (0.40315pt too wide) in paragraph at lines 453--454
 \TU/lmr/m/n/12 relationship has been found to vary across different cellular st
 ates, e.g. proliferation
  []
 
 [17]
-Underfull \hbox (badness 2495) in paragraph at lines 806--824
+Underfull \hbox (badness 2495) in paragraph at lines 455--456
 \TU/lmr/m/n/12 the acetyltransferase Elongator (ELP3), the methyltransferase TR
 M9-like
  []
@@ -1243,92 +1399,92 @@ M9-like
 File: ./figures/polyRibo.pdf Graphic file (type pdf)
 <use ./figures/polyRibo.pdf>
 
-Underfull \hbox (badness 2582) in paragraph at lines 908--908
+Underfull \hbox (badness 2582) in paragraph at lines 479--479
 \TU/lmr/m/n/8 Fractions corresponding to efficiently translated mRNAs are
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 908--908
+Underfull \hbox (badness 1097) in paragraph at lines 479--479
 \TU/lmr/m/n/8 (left). During ribosome profiling a fraction from the whole
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 911--919
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
 []\TU/lmr/m/n/12 Two methods are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 911--919
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
 \TU/lmr/m/n/12 predominantly used for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 911--919
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
 \TU/lmr/m/n/12 to estimate changes in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 911--919
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
 \TU/lmr/m/n/12 profiling and ribosome
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 911--919
+Underfull \hbox (badness 4072) in paragraph at lines 482--483
 \TU/lmr/m/n/12 profiling (\TU/lmr/bx/n/12 see figure []1.8[]\TU/lmr/m/n/12 ).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 911--919
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
 \TU/lmr/m/n/12 These methods capture
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 911--919
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
 \TU/lmr/m/n/12 the number of ribosomes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 911--919
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
 \TU/lmr/m/n/12 an mRNA is associated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 911--919
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
 \TU/lmr/m/n/12 ribosomes is an adequate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 911--919
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
 \TU/lmr/m/n/12 of estimator changes in
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 911--919
+Underfull \hbox (badness 3108) in paragraph at lines 482--483
 \TU/lmr/m/n/12 translation efficiencies when
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 911--919
-\TU/lmr/m/n/12 initation is rate limiting.
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
+\TU/lmr/m/n/12 initiation is rate limiting.
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 911--919
+Underfull \hbox (badness 2359) in paragraph at lines 482--483
 \TU/lmr/m/n/12 Indeed, as explained above
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 922--933
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
 \TU/lmr/m/n/12 Polysome profiling allows
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 922--933
+Underfull \hbox (badness 1838) in paragraph at lines 486--487
 \TU/lmr/m/n/12 for separation of polysomes
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 922--933
+Underfull \hbox (badness 2495) in paragraph at lines 486--487
 \TU/lmr/m/n/12 from monosomes, ribosomal
  []
 
@@ -1337,152 +1493,142 @@ File: ./figures/polysome_shifts.pdf Graphic file (type pdf)
 [21
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 939--961
-\TU/lmr/m/it/12 left\TU/lmr/m/n/12 ). Subsequent peaks
+Underfull \hbox (badness 3838) in paragraph at lines 493--494
+\TU/lmr/m/n/12 profile with peaks for the
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 939--961
-\TU/lmr/m/n/12 along the frations indicate
+Underfull \hbox (badness 1803) in paragraph at lines 493--494
+\TU/lmr/m/n/12 40S, 60S subunits and 80S
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 939--961
+Underfull \hbox (badness 2005) in paragraph at lines 493--494
+\TU/lmr/m/n/12 along the fractions indicate
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 493--494
 \TU/lmr/m/n/12 along the fractions, i.e. in
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 939--961
+Underfull \hbox (badness 1057) in paragraph at lines 493--494
 \TU/lmr/m/n/12 a pool of the same mRNA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 939--961
-\TU/lmr/m/n/12 many will be associated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 939--961
-\TU/lmr/m/n/12 with different numbers of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 939--961
-\TU/lmr/m/n/12 ribosomes (Gandin et al.,
- []
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 939--961
+Underfull \hbox (badness 1728) in paragraph at lines 493--494
 \TU/lmr/m/n/12 abundance may lead to an
  []
 
 [22]
-Underfull \hbox (badness 1122) in paragraph at lines 982--990
+Underfull \hbox (badness 1122) in paragraph at lines 501--502
 [] []|\TU/lmr/bx/n/12 1.4.2. Ribosome profiling[] \TU/lmr/m/n/12 R17 bacterioph
 age ribosome protected RNA
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 991--1012
+Underfull \hbox (badness 1158) in paragraph at lines 503--504
 \TU/lmr/m/n/12 produce fragments of similar length. Furthermore, ribosomes unde
 rgoing
  []
 
 [23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 1089--1092
+Underfull \hbox (badness 10000) in paragraph at lines 517--519
 
  []
 
 [25]
-Underfull \hbox (badness 2875) in paragraph at lines 1092--1092
+Underfull \hbox (badness 2875) in paragraph at lines 520--520
 |[]\TU/lmr/bx/n/12 Modes for regulation of gene expression through mRNA
  []
 
 File: ./figures/geneModes_MRNA.pdf Graphic file (type pdf)
 <use ./figures/geneModes_MRNA.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1110
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 []\TU/lmr/m/n/12 From transcriptome-wide
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1110
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 \TU/lmr/m/n/12 assessments of translation
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 1099--1110
+Underfull \hbox (badness 1137) in paragraph at lines 526--527
 \TU/lmr/m/n/12 using ribosome or polysome
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1110
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 \TU/lmr/m/n/12 profiling expression levels
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1110
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 \TU/lmr/m/n/12 for both cytoplasmic and
  []
 
 
-Underfull \hbox (badness 6268) in paragraph at lines 1099--1110
+Underfull \hbox (badness 6268) in paragraph at lines 526--527
 \TU/lmr/m/n/12 polysome-associated mRNAs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1110
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 \TU/lmr/m/n/12 simplicity, from now on,
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 1099--1110
+Underfull \hbox (badness 5893) in paragraph at lines 526--527
 \TU/lmr/m/n/12 these RNA types will be
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 1099--1110
+Underfull \hbox (badness 1708) in paragraph at lines 526--527
 \TU/lmr/m/n/12 referred to as total mRNA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1110
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 \TU/lmr/m/n/12 (i.e. cytoplasmic mRNA)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1110
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 \TU/lmr/m/n/12 and translated mRNA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1110
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 \TU/lmr/m/n/12 (i.e. polysome-associated
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 1099--1110
+Underfull \hbox (badness 7081) in paragraph at lines 526--527
 \TU/lmr/m/n/12 mRNA or RPFs). The
  []
 
 
-Underfull \hbox (badness 3482) in paragraph at lines 1099--1110
+Underfull \hbox (badness 3482) in paragraph at lines 526--527
 \TU/lmr/m/n/12 for both translated mRNA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1110
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 \TU/lmr/m/n/12 and total mRNA allows
  []
 
 [26]
-Overfull \hbox (0.95966pt too wide) in paragraph at lines 1158--1165
+Overfull \hbox (0.95966pt too wide) in paragraph at lines 542--543
 []\TU/lmr/m/n/12 Current literature supports multiple forms of translational bu
 ffering. Translational
  []
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 1189--1204
+Underfull \hbox (badness 10000) in paragraph at lines 548--550
 
  []
 
@@ -1490,47 +1636,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 1189--1204
 File: ./figures/geneModes_TE.pdf Graphic file (type pdf)
 <use ./figures/geneModes_TE.pdf>
 
-Underfull \hbox (badness 1694) in paragraph at lines 1243--1243
+Underfull \hbox (badness 1694) in paragraph at lines 565--565
 \TU/lmr/m/n/8 for regulation of gene expression in a fold-change
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 1243--1243
+Underfull \hbox (badness 1038) in paragraph at lines 565--565
 \TU/lmr/m/n/8 scatter plot. The x-axis indicates the fold-change
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 1243--1243
+Underfull \hbox (badness 1308) in paragraph at lines 565--565
 \TU/lmr/m/n/8 for total mRNA levels. The y-axis indicates the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1246--1259
+Underfull \hbox (badness 10000) in paragraph at lines 568--569
 \TU/lmr/m/n/12 when proposing the Analysis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1246--1259
+Underfull \hbox (badness 10000) in paragraph at lines 568--569
 \TU/lmr/m/n/12 of Translation Activity (anota)
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 1246--1259
+Underfull \hbox (badness 1546) in paragraph at lines 568--569
 \TU/lmr/m/n/12 algorithm which was developed for
  []
 
 
-Underfull \hbox (badness 6364) in paragraph at lines 1246--1259
+Underfull \hbox (badness 6364) in paragraph at lines 568--569
 \TU/lmr/m/n/12 DNA-microarray data (Larsson et
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 1246--1259
-\TU/lmr/m/n/12 using shared information across all
+Underfull \hbox (badness 1237) in paragraph at lines 568--569
+\TU/lmr/m/n/12 shared information across all genes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1246--1259
+Underfull \hbox (badness 1902) in paragraph at lines 568--569
+\TU/lmr/m/n/12 to increase power for detection of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--569
+\TU/lmr/m/n/12 differential expression (Wright et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--569
 \TU/lmr/m/n/12 homoscedasticity of residuals and
  []
 
@@ -1540,37 +1696,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 1246--1259
 File: ./figures/geneModes_anota_Larsson.pdf Graphic file (type pdf)
 <use ./figures/geneModes_anota_Larsson.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 1272--1272
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 []\TU/lmr/m/n/8 Figure 1.12: |anota gene models - Schematic
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 1272--1272
+Underfull \hbox (badness 1629) in paragraph at lines 578--578
 \TU/lmr/m/n/8 mRNA expression is set out against total mRNA
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 1275--1297
+Underfull \hbox (badness 1163) in paragraph at lines 581--582
 \TU/lmr/m/n/12 translation efficiency. A simplified
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 1275--1297
+Underfull \hbox (badness 1609) in paragraph at lines 581--582
 \TU/lmr/m/n/12 view of this model is provided in
  []
 
 
-Underfull \hbox (badness 3536) in paragraph at lines 1275--1297
+Underfull \hbox (badness 3536) in paragraph at lines 581--582
 \TU/lmr/m/n/12 in translation efficiencies can also
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 1275--1297
+Underfull \hbox (badness 2065) in paragraph at lines 581--582
 \TU/lmr/m/n/12 data sets, as they resemble genes
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 1298--1310
+Underfull \hbox (badness 1199) in paragraph at lines 583--584
 \TU/lmr/m/n/12 platform to assess transcriptome-wide changes before the advent 
 of RNA
  []
@@ -1578,7 +1734,7 @@ of RNA
 [31
 
 ]
-Underfull \hbox (badness 1406) in paragraph at lines 1311--1325
+Underfull \hbox (badness 1406) in paragraph at lines 585--586
 \TU/lmr/m/n/12 have been initially approached using Poisson distributions which
  assumes
  []
@@ -1590,13 +1746,13 @@ Chapter 2.
 ]
 Chapter 3.
 
-Underfull \hbox (badness 1152) in paragraph at lines 1403--1418
+Underfull \hbox (badness 1152) in paragraph at lines 613--614
 []\TU/lmr/m/n/12 Anota was developed for analysis of transcriptome-wide analysi
 s for data
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 1419--1429
+Underfull \hbox (badness 1472) in paragraph at lines 615--616
 []\TU/lmr/m/n/12 Another feature of anota2seq is that it allows for statistical
  analysis of
  []
@@ -1604,101 +1760,101 @@ Underfull \hbox (badness 1472) in paragraph at lines 1419--1429
 File: ./figures/geneModes_anota2seq.pdf Graphic file (type pdf)
 <use ./figures/geneModes_anota2seq.pdf>
 
-Underfull \hbox (badness 5446) in paragraph at lines 1433--1433
+Underfull \hbox (badness 5446) in paragraph at lines 620--620
 []\TU/lmr/m/n/8 Figure 3.1: |anota2seq gene model for analysis
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 1433--1433
+Underfull \hbox (badness 6477) in paragraph at lines 620--620
 \TU/lmr/m/n/8 expression is set out against translated mRNA
  []
 
 [35
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1436--1448
+Underfull \hbox (badness 10000) in paragraph at lines 623--624
 \TU/lmr/m/n/12 translation, translational buffering
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1436--1448
+Underfull \hbox (badness 10000) in paragraph at lines 623--624
 \TU/lmr/m/n/12 modes, analysis of translational
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 1436--1448
+Underfull \hbox (badness 1082) in paragraph at lines 623--624
 \TU/lmr/m/n/12 (\TU/lmr/m/it/12 See Figure []1.12[]\TU/lmr/m/n/12 ). Therefore,
  one
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1436--1448
+Underfull \hbox (badness 10000) in paragraph at lines 623--624
 \TU/lmr/m/n/12 of several methods to efficiently
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1436--1448
+Underfull \hbox (badness 10000) in paragraph at lines 623--624
 \TU/lmr/m/n/12 analyse transcriptome-wide studies
  []
 
 
-Underfull \hbox (badness 7486) in paragraph at lines 1436--1448
+Underfull \hbox (badness 7486) in paragraph at lines 623--624
 \TU/lmr/m/n/12 addresses this issue by changing
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 1436--1448
+Underfull \hbox (badness 1142) in paragraph at lines 623--624
 \TU/lmr/m/n/12 the analysis model as described in
  []
 
 [36] [37]
-Underfull \hbox (badness 1194) in paragraph at lines 1513--1525
+Underfull \hbox (badness 1194) in paragraph at lines 641--642
 []\TU/lmr/m/n/12 From the comparative analysis of the analysis for changes in t
 ranslation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1547--1557
+Underfull \hbox (badness 10000) in paragraph at lines 647--649
 
  []
 
 [38]
-Underfull \hbox (badness 1394) in paragraph at lines 1565--1575
+Underfull \hbox (badness 1394) in paragraph at lines 654--655
 \TU/lmr/m/n/12 pancreatic cancer, whereas non ductal pancreatic cancers e.g. ac
 inar cell
  []
 
 [39] [40] [41]
-Underfull \hbox (badness 1057) in paragraph at lines 1680--1691
+Underfull \hbox (badness 1057) in paragraph at lines 672--673
 \TU/lmr/m/n/12 organoids compared to N organoids. Here, we could see an enrichm
 ent
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 1680--1691
+Underfull \hbox (badness 4505) in paragraph at lines 672--673
 \TU/lmr/m/n/12 in metabolic pathways, e.g. oxidative phosphorylation. Th oxidat
 ive
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 1680--1691
+Underfull \hbox (badness 1681) in paragraph at lines 672--673
 \TU/lmr/m/n/12 Furthermore, CR-31 treatment in KP organoids lead to reduced oxy
 gen
  []
 
 [42]
-Underfull \hbox (badness 1354) in paragraph at lines 1719--1728
+Underfull \hbox (badness 1354) in paragraph at lines 678--679
 \TU/lmr/m/n/12 could sensitise to CR-31 treatment patient-derived PDAC cells to
  CR-31
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1729--1763
+Underfull \hbox (badness 10000) in paragraph at lines 680--682
 
  []
 
 [43] [44]
-Underfull \hbox (badness 1436) in paragraph at lines 1819--1832
+Underfull \hbox (badness 1436) in paragraph at lines 693--694
 \TU/lmr/m/n/12 exhibited translational buffering upon insulin stimulation while
  mTOR is
  []
@@ -1706,7 +1862,7 @@ Underfull \hbox (badness 1436) in paragraph at lines 1819--1832
 [45] [46] [47] [48] [49]
 Chapter 4.
 
-Underfull \hbox (badness 2103) in paragraph at lines 1969--1976
+Underfull \hbox (badness 2103) in paragraph at lines 715--716
 \TU/lmr/m/n/12 therapy through acquiring resistance. mRNA translation is a comm
 on
  []
@@ -1715,124 +1871,130 @@ on
 
 ] [51
 
-] [52] [53] [54
+] [52] [53]
+Underfull \hbox (badness 1158) in paragraph at lines 786--788
+\TU/lmr/m/n/12 cerevisiae. \TU/lmr/m/it/12 Proceedings of the National Academy 
+of Sciences\TU/lmr/m/n/12 , \TU/lmr/m/it/12 100\TU/lmr/m/n/12 (7),
+ []
+
+[54
 
 ] [55]
-Underfull \hbox (badness 2486) in paragraph at lines 2225--2228
-\TU/lmr/m/n/12 Therapies lost in the mix. \TU/lmr/m/it/12 Human Genetics\TU/lmr
-/m/n/12 , \TU/lmr/m/it/12 130\TU/lmr/m/n/12 (1), 79–91. []$[][][][][] []
+Underfull \hbox (badness 4479) in paragraph at lines 822--824
+\TU/lmr/m/n/12 Visualization and selective chemical targeting of RNA g-quadrupl
+ex
  []
 
 [56]
-Underfull \hbox (badness 1960) in paragraph at lines 2322--2328
-[]\TU/lmr/m/n/12 Chaparro, V., Leroux, L.-P., Masvidal, L., Lorent, J., Graber,
- T. E.,
+Underfull \hbox (badness 1960) in paragraph at lines 864--866
+[][]\TU/lmr/m/n/12 Chaparro, V., Leroux, L.-P., Masvidal, L., Lorent, J., Grabe
+r, T. E.,
  []
 
 
-Underfull \hbox (badness 3240) in paragraph at lines 2322--2328
+Underfull \hbox (badness 1264) in paragraph at lines 864--866
 \TU/lmr/m/n/12 Zimmermann, A., … Jaramillo, M. (2020). Translational profiling 
 of
  []
 
 
-Underfull \hbox (badness 6268) in paragraph at lines 2322--2328
+Underfull \hbox (badness 1874) in paragraph at lines 864--866
 \TU/lmr/m/n/12 macrophages infected with leishmania donovani identifies mTOR- a
 nd
  []
 
-[57]
-Underfull \hbox (badness 1931) in paragraph at lines 2369--2374
-[]\TU/lmr/m/n/12 Connolly, E., Braunstein, S., Formenti, S., & Schneider, R. J.
- (2006).
+
+Underfull \hbox (badness 2865) in paragraph at lines 864--866
+\TU/lmr/m/n/12 eIF4A-sensitive immune-related transcripts. \TU/lmr/m/it/12 PLOS
+ Pathogens\TU/lmr/m/n/12 , \TU/lmr/m/it/12 16\TU/lmr/m/n/12 (6),
+ []
+
+[57] [58]
+Underfull \hbox (badness 3009) in paragraph at lines 894--896
+[][]\TU/lmr/m/n/12 D’Souza, A. R., & Minczuk, M. (2018). Mitochondrial transcri
+ption
  []
 
 
-Underfull \hbox (badness 6173) in paragraph at lines 2369--2374
-\TU/lmr/m/n/12 Hypoxia inhibits protein synthesis through a 4E-BP1 and elongati
-on
- []
-
-
-Underfull \hbox (badness 2158) in paragraph at lines 2369--2374
-\TU/lmr/m/n/12 factor 2 kinase pathway controlled by mTOR and uncoupled in brea
-st
- []
-
-[58]
-Underfull \hbox (badness 1424) in paragraph at lines 2385--2389
-[]\TU/lmr/m/n/12 Dassi, E., Greco, V., Sidarovich, V., Zuccotti, P., Arseni, N.
-, Scaruffi,
- []
-
-
-Underfull \hbox (badness 3612) in paragraph at lines 2385--2389
-\TU/lmr/m/n/12 P., … Quattrone, A. (2015). Translational compensation of genomi
-c
- []
-
-
-Underfull \hbox (badness 2961) in paragraph at lines 2385--2389
-\TU/lmr/m/n/12 instability in neuroblastoma. \TU/lmr/m/it/12 Scientific Reports
-\TU/lmr/m/n/12 , \TU/lmr/m/it/12 5\TU/lmr/m/n/12 (1), 14364. []$[][][][][] []
- []
-
-
-Underfull \hbox (badness 1331) in paragraph at lines 2403--2408
-[]\TU/lmr/m/n/12 Deng, W., Babu, I. R., Su, D., Yin, S., Begley, T. J., & Dedon
-, P.
- []
-
-
-Underfull \hbox (badness 2512) in paragraph at lines 2403--2408
-\TU/lmr/m/n/12 C. (2015). Trm9-catalyzed tRNA modifications regulate global pro
-tein
- []
-
-[59]
-Underfull \hbox (badness 3009) in paragraph at lines 2431--2434
-[]\TU/lmr/m/n/12 D’Souza, A. R., & Minczuk, M. (2018). Mitochondrial transcript
-ion
- []
-
-
-Underfull \hbox (badness 3547) in paragraph at lines 2431--2434
-\TU/lmr/m/n/12 and translation: Overview. \TU/lmr/m/it/12 Essays in Biochemistr
+Underfull \hbox (badness 1742) in paragraph at lines 894--896
+\TU/lmr/m/n/12 and translation: overview. \TU/lmr/m/it/12 Essays in Biochemistr
 y\TU/lmr/m/n/12 , \TU/lmr/m/it/12 62\TU/lmr/m/n/12 (3), 309–320.
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 2459--2465
-\TU/lmr/m/n/12 oligopyrimidine (TOP) mRNA translation downstream of mTOR comple
-x
+Underfull \hbox (badness 3375) in paragraph at lines 906--908
+\TU/lmr/m/n/12 (2015). Trm9-catalyzed tRNA modifications regulate global protei
+n
  []
 
-[60] [61] [62]
-Underfull \hbox (badness 2495) in paragraph at lines 2625--2630
-\TU/lmr/m/n/12 (2015). Understanding biases in ribosome profiling experiments r
-eveals
+[59] [60] [61]
+Overfull \hbox (1.13829pt too wide) in paragraph at lines 990--992
+\TU/lmr/m/n/12 Translational efficiency across healthy and tumor tissues is pro
+liferation-related.
  []
 
-[63] [64]
-Underfull \hbox (badness 1024) in paragraph at lines 2750--2755
-[]\TU/lmr/m/n/12 Karlsborn, T., Tükenmez, H., Mahmud, A. K. M. F., Xu, F., Xu, 
-H.,
+[62]
+Underfull \hbox (badness 1248) in paragraph at lines 1005--1007
+[][]\TU/lmr/m/n/12 Hopkins, T. G., Mura, M., Al-Ashtal, H. A., Lahr, R. M., Abd
+-Latip,
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 2750--2755
-\TU/lmr/m/n/12 & Byström, A. S. (2014). Elongator, a conserved complex required
- for
+Underfull \hbox (badness 1817) in paragraph at lines 1017--1019
+[][]\TU/lmr/m/n/12 Ingolia, N. T., Lareau, L. F., & Weissman, J. S. (2011). Rib
+osome
  []
 
-[65]
-Underfull \hbox (badness 2237) in paragraph at lines 2793--2797
-[]\TU/lmr/m/n/12 Kwok, C. K., & Merrick, C. J. (2017). G-quadruplexes: Predicti
-on,
+
+Underfull \hbox (badness 2856) in paragraph at lines 1017--1019
+\TU/lmr/m/n/12 profiling of mouse embryonic stem cells reveals the complexity a
+nd
  []
 
-[66] [67]
+
+Underfull \hbox (badness 1221) in paragraph at lines 1017--1019
+\TU/lmr/m/n/12 dynamics of mammalian proteomes. \TU/lmr/m/it/12 Cell\TU/lmr/m/n
+/12 , \TU/lmr/m/it/12 147\TU/lmr/m/n/12 (4), 789–802. []$[] [] [] [] [] []
+ []
+
+[63] [64] [65]
+Underfull \hbox (badness 2237) in paragraph at lines 1089--1091
+[][]\TU/lmr/m/n/12 Kwok, C. K., & Merrick, C. J. (2017). G-quadruplexes: Predic
+tion,
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 1089--1091
+\TU/lmr/m/n/12 characterization, and biological application. \TU/lmr/m/it/12 Tr
+ends in Biotechnology\TU/lmr/m/n/12 ,
+ []
+
+[66]
+Underfull \hbox (badness 2368) in paragraph at lines 1101--1103
+[][]\TU/lmr/m/n/12 Lalanne, J.-B., Taggart, J. C., Guo, M. S., Herzel, L., Schi
+eler, A.,
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 1101--1103
+\TU/lmr/m/n/12 & Li, G.-W. (2018). Evolutionary convergence of pathway-specific
+
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 1101--1103
+\TU/lmr/m/n/12 enzyme expression stoichiometry. \TU/lmr/m/it/12 Cell\TU/lmr/m/n
+/12 , \TU/lmr/m/it/12 173\TU/lmr/m/n/12 (3), 749–761.e38. []$[] [] [] [] [] []
+ []
+
+[67]
 Missing character: There is no α in font [lmroman12-regular]:mapping=tex-text;!
+
+Underfull \hbox (badness 1824) in paragraph at lines 1146--1148
+\TU/lmr/m/n/12 Hel-N1: An autoimmune RNA-binding protein with specificity for 3
+’
+ []
+
 [68]
 Missing character: There is no α in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ′ in font [lmroman12-regular]:mapping=tex-text;!
@@ -1844,133 +2006,71 @@ Missing character: There is no β in font [lmroman12-regular]:mapping=tex-text;!
 [71]
 Missing character: There is no β in font [lmroman12-regular]:mapping=tex-text;!
 
-Underfull \hbox (badness 1215) in paragraph at lines 3095--3100
-[]\TU/lmr/m/n/12 Nagpal, N., Ahmad, H. M., Chameettachal, S., Sundar, D., Ghosh
-, S.,
+Underfull \hbox (badness 3758) in paragraph at lines 1233--1235
+[][]\TU/lmr/m/n/12 Nagpal, N., Ahmad, H. M., Chameettachal, S., Sundar, D., Gho
+sh,
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 3095--3100
-\TU/lmr/m/n/12 & Kulshreshtha, R. (2015). HIF-inducible miR-191 promotes migrat
-ion
+Underfull \hbox (badness 4505) in paragraph at lines 1233--1235
+\TU/lmr/m/n/12 S., & Kulshreshtha, R. (2015). HIF-inducible miR-191 promotes
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 3095--3100
-\TU/lmr/m/n/12 microenvironment. \TU/lmr/m/it/12 Scientific Reports\TU/lmr/m/n/
-12 , \TU/lmr/m/it/12 5\TU/lmr/m/n/12 , 9650. []$[][][][][] [] [] [] [][][] [] [
-][][] [] [][] [] [][][][] []
- []
-
-
-Underfull \hbox (badness 1472) in paragraph at lines 3114--3118
-\TU/lmr/m/it/12 Bioinformatics\TU/lmr/m/n/12 , \TU/lmr/m/it/12 29\TU/lmr/m/n/12
- (23), 2995–3002. []$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][] [
-] [][][][][][][][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 3735) in paragraph at lines 3120--3125
-[]\TU/lmr/m/n/12 Ortiz-Zapater, E., Pineda, D., Martínez-Bosch, N., Fernández-M
-iranda,
+Underfull \hbox (badness 1810) in paragraph at lines 1233--1235
+\TU/lmr/m/n/12 in hypoxic microenvironment. \TU/lmr/m/it/12 Scientific Reports\
+TU/lmr/m/n/12 , \TU/lmr/m/it/12 5\TU/lmr/m/n/12 , 9650. []$[] [] [] [] [] []
  []
 
 [72]
-Underfull \hbox (badness 1924) in paragraph at lines 3158--3163
-[]\TU/lmr/m/n/12 Pearce, L. R., Huang, X., Boudeau, J., Paw{\textbackslash}lows
-ki, R.,
- []
-
-[73]
-Underfull \hbox (badness 2875) in paragraph at lines 3239--3243
-\TU/lmr/m/it/12 Biological Chemistry\TU/lmr/m/n/12 , \TU/lmr/m/it/12 276\TU/lmr
-/m/n/12 (33), 30914–30922. []$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [
-][][][] [] [][][] []
- []
-
-[74] [75]
-Underfull \hbox (badness 1226) in paragraph at lines 3301--3305
-\TU/lmr/m/n/12 Velculescu, V. E. (2004). High frequency of mutations of the PIK
-3CA
+Underfull \hbox (badness 2197) in paragraph at lines 1248--1250
+\TU/lmr/m/n/12 CPEB4-mediated translational control to cancer progression. \TU/
+lmr/m/it/12 Nature
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 3301--3305
-\TU/lmr/m/n/12 gene in human cancers. \TU/lmr/m/it/12 Science\TU/lmr/m/n/12 , \
-TU/lmr/m/it/12 304\TU/lmr/m/n/12 (5670), 554–554. Retrieved from
+Underfull \hbox (badness 1924) in paragraph at lines 1263--1265
+[][]\TU/lmr/m/n/12 Pearce, L. R., Huang, X., Boudeau, J., Paw{\textbackslash}lo
+wski, R.,
  []
 
-[76] [77]
-Underfull \hbox (badness 1776) in paragraph at lines 3416--3422
-\TU/lmr/m/n/12 of the SUP45 (eRF1) and SUP35 genes interact to mediate translat
-ion
+[73] [74]
+Underfull \hbox (badness 4205) in paragraph at lines 1308--1310
+\TU/lmr/m/n/12 translational regulation of s-adenosylmethionine decarboxylase m
+RNA.
  []
 
+[75] [76] [77]
 Missing character: There is no α in font [lmroman12-regular]:mapping=tex-text;!
 [78]
-Underfull \hbox (badness 1132) in paragraph at lines 3460--3464
-\TU/lmr/m/n/12 tRanslatome: An r/bioconductor package to portray translational 
-control.
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 3508--3512
-\TU/lmr/m/n/12 abundance from proteomic and transcriptomic analyses. \TU/lmr/m/
-it/12 Nature Reviews.
+Overfull \hbox (3.01831pt too wide) in paragraph at lines 1425--1427
+\TU/lmr/m/n/12 Mechanisms of miRNA-mediated gene regulation from common downreg
+ulation
  []
 
 [79]
-Underfull \hbox (badness 1577) in paragraph at lines 3519--3523
-[]\TU/lmr/m/n/12 Waldron, J. A., Raza, F., & Le Quesne, J. (2018). eIF4A allevi
-ates
+Underfull \hbox (badness 2205) in paragraph at lines 1437--1439
+\TU/lmr/m/n/12 than by g-quadruplexes. \TU/lmr/m/it/12 Nucleic Acids Research\T
+U/lmr/m/n/12 , \TU/lmr/m/it/12 46\TU/lmr/m/n/12 (6), 3075–3087.
  []
 
-
-Underfull \hbox (badness 5878) in paragraph at lines 3519--3523
-\TU/lmr/m/n/12 the translational repression mediated by classical secondary str
-uctures
+[80]
+Underfull \hbox (badness 7777) in paragraph at lines 1464--1466
+\TU/lmr/m/n/12 glutamine-alpha-ketoglutarate (AKG) metabolism and its nutrition
+al
  []
 
-
-Underfull \hbox (badness 1189) in paragraph at lines 3531--3535
-[]\TU/lmr/m/n/12 Wang, Z.-Y., Leushkin, E., Liechti, A., Ovchinnikova, S., Mößi
-nger, K.,
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 3531--3535
-\TU/lmr/m/n/12 Brüning, T., … Kaessmann, H. (2020). Transcriptome and translato
-me
- []
-
-
-Underfull \hbox (badness 2343) in paragraph at lines 3548--3552
-[]\TU/lmr/m/n/12 Weldon, C., Eperon, I. C., & Dominguez, C. (2016). Do we know
- []
-
-
-Underfull \hbox (badness 2744) in paragraph at lines 3548--3552
-\TU/lmr/m/n/12 whether potential g-quadruplexes actually form in long functiona
-l RNA
- []
-
-
-Underfull \hbox (badness 1655) in paragraph at lines 3548--3552
-\TU/lmr/m/n/12 molecules? \TU/lmr/m/it/12 Biochemical Society Transactions\TU/l
-mr/m/n/12 , \TU/lmr/m/it/12 44\TU/lmr/m/n/12 (6), 1761–1768. []$[][][][][] []
- []
-
-[80] [81] [82] (thesis.aux)
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: FD00F06888A03BDE95BF4DC32489C7DB;9566.
- ) 
+[81] [82] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 17261 strings out of 411732
- 305014 string characters out of 2834728
- 742368 words of memory out of 3000000
- 36964 multiletter control sequences out of 15000+200000
- 416082 words of font info for 48 fonts, out of 3000000 for 9000
+ 21708 strings out of 411732
+ 368461 string characters out of 2841320
+ 904927 words of memory out of 3000000
+ 41382 multiletter control sequences out of 15000+200000
+ 405794 words of font info for 50 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 95i,12n,117p,1197b,484s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 98i,12n,122p,2356b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on thesis.pdf (88 pages).
+
+! miktex-dvipdfmx: major issue: User/administrator updates are out-of-sync.
+! xelatex: major issue: User/administrator updates are out-of-sync.
