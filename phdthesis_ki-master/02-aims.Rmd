@@ -5,7 +5,7 @@ output: pdf_document
 \chapter{Aims of this thesis}
 This thesis aims to expand current methodologies for analysis of translation efficiency data and explore the regulation of gene expression in cancer.
 
-In **Study I**, we adapted the ANalysis Of Translation Activity data (anota) algorithm so that it could be applied to next-generation sequencing data. Furthermore, we implemented the analysis of translational buffering a recently described  mode for regulation of gene expression. The resulting algorithm was named anota2seq.
+In **Study I**, we adapted the ANalysis Of Translation Activity data (anota) algorithm so that it could be applied to next-generation sequencing data. Furthermore, we implemented the analysis of translational buffering a recently described mode for regulation of gene expression. The resulting algorithm was named anota2seq.
 
 We then applied the anota2seq algorithm to investigate changes in translation efficiencies in two cancer models:
 
